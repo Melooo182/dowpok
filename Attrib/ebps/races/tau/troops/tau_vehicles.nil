@@ -1,0 +1,109 @@
+----------------------------------------
+-- File: 'ebps\races\tau\troops\tau_vehicles.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\tau\troops\tau_troop.nil]])
+MetaData = InheritMeta([[ebps\races\tau\troops\tau_troop.nil]])
+
+GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
+GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\tau_skimmer_dmged_slow.lua"
+GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\ability_vehicle_combat_speed.lua"
+GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\ability_enclosed_vehicle_keensight.lua"
+GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\tau_vehicle_blacksun_filter.lua"
+GameData["ability_ext"]["abilities"]["ability_14"] = "abilities\\tau_disruption_pod_upgrade.lua"
+GameData["ability_ext"]["abilities"]["ability_15"] = "abilities\\tau_skimmer_dmged_slow_decoy_launchers.lua"
+
+--Skimmers
+GameData["cover_ext"]["cover_blocking"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_blocking"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_heavy"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_heavy"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_negative"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_stealth"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_stealth"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
+
+GameData["death_explosion_ext"] = Reference([[ebpextensions\death_explosion_ext.lua]])
+GameData["death_explosion_ext"]["chance"] = 100.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["area_effect_events"]["dirtsand"] = "tank_explosion"
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["area_effect_events"]["grass"] = "tank_explosion"
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["area_effect_events"]["rock"] = "tank_explosion"
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["area_effect_events"]["water"] = "tank_explosion"
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["radius"] = 10.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["throw_data"]["direction_angle_random"] = 10.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["throw_data"]["force_max"] = 18.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["throw_data"]["force_min"] = 6.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["throw_data"]["up_angle_max"] = 45.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["throw_data"]["up_angle_min"] = 25.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 100.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["chance"] = 75.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["area_effect_events"]["dirtsand"] = "tank_wreck_explosion"
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["area_effect_events"]["grass"] = "tank_wreck_explosion"
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["area_effect_events"]["rock"] = "tank_wreck_explosion"
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["area_effect_events"]["water"] = "tank_wreck_explosion"
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["radius"] = 9.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["throw_data"]["direction_angle_random"] = 15.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["throw_data"]["force_max"] = 30.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["throw_data"]["force_min"] = 24.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["throw_data"]["up_angle_max"] = 45.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["throw_data"]["up_angle_min"] = 25.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_05"]["armour_piercing_value"] = 85.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_06"]["armour_piercing_value"] = 66.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_07"]["armour_piercing_value"] = 50.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_08"]["armour_piercing_value"] = 33.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_09"]["armour_piercing_value"] = 15.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_12"]["armour_piercing_value"] = 66.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_13"]["armour_piercing_value"] = 50.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_14"]["armour_piercing_value"] = 66.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 15.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 50.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 60.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 40.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 200.00000
+GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["chance"] = 25.00000
+--GameData["entity_blueprint_ext"]["minimum_update_radius"] = 35.00000
+GameData["event_manager_ext"]["event_04"]["event_entry_01"]["event_name"] = "Tau\\Abilities\\Mark_Target_Big"
+GameData["event_manager_ext"]["event_11"]["event_entry_01"]["event_name"] = "Ground_Impact/Impact_smoke_launcher"
+GameData["event_manager_ext"]["event_12"]["event_entry_01"]["event_name"] = "Necron/Abilities/phase_shift_unit"
+GameData["event_manager_ext"]["event_12"]["modifier_name"] = "ability_necron_phase_shift_event"
+GameData["event_manager_ext"]["event_20"]["event_entry_01"]["event_name"] = "Guard\\Abilities\\curse_the_machine"
+GameData["event_manager_ext"]["event_20"]["modifier_name"] = "ability_ig_curse_of_the_machine_spirit_event"
+GameData["event_manager_ext"]["event_23"]["event_entry_01"]["event_name"] = ""
+GameData["event_manager_ext"]["event_23"]["modifier_name"] = ""
+GameData["health_ext"]["armour"] = 100.00000
+GameData["health_ext"]["hitpoints"] = 350.00000
+GameData["health_ext"]["death_event"] = ""
+--GameData["health_ext"]["death_event"] = "unit_death_events/vehicle_death"
+GameData["health_ext"]["death_event"] = "unit_death_events/sink_into_ground"
+GameData["health_ext"]["spawn_on_death"] = "ebps\\environment\\gameplay\\wreked_vehicle.lua"
+--GameData["health_ext"]["pre_death_event_delay"] = 0.00000
+--GameData["health_ext"]["post_death_event_delay"] = 60.00000
+GameData["health_ext"]["keep_persistent_body"] = true
+GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
+GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\income_power_player_modifier.lua]])
+GameData["modifier_apply_ext"]["modifiers"]["modifier_02"] = Reference([[modifiers\income_requisition_player_modifier.lua]])
+GameData["modifier_apply_ext"]["modifiers"]["modifier_04"] = Reference([[modifiers\accuracy_moving_reduction_weapon_modifier.lua]])
+GameData["modifier_apply_ext"]["modifiers"]["modifier_04"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
+GameData["modifier_apply_ext"]["modifiers"]["modifier_04"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
+GameData["modifier_apply_ext"]["modifiers"]["modifier_04"]["value"] = 1.00000
+GameData["moving_ext"]["speed_max"] = 17.50000
+GameData["special_attack_physics_ext"]["face_backwards_when_flying"] = false
+GameData["special_attack_physics_ext"]["get_up_time"] = 0.00000
+GameData["special_attack_physics_ext"]["mass"] = 30.00000 --10x3
+GameData["sight_ext"]["keen_sight_radius"] = 0.00000
+GameData["sight_ext"]["sight_radius"] = 35.00000
+GameData["type_ext"]["type_surface"] = Reference([[type_surface\tp_heavy_metal_armour.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["ability_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["modifier_apply_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

@@ -1,0 +1,36 @@
+----------------------------------------
+-- File: 'ebps\races\npc\structures\npc_building.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\building.nil]])
+MetaData = InheritMeta([[ebps\races\building.nil]])
+
+GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
+GameData["entity_blueprint_ext"] = Reference([[ebpextensions\entity_blueprint_ext.lua]])
+GameData["event_manager_ext"] = Reference([[ebpextensions\event_manager_ext.lua]])
+GameData["infiltration_ext"] = Reference([[ebpextensions\infiltration_ext.lua]])
+GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
+GameData["modifier_ext"] = Reference([[ebpextensions\modifier_ext.lua]])
+GameData["sim_entity_ext"] = Reference([[ebpextensions\sim_entity_ext.lua]])
+GameData["structure_ext"] = Reference([[ebpextensions\structure_ext.lua]])
+GameData["type_ext"] = Reference([[ebpextensions\type_ext.lua]])
+GameData["ui_ext"] = Reference([[ebpextensions\ui_ext.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["ability_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["entity_blueprint_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["event_manager_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["infiltration_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["modifier_apply_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["modifier_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["sim_entity_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["structure_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["type_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["ui_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

@@ -1,0 +1,46 @@
+----------------------------------------
+-- File: 'ebps\races\npc\troops\npc_troop.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\troop.nil]])
+MetaData = InheritMeta([[ebps\races\troop.nil]])
+
+GameData["cost_ext"] = Reference([[ebpextensions\cost_ext.lua]])
+GameData["cover_ext"] = Reference([[ebpextensions\cover_ext.lua]])
+GameData["entity_blueprint_ext"] = Reference([[ebpextensions\entity_blueprint_ext.lua]])
+GameData["event_manager_ext"] = Reference([[ebpextensions\event_manager_ext.lua]])
+GameData["health_ext"] = Reference([[ebpextensions\health_ext.lua]])
+GameData["infiltration_ext"] = Reference([[ebpextensions\infiltration_ext.lua]])
+GameData["modifier_ext"] = Reference([[ebpextensions\modifier_ext.lua]])
+GameData["moving_ext"] = Reference([[ebpextensions\moving_ext.lua]])
+GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
+GameData["sight_ext"] = Reference([[ebpextensions\sight_ext.lua]])
+GameData["sim_entity_ext"] = Reference([[ebpextensions\sim_entity_ext.lua]])
+GameData["special_attack_physics_ext"] = Reference([[ebpextensions\special_attack_physics_ext.lua]])
+GameData["summon_ext"] = Reference([[ebpextensions\summon_ext.lua]])
+GameData["type_ext"] = Reference([[ebpextensions\type_ext.lua]])
+GameData["ui_ext"] = Reference([[ebpextensions\ui_ext.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["cost_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["cover_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["entity_blueprint_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["event_manager_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["health_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["infiltration_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["modifier_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["moving_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["requirement_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["sight_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["sim_entity_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["special_attack_physics_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["summon_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["type_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["ui_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

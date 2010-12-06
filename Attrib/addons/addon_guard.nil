@@ -1,0 +1,17 @@
+----------------------------------------
+-- File: 'addons\addon_guard.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[addons\addon.nil]])
+MetaData = InheritMeta([[addons\addon.nil]])
+
+GameData["ui_info"]["icon_name"] = "guard_icons/"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

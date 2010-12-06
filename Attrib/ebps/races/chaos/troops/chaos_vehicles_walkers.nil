@@ -1,0 +1,41 @@
+----------------------------------------
+-- File: 'ebps\races\chaos\troops\chaos_vehicles_walkers.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\chaos\troops\chaos_vehicles.nil]])
+MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_vehicles.nil]])
+
+GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\ability_infiltration_detection_field.lua"
+GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\ability_run_walkers.lua"
+GameData["ability_ext"]["abilities"]["ability_14"] = "abilities\\ability_walker_grenades_dmg_reduction.lua"
+
+--Walkers Dmg reduction from (abilities)Grenades
+GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
+--factorize the tank damaged ability speed increase since this modifier is exclusive true
+--1.6x1.25=2
+GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
+GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.00000
+GameData["melee_ext"]["charge_modifiers"]["modifier_05"] = Reference([[modifiers\health_rangedamage_received_2_modifier.lua]])
+GameData["melee_ext"]["charge_modifiers"]["modifier_05"]["value"] = 0.30000
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_03"]["value"] = 0.30000
+
+GameData["modifier_apply_ext"]["modifiers"]["modifier_04"] = Reference([[modifiers\no_modifier.lua]])
+
+GameData["moving_ext"]["acceleration_time"] = 0.50000
+GameData["moving_ext"]["deceleration_time"] = 0.00000
+GameData["moving_ext"]["rotation_rate"] = 180.00000
+GameData["moving_ext"]["speed_max"] = 10.00000
+GameData["moving_ext"]["turning_behavior_template"] = "walker"
+GameData["sight_ext"]["keen_sight_radius"] = 9.00000
+GameData["sight_ext"]["sight_radius"] = 25.00000
+GameData["special_attack_physics_ext"]["mass"] = 36.00000 --12x3
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["melee_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

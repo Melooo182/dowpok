@@ -1,0 +1,22 @@
+----------------------------------------
+-- File: 'ebps\races\necrons\troops\necron_vehicles.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\necrons\troops\necron_troop_clones\necron_troop_clones.nil]])
+MetaData = InheritMeta([[ebps\races\necrons\troops\necron_troop_clones\necron_troop_clones.nil]])
+
+GameData["event_manager_ext"]["event_04"]["event_entry_01"]["event_name"] = "Tau\\Abilities\\Mark_Target_Big"
+GameData["event_manager_ext"]["event_20"]["event_entry_01"]["event_name"] = "Guard\\Abilities\\curse_the_machine"
+GameData["event_manager_ext"]["event_20"]["modifier_name"] = "ability_ig_curse_of_the_machine_spirit_event"
+GameData["event_manager_ext"]["event_23"]["event_entry_01"]["event_name"] = ""
+GameData["event_manager_ext"]["event_23"]["modifier_name"] = ""
+GameData["type_ext"]["type_surface"] = Reference([[type_surface\tp_heavy_metal_armour.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

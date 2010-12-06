@@ -1,0 +1,42 @@
+----------------------------------------
+-- File: 'abilities\eldar_plasma_grenades.lua'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[abilities\ability_grenade_frag.nil]])
+MetaData = InheritMeta([[abilities\ability_grenade_frag.nil]])
+
+GameData["ability_motion_name"] = "Plasma_Grenades"
+GameData["area_effect"]["area_effect_information"]["area_effect_events"]["dirtsand"] = "Unit_Ability_FX/Plasma_Grenade"
+GameData["area_effect"]["area_effect_information"]["area_effect_events"]["grass"] = "Unit_Ability_FX/Plasma_Grenade"
+GameData["area_effect"]["area_effect_information"]["area_effect_events"]["rock"] = "Unit_Ability_FX/Plasma_Grenade"
+GameData["area_effect"]["area_effect_information"]["area_effect_events"]["water"] = "Unit_Ability_FX/Plasma_Grenade"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Unit_Impact_events/Impact_plasma_sml"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Unit_Impact_events/Impact_plasma_hvy"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Unit_Impact_events/Impact_plasma_sml"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Unit_Impact_events/Impact_plasma_Hvy"
+GameData["duration_time"] = 1.00000
+GameData["entity_busy_time"] = 1.00000
+GameData["initial_delay_time"] = 0.37000
+GameData["projectile_name"] = "plasma_grenade"
+GameData["projectile_spawn_pos"]["x"] = 0.31000
+GameData["projectile_spawn_pos"]["y"] = 1.65000
+GameData["projectile_spawn_pos"]["z"] = 0.94000
+GameData["speech_directory"] = "ability/plasma_grenades"
+GameData["ui_hotkey_name"] = "eldar_plasma_grenades"
+GameData["ui_info"]["help_text_id"] = "$92421"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$92422"
+GameData["ui_info"]["help_text_list"]["text_02"] = "$92423"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$92424"
+GameData["ui_info"]["help_text_list"]["text_04"] = "$92425"
+GameData["ui_info"]["help_text_list"]["text_05"] = "$92426"
+GameData["ui_info"]["icon_name"] = "eldar_icons/plasmagrenades_icon"
+GameData["ui_info"]["screen_name_id"] = "$92420"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

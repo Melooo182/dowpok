@@ -1,0 +1,60 @@
+----------------------------------------
+-- File: 'weapon\weapon.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[]])
+MetaData = InheritMeta([[]])
+
+GameData["accuracy"] = 0.00000
+GameData["accuracy_reduction_when_moving"] = 0.00000
+GameData["area_effect"] = Reference([[tables\area_effect_table.lua]])
+GameData["attack_priorities"] = Reference([[tables\type_armour_table.lua]])
+GameData["can_attack_air_units"] = false
+GameData["can_attack_ground_units"] = true
+GameData["cost"] = Reference([[tables\time_cost_table.lua]])
+GameData["death_motion_value"] = ""
+GameData["fire_cost"] = Reference([[tables\cost_table.lua]])
+GameData["impact_ability"] = ""
+GameData["kill_enemy_at_percent_life"] = 0.00000
+GameData["kill_enemy_at_percent_life_cooldown_time"] = 0.00000
+GameData["kill_enemy_at_percent_life_target_filter"] = Reference([[tables\target_filter_table.lua]])
+GameData["melee_weapon"] = false
+GameData["raider_weapon_index"] = 0.00000
+GameData["rear_facing"] = false
+GameData["reload_show_progress"] = false
+GameData["reload_time"] = 0.00000
+GameData["setup_time"] = 0.00000
+GameData["show_in_reinforce"] = true
+GameData["squad_max"] = 0.00000
+GameData["ui_effective_against"] = Reference([[tables\text_table.lua]])
+GameData["ui_hotkey_name"] = ""
+GameData["ui_info"] = Reference([[tables\ui_info_table.lua]])
+GameData["ui_info"]["icon_name"] = "space_marine_icons/upgrade"
+GameData["weapon_slave_group"] = 0.00000
+GameData["weapon_slave_group_master"] = false
+GameData["weapon_spawned_event_name"] = ""
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["accuracy"] = {desc = [[Accuracy of this weapon]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["accuracy_reduction_when_moving"] = {desc = [[How much the accuracy is reduced when the unit is moving]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["area_effect"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["attack_priorities"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["cost"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["death_motion_value"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["fire_cost"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["melee_weapon"] = {desc = [[]], type = 3, category = [[]], dispval = [[]], }
+MetaData["reload_show_progress"] = {desc = [[]], type = 3, category = [[]], dispval = [[]], }
+MetaData["reload_time"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["setup_time"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["show_in_reinforce"] = {desc = [[Turn this flag off to prevent the weapon from showing up in the upgrade UI (so only modifiers can enable it)]], type = 3, category = [[]], dispval = [[]], }
+MetaData["ui_effective_against"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["ui_hotkey_name"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["ui_info"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["weapon_spawned_event_name"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }

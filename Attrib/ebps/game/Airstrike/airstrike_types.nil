@@ -1,0 +1,21 @@
+----------------------------------------
+-- File: 'ebps\game\airstrike\airstrike_types.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\environment\gameplay\gameplay.nil]])
+MetaData = InheritMeta([[ebps\environment\gameplay\gameplay.nil]])
+
+GameData["sim_entity_ext"]["is_in_spatial_bucket"] = false
+GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])
+GameData["suicide_ext"] = Reference([[ebpextensions\suicide_ext.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["spawn_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["suicide_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

@@ -1,0 +1,42 @@
+----------------------------------------
+-- File: 'ebps\races\orks\troops\ork_troop.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\troop.nil]])
+MetaData = InheritMeta([[ebps\races\troop.nil]])
+
+GameData["combat_ext"] = Reference([[ebpextensions\combat_ext.lua]])
+GameData["event_manager_ext"]["event_02"]["event_entry_03"]["event_name"] = "aura/Positive_ork"
+GameData["event_manager_ext"]["event_02"]["event_entry_04"]["event_name"] = "aura/positive_STR_ork"
+GameData["event_manager_ext"]["event_09"]["event_entry_01"]["event_name"] = "Unit_Ability_FX\\Entanglement"
+GameData["event_manager_ext"]["event_09"]["modifier_name"] = "ability_eldar_entangle_event"
+GameData["event_manager_ext"]["event_10"]["event_entry_01"]["event_name"] = "unit_ability_fx\\docs_tools_unit"
+GameData["event_manager_ext"]["event_11"]["event_entry_01"]["event_name"] = "Tau\\Abilities\\Mark_Target"
+GameData["event_manager_ext"]["event_11"]["modifier_name"] = "ability_tau_mark_target_event"
+GameData["event_manager_ext"]["event_14"]["event_entry_01"]["event_name"] = "Unit_Ability_FX/Power_of_waagh_target"
+GameData["event_manager_ext"]["event_14"]["modifier_name"] = "ability_waagh_event"
+GameData["event_manager_ext"]["event_15"]["event_entry_01"]["event_name"] = "Unit_Ability_FX/Ork_fightin_juice"
+GameData["event_manager_ext"]["event_15"]["modifier_name"] = "ability_fighting_juice_event"
+GameData["event_manager_ext"]["event_23"]["event_entry_01"]["event_name"] = "necron\\abilities\\Souless_Strike"
+GameData["event_manager_ext"]["event_23"]["modifier_name"] = "ability_souless_strike_event"
+GameData["health_ext"]["death_event"] = "unit_death_events/sink_into_ground"
+GameData["infiltration_ext"] = Reference([[ebpextensions\infiltration_ext.lua]])
+GameData["moving_ext"]["speed_max"] = 16.00000
+GameData["sim_entity_ext"]["is_collide"] = true
+
+--T4
+GameData["special_attack_physics_ext"]["mass"] = 8.00000
+
+GameData["ui_ext"]["minimap_enable"] = true
+GameData["ui_ext"]["minimap_teamcolor"] = true
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["combat_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["infiltration_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

@@ -1,0 +1,41 @@
+----------------------------------------
+-- File: 'ebps\races\eldar\troops\eldar_leaders.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\eldar\troops\eldar_troop.nil]])
+MetaData = InheritMeta([[ebps\races\eldar\troops\eldar_troop.nil]])
+
+GameData["combat_ext"] = Reference([[ebpextensions\combat_ext.lua]])
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["horizontal_aim_motion_variable_name"] = "Aim_Horizontal_Main"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["attack_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Melee_Upgrade_Main"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["horizontal_aim_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["shoot_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\melee_slowdown_weapon.lua"
+GameData["health_ext"]["death_event"] = "data:/art/events/unit_death_events/sink_into_ground.events"
+GameData["health_ext"]["morale_death"] = 200.00000
+GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
+GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
+GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
+GameData["morale_add_ext"]["inc_morale_max"] = 100.00000
+GameData["morale_add_ext"]["inc_morale_rate"] = 10.00000
+GameData["sight_ext"]["keen_sight_radius"] = 9.00000
+GameData["sight_ext"]["sight_radius"] = 25.00000
+GameData["syncdeath_ext"] = Reference([[ebpextensions\syncdeath_ext.lua]])
+GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_invuln_0_4.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["combat_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["melee_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["modifier_apply_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["morale_add_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["syncdeath_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

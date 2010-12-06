@@ -1,0 +1,23 @@
+----------------------------------------
+-- File: 'weapon\templar_plasma_gun.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[weapon\templar_plasma_variants.nil]])
+MetaData = InheritMeta([[weapon\templar_plasma_variants.nil]])
+
+GameData["accuracy_reduction_when_moving"] = 0.33000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["damage_reduction_when_moving"] = 70.00000
+GameData["cost"]["cost"]["power"] = 15.00000
+GameData["cost"]["cost"]["requisition"] = 75.00000
+GameData["cost"]["time_seconds"] = 7.50000
+GameData["reload_time"] = 1.50000
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["requirements"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

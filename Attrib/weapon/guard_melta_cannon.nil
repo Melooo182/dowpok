@@ -1,0 +1,29 @@
+----------------------------------------
+-- File: 'weapon\guard_melta_cannon.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[weapon\guard_melta_variants.nil]])
+MetaData = InheritMeta([[weapon\guard_melta_variants.nil]])
+
+GameData["area_effect"]["area_effect_information"]["area_effect_events"]["dirtsand"] = "Guard\\Weapons\\Inferno_Cannon_Area_Flame"
+GameData["area_effect"]["area_effect_information"]["area_effect_events"]["grass"] = "Guard\\Weapons\\Inferno_Cannon_Area_Flame"
+GameData["area_effect"]["area_effect_information"]["area_effect_events"]["rock"] = "Guard\\Weapons\\Inferno_Cannon_Area_Flame"
+GameData["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])
+GameData["area_effect"]["area_effect_information"]["radius"] = 4.50000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 26.66667
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 13.33333
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "unit_impact_events/marine_flamer_hit_end"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_impact_events/marine_flamer_hit_end"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_impact_events/marine_flamer_hit_end"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "unit_impact_events/marine_flamer_hit_end"
+GameData["max_range"] = 36.00000
+GameData["reload_time"] = 1.00000
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

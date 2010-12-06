@@ -1,0 +1,76 @@
+----------------------------------------
+-- File: 'weapon\tau_fusion_blaster_variants.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[weapon\tau_shooting_weapons.nil]])
+MetaData = InheritMeta([[weapon\tau_shooting_weapons.nil]])
+
+GameData["area_effect"]["throw_data"]["force_max"] = 24.00000
+GameData["area_effect"]["throw_data"]["force_min"] = 8.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_02"]["armour_piercing_value"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_03"]["armour_piercing_value"] = 85.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_04"]["armour_piercing_value"] = 33.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_05"]["armour_piercing_value"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_06"]["armour_piercing_value"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_07"]["armour_piercing_value"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_08"]["armour_piercing_value"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_09"]["armour_piercing_value"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_10"]["armour_piercing_value"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_12"]["armour_piercing_value"] = 66.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_13"]["armour_piercing_value"] = 50.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_14"]["armour_piercing_value"] = 66.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_15"]["armour_piercing_value"] = 25.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_17"]["armour_piercing_value"] = 0.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_18"]["armour_piercing_value"] = 50.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_20"]["armour_piercing_value"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_21"]["armour_piercing_value"] = 50.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_22"]["armour_piercing_value"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_23"]["armour_piercing_value"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_24"]["armour_piercing_value"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_25"]["armour_piercing_value"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_26"]["armour_piercing_value"] = 60.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_27"]["armour_piercing_value"] = 90.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_28"]["armour_piercing_value"] = 80.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_29"]["armour_piercing_value"] = 33.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 50.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 66.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 80.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 40.00000
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Tau\\unit_impact\\fusion_all_chest"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Tau\\unit_impact\\fusion_all_chest"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Tau\\unit_impact\\fusion_all"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Tau\\unit_impact\\fusion_all"
+GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["max_lifetime"] = 1.00000
+GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"] = Reference([[modifiers\flamer_hit_event.lua]])
+GameData["max_range"] = 18.00000
+GameData["miss_events"]["dirtsand"] = "Tau\\terrain_miss\\fusion_rifle_dirtsand"
+GameData["miss_events"]["grass"] = "Tau\\terrain_miss\\fusion_rifle_grass"
+GameData["miss_events"]["rock"] = "Tau\\terrain_miss\\fusion_rifle_rock"
+GameData["miss_events"]["water"] = "Tau\\terrain_miss\\fusion_rifle_water"
+GameData["obey_terrain_line_of_sight"] = true
+GameData["reload_time"] = 3.00000
+GameData["requirements"] = Reference([[tables\requirements.lua]])
+GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
+GameData["requirements"]["required_1"]["is_display_requirement"] = true
+GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\tau\\structures\\tau_hq.lua"
+GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
+GameData["requirements"]["required_10"]["structure_name"] = "ebps\\races\\tau\\structures\\tau_research_building.lua"
+GameData["requirements"]["required_11"] = Reference([[requirements\global_required_addon.lua]])
+GameData["requirements"]["required_11"]["global_addon_name"] = "addons\\addon_tau_hq_1.lua"
+GameData["ui_hotkey_name"] = "tau_plasma_rifle_commander"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$59000000"
+GameData["ui_info"]["help_text_list"]["text_02"] = "$59000000"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$59000000"
+GameData["ui_info"]["help_text_list"]["text_04"] = "$59000000"
+GameData["ui_info"]["icon_name"] = "tau_icons/tau_commander_fusion_icon"
+GameData["ui_info"]["screen_name_id"] = "$666300"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["requirements"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

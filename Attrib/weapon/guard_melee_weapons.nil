@@ -1,0 +1,24 @@
+----------------------------------------
+-- File: 'weapon\guard_melee_weapons.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[weapon\melee_weapons.nil]])
+MetaData = InheritMeta([[weapon\melee_weapons.nil]])
+
+--WS3
+GameData["accuracy"] = 0.50000
+--S3
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 30.00000
+--I3 15x1.3 = 19.5
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 19.50000
+--A1
+GameData["reload_time"] = 3.00000
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

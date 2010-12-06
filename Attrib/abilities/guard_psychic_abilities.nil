@@ -1,0 +1,21 @@
+----------------------------------------
+-- File: 'abilities\guard_abilities.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[abilities\perils_of_the_warp.nil]])
+MetaData = InheritMeta([[abilities\perils_of_the_warp.nil]])
+
+GameData["backfire_action_name"] = "special_ability_3_failure"
+GameData["backfire_delay"] = 7.00000
+--Perils of the Warp
+--Primaris Psyker has 2 wounds, % reduced to half
+GameData["backfire_percent"] = 0.013889
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

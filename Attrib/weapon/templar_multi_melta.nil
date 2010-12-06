@@ -1,0 +1,42 @@
+----------------------------------------
+-- File: 'weapon\space_marine_multi_melta_variants.lua'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[weapon\templar_melta_variants.nil]])
+MetaData = InheritMeta([[weapon\templar_melta_variants.nil]])
+
+GameData["attack_priorities"]["priority_01"] = Reference([[type_armour\tp_vehicle_4.lua]])
+GameData["attack_priorities"]["priority_02"] = Reference([[type_armour\tp_vehicle_3.lua]])
+GameData["attack_priorities"]["priority_03"] = Reference([[type_armour\tp_vehicle_2.lua]])
+GameData["attack_priorities"]["priority_04"] = Reference([[type_armour\tp_vehicle_1.lua]])
+GameData["attack_priorities"]["priority_05"] = Reference([[type_armour\tp_vehicle_0.lua]])
+GameData["attack_priorities"]["priority_06"] = Reference([[type_armour\tp_building_high.lua]])
+GameData["attack_priorities"]["priority_07"] = Reference([[type_armour\tp_building_med.lua]])
+GameData["attack_priorities"]["priority_08"] = Reference([[type_armour\tp_building_low.lua]])
+GameData["attack_priorities"]["priority_09"] = Reference([[type_armour\tp_building_hq.lua]])
+GameData["cost"]["cost"]["power"] = 10.00000
+GameData["cost"]["cost"]["requisition"] = 50.00000
+GameData["cost"]["time_seconds"] = 10.00000
+GameData["max_range"] = 36.00000
+GameData["max_traverse_left"] = -35.00000
+GameData["max_traverse_right"] = 35.00000
+GameData["requirements"]["required_2"]["global_addon_name"] = "addons\\black_marine_hq_addon_2.lua"
+GameData["ui_hotkey_name"] = "marine_scout"
+GameData["ui_info"]["help_text_id"] = "$98061"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$62500151"
+GameData["ui_info"]["help_text_list"]["text_02"] = "$62500152"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$62500153"
+GameData["ui_info"]["help_text_list"]["text_04"] = "$62500154"
+GameData["ui_info"]["help_text_list"]["text_05"] = "$62500155"
+GameData["ui_info"]["icon_name"] = "space_marine_icons/multimelta_icon"
+GameData["ui_info"]["screen_name_id"] = "$62500150"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["requirements"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

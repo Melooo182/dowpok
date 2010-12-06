@@ -1,0 +1,45 @@
+----------------------------------------
+-- File: 'ebps\races\chaos\troops\chaos_marine.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\chaos\troops\chaos_troop.nil]])
+MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_troop.nil]])
+
+GameData["combat_ext"] = Reference([[ebpextensions\combat_ext.lua]])
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_melee_test.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\melee_slowdown_weapon.lua"
+GameData["health_ext"]["hitpoints"] = 200.00000
+GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.25000
+GameData["health_ext"]["regeneration_rate"] = 0.50000
+GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
+GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
+GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
+GameData["morale_add_ext"]["inc_morale_max"] = 90.00000
+GameData["special_attack_physics_ext"]["get_up_time"] = 2.77000
+GameData["summon_ext"] = Reference([[ebpextensions\summon_ext.lua]])
+GameData["syncdeath_ext"] = Reference([[ebpextensions\syncdeath_ext.lua]])
+GameData["synckill_ext"] = Reference([[ebpextensions\synckill_ext.lua]])
+GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["dead_zombie_time"] = 5.77000
+GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["killer_invulnerable_time"] = 5.63000
+GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["dead_zombie_time"] = 4.53000
+GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["killer_invulnerable_time"] = 5.20000
+GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["dead_zombie_time"] = 3.03000
+GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["killer_invulnerable_time"] = 3.70000
+GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_infantry_heavy_med.lua]])
+GameData["type_ext"]["type_armour_2"] = Reference([[type_armour\tp_invuln_3_5.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["combat_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["melee_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["modifier_apply_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["morale_add_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["summon_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["syncdeath_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["synckill_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

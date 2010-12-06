@@ -1,0 +1,17 @@
+----------------------------------------
+-- File: 'weapon\space_marine_plasma_pistol_veteran_command.lua'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[weapon\space_marine_plasma_pistol_veteran.lua]])
+MetaData = InheritMeta([[weapon\space_marine_plasma_pistol_veteran.lua]])
+
+GameData["requirements"]["required_3"]["research_name"] = "research\\marine_terminator_honours_hq_research.lua"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

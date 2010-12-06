@@ -1,0 +1,20 @@
+----------------------------------------
+-- File: 'ebps\races\necrons\troops\necron_support.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\necrons\troops\necron_troop_clones\necron_troop_clones.nil]])
+MetaData = InheritMeta([[ebps\races\necrons\troops\necron_troop_clones\necron_troop_clones.nil]])
+
+GameData["event_manager_ext"]["event_24"]["event_entry_01"]["event_name"] = "Necron/Abilities/phase_shift_unit"
+GameData["event_manager_ext"]["event_24"]["modifier_name"] = "ability_necron_phase_shift_event"
+GameData["type_ext"]["type_surface"] = Reference([[type_surface\tp_heavy_metal_armour.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["spawn_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

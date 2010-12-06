@@ -1,0 +1,43 @@
+----------------------------------------
+-- File: 'ebps\races\sisters\structures\sisters_building.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\building.nil]])
+MetaData = InheritMeta([[ebps\races\building.nil]])
+
+GameData["cost_ext"] = Reference([[ebpextensions\cost_ext.lua]])
+GameData["event_manager_ext"]["event_07"]["event_entry_01"]["event_name"] = "Unit_Ability_FX\\Wraith_Tomb"
+GameData["event_manager_ext"]["event_07"]["modifier_name"] = "ability_wraith_tomb_event"
+GameData["health_ext"] = Reference([[ebpextensions\health_ext.lua]])
+GameData["health_ext"]["armour"] = 100.00000
+GameData["health_ext"]["can_be_repaired"] = true
+GameData["health_ext"]["death_event"] = "unit_death_events/building_death"
+GameData["health_ext"]["display_health_bar"] = true
+GameData["health_ext"]["hitpoints"] = 1200.00000
+GameData["health_ext"]["keep_persistent_body"] = false
+GameData["health_ext"]["post_death_event_delay"] = 0.00000
+GameData["health_ext"]["pre_death_event_delay"] = 1.00000
+GameData["infiltration_ext"] = Reference([[ebpextensions\infiltration_ext.lua]])
+GameData["sight_ext"] = Reference([[ebpextensions\sight_ext.lua]])
+GameData["sim_entity_ext"]["is_collide"] = true
+GameData["structure_buildable_ext"] = Reference([[ebpextensions\structure_buildable_ext.lua]])
+GameData["type_ext"]["type_speech"] = Reference([[type_speech\speech_emplacement.lua]])
+GameData["ui_ext"]["ghost_enable"] = true
+GameData["ui_ext"]["minimap_enable"] = true
+GameData["ui_ext"]["minimap_teamcolor"] = true
+GameData["ui_ext"]["speech_directory"] = "Speech\\Races\\Sisters\\Buildings\\"
+GameData["ui_ext"]["ui_info"]["icon_name"] = "guard_icons/"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["cost_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["health_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["infiltration_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["sight_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["structure_buildable_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

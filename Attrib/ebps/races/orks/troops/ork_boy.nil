@@ -1,0 +1,84 @@
+----------------------------------------
+-- File: 'ebps\races\orks\troops\ork_boy.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\orks\troops\ork_troop.nil]])
+MetaData = InheritMeta([[ebps\races\orks\troops\ork_troop.nil]])
+
+GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
+GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\ork_mob_rule_fearless.lua"
+GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ork_mob_rule.lua"
+GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\ork_mob_rule_1.lua"
+GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\ork_mob_rule_2.lua"
+GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\ork_power_of_waagh.lua"
+GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\ability_run.lua"
+GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\ability_infiltration_detection_field.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["horizontal_aim_motion_variable_name"] = "Aim_Horizontal_Main"
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["shoot_motion_variable_name"] = "Weapon_Range_Firing_Main"
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["vertical_aim_motion_variable_name"] = "Aim_Vertical_Main"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["attack_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Melee_Upgrade_Main"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["horizontal_aim_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["shoot_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["vertical_aim_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\melee_slowdown_weapon.lua"
+GameData["health_ext"]["death_event"] = "data:/art/events/unit_death_events/sink_into_ground.events"
+GameData["health_ext"]["hitpoints"] = 200.00000
+GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.25000
+GameData["health_ext"]["regeneration_rate"] = 0.50000
+GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
+
+--Furious Charge, removed melee leap damage and added a modifier that increases damage in melee by 10
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"] = Reference([[modifiers\max_damage_weapon_modifier.lua]])
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["value"] = 10.00000
+GameData["melee_ext"]["melee_leap_curve_ratio"] = 0.01000
+GameData["melee_ext"]["melee_leap_damage"] = 0.00000
+GameData["melee_ext"]["melee_leap_knock_down"]["force_max"] = 9.00000
+GameData["melee_ext"]["melee_leap_knock_down"]["force_min"] = 3.00000
+GameData["melee_ext"]["melee_leap_knock_down"]["up_angle_max"] = 5.00000
+GameData["melee_ext"]["melee_leap_knock_down"]["up_angle_min"] = 1.00000
+GameData["melee_ext"]["melee_leap_knock_down_max_distance"] = 5.00000
+GameData["melee_ext"]["melee_leap_max_target_mass"] = 25.00000
+GameData["melee_ext"]["melee_leap_min_distance"] = 10.00000
+GameData["melee_ext"]["melee_leap_min_time_separation"] = 30.00000
+GameData["melee_ext"]["melee_leap_speed"] = 8.00000
+GameData["melee_ext"]["melee_leap_target_pos_offset"] = 2.50000
+GameData["melee_ext"]["melee_leap_tendency"] = 1.00000
+
+GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
+GameData["mob_ext"]["mob_value"] = 1.00000
+GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
+GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
+GameData["morale_add_ext"]["inc_morale_max"] = 70.00000
+GameData["sight_ext"]["keen_sight_radius"] = 9.00000
+GameData["sight_ext"]["sight_radius"] = 25.00000
+GameData["special_attack_physics_ext"]["get_up_time"] = 2.80000
+GameData["syncdeath_ext"] = Reference([[ebpextensions\syncdeath_ext.lua]])
+GameData["synckill_ext"] = Reference([[ebpextensions\synckill_ext.lua]])
+GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["dead_zombie_time"] = 5.77000
+GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["killer_invulnerable_time"] = 5.63000
+GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["dead_zombie_time"] = 5.60000
+GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["killer_invulnerable_time"] = 5.30000
+GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["dead_zombie_time"] = 4.10000
+GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["killer_invulnerable_time"] = 3.36000
+GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_infantry_low.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["ability_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["melee_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["mob_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["modifier_apply_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["morale_add_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["syncdeath_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["synckill_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

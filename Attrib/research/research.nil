@@ -1,0 +1,24 @@
+----------------------------------------
+-- File: 'research\research.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[]])
+MetaData = InheritMeta([[]])
+
+GameData["modifiers"] = Reference([[tables\modifier_table.lua]])
+GameData["requirements"] = Reference([[tables\requirements.lua]])
+GameData["time_cost"] = Reference([[tables\time_cost_table.lua]])
+GameData["ui_info"] = Reference([[tables\ui_info_table.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["modifiers"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["requirements"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["time_cost"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["ui_info"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

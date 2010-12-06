@@ -1,0 +1,18 @@
+----------------------------------------
+-- File: 'ebps\game\projectiles\battlecannon_shell.lua'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\game\projectiles\projectile_barrage_bs2.nil]])
+MetaData = InheritMeta([[ebps\game\projectiles\projectile_barrage_bs2.nil]])
+
+--GameData["projectile_ext"]["artillery"]["offtarget_distance_cap"] = 80.00000
+GameData["projectile_ext"]["artillery"]["offtarget_radius"] = 4.38000
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

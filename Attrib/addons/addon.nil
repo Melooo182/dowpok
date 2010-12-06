@@ -1,0 +1,30 @@
+----------------------------------------
+-- File: 'addons\addon.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[]])
+MetaData = InheritMeta([[]])
+
+GameData["add_on_motion_name"] = ""
+GameData["modifiers"] = Reference([[tables\modifier_table.lua]])
+GameData["requirements"] = Reference([[tables\requirements.lua]])
+GameData["time_cost"] = Reference([[tables\time_cost_table.lua]])
+GameData["ui_hotkey_name"] = ""
+GameData["ui_index_hint"] = 1.00000
+GameData["ui_info"] = Reference([[tables\ui_info_table.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["add_on_motion_name"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["modifiers"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["requirements"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["time_cost"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["ui_hotkey_name"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["ui_index_hint"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["ui_info"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

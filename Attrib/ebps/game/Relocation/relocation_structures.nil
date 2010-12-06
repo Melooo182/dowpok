@@ -1,0 +1,21 @@
+----------------------------------------
+-- File: 'ebps\game\relocation\relocation_structures.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\environment\gameplay\gameplay.nil]])
+MetaData = InheritMeta([[ebps\environment\gameplay\gameplay.nil]])
+
+GameData["sim_entity_ext"]["is_collide"] = true
+GameData["structure_ext"] = Reference([[ebpextensions\structure_ext.lua]])
+GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_building_low.lua]])
+GameData["type_ext"]["type_surface"] = Reference([[type_surface\tp_stone.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["structure_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

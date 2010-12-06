@@ -1,0 +1,23 @@
+----------------------------------------
+-- File: 'weapon\ork_shooting_weapons.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[weapon\shooting_weapons.nil]])
+MetaData = InheritMeta([[weapon\shooting_weapons.nil]])
+
+GameData["accuracy"] = 0.33000
+GameData["horizontal_traverse_speed"] = 90.00000
+GameData["max_traverse_down"] = -45.00000
+GameData["max_traverse_left"] = -60.00000
+GameData["max_traverse_right"] = 60.00000
+GameData["max_traverse_up"] = 45.00000
+GameData["vertical_traverse_speed"] = 20.00000
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

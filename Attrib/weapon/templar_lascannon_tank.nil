@@ -1,0 +1,25 @@
+----------------------------------------
+-- File: 'weapon\space_marine_lascannon_tank_left.lua'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[weapon\templar_lascannon.nil]])
+MetaData = InheritMeta([[weapon\templar_lascannon.nil]])
+
+GameData["accuracy_reduction_when_moving"] = 1.00000
+GameData["cost"]["cost"]["power"] = 30.00000
+GameData["cost"]["cost"]["requisition"] = 150.00000
+GameData["cost"]["time_seconds"] = 30.00000
+GameData["linger_on_target_after_fire_time"] = 1.00000
+GameData["show_in_reinforce"] = false
+GameData["ui_info"]["help_text_list"]["text_01"] = "$16040331"
+GameData["ui_info"]["help_text_list"]["text_05"] = "$0"
+GameData["ui_info"]["icon_name"] = "space_marine_icons/upgrade_predator_lascannon_L"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

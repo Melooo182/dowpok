@@ -1,0 +1,33 @@
+----------------------------------------
+-- File: 'ebps\races\space_marines\troops\land_speeder_tornado.lua'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\space_marines\troops\land_speeder_tornado_ai.lua]])
+MetaData = InheritMeta([[ebps\races\space_marines\troops\land_speeder_tornado_ai.lua]])
+
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\templar_multi_melta_land_speeder.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\templar_assault_cannon_landspeeder.lua"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Black_Templar/Troops/land_speeder_codex"
+GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
+GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])
+GameData["requirement_ext"]["requirements"]["required_1"]["global_addon_name"] = "addons\\black_marine_hq_addon_2.lua"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$62002411"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$62002412"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$62002413"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$62002414"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$62002415"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$62002420"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$62002421"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$62002418"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$62002419"
+GameData["ui_ext"]["ui_info"]["icon_name"] = "black_templar_icons/ls_assault"
+GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$62002410"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

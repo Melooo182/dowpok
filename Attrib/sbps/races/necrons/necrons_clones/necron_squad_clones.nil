@@ -1,0 +1,18 @@
+----------------------------------------
+-- File: 'sbps\races\tau\tau_squad_clones\tau_squad_clones.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[sbps\races\necrons\necron_squad.nil]])
+MetaData = InheritMeta([[sbps\races\necrons\necron_squad.nil]])
+
+GameData["squad_clone_ext"] = Reference([[sbpextensions\squad_clone_ext.lua]])
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["squad_clone_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

@@ -1,0 +1,67 @@
+----------------------------------------
+-- File: 'weapon\shooting_weapons.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[weapon\weapon.nil]])
+MetaData = InheritMeta([[weapon\weapon.nil]])
+
+GameData["area_effect"]["throw_data"]["direction_angle_random"] = 0.50000
+GameData["area_effect"]["throw_data"]["impact_point_z"] = 1.00000
+GameData["area_effect"]["throw_data"]["up_angle_max"] = 1.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Unit_Impact_events\\Blood_Splatter_Impact_S"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Impact_Bolter_Metal_S"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Impact_Bolter_Metal_S"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Impact_Bolter_Metal_S"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry05"]["event"] = "Necron\\Monolith_Hit"
+GameData["fire_cone_angle"] = 5.00000
+GameData["fired_projectile"] = ""
+GameData["horizontal_traverse_speed"] = 0.00000
+GameData["linger_on_target_after_fire_time"] = 0.00000
+GameData["max_range"] = 0.00000
+GameData["max_traverse_down"] = 0.00000
+GameData["max_traverse_left"] = 0.00000
+GameData["max_traverse_right"] = 0.00000
+GameData["max_traverse_up"] = 0.00000
+GameData["min_range"] = 2.00000
+GameData["miss_events"] = Reference([[tables\terrain_footfall_based_event_table.lua]])
+GameData["move_aim_to_home"] = true
+GameData["move_to_home_position_delay"] = 1.50000
+GameData["obey_entity_line_of_sight"] = false
+GameData["obey_terrain_line_of_sight"] = false
+GameData["random_aim_on_create"] = false
+GameData["shot_delay_time"] = 0.00000
+GameData["single_shot"] = false
+GameData["single_shot_duration"] = 0.00000
+GameData["stationary_horizontal_multiplier"] = 1.00000
+GameData["vertical_traverse_speed"] = 20.00000
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["fire_cone_angle"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["fired_projectile"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["horizontal_traverse_speed"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["linger_on_target_after_fire_time"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["max_range"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["max_traverse_down"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["max_traverse_left"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["max_traverse_right"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["max_traverse_up"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["min_range"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["miss_events"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["move_aim_to_home"] = {desc = [[]], type = 3, category = [[]], dispval = [[]], }
+MetaData["move_to_home_position_delay"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["obey_entity_line_of_sight"] = {desc = [[Enable this to have entities with the BlockLOS extension block this weapons LOS to it's target.]], type = 3, category = [[]], dispval = [[]], }
+MetaData["obey_terrain_line_of_sight"] = {desc = [[Enable this to have terrain block this weapons LOS to it's target.]], type = 3, category = [[]], dispval = [[]], }
+MetaData["random_aim_on_create"] = {desc = [[]], type = 3, category = [[]], dispval = [[]], }
+MetaData["shot_delay_time"] = {desc = [[This will offset the point at which the damage is applied - allows visualisation of a weapon charging]], type = 1, category = [[]], dispval = [[]], min = 0.000, max = 100.000, }
+MetaData["single_shot"] = {desc = [[]], type = 3, category = [[]], dispval = [[]], }
+MetaData["single_shot_duration"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = 0.000, max = 1000.000, }
+MetaData["stationary_horizontal_multiplier"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["vertical_traverse_speed"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }

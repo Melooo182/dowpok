@@ -1,0 +1,34 @@
+----------------------------------------
+-- File: 'ebps\races\tau\troops\tau_troop.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\troop.nil]])
+MetaData = InheritMeta([[ebps\races\troop.nil]])
+
+GameData["event_manager_ext"]["event_02"]["event_entry_03"]["event_name"] = "aura/positive_tau"
+GameData["event_manager_ext"]["event_02"]["event_entry_04"]["event_name"] = "aura/Positive_STR_tau"
+GameData["event_manager_ext"]["event_04"]["event_entry_01"]["event_name"] = "Tau\\Abilities\\Mark_Target"
+GameData["event_manager_ext"]["event_04"]["modifier_name"] = "ability_tau_mark_target_event"
+GameData["event_manager_ext"]["event_19"]["event_entry_01"]["event_name"] = "Tau\\Abilities\\tau_shield"
+GameData["event_manager_ext"]["event_19"]["modifier_name"] = "ability_tau_shield_event"
+GameData["event_manager_ext"]["event_20"]["event_entry_01"]["event_name"] = "aura/cover_aura"
+GameData["event_manager_ext"]["event_20"]["modifier_name"] = "cover_event_modifier"
+GameData["event_manager_ext"]["event_22"]["event_entry_01"]["event_name"] = "Unit_Ability_FX\\Entanglement"
+GameData["event_manager_ext"]["event_22"]["modifier_name"] = "ability_eldar_entangle_event"
+GameData["event_manager_ext"]["event_23"]["event_entry_01"]["event_name"] = "necron\\abilities\\Souless_Strike"
+GameData["event_manager_ext"]["event_23"]["modifier_name"] = "ability_souless_strike_event"
+GameData["event_manager_ext"]["event_24"]["event_entry_01"]["event_name"] = "necron\\abilities\\chronometron"
+GameData["event_manager_ext"]["event_24"]["modifier_name"] = "ability_necron_chronometron_event"
+GameData["infiltration_ext"] = Reference([[ebpextensions\infiltration_ext.lua]])
+GameData["ui_ext"]["minimap_enable"] = true
+GameData["ui_ext"]["minimap_teamcolor"] = true
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["infiltration_ext"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

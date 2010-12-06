@@ -1,0 +1,126 @@
+----------------------------------------
+-- File: 'abilities\ability.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[]])
+MetaData = InheritMeta([[]])
+
+GameData["ability_cursor_event"] = ""
+GameData["ability_motion_name"] = ""
+GameData["ability_ordered_event_mp"] = ""
+GameData["ability_ordered_event_mp_building"] = false
+GameData["ability_ordered_event_name"] = ""
+GameData["ability_visible_in_mp"] = Reference([[type_ability_event_visible\tp_av_all.lua]])
+GameData["activation"] = Reference([[type_abilityactivation\tp_ability_activation_always_on.lua]])
+GameData["anticipation_event_name"] = ""
+GameData["anticipation_lead_time"] = 0.00000
+GameData["area_effect"] = Reference([[tables\area_effect_table.lua]])
+GameData["backfire_action_name"] = ""
+GameData["backfire_area_effect"] = Reference([[tables\area_effect_table.lua]])
+GameData["backfire_caster_damage"] = Reference([[tables\weapon_damage_table.lua]])
+GameData["backfire_delay"] = 0.00000
+GameData["backfire_percent"] = 0.00000
+GameData["caster_damage"] = Reference([[tables\weapon_damage_table.lua]])
+GameData["center_target_on_owner"] = false
+GameData["child_ability_name"] = ""
+GameData["child_activation_percent"] = 1.00000
+GameData["child_jump_event"] = ""
+GameData["child_range"] = 0.00000
+GameData["darklance_delay"] = 0.00000
+GameData["direction"] = 0.00000
+GameData["direction_arc_left"] = 180.00000
+GameData["direction_arc_right"] = 180.00000
+GameData["divine_retribution_event"] = "Art/Events/Sisters/DR_FirePillar"
+GameData["duration_time"] = 0.00000
+GameData["enemy_opacity_while_active"] = 1.00000
+GameData["entity_busy_time"] = 0.00000
+GameData["execute_table"] = Reference([[tables\execute_table.lua]])
+GameData["fire_cost"] = Reference([[tables\cost_table.lua]])
+GameData["friendly_opacity_while_active"] = 1.00000
+GameData["initial_delay_time"] = 0.00000
+GameData["looping_event_name"] = ""
+GameData["persist_across_squad_leader_death"] = false
+GameData["projectile_name"] = ""
+GameData["projectile_recurring"] = false
+GameData["projectile_recurring_delay"] = 0.00000
+GameData["projectile_spawn_on_ground"] = true
+GameData["projectile_spawn_pos"] = Reference([[tables\position.lua]])
+GameData["projectile_spawn_pos"]["y"] = 1.00000
+GameData["random_offset"] = 0.00000
+GameData["range"] = 0.00000
+GameData["recharge_time"] = 0.00000
+GameData["recharge_timer_global"] = false
+GameData["recharge_timer_id"] = 0.00000
+GameData["refresh_time"] = 1.00000
+GameData["requirements"] = Reference([[tables\requirements.lua]])
+GameData["spawned_entity_name"] = ""
+GameData["speech_directory"] = ""
+GameData["stop"] = false
+GameData["target_ground"] = false
+GameData["target_leader_in_squad"] = false
+GameData["target_self"] = false
+GameData["target_self_shazam"] = false
+GameData["ui_hotkey_name"] = ""
+GameData["ui_index_hint"] = 1.00000
+GameData["ui_info"] = Reference([[tables\ui_info_table.lua]])
+GameData["ui_instructional_msg"] = "$0"
+GameData["ui_invalid_target_msg"] = "$0"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
+MetaData["ability_cursor_event"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["ability_motion_name"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["ability_ordered_event_mp"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["ability_ordered_event_name"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["ability_visible_in_mp"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["activation"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["anticipation_event_name"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["anticipation_lead_time"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["area_effect"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["backfire_action_name"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["backfire_area_effect"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["backfire_caster_damage"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["backfire_delay"] = {desc = [[Delay (in seconds) before the backfire occurs]], type = 1, category = [[]], dispval = [[]], min = 0.000, max = 1000.000, }
+MetaData["backfire_percent"] = {desc = [[The chance of this ability back firing and triggering the backfire_caster_ability & backfire_ally_ability]], type = 1, category = [[]], dispval = [[]], min = 0.000, max = 1.000, }
+MetaData["caster_damage"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["center_target_on_owner"] = {desc = [[This will force the ability to center on the caster.  target_ground and target_leader_in_squad are ignored if this is set to true]], type = 3, category = [[]], dispval = [[]], }
+MetaData["child_ability_name"] = {desc = [[When an ability is triggered it may also trigger this ability (according to activation percent). When a toggle ability is turned off it will turn off any children. When a timed ability runs out it will still run any children.]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["child_activation_percent"] = {desc = [[The chance for a specified child ability to trigger]], type = 1, category = [[]], dispval = [[]], min = 0.000, max = 1.000, }
+MetaData["child_jump_event"] = {desc = [[Event that plays when a child ability triggers.  The event position will be set to the parent abilities position and the target position is set to the position of the child (so you can show an arc).]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["child_range"] = {desc = [[maximum range for child events - a value of 0 willl use the parents target]], type = 1, category = [[]], dispval = [[]], min = 0.000, max = 100000.000, }
+MetaData["direction"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["direction_arc_left"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["direction_arc_right"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["duration_time"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["enemy_opacity_while_active"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["entity_busy_time"] = {desc = [[this is the time from the start of ability during which the entity can't be doing anything else]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["execute_table"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["fire_cost"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["friendly_opacity_while_active"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["initial_delay_time"] = {desc = [[When the ability is triggered it will wait this many seconds before applying any effects.]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["looping_event_name"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["persist_across_squad_leader_death"] = {desc = [[]], type = 3, category = [[]], dispval = [[]], }
+MetaData["projectile_name"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["projectile_spawn_pos"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["random_offset"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["range"] = {desc = [[the max range for the targeted ability]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["recharge_time"] = {desc = [[the time until this ability can be fired again (in seconds)]], type = 1, category = [[]], dispval = [[]], min = 0.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["recharge_timer_global"] = {desc = [[]], type = 3, category = [[]], dispval = [[]], }
+MetaData["refresh_time"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["requirements"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["spawned_entity_name"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[ebps\entity_blueprint.nil]], stringType = 1, extensions = 0, shortnames = 0, }
+MetaData["speech_directory"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["target_ground"] = {desc = [[The ability must be cast at the ground.  If target_leader_in_squad is also on, it will target the ground under the leader]], type = 3, category = [[]], dispval = [[]], }
+MetaData["target_leader_in_squad"] = {desc = [[The ability will target the attached unit in a squad, or the the leader if there is no attachment. ]], type = 3, category = [[]], dispval = [[]], }
+MetaData["target_self"] = {desc = [[]], type = 3, category = [[]], dispval = [[]], }
+MetaData["ui_hotkey_name"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["ui_index_hint"] = {desc = [[]], type = 1, category = [[]], dispval = [[]], min = -340282346638528860000000000000000000000.000, max = 340282346638528860000000000000000000000.000, }
+MetaData["ui_info"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["ui_instructional_msg"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }
+MetaData["ui_invalid_target_msg"] = {desc = [[]], type = 2, category = [[]], dispval = [[]], baseType = [[]], stringType = 0, extensions = 0, shortnames = 0, }

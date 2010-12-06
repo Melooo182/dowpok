@@ -1,0 +1,28 @@
+----------------------------------------
+-- File: 'abilities\guard_abilities.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[abilities\guard_psychic_abilities.nil]])
+MetaData = InheritMeta([[abilities\guard_psychic_abilities.nil]])
+
+
+--Perils of the Warp
+--When Psyker Battle Squad suffers a PotW all squad members suffer it.
+GameData["backfire_area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])
+GameData["backfire_area_effect"]["area_effect_information"]["radius"] = 4.50000
+GameData["backfire_area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 0.00000
+GameData["backfire_area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 0.00000
+GameData["backfire_area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 1000.00000
+
+GameData["backfire_action_name"] = "special_ability_3_failure"
+GameData["backfire_delay"] = 7.00000
+
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

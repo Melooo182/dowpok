@@ -1,0 +1,17 @@
+----------------------------------------
+-- File: 'ebps\races\eldar\troops\eldar_warriors.nil'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[ebps\races\eldar\troops\eldar_warriors.nil]])
+MetaData = InheritMeta([[ebps\races\eldar\troops\eldar_warriors.nil]])
+
+GameData["morale_add_ext"]["inc_morale_max"] = 90.00000
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}

@@ -1,0 +1,34 @@
+----------------------------------------
+-- File: 'weapon\tau_burst_cannon_hammer_head_gunship.lua'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
+
+GameData = Inherit([[weapon\tau_smart_missiles.lua]])
+MetaData = InheritMeta([[weapon\tau_smart_missiles.lua]])
+
+GameData["accuracy"] = 0.50000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 50.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 40.00000
+GameData["cost"]["cost"]["requisition"] = 50.00000
+GameData["cost"]["time_seconds"] = 10.00000
+GameData["max_traverse_down"] = -45.00000
+GameData["max_traverse_left"] = -160.00000
+GameData["max_traverse_right"] = 45.00000
+GameData["max_traverse_up"] = 15.00000
+GameData["reload_time"] = 1.50000
+GameData["show_in_reinforce"] = false
+GameData["ui_info"]["help_text_list"]["text_01"] = "- Upgrade this vehicle with fast firing guided missile pods."
+GameData["ui_info"]["help_text_list"]["text_02"] = "$709851"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$709852"
+GameData["ui_info"]["help_text_list"]["text_04"] = "$709853"
+GameData["ui_info"]["icon_name"] = "tau_icons/tau_commander_missile_icon"
+GameData["ui_info"]["screen_name_id"] = "$709854"
+GameData["weapon_spawned_event_name"] = "Missile Pods"
+
+
+MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
+MetaData["$METACOLOURTAG"] = 
+{
+
+}
