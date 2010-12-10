@@ -27,10 +27,14 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["damage_reduction_when_moving"] = 15.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 30.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 15.00000
-GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Guard\\Weapons\\Lasgun_Impact_Flesh"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Unit_Impact_events\\Impact_bolter_hvy_blood_only"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_impact_events/wraithbone_hit_small"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_impact_events/Impact_Bolter_Sml"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Unit_Impact_events\\Impact_Bolter_Hvy"
+--[[GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Guard\\Weapons\\Lasgun_Impact_Flesh"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Guard\\Weapons\\Lasgun_Impact_bone"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Guard\\Weapons\\Lasgun_Impact_light_metal"
-GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Guard\\Weapons\\Lasgun_Impact_HVY"
+GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Guard\\Weapons\\Lasgun_Impact_HVY"]]
 GameData["attack_priorities"]["priority_01"] = Reference([[type_armour\tp_infantry_low.lua]])
 GameData["attack_priorities"]["priority_02"] = Reference([[type_armour\tp_infantry_med.lua]])
 GameData["attack_priorities"]["priority_03"] = Reference([[type_armour\tp_infantry_high.lua]])

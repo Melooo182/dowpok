@@ -43,7 +43,7 @@ GameData["possess_ext"]["squad_replacement_name"] = "chaos_squad_lord_dark_apost
 
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_invuln_3_4.lua]])
 GameData["type_ext"]["type_armour_2"] = Reference([[type_armour\tp_invuln_2_4.lua]])
-GameData["ui_ext"]["ui_index_hint"] = 4.00000
+GameData["ui_ext"]["ui_index_hint"] = 8.00000
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$56000051"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$56000052"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$56000053"

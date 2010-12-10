@@ -14,6 +14,11 @@ GameData["modifiers"]["modifier_02"] = Reference([[modifiers\default_weapon_modi
 GameData["modifiers"]["modifier_02"]["target_type_name"] = "chaos_lord_undivided_assault"
 GameData["modifiers"]["modifier_02"]["value"] = 3.00000
 
+GameData["modifiers"]["modifier_03"] = Reference([[modifiers\max_upgrades_squad_modifier.lua]])
+GameData["modifiers"]["modifier_03"]["target_type_name"] = "chaos_squad_renegade_militia"
+GameData["modifiers"]["modifier_03"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
+GameData["modifiers"]["modifier_03"]["value"] = 2.00000
+
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\chaos\\structures\\chaos_hq.lua"
 GameData["requirements"]["required_2"] = Reference([[requirements\required_research.lua]])
