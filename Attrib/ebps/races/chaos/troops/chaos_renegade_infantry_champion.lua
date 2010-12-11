@@ -1,5 +1,5 @@
 ----------------------------------------
--- File: 'ebps\races\guard\troops\guard_infantry_guardsmen_sergeant.lua'
+-- File: 'ebps\races\chaos\troops\chaos_renegade_infantry_champion.lua'
 -- Created by: AttributeEditor v2.0
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
@@ -15,6 +15,8 @@ GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\ability_infiltr
 GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\chaos_upgrade_bolt_pistol_militia_vet.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\chaos_upgrade_plasma_pistol_militia_vet.lua"
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_melta_bombs_militia.lua"
+GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\chaos_upgrade_power_weapon_militia_vet.lua"
+GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\chaos_upgrade_power_fist_militia_vet.lua"
 GameData["combat_ext"]["complex_upgrades"] = true
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Chaos_Laspistol"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_laspistol_militiamen.lua"
@@ -23,7 +25,16 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"]["name_for_this_weapon_choice"] = "Chaos_Plasma_Pistol"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"]["weapon"] = "weapon\\chaos_plasma_pistol_militiamen.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Chaos_Chainsword"
-GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_chainsword_militiamen_veteran.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_chainsword_militiamen_champion.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Chaos_Power_Sword"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\chaos_power_sword_militiamen_champion.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"]["name_for_this_weapon_choice"] = "Chaos_Power_Fist"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"]["weapon"] = "weapon\\chaos_power_fist_militiamen_champion.lua"
+--Champion Visuals
+GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["hardpoint_weapon_variant_motion_name"] = "Wargear_Upgrade_02"
+GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "wargear_01"
+GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\melee_weapon_dummy.lua"
+
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 30.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 3.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/renegade_champion"
@@ -37,17 +48,17 @@ GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["killer_invulnerabl
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["chance"] = 0.00000
 GameData["ui_ext"]["speech_directory"] = "Speech\\Races\\Tau\\guevesa_ui"
 GameData["ui_ext"]["ui_hotkey_name"] = "guard_sergeant"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$56001641"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$56001642"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$56001643"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$56001644"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$56001645"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$56001646"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$56001647"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$56001648"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$56001649"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$56001651"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$56001652"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$56001653"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$56001654"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$56001655"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$56001656"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$56001657"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$56001658"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$56001659"
 GameData["ui_ext"]["ui_info"]["icon_name"] = "chaos_icons/aspiring_champion_icon"
-GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$56001640"
+GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$56001650"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

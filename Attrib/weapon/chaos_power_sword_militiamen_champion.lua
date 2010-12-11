@@ -4,10 +4,9 @@
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[weapon\chaos_chainsword.lua]])
-MetaData = InheritMeta([[weapon\chaos_chainsword.lua]])
+GameData = Inherit([[weapon\chaos_power_sword.lua]])
+MetaData = InheritMeta([[weapon\chaos_power_sword.lua]])
 
-GameData["accuracy"] = 0.50000
 GameData["area_effect"]["throw_data"]["force_max"] = 9.00000
 GameData["area_effect"]["throw_data"]["force_min"] = 3.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_02"]["armour_piercing_value"] = 0.00000

@@ -45,7 +45,7 @@ GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.37500
 GameData["health_ext"]["regeneration_rate"] = 0.75000
 GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 0.00000
-GameData["morale_add_ext"]["inc_morale_max"] = 140.00000
+GameData["morale_add_ext"]["inc_morale_max"] = 100.00000
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"]["structure_name"] = "ebps\\races\\chaos\\structures\\chaos_armoury.lua"
@@ -78,17 +78,17 @@ GameData["type_ext"]["type_armour_2"] = Reference([[type_armour\tp_infantry_high
 GameData["ui_ext"]["speech_directory"] = "Speech\\Races\\Guard\\Heavy_weapons_platoon"
 GameData["ui_ext"]["ui_hotkey_name"] = "guard_heavy_weapon"
 GameData["ui_ext"]["ui_index_hint"] = 7.00000
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$60002031"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$60002032"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$60002033"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$60002034"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$60002035"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$60002036"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$60002037"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$60002038"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$60002039"
-GameData["ui_ext"]["ui_info"]["icon_name"] = "guard_icons/guard_anti_tank_HQ"
-GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$60002030"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$56001621"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$56001622"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$56001623"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$56001624"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$56001625"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$56001626"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$56001627"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$56001628"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$56001629"
+GameData["ui_ext"]["ui_info"]["icon_name"] = "chaos_icons/renegade_militia_anti_tank"
+GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$56001620"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, rangeStart = 672650, rangeEnd = 672699, }

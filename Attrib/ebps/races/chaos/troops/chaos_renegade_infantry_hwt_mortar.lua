@@ -34,7 +34,7 @@ GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/renegade_mili
 GameData["health_ext"]["hitpoints"] = 300.00000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.37500
 GameData["health_ext"]["regeneration_rate"] = 0.75000
-GameData["morale_add_ext"]["inc_morale_max"] = 140.00000
+GameData["morale_add_ext"]["inc_morale_max"] = 100.00000
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"]["structure_name"] = "ebps\\races\\chaos\\structures\\chaos_armoury.lua"
@@ -67,17 +67,17 @@ GameData["type_ext"]["type_armour_2"] = Reference([[type_armour\tp_infantry_high
 GameData["ui_ext"]["speech_directory"] = "Speech\\Races\\Guard\\Heavy_weapons_platoon"
 GameData["ui_ext"]["ui_hotkey_name"] = "guard_heavy_weapon"
 GameData["ui_ext"]["ui_index_hint"] = 8.00000
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$60002041"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$60002042"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$60002043"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$60002044"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$60002045"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$60002046"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$60002047"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$60002048"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$60002049"
-GameData["ui_ext"]["ui_info"]["icon_name"] = "guard_icons/guard_mortar_HQ"
-GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$60002040"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$56001631"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$56001632"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$56001633"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$56001634"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$56001635"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$56001636"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$56001637"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$56001638"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$56001639"
+GameData["ui_ext"]["ui_info"]["icon_name"] = "chaos_icons/renegade_militia_mortar"
+GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$56001630"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, rangeStart = 672650, rangeEnd = 672699, }

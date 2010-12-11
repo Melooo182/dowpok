@@ -56,9 +56,9 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_knife_militiamen.lua"
 --GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 25.00000
 --GameData["cost_ext"]["time_cost"]["time_seconds"] = 3.00000
---Sarge cost added Fluffy leaders, 25x7 = 175+25 = 200/7 = 28.5715....
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 28.57150
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 2.8571
+--Sarge cost added Fluffy leaders, 30x7 = 210+60 = 270/7 = 28.5715....
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 38.57150
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 3.8571
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/renegade_militia"
 GameData["entity_blueprint_ext"]["scale_z"] = 0.00000
 GameData["health_ext"]["max_repairers"] = 0.00000
@@ -81,17 +81,17 @@ GameData["type_ext"]["type_armour_2"] = Reference([[type_armour\tp_infantry_high
 GameData["ui_ext"]["speech_directory"] = "Speech\\Races\\Tau\\guevesa_la"
 GameData["ui_ext"]["ui_hotkey_name"] = "guard_guardsmen"
 GameData["ui_ext"]["ui_index_hint"] = 6.00000
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$60002051"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$60002052"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$60002053"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$60002054"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$60002055"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$60002056"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$60002057"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$60002058"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$60002059"
-GameData["ui_ext"]["ui_info"]["icon_name"] = "guard_icons/guard_squad_guardsmen"
-GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$60002050"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$56001601"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$56001602"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$56001603"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$56001604"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$56001605"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$56001606"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$56001607"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$56001608"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$56001609"
+GameData["ui_ext"]["ui_info"]["icon_name"] = "chaos_icons/renegade_militia_squad"
+GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$56001600"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

@@ -11,11 +11,11 @@ GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Projectiles/Chaos_gr
 GameData["entity_blueprint_ext"]["scale_x"] = 0.07000
 GameData["entity_blueprint_ext"]["scale_y"] = 0.07000
 GameData["entity_blueprint_ext"]["scale_z"] = 0.25000
-GameData["projectile_ext"]["death_event_name"] = "Projectile_Fx/chaos_Missile_Impact"
-GameData["projectile_ext"]["artillery"]["is_artillery"] = false
+--GameData["projectile_ext"]["death_event_name"] = "Projectile_Fx/chaos_Missile_Impact"
+--GameData["projectile_ext"]["artillery"]["is_artillery"] = false
 GameData["projectile_ext"]["death_event_name"] = "Guard\\Weapons\\grenade_impact"
---GameData["projectile_ext"]["speed"] = 45.00000
-GameData["projectile_ext"]["speed"] = 65.00000
+GameData["projectile_ext"]["speed"] = 45.00000
+--GameData["projectile_ext"]["speed"] = 65.00000
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

@@ -13,27 +13,25 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["value"] = 1.00000
 GameData["duration_time"] = 9999999.99
-GameData["entity_busy_time"] = 5.00000
-GameData["initial_delay_time"] = 5.00000
+GameData["entity_busy_time"] = 1.50000
+GameData["initial_delay_time"] = 1.50000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["is_display_requirement"] = true
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\chaos\\structures\\chaos_armoury.lua"
-GameData["requirements"]["required_10"] = Reference([[requirements\global_required_addon.lua]])
-GameData["requirements"]["required_10"]["global_addon_name"] = "addons\\chaos_hq_addon_3.lua"
 GameData["fire_cost"]["power"] = 0.00000
-GameData["fire_cost"]["requisition"] = 50.00000
+GameData["fire_cost"]["requisition"] = 15.00000
 --3 = HWT
 GameData["recharge_timer_id"] = 3.00000
 GameData["recharge_time"] = 999999.99
 GameData["target_self"] = true
 GameData["ui_index_hint"] = 21.00000
-GameData["ui_info"]["help_text_list"]["text_01"] = "$56001677"
-GameData["ui_info"]["help_text_list"]["text_02"] = "$56001678"
-GameData["ui_info"]["help_text_list"]["text_03"] = "$56001679"
-GameData["ui_info"]["help_text_list"]["text_04"] = "$56001680"
-GameData["ui_info"]["help_text_list"]["text_05"] = "$56001681"
-GameData["ui_info"]["icon_name"] = "chaos_icons/upgrade_lascannon"
-GameData["ui_info"]["screen_name_id"] = "$56001676"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$60002781"
+GameData["ui_info"]["help_text_list"]["text_02"] = "$60002782"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$60002783"
+GameData["ui_info"]["help_text_list"]["text_04"] = "$60002784"
+GameData["ui_info"]["help_text_list"]["text_05"] = "$60002785"
+GameData["ui_info"]["icon_name"] = "chaos_icons/upgrade_heavy_bolter"
+GameData["ui_info"]["screen_name_id"] = "$60002780"
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, rangeStart = 665600, rangeEnd = 665649, }
 MetaData["$METACOLOURTAG"] = 

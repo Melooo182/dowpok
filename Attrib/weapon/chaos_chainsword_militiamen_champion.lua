@@ -1,14 +1,13 @@
 ----------------------------------------
--- File: 'weapon\chaos_grenade_launcher_krak.lua'
+-- File: 'weapon\chaos_knife_cultist.lua'
 -- Created by: AttributeEditor v2.0
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[weapon\chaos_grenade_launcher.lua]])
-MetaData = InheritMeta([[weapon\chaos_grenade_launcher.lua]])
+GameData = Inherit([[weapon\chaos_chainsword_militiamen_veteran.lua]])
+MetaData = InheritMeta([[weapon\chaos_chainsword_militiamen_veteran.lua]])
 
-GameData["cost"]["cost"]["requisition"] = 40.00000
-GameData["cost"]["time_seconds"] = 4.00000
+GameData["accuracy"] = 0.66000
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

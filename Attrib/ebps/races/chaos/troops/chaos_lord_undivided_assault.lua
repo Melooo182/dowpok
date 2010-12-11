@@ -12,7 +12,7 @@ GameData["spawner_ext"]["squad_table"]["squad_01"] = ""
 GameData["addon_ext"]["addons"]["addon_09"] = ""
 GameData["ability_ext"]["abilities"]["ability_09"] = "chaos_daemonic_essence_visual"
 
-GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["hardpoint_weapon_variant_motion_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_08"]["hardpoint_weapon_variant_motion_name"] = ""
 
 --Daemonic Flight/Raptor Jumppack
 GameData["combat_ext"]["hardpoints"]["hardpoint_11"]["hardpoint_weapon_variant_motion_name"] = "Wargear_Upgrade_01"

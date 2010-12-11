@@ -12,7 +12,7 @@ GameData["initial_delay_time"] = 1.00000
 GameData["fire_cost"]["requisition"] = 10.00000
 --1 = Sarge melee weapons, 2 = Sarge ranged weapons
 GameData["recharge_timer_id"] = 2.00000
-GameData["ui_index_hint"] = 25.00000
+GameData["ui_index_hint"] = 23.00000
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, rangeStart = 665600, rangeEnd = 665649, }
 MetaData["$METACOLOURTAG"] = 

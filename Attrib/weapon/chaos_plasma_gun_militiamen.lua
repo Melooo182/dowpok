@@ -9,9 +9,9 @@ MetaData = InheritMeta([[weapon\chaos_plasma_variants.lua]])
 
 GameData["accuracy"] = 0.50000
 GameData["accuracy_reduction_when_moving"] = 0.25000
-GameData["cost"]["cost"]["power"] = 15.00000
-GameData["cost"]["cost"]["requisition"] = 75.00000
-GameData["cost"]["time_seconds"] = 7.50000
+GameData["cost"]["cost"]["power"] = 10.00000
+GameData["cost"]["cost"]["requisition"] = 50.00000
+GameData["cost"]["time_seconds"] = 5.00000
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
