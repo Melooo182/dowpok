@@ -12,6 +12,7 @@ GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\eldar_skimmer_d
 GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\ability_vehicle_combat_speed_fast_skimmer.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\ability_enclosed_vehicle_keensight.lua"
 GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\eldar_flat_out_speed_skimmer.lua"
+GameData["ability_ext"]["abilities"]["ability_31"] = "abilities\\ability_fearless.lua"
 GameData["combat_ext"] = Reference([[ebpextensions\combat_ext.lua]])
 GameData["cover_ext"]["cover_blocking"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
 GameData["cover_ext"]["cover_blocking"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])

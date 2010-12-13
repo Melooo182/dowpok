@@ -14,6 +14,7 @@ GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\ability_enclose
 GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\tau_vehicle_blacksun_filter.lua"
 GameData["ability_ext"]["abilities"]["ability_14"] = "abilities\\tau_disruption_pod_upgrade.lua"
 GameData["ability_ext"]["abilities"]["ability_15"] = "abilities\\tau_skimmer_dmged_slow_decoy_launchers.lua"
+GameData["ability_ext"]["abilities"]["ability_31"] = "abilities\\ability_fearless.lua"
 
 --Skimmers
 GameData["cover_ext"]["cover_blocking"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])

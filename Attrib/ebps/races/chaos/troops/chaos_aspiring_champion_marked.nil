@@ -18,6 +18,7 @@ GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_melta_bom
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\chaos_upgrade_plasma_pistol_champion.lua"
 GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\chaos_upgrade_power_weapon_champion.lua"
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\chaos_upgrade_power_fist_champion.lua"
+GameData["ability_ext"]["abilities"]["ability_31"] = "abilities\\ability_fearless.lua"
 GameData["combat_ext"] = Reference([[ebpextensions\combat_ext.lua]])
 GameData["combat_ext"]["complex_upgrades"] = true
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"

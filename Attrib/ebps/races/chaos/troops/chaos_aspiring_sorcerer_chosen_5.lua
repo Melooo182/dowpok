@@ -10,7 +10,7 @@ MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_sorcerer.lua]])
 --GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_melta_bombs_aspiring.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\chaos_gift_of_chaos_aspiring.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = ""
-GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\chaos_icon_blasted_standard.lua"
+GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_icon_blasted_standard.lua"
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\ability_max_troopers.lua"
 
 GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])

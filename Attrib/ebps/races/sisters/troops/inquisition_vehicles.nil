@@ -12,6 +12,7 @@ GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\inquisition_smo
 GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\ability_heavy_tank_dmged_slow.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\ability_vehicle_combat_speed.lua"
 GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\ability_enclosed_vehicle_keensight.lua"
+GameData["ability_ext"]["abilities"]["ability_31"] = "abilities\\ability_fearless.lua"
 GameData["cover_ext"]["cover_blocking"]["modifiers"]["modifier_01"]["value"] = 0.50000
 GameData["cover_ext"]["cover_heavy"]["modifiers"]["modifier_01"]["value"] = 0.66000
 GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_01"]["value"] = 0.85000

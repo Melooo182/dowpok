@@ -19,7 +19,7 @@ GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_08"] = Refere
 GameData["squad_combat_stance_ext"]["ranged_attackrange"] = 72.00000
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\guard\\troops\\guard_vehicles_griffon.lua"
 
-GameData["squad_requirement_ext"]["requirements"]["required_1"]["global_addon_name"] = "addons\\addon_guard_hq_1.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_1"]["global_addon_name"] = "addons\\addon_guard_hq_2.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_10"]["structure_name"] = "ebps\\races\\guard\\structures\\guard_mechanized.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["structure_name"] = "ebps\\races\\guard\\structures\\guard_mechanized.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["max_squad_cap"] = 6.00000

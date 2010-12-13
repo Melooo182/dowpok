@@ -14,6 +14,7 @@ GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\ability_reinfor
 --GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\necron_mass_resurrection_spyder.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\ability_run.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
+GameData["ability_ext"]["abilities"]["ability_31"] = "abilities\\ability_fearless.lua"
 GameData["combat_ext"] = Reference([[ebpextensions\combat_ext.lua]])
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Melee_Upgrade_Right"

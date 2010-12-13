@@ -12,6 +12,7 @@ GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\necron_pariah_p
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\necron_pariah_soulless.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\ability_run.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
+GameData["ability_ext"]["abilities"]["ability_31"] = "abilities\\ability_fearless.lua"
 GameData["combat_ext"] = Reference([[ebpextensions\combat_ext.lua]])
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"

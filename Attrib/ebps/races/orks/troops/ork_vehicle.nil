@@ -12,6 +12,7 @@ GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\ability_heavy_t
 GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\ability_vehicle_combat_speed_fast.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\ability_enclosed_vehicle_keensight.lua"
 GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\ability_vehicle_flat_out_speed.lua"
+GameData["ability_ext"]["abilities"]["ability_31"] = "abilities\\ability_fearless.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["muzzle"]["y"] = 2.50000
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["origin"]["y"] = 2.50000
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["muzzle"]["y"] = 2.50000

@@ -35,7 +35,7 @@ GameData["possess_ext"]["squad_replacement_name"] = "space_marine_squad_chaplain
 
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\marines_digital_weapons_chaplain.lua"
-GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\ability_fearless.lua"
+GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\ability_fearless_squad.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\marines_run.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\marines_frag_grenades.lua"
 GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\marines_krak_grenades.lua"

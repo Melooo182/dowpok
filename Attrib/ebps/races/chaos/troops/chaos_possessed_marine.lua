@@ -12,6 +12,7 @@ GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_possessed_random_ability.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\chaos_mark_of_undivided.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\chaos_run.lua"
+GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\ability_fearless.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["ability_ext"]["abilities"]["ability_20"] = "abilities\\chaos_alpha_legion_infiltrate.lua"
 GameData["ability_ext"]["abilities"]["ability_21"] = "abilities\\chaos_night_lords_stealth.lua"

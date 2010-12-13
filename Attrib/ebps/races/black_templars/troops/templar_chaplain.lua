@@ -39,7 +39,7 @@ GameData["possess_ext"]["transfer_health_percentage"] = true
 GameData["possess_ext"]["squad_replacement_name"] = "templar_squad_chaplain_assault"
 
 --GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\templar_litanies_of_hate.lua"
-GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\ability_fearless.lua"
+GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\ability_fearless_squad.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\templar_righteous_zeal_chaplain.lua"
 GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\templar_frag_grenades.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\templar_krak_grenades.lua"

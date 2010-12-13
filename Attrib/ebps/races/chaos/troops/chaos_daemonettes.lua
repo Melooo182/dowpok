@@ -9,7 +9,6 @@ MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_daemons.nil]])
 
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_aura_of_acquiescence.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\chaos_fleet_of_foot_defiler.lua"
-GameData["ability_ext"]["abilities"]["ability_05"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Melee_Upgrade_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["horizontal_aim_motion_variable_name"] = ""

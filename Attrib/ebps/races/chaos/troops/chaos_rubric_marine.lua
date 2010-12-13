@@ -10,7 +10,7 @@ MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_marine_bolter_marked.nil]
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_sorcerer_commands.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\chaos_run.lua"
-GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\chaos_run_2.lua"
+GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\ability_fearless.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
 
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_bolter_tactical_inferno.lua"
