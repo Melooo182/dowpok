@@ -10,6 +10,14 @@ MetaData = InheritMeta([[sbps\races\squad.nil]])
 
 --GameData["squad_capture_strategic_point_ext"] = Reference([[sbpextensions\squad_capture_strategic_point_ext.lua]])
 --GameData["squad_capture_strategic_point_ext"]["able_to_capture"] = false
+
+GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_04"]["max_lifetime"] = 150.000000
+GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_04"]["modifier"] = Reference([[modifiers\enable_squad_reinforcement.lua]])
+GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_04"]["modifier"]["value"] = 2.000000
+GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_05"]["max_lifetime"] = 50.000000
+GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_05"]["modifier"] = Reference([[modifiers\enable_squad_upgrades.lua]])
+GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_05"]["modifier"]["value"] = 2.000000
+
 --[[GameData["squad_morale_ext"] = Reference([[sbpextensions\squad_morale_ext.lua]])
 GameData["squad_morale_ext"]["broken_modifiers"]["modifier_01"] = Reference([[modifiers\health_meleedamage_received_modifier.lua]])
 GameData["squad_morale_ext"]["broken_modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
@@ -38,7 +46,7 @@ GameData["squad_requirement_ext"]["requirements"]["required_8"] = Reference([[re
 GameData["squad_requirement_ext"]["requirements"]["required_8"]["structure_name"] = "ebps\\races\\chaos\\structures\\chaos_temple.lua"
 
 GameData["squad_reinforce_ext"] = Reference([[sbpextensions\squad_reinforce_ext.lua]])
-GameData["squad_reinforce_ext"]["in_combat_time_multiplier"] = 100.000000
+--GameData["squad_reinforce_ext"]["in_combat_time_multiplier"] = 100.000000
 GameData["squad_reinforce_ext"]["leader_event"] = "Unit_Upgrade_Morale_FX/reinforce_chaos_trooper"
 GameData["squad_reinforce_ext"]["trooper_event"] = "Unit_Upgrade_Morale_FX/reinforce_chaos_trooper"
 GameData["squad_reinforce_ext"]["weapon_event"] = "Unit_Upgrade_Morale_FX/Chaos_Weapon_Upgrade"

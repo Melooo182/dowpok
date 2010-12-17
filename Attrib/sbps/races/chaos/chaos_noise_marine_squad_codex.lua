@@ -7,6 +7,8 @@
 GameData = Inherit([[sbps\races\chaos\chaos_noise_marine_squad.lua]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_noise_marine_squad.lua]])
 
+GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 100.00000
+GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 10.00000
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_noise_champion_favoured.lua"
 GameData["squad_loadout_ext"]["unit_max"] = 20.00000
 GameData["squad_loadout_ext"]["unit_min"] = 5.00000

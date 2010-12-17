@@ -8,9 +8,9 @@ GameData = Inherit([[addons\addon.nil]])
 MetaData = InheritMeta([[addons\addon.nil]])
 
 GameData["add_on_motion_name"] = "addon_2"
-GameData["modifiers"]["modifier_01"] = Reference([[modifiers\garrison_requisition_modifier.lua]])
-GameData["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
-GameData["modifiers"]["modifier_01"]["value"] = 1.50000
+--GameData["modifiers"]["modifier_01"] = Reference([[modifiers\garrison_requisition_modifier.lua]])
+--GameData["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
+--GameData["modifiers"]["modifier_01"]["value"] = 1.50000
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\default_weapon_modifier_hardpoint1.lua]])
 GameData["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
 GameData["modifiers"]["modifier_02"]["value"] = 2.00000

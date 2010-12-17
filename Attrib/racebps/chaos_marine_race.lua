@@ -58,7 +58,7 @@ GameData["teamcolour_preview"]["entity_25"] = "chaos_bloodletters"
 GameData["teamcolour_preview"]["entity_26"] = "chaos_plaguebearer"
 GameData["teamcolour_preview"]["entity_27"] = "chaos_daemonettes"
 GameData["teamcolour_preview"]["entity_28"] = "chaos_horror"
-GameData["teamcolour_preview"]["entity_29"] = "ebps\\races\\chaos\\troops\\chaos_bloodthirster.lua"
+GameData["teamcolour_preview"]["entity_29"] = "ebps\\races\\chaos\\troops\\chaos_great_unclean_one.lua"
 GameData["teamcolour_preview"]["entity_30"] = "chaos_renegade_infantry_militiamen"
 GameData["teamcolour_preview"]["entity_31"] = "chaos_renegade_infantry_militiamen_sergeant"
 

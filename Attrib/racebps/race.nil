@@ -8,8 +8,8 @@ GameData = Inherit([[]])
 MetaData = InheritMeta([[]])
 
 GameData["income_cap"] = Reference([[tables\resource_table.lua]])
-GameData["income_cap"]["power"] = 15.00000
-GameData["income_cap"]["requisition"] = 25.00000
+GameData["income_cap"]["power"] = 25.00000
+GameData["income_cap"]["requisition"] = 50.00000
 GameData["possible_research"] = Reference([[tables\research_table.lua]])
 GameData["race_details"] = Reference([[tables\race_details_table.lua]])
 GameData["race_path"] = Reference([[tables\race_path.lua]])

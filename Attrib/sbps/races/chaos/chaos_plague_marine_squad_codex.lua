@@ -7,6 +7,8 @@
 GameData = Inherit([[sbps\races\chaos\chaos_plague_marine_squad.lua]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_plague_marine_squad.lua]])
 
+GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 115.00000
+GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 11.50000
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_plague_champion_favoured.lua"
 GameData["squad_leader_ext"]["leader_2"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_plague_marine_large.lua"
 GameData["squad_loadout_ext"]["unit_max"] = 19.00000

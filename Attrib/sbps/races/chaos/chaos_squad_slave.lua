@@ -9,7 +9,7 @@ MetaData = InheritMeta([[sbps\races\chaos\chaos_squad.nil]])
 
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\chaos\\troops\\chaos_slave.lua"
 GameData["squad_loadout_ext"]["unit_max"] = 3.00000
-GameData["squad_loadout_ext"]["unit_min"] = 1.00000
+GameData["squad_loadout_ext"]["unit_min"] = 3.00000
 GameData["squad_morale_ext"] = Reference([[sbpextensions\squad_morale_ext.lua]])
 GameData["squad_morale_ext"]["broken_min_morale"] = 100.00000
 GameData["squad_morale_ext"]["broken_min_time"] = 15.00000
