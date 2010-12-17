@@ -17,7 +17,7 @@ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 205.00000
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 1025.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 10.25000
 
-GameData["entity_blueprint_ext"]["animator"] = "Races/KWE/Troops/GUO"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/Great_Unclean_One"
 GameData["entity_blueprint_ext"]["scale_x"] = 1.50000
 GameData["entity_blueprint_ext"]["scale_z"] = 1.50000
 
@@ -166,7 +166,7 @@ GameData["special_attack_ext"]["special_attacks"]["special_attack_04"]["area_eff
 GameData["special_attack_ext"]["special_attacks"]["special_attack_04"]["area_effect"]["area_effect_information"]["filter_type"] = Reference([[type_areafilter\tp_area_filter_enemy.lua]])
 GameData["special_attack_ext"]["special_attacks"]["special_attack_04"]["area_effect"]["area_effect_information"]["radius"] = 9.00000
 GameData["special_attack_ext"]["special_attacks"]["special_attack_04"]["area_effect"]["sweeping_information"]["sweep_duration"] = 0.20000
-GameData["special_attack_ext"]["special_attacks"]["special_attack_04"]["area_effect"]["sweeping_information"]["sweep_type"] = Reference([[type_areasweep\tp_areasweep_in_to out.lua]])
+GameData["special_attack_ext"]["special_attacks"]["special_attack_04"]["area_effect"]["sweeping_information"]["sweep_type"] = Reference([[type_areasweep\tp_areasweep_in_to_out.lua]])
 GameData["special_attack_ext"]["special_attacks"]["special_attack_04"]["area_effect"]["throw_data"]["direction_angle_random"] = 3.00000
 GameData["special_attack_ext"]["special_attacks"]["special_attack_04"]["area_effect"]["throw_data"]["force_max"] = 35.00000
 GameData["special_attack_ext"]["special_attacks"]["special_attack_04"]["area_effect"]["throw_data"]["force_min"] = 28.00000
