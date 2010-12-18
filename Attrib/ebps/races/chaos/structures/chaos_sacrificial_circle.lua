@@ -47,6 +47,7 @@ GameData["requirement_ext"]["requirements"]["required_11"]["this_structure_count
 GameData["requirement_ext"]["requirements"]["required_2"]["global_addon_name"] = "addons\\chaos_hq_addon_1.lua"]]
 GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
 GameData["research_ext"]["research_table"]["research_01"] = "research\\chaos_bloodthirster_research.lua"
+GameData["research_ext"]["research_table"]["research_02"] = "research\\chaos_greatuncleanone_research.lua"
 GameData["sight_ext"]["sight_radius"] = 15.00000
 GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
 GameData["spawner_ext"]["squad_table"]["squad_01"] = "sbps\\races\\chaos\\chaos_squad_horror.lua"
