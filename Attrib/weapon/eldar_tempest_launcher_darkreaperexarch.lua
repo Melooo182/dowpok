@@ -38,7 +38,7 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"]
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"]["value"] = 0.50000
 GameData["fired_projectile"] = "eldar_tempest_projectile"
 GameData["max_range"] = 54.00000
-GameData["obey_terrain_line_of_sight"] = false
+--GameData["obey_terrain_line_of_sight"] = false
 
 --Fast Shot Included, Heavy2 is Heavy3
 GameData["reload_time"] = 1.00000

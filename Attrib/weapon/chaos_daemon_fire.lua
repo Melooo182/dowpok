@@ -37,7 +37,7 @@ GameData["fired_projectile"] = "chaos_daemon_fire_projectile"
 GameData["max_range"] = 27.00000
 GameData["max_traverse_left"] = -45.00000
 GameData["max_traverse_right"] = 45.00000
-GameData["obey_terrain_line_of_sight"] = true
+--GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 1.00000
 GameData["ui_effective_against"]["text_01"] = "$90104"
 

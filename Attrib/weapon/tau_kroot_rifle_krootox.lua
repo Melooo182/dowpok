@@ -27,7 +27,7 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "un
 GameData["max_range"] = 72.00000
 GameData["max_traverse_down"] = -20.00000
 GameData["max_traverse_up"] = 15.00000
-GameData["obey_terrain_line_of_sight"] = true
+--GameData["obey_terrain_line_of_sight"] = true
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

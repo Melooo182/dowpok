@@ -52,7 +52,7 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"]
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_percentage.lua]])
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"]["value"] = -0.50000
 GameData["max_range"] = 90.00000
-GameData["obey_terrain_line_of_sight"] = true
+--GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 3.00000
 GameData["ui_info"]["help_text_id"] = "$57000170"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$57000192"

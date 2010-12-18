@@ -251,7 +251,7 @@ GameData["synckill_ext"]["synckillinfos"]["synckillinfo_04"]["killer_invulnerabl
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_04"]["killer_motion_name"] = "SyncKill_4"
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_04"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 
-GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_tough_6_bt.lua]])
+GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_tough_6_daemon.lua]])
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Chaos_Marines/Bloodthirster"
 GameData["ui_ext"]["ui_hotkey_name"] = "chaos_bloodthirster"
 GameData["ui_ext"]["ui_index_hint"] = 5.00000

@@ -58,7 +58,7 @@ GameData["miss_events"]["dirtsand"] = "projectile_FX\\Tau_Rail_MIss_Impact"
 GameData["miss_events"]["grass"] = "projectile_FX\\Tau_Rail_MIss_Impact"
 GameData["miss_events"]["rock"] = "projectile_FX\\Tau_Rail_MIss_Impact"
 GameData["miss_events"]["water"] = "projectile_FX\\Tau_Rail_MIss_Impact"
-GameData["obey_terrain_line_of_sight"] = true
+--GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 6.00000
 
 

@@ -42,7 +42,7 @@ GameData["attack_priorities"]["priority_06"] = Reference([[type_armour\tp_buildi
 GameData["max_range"] = 54.00000
 GameData["max_traverse_down"] = -20.00000
 GameData["min_range"] = 5.00000
-GameData["obey_terrain_line_of_sight"] = true
+--GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 1.00000
 
 

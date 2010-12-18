@@ -78,7 +78,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_05"
 
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 75.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 7.50000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/HH_Chaos_Space_Marine"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/Chaos_Space_Marine_Codex"
 GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 1.00000
 GameData["moving_ext"]["speed_max"] = 16.00000

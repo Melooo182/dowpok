@@ -36,7 +36,7 @@ GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 18.00000
 GameData["max_traverse_down"] = -60.00000
 GameData["max_traverse_up"] = 40.00000
-GameData["obey_terrain_line_of_sight"] = true
+--GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 1.00000
 
 

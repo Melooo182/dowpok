@@ -42,7 +42,7 @@ GameData["miss_events"]["grass"] = "Ground_impact/Bolter_Medium_Miss_Grass"
 GameData["miss_events"]["rock"] = "Ground_impact/Bolter_Medium_Miss_Rock"
 GameData["miss_events"]["water"] = "Ground_impact/Bolter_Medium_Miss_Water"
 GameData["move_aim_to_home"] = false
-GameData["obey_terrain_line_of_sight"] = true
+--GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 0.75000
 GameData["ui_effective_against"]["text_01"] = "$90104"
 

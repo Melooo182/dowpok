@@ -39,7 +39,7 @@ GameData["miss_events"]["dirtsand"] = "Tau\\terrain_miss\\pulse_rifle_dirtsand"
 GameData["miss_events"]["grass"] = "Tau\\terrain_miss\\pulse_rifle_grass"
 GameData["miss_events"]["rock"] = "Tau\\terrain_miss\\pulse_rifle_rock"
 GameData["miss_events"]["water"] = "Tau\\terrain_miss\\pulse_rifle_water"
-GameData["obey_terrain_line_of_sight"] = true
+--GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 3.00000
 GameData["ui_info"]["icon_name"] = "tau_icons/tau_pulse_rifle_icon"
 

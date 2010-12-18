@@ -41,7 +41,7 @@ GameData["miss_events"]["dirtsand"] = "ground_impact/Bolter_Medium_Miss_Dirtsand
 GameData["miss_events"]["grass"] = "ground_impact/Bolter_Medium_Miss_Grass"
 GameData["miss_events"]["rock"] = "ground_impact/Bolter_Medium_Miss_Rock"
 GameData["miss_events"]["water"] = "ground_impact/Bolter_Medium_Miss_Water"
-GameData["obey_terrain_line_of_sight"] = true
+--GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 1.00000
 
 

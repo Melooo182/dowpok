@@ -70,7 +70,7 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"]
 GameData["can_attack_air_units"] = true
 GameData["fired_projectile"] = "eldar_missile"
 GameData["max_range"] = 72.00000
-GameData["obey_terrain_line_of_sight"] = true
+--GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 6.00000
 GameData["ui_hotkey_name"] = "eldar_missile_launcher"
 GameData["ui_info"]["help_text_id"] = "$57000106"

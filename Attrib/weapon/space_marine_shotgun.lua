@@ -30,7 +30,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 40.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 20.00000
 GameData["max_range"] = 18.00000
-GameData["obey_terrain_line_of_sight"] = true
+--GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 1.50000
 GameData["requirements"] = Reference([[tables\requirements.lua]])
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])

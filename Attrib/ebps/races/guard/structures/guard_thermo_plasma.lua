@@ -64,7 +64,7 @@ GameData["modifier_apply_ext"]["modifiers_immediate"]["modifier_01"]["usage_type
 GameData["modifier_apply_ext"]["modifiers_immediate"]["modifier_01"]["value"] = 1.0500000]]
 --GameData["modifier_apply_ext"]["modifiers_immediate"]["modifier_03"] = Reference([[modifiers\enable_armour_2.lua]])
 GameData["resource_ext"] = Reference([[ebpextensions\resource_ext.lua]])
-GameData["resource_ext"]["power_per_second"] = 1.50000
+GameData["resource_ext"]["power_per_second"] = 2.00000
 GameData["sight_ext"]["sight_radius"] = 15.00000
 GameData["structure_buildable_ext"]["build_menu_priority"] = 8.00000
 GameData["structure_buildable_ext"]["power_gift"] = 100.00000

@@ -7,7 +7,7 @@
 GameData = Inherit([[weapon\tau_shooting_weapons.nil]])
 MetaData = InheritMeta([[weapon\tau_shooting_weapons.nil]])
 
-GameData["obey_terrain_line_of_sight"] = true
+--GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 3.00000
 GameData["ui_effective_against"]["text_01"] = "$0"
 

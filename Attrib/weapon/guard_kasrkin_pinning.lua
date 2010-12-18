@@ -27,7 +27,7 @@ GameData["max_traverse_down"] = -60.00000
 GameData["max_traverse_left"] = -45.00000
 GameData["max_traverse_right"] = 45.00000
 GameData["max_traverse_up"] = 40.00000
-GameData["obey_terrain_line_of_sight"] = true
+--GameData["obey_terrain_line_of_sight"] = true
 -- Long reload time due of only being able to cause pinning once per battle in TT
 GameData["reload_time"] = 60.00000
 GameData["vertical_traverse_speed"] = 20.00000

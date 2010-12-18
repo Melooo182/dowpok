@@ -79,7 +79,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_05"
 
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 135.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 30.00000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/HH_Chaos_Space_Marine"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/Chaos_Space_Marine_Codex"
 GameData["health_ext"]["display_health_bar"] = true
 GameData["health_ext"]["hitpoints"] = 200.00000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.25000
