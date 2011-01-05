@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\space_marines\structures\space_marine_building.nil]])
 MetaData = InheritMeta([[ebps\races\space_marines\structures\space_marine_building.nil]])
 
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 375.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 375.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 50.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Structures/Progenitor_Temple"
 GameData["entity_blueprint_ext"]["scale_x"] = 4.00000

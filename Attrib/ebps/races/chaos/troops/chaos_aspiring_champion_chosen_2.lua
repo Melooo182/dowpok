@@ -14,6 +14,7 @@ GameData["ability_ext"]["abilities"]["ability_11"] = ""
 GameData["ability_ext"]["abilities"]["ability_12"] = ""
 GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\chaos_upgrade_power_weapon_champion_chosen.lua"
 GameData["ability_ext"]["abilities"]["ability_14"] = "abilities\\chaos_upgrade_power_fist_champion_chosen.lua"
+GameData["ability_ext"]["abilities"]["ability_20"] = ""
 
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"]["weapon"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_04"]["weapon"] = ""

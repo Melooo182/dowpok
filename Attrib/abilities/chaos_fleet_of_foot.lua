@@ -7,9 +7,9 @@
 GameData = Inherit([[abilities\ability_fleetoffoot.nil]])
 MetaData = InheritMeta([[abilities\ability_fleetoffoot.nil]])
 
-GameData["requirements"] = Reference([[tables\requirements.lua]])
-GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
-GameData["requirements"]["required_1"]["research_name"] = "research\\chaos_possessed_daemon_flight_research.lua"
+--GameData["requirements"] = Reference([[tables\requirements.lua]])
+--GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
+--GameData["requirements"]["required_1"]["research_name"] = "research\\chaos_possessed_daemon_flight_research.lua"
 GameData["speech_directory"] = "run"
 GameData["ui_info"]["help_text_id"] = "$92331"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$92332"

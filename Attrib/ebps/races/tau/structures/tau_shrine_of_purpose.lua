@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\tau\structures\tau_building.nil]])
 MetaData = InheritMeta([[ebps\races\tau\structures\tau_building.nil]])
 
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 600.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 600.00000
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 300.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 120.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Tau/Structures/Tau_Shrine_of_Purpose"

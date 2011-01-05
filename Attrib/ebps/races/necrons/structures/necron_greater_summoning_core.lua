@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\necrons\structures\necron_building.nil]])
 MetaData = InheritMeta([[ebps\races\necrons\structures\necron_building.nil]])
 
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 90.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Necrons/Structures/Necron_Greater_Summoning_Core"
 GameData["entity_blueprint_ext"]["scale_x"] = 3.00000

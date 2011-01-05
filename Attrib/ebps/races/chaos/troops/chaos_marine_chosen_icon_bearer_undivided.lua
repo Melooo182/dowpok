@@ -18,6 +18,7 @@ GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\chaos_upgrade_v
 GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\chaos_upgrade_visual_slaanesh.lua"
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\chaos_upgrade_visual_tzeentch.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\ability_infiltrate_chaos_chosen.lua"
+--GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\chaos_alpha_legion_infiltrate.lua"
 
 --GameData["combat_ext"]["complex_upgrades"] = true
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"

@@ -9,8 +9,9 @@ MetaData = InheritMeta([[sbps\races\chaos\chaos_squad_lord_marked.nil]])
 
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\chaos\\troops\\chaos_lord_khorne.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["research_name"] = "research\\mark_of_khorne.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_01"] = "sbps\\races\\chaos\\chaos_squad_lord.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_02"] = "sbps\\races\\chaos\\chaos_squad_lord.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_03"] = "sbps\\races\\chaos\\chaos_squad_lord_khorne_assault.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_02"] = "sbps\\races\\chaos\\chaos_squad_daemon_prince_khorne.lua"
+--~ GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_10"] = "sbps\\races\\chaos\\chaos_squad_daemon_prince_khorne_wings.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_4"]["research_name"] = "research\\mark_of_khorne.lua"
 GameData["squad_ui_ext"]["multi_select_priority"] = 1.00000
 GameData["squad_ui_ext"]["ui_info"]["help_text_id"] = "$97301"

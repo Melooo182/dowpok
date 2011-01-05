@@ -31,7 +31,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\ork_grot_knife.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\melee_slowdown_weapon.lua"
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 30.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 1.80000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 3.00000
 GameData["cover_ext"]["cover_heavy"]["modifiers"]["modifier_02"]["value"] = 1.00000
 GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_02"]["value"] = 1.00000
 GameData["cover_ext"]["cover_negative"]["modifiers"]["modifier_02"]["value"] = 1.00000

@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\eldar\troops\eldar_vehicle.nil]])
 MetaData = InheritMeta([[ebps\races\eldar\troops\eldar_vehicle.nil]])
 
-GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\ability_run_walkers.lua"
+GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\eldar_run_wraithlord.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\eldar_wraith_sight_random_wl.lua"
 GameData["ability_ext"]["abilities"]["ability_10"] = ""

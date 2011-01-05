@@ -94,7 +94,8 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_02"
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_02"]["origin"]["y"] = 4.53000
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_02"]["origin"]["z"] = -4.03000
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\ork_shoota_turret.lua"
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 100.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 150.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Orks/Structures/Settlement"
 GameData["entity_blueprint_ext"]["scale_x"] = 6.00000

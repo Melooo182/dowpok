@@ -9,8 +9,11 @@ MetaData = InheritMeta([[sbps\races\chaos\chaos_squad_lord_marked.nil]])
 
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\chaos\\troops\\chaos_lord_tzeentch.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["research_name"] = "research\\mark_of_tzeentch.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_02"] = "sbps\\races\\chaos\\chaos_squad_lord.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_03"] = "sbps\\races\\chaos\\chaos_squad_lord.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_03"] = "sbps\\races\\chaos\\chaos_squad_lord_tzeentch_assault.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_01"] = "sbps\\races\\chaos\\chaos_squad_sorcerer_tzeentch.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_02"] = "sbps\\races\\chaos\\chaos_squad_daemon_prince_tzeentch.lua"
+--~ GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_09"] = "sbps\\races\\chaos\\chaos_squad_sorcerer_tzeentch_assault.lua"
+--~ GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_10"] = "sbps\\races\\chaos\\chaos_squad_daemon_prince_tzeentch_wings.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_4"]["research_name"] = "research\\mark_of_tzeentch.lua"
 GameData["squad_ui_ext"]["ui_info"]["help_text_id"] = "$97381"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$56001471"

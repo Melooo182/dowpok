@@ -99,8 +99,8 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_12"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_12"]["weapon_table"]["weapon_01"]["muzzle"]["z"] = -0.75000
 GameData["combat_ext"]["hardpoints"]["hardpoint_12"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Guard_Heavy_Bolter"
 GameData["combat_ext"]["hardpoints"]["hardpoint_12"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_heavy_bolter_bunker_west.lua"
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 250.00000
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 50.00000
+--GameData["cost_ext"]["time_cost"]["cost"]["power"] = 250.00000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 100.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 45.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races\\Imperial_Guard\\Structures\\Guard_Infantry"
 GameData["entity_blueprint_ext"]["scale_x"] = 4.00000

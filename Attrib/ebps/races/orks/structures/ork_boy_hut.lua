@@ -34,8 +34,8 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["origin"]["y"] = 3.50000
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["origin"]["z"] = -0.50000
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\ork_shoota_turret.lua"
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 250.00000
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 10.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 250.00000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 100.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 40.00000
 GameData["deep_strike_ext"] = Reference([[ebpextensions\deep_strike_ext.lua]])
 GameData["deep_strike_ext"]["areaeffect_delay"] = 3.00000

@@ -28,6 +28,8 @@ GameData["health_ext"]["pre_death_event_delay"] = 3.93000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.25000
 GameData["health_ext"]["regeneration_rate"] = 0.50000
 
+--Beast&Cavalry Charge Range
+GameData["melee_ext"]["charge_range"] = 24.00000
 --Furious Charge, removed melee leap damage and added a modifier that increases damage in melee by 10
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"] = Reference([[modifiers\max_damage_weapon_modifier.lua]])
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])

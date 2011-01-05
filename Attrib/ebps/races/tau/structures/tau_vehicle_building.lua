@@ -9,7 +9,7 @@ MetaData = InheritMeta([[ebps\races\tau\structures\tau_building.nil]])
 
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\ability_reinforcement_aura_vehicles.lua"
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 45.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races\\Tau\\Structures\\Tau_Vehicle_Building"
 GameData["entity_blueprint_ext"]["scale_x"] = 5.00000

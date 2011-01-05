@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\necrons\structures\necron_building.nil]])
 MetaData = InheritMeta([[ebps\races\necrons\structures\necron_building.nil]])
 
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 75.00000
 GameData["deep_strike_ext"] = Reference([[ebpextensions\deep_strike_ext.lua]])
 GameData["deep_strike_ext"]["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])

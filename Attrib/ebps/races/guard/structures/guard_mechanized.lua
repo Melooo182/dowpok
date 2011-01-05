@@ -87,7 +87,8 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_12"]["shoot_motion_variable_name
 GameData["combat_ext"]["hardpoints"]["hardpoint_12"]["weapon_table"]["weapon_01"]["muzzle"]["z"] = -1.00000
 GameData["combat_ext"]["hardpoints"]["hardpoint_12"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Guard_Heavy_Bolter"
 GameData["combat_ext"]["hardpoints"]["hardpoint_12"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_heavy_bolter_bunker_west.lua"
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
+--GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 100.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 75.00000
 GameData["death_explosion_ext"] = Reference([[ebpextensions\death_explosion_ext.lua]])
 GameData["death_explosion_ext"]["chance"] = 1.00000

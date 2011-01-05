@@ -9,8 +9,11 @@ MetaData = InheritMeta([[sbps\races\chaos\chaos_squad_lord_marked.nil]])
 
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\chaos\\troops\\chaos_lord_nurgle.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["research_name"] = "research\\mark_of_nurgle.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_05"] = "sbps\\races\\chaos\\chaos_squad_lord.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_06"] = "sbps\\races\\chaos\\chaos_squad_lord.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_03"] = "sbps\\races\\chaos\\chaos_squad_lord_nurgle_assault.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_01"] = "sbps\\races\\chaos\\chaos_squad_sorcerer_nurgle.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_02"] = "sbps\\races\\chaos\\chaos_squad_daemon_prince_nurgle.lua"
+--~ GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_09"] = "sbps\\races\\chaos\\chaos_squad_sorcerer_nurgle_assault.lua"
+--~ GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_10"] = "sbps\\races\\chaos\\chaos_squad_daemon_prince_nurgle_wings.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_4"]["research_name"] = "research\\mark_of_nurgle.lua"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$56001211"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$56001212"

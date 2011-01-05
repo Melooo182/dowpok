@@ -22,8 +22,7 @@ GameData["squad_jump_ext"]["jump_time_max"] = 3.00000
 GameData["squad_jump_ext"]["setup_time"] = 0.40000
 GameData["squad_loadout_ext"]["cause_transformation"] = true
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\chaos\\troops\\chaos_lord_slaanesh_assault.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_08"] = "sbps\\races\\chaos\\chaos_squad_lord_slaanesh.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_25"] = "sbps\\races\\chaos\\chaos_squad_lord_slaanesh.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_03"] = "sbps\\races\\chaos\\chaos_squad_lord_slaanesh.lua"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

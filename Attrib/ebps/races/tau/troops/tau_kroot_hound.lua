@@ -35,9 +35,10 @@ GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_04"]["value"] = 10.0
 GameData["entity_blueprint_ext"]["animator"] = "Races/Tau/Troops/Kroot_Hounds"
 GameData["entity_blueprint_ext"]["scale_y"] = 0.50000
 GameData["health_ext"]["armour"] = 100.00000
-GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
-GameData["melee_ext"]["charge_range"] = 18.00000
-GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"
+
+--Beast&Cavalry Charge Range
+GameData["melee_ext"]["charge_range"] = 24.00000
+--[[GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"
 GameData["melee_ext"]["melee_leap_curve_ratio"] = 0.10000
 GameData["melee_ext"]["melee_leap_damage"] = 0.00000
 GameData["melee_ext"]["melee_leap_knock_down"]["direction_angle_random"] = 2.00000
@@ -50,7 +51,8 @@ GameData["melee_ext"]["melee_leap_min_distance"] = 10.00000
 GameData["melee_ext"]["melee_leap_min_time_separation"] = 40.00000
 GameData["melee_ext"]["melee_leap_speed"] = 15.00000
 GameData["melee_ext"]["melee_leap_target_pos_offset"] = 0.50000
-GameData["melee_ext"]["melee_leap_tendency"] = 0.30000
+GameData["melee_ext"]["melee_leap_tendency"] = 0.30000]]
+
 GameData["moving_ext"]["acceleration_time"] = 0.20000
 GameData["moving_ext"]["deceleration_time"] = 0.10000
 GameData["moving_ext"]["rotation_rate"] = 600.00000

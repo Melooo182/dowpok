@@ -21,8 +21,8 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["origin"]["y"] = 5.76000
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["origin"]["z"] = 0.21000
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\ork_shoota_turret.lua"
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 20.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 100.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 75.00000
 GameData["death_explosion_ext"] = Reference([[ebpextensions\death_explosion_ext.lua]])
 GameData["death_explosion_ext"]["chance"] = 1.00000

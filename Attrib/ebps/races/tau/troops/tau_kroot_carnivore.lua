@@ -36,7 +36,7 @@ GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_04"]["value"] = 10.0
 
 GameData["entity_blueprint_ext"]["animator"] = "Races/Tau/Troops/Kroot_Warrior"
 GameData["health_ext"]["armour"] = 100.00000
-GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
+--[[GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 GameData["melee_ext"]["charge_range"] = 15.00000
 GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"
 GameData["melee_ext"]["melee_leap_curve_ratio"] = 0.20000
@@ -51,7 +51,7 @@ GameData["melee_ext"]["melee_leap_min_distance"] = 10.00000
 GameData["melee_ext"]["melee_leap_min_time_separation"] = 40.00000
 GameData["melee_ext"]["melee_leap_speed"] = 18.00000
 GameData["melee_ext"]["melee_leap_target_pos_offset"] = 1.00000
-GameData["melee_ext"]["melee_leap_tendency"] = 1.00000
+GameData["melee_ext"]["melee_leap_tendency"] = 1.00000]]
 GameData["moving_ext"]["speed_max"] = 16.00000
 GameData["sim_entity_ext"]["is_collide"] = true
 GameData["syncdeath_ext"] = Reference([[ebpextensions\syncdeath_ext.lua]])

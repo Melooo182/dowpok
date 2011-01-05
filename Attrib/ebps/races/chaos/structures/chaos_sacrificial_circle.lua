@@ -9,7 +9,7 @@ MetaData = InheritMeta([[ebps\races\chaos\structures\chaos_building.nil]])
 
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_taint_ability.lua"
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
+--GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 75.00000
 GameData["deep_strike_ext"] = Reference([[ebpextensions\deep_strike_ext.lua]])
 --GameData["deep_strike_ext"]["click_event"] = "order_confirm_events/deep_strike"

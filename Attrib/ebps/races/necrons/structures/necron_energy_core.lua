@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\necrons\structures\necron_building.nil]])
 MetaData = InheritMeta([[ebps\races\necrons\structures\necron_building.nil]])
 
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 225.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 225.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 50.00000
 GameData["death_explosion_ext"] = Reference([[ebpextensions\death_explosion_ext.lua]])
 GameData["death_explosion_ext"]["chance"] = 1.00000

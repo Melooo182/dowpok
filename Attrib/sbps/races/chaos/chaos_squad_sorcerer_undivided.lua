@@ -7,8 +7,11 @@
 GameData = Inherit([[sbps\races\chaos\chaos_squad_sorcerer_marked.nil]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_squad_sorcerer_marked.nil]])
 
-GameData["squad_requirement_ext"]["requirements"]["required_1"]["squad_table"]["squad_04"] = "sbps\\races\\chaos\\chaos_squad_sorcerer.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_16"] = "sbps\\races\\chaos\\chaos_squad_sorcerer.lua"
+--~ GameData["squad_requirement_ext"]["requirements"]["required_1"]["squad_table"]["squad_01"] = "sbps\\races\\chaos\\chaos_squad_sorcerer_undivided_assault.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_01"] = "sbps\\races\\chaos\\chaos_squad_lord_undivided.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_02"] = "sbps\\races\\chaos\\chaos_squad_lord_undivided_assault.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_03"] = "sbps\\races\\chaos\\chaos_squad_daemon_prince_undivided.lua"
+--~ GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_05"] = "sbps\\races\\chaos\\chaos_squad_daemon_prince_undivided_wings.lua"
 GameData["squad_ui_ext"]["ui_info"]["help_text_id"] = "$97381"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$56001421"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$56001422"

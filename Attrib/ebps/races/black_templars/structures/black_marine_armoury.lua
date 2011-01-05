@@ -9,7 +9,7 @@ MetaData = InheritMeta([[ebps\races\space_marines\structures\space_marine_buildi
 
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\ability_reinforcement_aura_upgrades_only.lua"
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 225.00000
+--GameData["cost_ext"]["time_cost"]["cost"]["power"] = 225.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 50.00000
 GameData["death_explosion_ext"] = Reference([[ebpextensions\death_explosion_ext.lua]])
 GameData["death_explosion_ext"]["chance"] = 1.00000

@@ -13,7 +13,7 @@ GameData["addon_ext"]["addons"]["addon_02"] = "addons\\eldar_farseer_ability_res
 GameData["addon_ext"]["addons"]["addon_03"] = "addons\\eldar_farseer_ability_research_3.lua"
 GameData["addon_ext"]["addons"]["addon_04"] = "addons\\eldar_farseer_ability_research_4.lua"]]
 
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 225.00000
+--GameData["cost_ext"]["time_cost"]["cost"]["power"] = 225.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 50.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Eldar/Structures/soul_shrine"
 GameData["entity_blueprint_ext"]["scale_y"] = 3.00000

@@ -18,7 +18,7 @@ GameData["area_effect"]["area_effect_information"]["target_filter"]["entry_08"] 
 GameData["area_effect"]["area_effect_information"]["target_filter"]["entry_09"] = Reference([[type_armour\tp_invuln_3_5.lua]])
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["damage_reduction_when_moving"] = 0.00000
 GameData["horizontal_traverse_speed"] = 180.00000
-GameData["reload_time"] = 1.00000
+GameData["reload_time"] = 0.50000 --3 lasgun per firing port
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
