@@ -12,7 +12,7 @@ GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_breath_of
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "guosword"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_greatuncleanone_melee.lua"
 
---Bloodthirster 160pts + 15pts Unholy Might(S7) + 30pts Breath of Chaos = 205pts x5 = 1025req
+--Great Unclean One 160pts + 15pts Unholy Might(S7) + 30pts Breath of Chaos = 205pts x5 = 1025req
 GameData["cost_ext"]["time_cost"]["cost"]["power"] = 205.00000
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 1025.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 10.25000
@@ -23,8 +23,11 @@ GameData["entity_blueprint_ext"]["scale_z"] = 1.50000
 
 --GameData["health_ext"]["damage_dealt_regeneration_factor"] = 0.50000
 GameData["health_ext"]["hitpoints"] = 1500.00000 --T6xW5
-GameData["health_ext"]["regeneration_decrease_in_combat"] = 1.87500
-GameData["health_ext"]["regeneration_rate"] = 3.75000
+--~ GameData["health_ext"]["regeneration_decrease_in_combat"] = 1.87500
+--~ GameData["health_ext"]["regeneration_rate"] = 3.75000
+--Eternal Warrior, No regen decrease in combat, regen x2
+GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.00000
+GameData["health_ext"]["regeneration_rate"] = 7.50000
 --Slow and Purposeful
 GameData["moving_ext"]["speed_max"] = 12.00000
 

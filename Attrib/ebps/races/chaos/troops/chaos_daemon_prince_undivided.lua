@@ -65,8 +65,13 @@ GameData["health_ext"]["display_health_bar"] = true
 GameData["health_ext"]["hitpoints"] = 1000.00000
 GameData["health_ext"]["post_death_event_delay"] = 2.00000
 GameData["health_ext"]["pre_death_event_delay"] = 7.30000
-GameData["health_ext"]["regeneration_decrease_in_combat"] = 1.25000
-GameData["health_ext"]["regeneration_rate"] = 2.50000
+
+--~ GameData["health_ext"]["regeneration_decrease_in_combat"] = 1.25000
+--~ GameData["health_ext"]["regeneration_rate"] = 2.50000
+--Eternal Warrior, No regen decrease in combat, regen x2
+GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.00000
+GameData["health_ext"]["regeneration_rate"] = 5.00000
+
 GameData["health_ext"]["spawn_on_death"] = "ebps\\environment\\gameplay\\dead_daemon_prince.lua"
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 GameData["moving_ext"]["speed_max"] = 16.00000

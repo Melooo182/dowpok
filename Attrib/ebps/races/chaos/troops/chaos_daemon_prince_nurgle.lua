@@ -19,8 +19,13 @@ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 650.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 65.00000
 
 GameData["health_ext"]["hitpoints"] = 1200.00000
-GameData["health_ext"]["regeneration_decrease_in_combat"] = 1.50000
-GameData["health_ext"]["regeneration_rate"] = 3.00000
+
+--~ GameData["health_ext"]["regeneration_decrease_in_combat"] = 1.50000
+--~ GameData["health_ext"]["regeneration_rate"] = 3.00000
+--Eternal Warrior, No regen decrease in combat, regen x2
+GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.00000
+GameData["health_ext"]["regeneration_rate"] = 6.00000
+
 
 --T6xW4
 GameData["special_attack_physics_ext"]["mass"] = 24.00000
