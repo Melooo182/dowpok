@@ -138,7 +138,6 @@ GameData["health_ext"]["regeneration_rate"] = 0.75000
 GameData["health_ext"]["spawn_on_death"] = "ebps\\environment\\gameplay\\dead_ethereal.lua"
 GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 1.00000
-GameData["moving_ext"]["speed_max"] = 16.00000
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_squad.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"]["min_count"] = 20.00000

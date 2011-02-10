@@ -129,7 +129,6 @@ GameData["health_ext"]["morale_death"] = 200.00000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
 GameData["health_ext"]["regeneration_rate"] = 1.00000
 GameData["morale_add_ext"]["inc_morale_rate"] = 10.00000
-GameData["moving_ext"]["speed_max"] = 16.00000
 
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_cap.lua]])

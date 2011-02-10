@@ -23,7 +23,7 @@ GameData["event_manager_ext"]["event_23"]["event_entry_01"]["event_name"] = "nec
 GameData["event_manager_ext"]["event_23"]["modifier_name"] = "ability_souless_strike_event"
 GameData["health_ext"]["death_event"] = "unit_death_events/sink_into_ground"
 GameData["infiltration_ext"] = Reference([[ebpextensions\infiltration_ext.lua]])
-GameData["moving_ext"]["speed_max"] = 16.00000
+GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["sim_entity_ext"]["is_collide"] = true
 
 --T4

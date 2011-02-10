@@ -43,7 +43,6 @@ GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifie
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = 1.00000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"] = Reference([[modifiers\population_growth_rate_player_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = 0.00700
-GameData["moving_ext"]["speed_max"] = 16.00000
 GameData["special_attack_physics_ext"]["get_up_time"] = 2.03000
 GameData["syncdeath_ext"] = Reference([[ebpextensions\syncdeath_ext.lua]])
 GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_01"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])

@@ -56,7 +56,6 @@ GameData["morale_add_ext"]["inc_morale_max"] = 70.00000
 GameData["moving_ext"]["acceleration_time"] = 0.25000
 GameData["moving_ext"]["deceleration_time"] = 0.15000
 GameData["moving_ext"]["rotation_rate"] = 40.00000
-GameData["moving_ext"]["speed_max"] = 16.00000
 GameData["moving_ext"]["turning_behavior_template"] = "infantry"
 GameData["sight_ext"]["keen_sight_radius"] = 9.00000
 GameData["sight_ext"]["sight_radius"] = 25.00000

@@ -32,7 +32,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 GameData["entity_blueprint_ext"]["animator"] = "Races/Necrons/Troops/Necron_Immortal"
 GameData["health_ext"]["hitpoints"] = 250.00000
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
-GameData["moving_ext"]["speed_max"] = 16.00000
+GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["moving_ext"]["turning_behavior_template"] = "infantry"
 GameData["special_attack_physics_ext"]["get_up_time"] = 6.07000
 --T5

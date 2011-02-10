@@ -22,8 +22,8 @@ GameData["health_ext"]["hitpoints"] = 1200.00000
 
 --~ GameData["health_ext"]["regeneration_decrease_in_combat"] = 1.50000
 --~ GameData["health_ext"]["regeneration_rate"] = 3.00000
---Eternal Warrior, No regen decrease in combat, regen x2
-GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.00000
+--Eternal Warrior, regen x2
+GameData["health_ext"]["regeneration_decrease_in_combat"] = 3.00000
 GameData["health_ext"]["regeneration_rate"] = 6.00000
 
 

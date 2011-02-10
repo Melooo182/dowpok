@@ -56,7 +56,8 @@ GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["chanc
 GameData["entity_blueprint_ext"]["animator"] = "Races/inquisition/Troops/Inquisition_eversor_assassin_codex"
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\enable_charge_modifiers.lua]])
 GameData["charge_range"] = 24.00000
-GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 1.75000
+GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
+GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.00000
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_01"]["value"] = 0.00000
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_03"]["value"] = 0.00000
 GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"

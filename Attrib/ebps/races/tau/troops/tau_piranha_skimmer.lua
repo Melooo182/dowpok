@@ -93,7 +93,6 @@ GameData["modifier_apply_ext"]["modifiers"]["modifier_04"] = Reference([[modifie
 
 GameData["moving_ext"]["corner_anticipation_time"] = 0.80000
 GameData["moving_ext"]["rotation_rate"] = 240.00000
-GameData["moving_ext"]["speed_max"] = 17.50000
 GameData["sight_ext"]["keen_sight_radius"] = 9.00000
 GameData["sim_entity_ext"]["is_collide"] = true
 

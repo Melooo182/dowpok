@@ -29,12 +29,12 @@ GameData["cost_ext"]["time_cost"]["time_seconds"] = 17.00000
 
 GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/Terminator_sergeant_codex"
 GameData["health_ext"]["display_health_bar"] = true
-GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 1.20000
-GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 1.20000
+--GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 1.20000
+--GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 1.20000
 GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 1.00000
 GameData["morale_add_ext"]["inc_morale_max"] = 90.00000
-GameData["moving_ext"]["speed_max"] = 15.00000
+GameData["moving_ext"]["speed_max"] = 11.00000
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"]["structure_name"] = "ebps\\races\\space_marines\\structures\\space_marine_barracks.lua"

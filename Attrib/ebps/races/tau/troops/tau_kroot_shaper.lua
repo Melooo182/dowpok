@@ -62,7 +62,6 @@ GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
 GameData["morale_add_ext"]["inc_morale_max"] = 80.00000
 GameData["morale_add_ext"]["inc_morale_rate"] = 1.00000
-GameData["moving_ext"]["speed_max"] = 16.00000
 GameData["sim_entity_ext"]["is_collide"] = true
 GameData["special_attack_physics_ext"]["get_up_time"] = 2.80000
 GameData["syncdeath_ext"] = Reference([[ebpextensions\syncdeath_ext.lua]])

@@ -8,6 +8,8 @@ GameData = Inherit([[ebps\races\chaos\troops\chaos_aspiring_sorcerer.lua]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_sorcerer.lua]])
 
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\chaos_bolt_of_change_aspiring.lua"
+GameData["ability_ext"]["abilities"]["ability_03"] = ""
+GameData["ability_ext"]["abilities"]["ability_07"] = ""
 GameData["requirement_ext"]["requirements"]["required_2"] = Reference([[requirements\global_required_addon.lua]])
 GameData["requirement_ext"]["requirements"]["required_2"]["global_addon_name"] = "addons\\chaos_hq_addon_1.lua"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$56000951"

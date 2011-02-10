@@ -43,7 +43,7 @@ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 125.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 12.50000
 
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/Chaos_icon_bearer"
-GameData["moving_ext"]["speed_max"] = 16.00000
+GameData["moving_ext"]["speed_max"] = 12.00000
 
 GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
 

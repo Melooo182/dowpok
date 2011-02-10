@@ -74,7 +74,6 @@ GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = 0.95000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"] = Reference([[modifiers\income_requisition_player_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = 0.95000]]
 GameData["morale_add_ext"]["inc_morale_max"] = 80.00000
-GameData["moving_ext"]["speed_max"] = 16.00000
 GameData["sight_ext"]["keen_sight_radius"] = 15.00000
 GameData["special_attack_physics_ext"]["get_up_time"] = 0.00000
 GameData["special_attack_physics_ext"]["mass"] = 8.00000

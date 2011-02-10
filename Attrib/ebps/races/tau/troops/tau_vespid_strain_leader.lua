@@ -12,7 +12,6 @@ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 20.00000
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 100.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Tau/Troops/Vespid_Strain_Leader"
 GameData["health_ext"]["display_health_bar"] = true
-GameData["health_ext"]["armour_minimum"] = 15.00000
 GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
 GameData["morale_add_ext"]["inc_morale_max"] = 90.00000
 GameData["morale_add_ext"]["inc_morale_rate"] = 3.00000

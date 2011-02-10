@@ -11,7 +11,7 @@ MetaData = InheritMeta([[sbps\races\squad.nil]])
 --GameData["squad_capture_strategic_point_ext"] = Reference([[sbpextensions\squad_capture_strategic_point_ext.lua]])
 --GameData["squad_capture_strategic_point_ext"]["able_to_capture"] = false
 
-GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_04"]["max_lifetime"] = 150.000000
+GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_04"]["max_lifetime"] = 50.000000
 GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_04"]["modifier"] = Reference([[modifiers\enable_squad_reinforcement.lua]])
 GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_04"]["modifier"]["value"] = 2.000000
 GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_05"]["max_lifetime"] = 50.000000

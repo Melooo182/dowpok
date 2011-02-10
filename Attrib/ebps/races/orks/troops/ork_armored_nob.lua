@@ -36,7 +36,7 @@ GameData["melee_ext"]["melee_leap_knock_down"]["force_max"] = 12.00000
 GameData["melee_ext"]["melee_leap_knock_down"]["force_min"] = 4.00000
 GameData["melee_ext"]["melee_leap_speed"] = 5.00000
 
-GameData["moving_ext"]["speed_max"] = 12.00000
+GameData["moving_ext"]["speed_max"] = 9.00000
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"]["research_name"] = "research\\ork_research_da_big_waagh.lua"

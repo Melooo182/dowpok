@@ -19,8 +19,12 @@ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 80.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 8.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/HH_chaos_bloodletter"
 GameData["health_ext"]["hitpoints"] = 200.00000
+
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.25000
 GameData["health_ext"]["regeneration_rate"] = 0.50000
+--~ --Eternal Warrior, regen x2
+--~ GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
+--~ GameData["health_ext"]["regeneration_rate"] = 1.00000
 
 --Furious Charge, removed melee leap damage and added a modifier that increases damage in melee by 10
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"] = Reference([[modifiers\max_damage_weapon_modifier.lua]])

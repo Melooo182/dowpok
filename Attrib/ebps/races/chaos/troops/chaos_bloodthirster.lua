@@ -25,12 +25,13 @@ GameData["entity_blueprint_ext"]["scale_z"] = 1.50000
 GameData["health_ext"]["hitpoints"] = 1200.00000
 --~ GameData["health_ext"]["regeneration_decrease_in_combat"] = 1.50000
 --~ GameData["health_ext"]["regeneration_rate"] = 3.00000
---Eternal Warrior, No regen decrease in combat, regen x2
-GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.00000
+--Eternal Warrior, regen x2
+GameData["health_ext"]["regeneration_decrease_in_combat"] = 3.00000
 GameData["health_ext"]["regeneration_rate"] = 6.00000
 
 --Wings/Jumppack
-GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 1.10000
+GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
+GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.00000
 
 --Furious Charge
 GameData["melee_ext"]["melee_leap_curve_ratio"] = 0.01000
@@ -48,7 +49,7 @@ GameData["melee_ext"]["melee_leap_target_pos_offset"] = 2.50000
 GameData["melee_ext"]["melee_leap_tendency"] = 1.00000
 
 --Wings/Jumppack speed
-GameData["moving_ext"]["speed_max"] = 28.00000
+GameData["moving_ext"]["speed_max"] = 12.00000
 
 GameData["special_attack_ext"] = Reference([[ebpextensions\special_attack_ext.lua]])
 GameData["special_attack_ext"]["special_attacks"]["special_attack_01"]["area_effect"]["area_effect_information"]["angle_left"] = -30.00000

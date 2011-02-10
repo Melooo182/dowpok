@@ -20,9 +20,15 @@ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 75.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 7.50000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/HH_Chaos_Screamer_Of_Tzeentch"
 GameData["health_ext"]["hitpoints"] = 200.00000
+
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.25000
 GameData["health_ext"]["regeneration_rate"] = 0.50000
-GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 1.10000
+--~ --Eternal Warrior, regen x2
+--~ GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
+--~ GameData["health_ext"]["regeneration_rate"] = 1.00000
+
+GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
+GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.00000
 GameData["melee_ext"]["melee_leap_action_name"] = "Feral_Leap"
 GameData["melee_ext"]["melee_leap_curve_ratio"] = 0.30000
 GameData["melee_ext"]["melee_leap_knock_down"]["force_max"] = 25.00000
@@ -33,10 +39,10 @@ GameData["melee_ext"]["melee_leap_knock_down_max_distance"] = 10.00000
 GameData["melee_ext"]["melee_leap_max_target_mass"] = 25.00000
 GameData["melee_ext"]["melee_leap_min_distance"] = 5.00000
 GameData["melee_ext"]["melee_leap_min_time_separation"] = 80.00000
-GameData["melee_ext"]["melee_leap_speed"] = 24.00000
+GameData["melee_ext"]["melee_leap_speed"] = 20.00000
 GameData["melee_ext"]["melee_leap_target_pos_offset"] = 2.50000
 GameData["melee_ext"]["melee_leap_tendency"] = 1.00000
-GameData["moving_ext"]["speed_max"] = 28.00000
+GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])
 GameData["spawn_ext"]["oncreate_motion_duration"] = 1.03000
 GameData["spawn_ext"]["oncreate_motion_name"] = "spawn"

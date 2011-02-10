@@ -8,7 +8,7 @@ GameData = Inherit([[ebps\races\necrons\troops\necron_vehicles.nil]])
 MetaData = InheritMeta([[ebps\races\necrons\troops\necron_vehicles.nil]])
 
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
-GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\necron_turbo_boost.lua"
+GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\necron_turbo_boost_swarm.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["combat_ext"] = Reference([[ebpextensions\combat_ext.lua]])
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = ""
@@ -52,7 +52,7 @@ GameData["moving_ext"]["acceleration_time"] = 0.70000
 GameData["moving_ext"]["corner_anticipation_time"] = 0.80000
 GameData["moving_ext"]["deceleration_time"] = 0.70000
 GameData["moving_ext"]["rotation_rate"] = 120.00000
-GameData["moving_ext"]["speed_max"] = 28.00000
+GameData["moving_ext"]["speed_max"] = 24.00000
 GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])
 GameData["spawn_ext"]["oncreate_event_name"] = "Necron/abilities/necron_teleportation"
 --T3

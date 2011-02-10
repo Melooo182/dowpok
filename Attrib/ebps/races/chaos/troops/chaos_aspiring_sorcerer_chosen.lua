@@ -8,6 +8,7 @@ GameData = Inherit([[ebps\races\chaos\troops\chaos_aspiring_sorcerer.lua]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_sorcerer.lua]])
 
 --GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_melta_bombs_aspiring.lua"
+GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\chaos_doombolt_aspiring.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = ""
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\ability_max_leaders.lua"
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_icon_blasted_standard.lua"
@@ -22,7 +23,7 @@ GameData["cost_ext"]["time_cost"]["time_seconds"] = 35.00000
 
 GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 0.00000
-GameData["moving_ext"]["speed_max"] = 16.00000
+GameData["moving_ext"]["speed_max"] = 12.00000
 
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$56000931"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$56000932"

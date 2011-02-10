@@ -83,7 +83,6 @@ GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.56250
 GameData["health_ext"]["regeneration_rate"] = 1.12500
 GameData["infiltration_ext"]["enemy_infiltrate_opacity"] = 0.10000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_04"] = Reference([[modifiers\ability_tau_shield_event.lua]])
-GameData["moving_ext"]["speed_max"] = 16.00000
 GameData["sight_ext"]["sight_radius"] = 25.00000
 GameData["sight_ext"]["keen_sight_radius"] = 15.00000
 GameData["special_attack_ext"] = Reference([[ebpextensions\special_attack_ext.lua]])

@@ -23,11 +23,12 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["shoot_motion_variable_name
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["vertical_aim_motion_variable_name"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = ""
 
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 115.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 11.50000
+--Rubric Marine 23pts x4 = 92pts + Asp.Sorc 85pts = 177pts x5 = 885req /4 = 221.25req
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 221.25000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 22.12500
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/rubric_marine"
 --Slow and Purposeful
-GameData["moving_ext"]["speed_max"] = 8.00000
+GameData["moving_ext"]["speed_max"] = 6.00000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["chance"] = 2.00000

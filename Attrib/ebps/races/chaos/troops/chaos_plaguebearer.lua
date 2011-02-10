@@ -21,15 +21,20 @@ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 75.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 7.50000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/HH_Chaos_Plague_Bearer"
 GameData["health_ext"]["hitpoints"] = 250.00000
+
 GameData["health_ext"]["post_death_event_delay"] = 0.31250
 GameData["health_ext"]["regeneration_rate"] = 0.62500
+--~ --Eternal Warrior, regen x2
+--~ GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.62500
+--~ GameData["health_ext"]["regeneration_rate"] = 1.25000
+
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\health_rangedamage_received_1_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -9.90000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"] = Reference([[modifiers\health_meleedamage_received_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = -9.90000
-GameData["moving_ext"]["speed_max"] = 12.00000 --Slow and Purposeful
+GameData["moving_ext"]["speed_max"] = 9.00000 --Slow and Purposeful
 GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])
 GameData["spawn_ext"]["oncreate_motion_duration"] = 3.03000
 GameData["spawn_ext"]["oncreate_motion_name"] = "spawn"

@@ -66,7 +66,7 @@ GameData["mob_ext"]["mob_value"] = 1.00000
 GameData["moving_ext"]["corner_anticipation_time"] = 0.80000
 GameData["moving_ext"]["rotation_rate"] = 240.00000
 -- 1.125x scout rule
-GameData["moving_ext"]["speed_max"] = 19.68750
+GameData["moving_ext"]["speed_max"] = 22.50000
 GameData["sight_ext"]["keen_sight_radius"] = 9.00000
 GameData["sight_ext"]["sight_radius"] = 45.00000
 GameData["sim_entity_ext"]["is_collide"] = true

@@ -24,7 +24,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"
 GameData["entity_blueprint_ext"]["animator"] = "Races/Necrons/Troops/Flayed_One"
 GameData["health_ext"]["hitpoints"] = 200.00000
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
-GameData["moving_ext"]["speed_max"] = 16.00000
+GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["moving_ext"]["turning_behavior_template"] = "infantry"
 GameData["syncdeath_ext"] = Reference([[ebpextensions\syncdeath_ext.lua]])
 GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_01"]["dead_motion_name"] = "SyncDeath_4"

@@ -49,7 +49,7 @@ GameData["melee_ext"]["melee_leap_target_pos_offset"] = 2.50000
 GameData["melee_ext"]["melee_leap_tendency"] = 1.00000
 
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
-GameData["moving_ext"]["speed_max"] = 16.00000
+--GameData["moving_ext"]["speed_max"] = 16.00000
 GameData["special_attack_physics_ext"]["get_up_time"] = 2.70000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["dead_zombie_time"] = 5.77000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["killer_invulnerable_time"] = 5.10000

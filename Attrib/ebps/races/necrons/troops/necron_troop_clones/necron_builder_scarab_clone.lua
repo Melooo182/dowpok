@@ -10,7 +10,7 @@ MetaData = InheritMeta([[ebps\races\necrons\troops\necron_troop_clones\necron_su
 GameData["entity_blueprint_ext"]["animator"] = "Races/Necrons/Troops/Builder_Scarab"
 GameData["health_ext"]["display_health_bar"] = true
 GameData["health_ext"]["hitpoints"] = 150.00000
-GameData["moving_ext"]["speed_max"] = 16.00000
+GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["sim_entity_ext"]["is_collide"] = true
 
 --T3

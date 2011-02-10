@@ -7,15 +7,18 @@
 GameData = Inherit([[sbps\races\chaos\chaos_rubric_marine_squad.lua]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_rubric_marine_squad.lua]])
 
-GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 165.00000
-GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 16.50000
-GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_aspiring_sorcerer_favoured.lua"--doombolt
-GameData["squad_leader_ext"]["leader_2"]["cost_time"]["cost"]["requisition"] = 240.00000
+--~ GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 165.00000
+--~ GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 16.50000
+--~ GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_aspiring_sorcerer_favoured.lua"--doombolt
+GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 240.00000
+GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 24.00000
+GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_aspiring_sorcerer_favoured.lua"--all powers, thus use cost of most expensive one
+--[[GameData["squad_leader_ext"]["leader_2"]["cost_time"]["cost"]["requisition"] = 240.00000
 GameData["squad_leader_ext"]["leader_2"]["cost_time"]["time_seconds"] = 24.00000
 GameData["squad_leader_ext"]["leader_2"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_aspiring_sorcerer_favoured_2.lua"--warptime
 GameData["squad_leader_ext"]["leader_3"]["cost_time"]["cost"]["requisition"] = 240.00000
 GameData["squad_leader_ext"]["leader_3"]["cost_time"]["time_seconds"] = 24.00000
-GameData["squad_leader_ext"]["leader_3"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_aspiring_sorcerer_favoured_3.lua"--bolt of change
+GameData["squad_leader_ext"]["leader_3"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_aspiring_sorcerer_favoured_3.lua"--bolt of change]]
 GameData["squad_loadout_ext"]["unit_max"] = 19.00000
 GameData["squad_loadout_ext"]["unit_min"] = 8.00000
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\chaos\\troops\\chaos_rubric_marine_codex.lua"

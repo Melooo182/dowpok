@@ -161,7 +161,7 @@ GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lu
 GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
 GameData["morale_add_ext"]["inc_morale_max"] = 100.00000
 GameData["morale_add_ext"]["inc_morale_rate"] = 10.00000
-GameData["moving_ext"]["speed_max"] = 16.00000
+GameData["moving_ext"]["speed_max"] = 12.00000
 
 --[[GameData["possess_ext"] = Reference([[ebpextensions\possess_ext.lua]])
 GameData["possess_ext"]["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])

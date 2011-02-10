@@ -44,7 +44,6 @@ GameData["cost_ext"]["time_cost"]["time_seconds"] = 3.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Tau/Troops/Gue'vesa'la"
 GameData["health_ext"]["armour"] = 100.00000
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
-GameData["moving_ext"]["speed_max"] = 16.00000
 GameData["special_attack_physics_ext"]["get_up_time"] = 2.03000
 GameData["syncdeath_ext"] = Reference([[ebpextensions\syncdeath_ext.lua]])
 GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_01"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])

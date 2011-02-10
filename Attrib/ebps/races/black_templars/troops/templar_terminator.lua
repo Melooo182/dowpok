@@ -52,10 +52,10 @@ GameData["cost_ext"]["time_cost"]["time_seconds"] = 20.000000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Black_Templar/Troops/Terminator_Codex"
 GameData["morale_add_ext"]["inc_morale_max"] = 90.00000
 
---Sweeping advance restriction -1 to movement speed and assault speed is 18
-GameData["moving_ext"]["speed_max"] = 15.00000
-GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 1.20000
-GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 1.20000
+--Sweeping advance restriction -1 to movement speed and assault speed is 16
+GameData["moving_ext"]["speed_max"] = 11.00000
+--GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 1.20000
+--GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 1.20000
 
 GameData["special_attack_physics_ext"]["get_up_time"] = 2.70000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["killer_invulnerable_time"] = 5.63000

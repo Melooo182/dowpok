@@ -56,7 +56,7 @@ GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 GameData["moving_ext"]["acceleration_time"] = 0.70000
 GameData["moving_ext"]["corner_anticipation_time"] = 0.70000
 GameData["moving_ext"]["rotation_rate"] = 400.00000
-GameData["moving_ext"]["speed_max"] = 28.00000
+GameData["moving_ext"]["speed_max"] = 24.00000
 --T5
 GameData["special_attack_physics_ext"]["mass"] = 10.00000
 

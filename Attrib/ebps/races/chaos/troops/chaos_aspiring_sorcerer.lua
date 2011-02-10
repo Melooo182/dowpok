@@ -9,7 +9,9 @@ MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_champion_marked.
 
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_melta_bombs.lua"
-GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\chaos_doombolt_aspiring.lua"
+GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\chaos_doombolt_aspiring_shared.lua"
+GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\chaos_bolt_of_change_aspiring_shared.lua"
+GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_warp_time_aspiring_shared.lua"
 --GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\chaos_sorcerer_commands.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\chaos_run.lua"
 GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\ability_fearless.lua"
@@ -38,7 +40,7 @@ GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 1.00000
 
-GameData["moving_ext"]["speed_max"] = 12.00000
+GameData["moving_ext"]["speed_max"] = 6.00000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_invuln_3_4.lua]])
 GameData["type_ext"]["type_armour_2"] = Reference([[type_armour\tp_invuln_3_4.lua]])

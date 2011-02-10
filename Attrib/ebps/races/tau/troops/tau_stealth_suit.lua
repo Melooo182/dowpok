@@ -39,7 +39,6 @@ GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 --GameData["mob_ext"]["mob_value"] = 13.00000
 GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
 GameData["morale_add_ext"]["inc_morale_max"] = 80.00000
-GameData["moving_ext"]["speed_max"] = 16.00000
 GameData["sight_ext"]["keen_sight_radius"] = 15.00000
 GameData["sim_entity_ext"]["is_collide"] = true
 GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])

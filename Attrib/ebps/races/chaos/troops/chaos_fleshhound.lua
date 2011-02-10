@@ -25,8 +25,12 @@ GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/HH_Chaos_Fles
 GameData["health_ext"]["hitpoints"] = 200.00000
 GameData["health_ext"]["keep_persistent_body"] = false
 GameData["health_ext"]["pre_death_event_delay"] = 3.93000
+
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.25000
 GameData["health_ext"]["regeneration_rate"] = 0.50000
+--~ --Eternal Warrior, regen x2
+--~ GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
+--~ GameData["health_ext"]["regeneration_rate"] = 1.00000
 
 --Beast&Cavalry Charge Range
 GameData["melee_ext"]["charge_range"] = 24.00000
@@ -52,11 +56,12 @@ GameData["melee_ext"]["melee_leap_tendency"] = 1.00000
 GameData["moving_ext"]["acceleration_time"] = 0.20000
 GameData["moving_ext"]["deceleration_time"] = 0.10000
 GameData["moving_ext"]["rotation_rate"] = 600.00000
-GameData["moving_ext"]["speed_max"] = 16.00000
+--GameData["moving_ext"]["speed_max"] = 16.00000
 GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])
 GameData["spawn_ext"]["oncreate_motion_duration"] = 0.53000
 GameData["spawn_ext"]["oncreate_motion_name"] = "spawn"
 GameData["special_attack_physics_ext"]["mass"] = 8.00000 -- T4x2 
+GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_01"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 GameData["synckill_ext"]["chance"] = 0.50000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["chance"] = 0.00000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["dead_zombie_time"] = 0.00000
@@ -70,7 +75,6 @@ GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["chance"] = 3.00000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["dead_zombie_time"] = 3.60000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["killer_invulnerable_time"] = 3.23000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["synckill_id"] = Reference([[type_synckillids\sk_id_03.lua]])
-GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_infantry_heavy_high.lua]])
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Dark_Eldar/Warp_Beast"
 GameData["ui_ext"]["ui_hotkey_name"] = "dark_eldar_warp_beast"
 GameData["ui_ext"]["ui_index_hint"] = 5.00000

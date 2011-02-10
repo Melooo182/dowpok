@@ -56,7 +56,6 @@ GameData["melee_ext"]["melee_leap_tendency"] = 0.30000]]
 GameData["moving_ext"]["acceleration_time"] = 0.20000
 GameData["moving_ext"]["deceleration_time"] = 0.10000
 GameData["moving_ext"]["rotation_rate"] = 600.00000
-GameData["moving_ext"]["speed_max"] = 16.00000
 GameData["syncdeath_ext"] = Reference([[ebpextensions\syncdeath_ext.lua]])
 GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_01"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 GameData["synckill_ext"] = Reference([[ebpextensions\synckill_ext.lua]])

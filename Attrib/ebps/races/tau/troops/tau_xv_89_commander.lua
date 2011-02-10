@@ -150,7 +150,6 @@ GameData["mob_ext"]["mob_value"] = 79.00000
 GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
 GameData["morale_add_ext"]["inc_morale_max"] = 100.00000
 GameData["morale_add_ext"]["inc_morale_rate"] = 10.00000
-GameData["moving_ext"]["speed_max"] = 16.00000
 GameData["sight_ext"]["keen_sight_radius"] = 27.00000
 GameData["sight_ext"]["sight_radius"] = 30.00000
 
