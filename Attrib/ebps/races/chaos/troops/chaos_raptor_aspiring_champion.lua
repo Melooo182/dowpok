@@ -10,7 +10,7 @@ MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_champion.lua]])
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\chaos_upgrade_plasma_pistol_champion_raptor.lua"
 GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\chaos_upgrade_power_weapon_champion_raptor.lua"
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\chaos_upgrade_power_fist_champion_raptor.lua"
-GameData["ability_ext"]["abilities"]["ability_11"] = ""
+GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\chaos_upgrade_lightning_claws_champion_raptor.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = ""
 GameData["ability_ext"]["abilities"]["ability_13"] = ""
 GameData["ability_ext"]["abilities"]["ability_14"] = ""
@@ -24,10 +24,14 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_bolt_pistol_raptorchampion.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Chaos_Plasma_Pistol"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\chaos_plasma_pistol_raptorchampion.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"]["name_for_this_weapon_choice"] = "Chaos_Lightning_Claw"
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"]["weapon"] = "weapon\\chaos_lightning_claws_champion_dummy.lua"
 
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "chaos_chainsword_raptorchampion"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"]["weapon"] = "chaos_power_sword_raptorchampion"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"]["weapon"] = "chaos_power_fist_raptorchampion"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_04"]["name_for_this_weapon_choice"] = "Chaos_Lightning_Claw"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_04"]["weapon"] = "weapon\\chaos_lightning_claws_dual_champion.lua"
 
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["attack_motion_variable_name"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["hardpoint_weapon_variant_motion_name"] = ""
@@ -39,7 +43,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_02"]["weapon"] = ""
 
-GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/Raptor_Champion_Codex"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/Raptor_Codex"
 
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
