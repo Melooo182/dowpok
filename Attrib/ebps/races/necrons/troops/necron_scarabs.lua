@@ -52,7 +52,7 @@ GameData["moving_ext"]["acceleration_time"] = 0.70000
 GameData["moving_ext"]["corner_anticipation_time"] = 0.80000
 GameData["moving_ext"]["deceleration_time"] = 0.70000
 GameData["moving_ext"]["rotation_rate"] = 120.00000
-GameData["moving_ext"]["speed_max"] = 24.00000
+GameData["moving_ext"]["speed_max"] = 28.00000
 GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])
 GameData["spawn_ext"]["oncreate_event_name"] = "Necron/abilities/necron_teleportation"
 --T3

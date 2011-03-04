@@ -44,7 +44,6 @@ GameData["health_ext"]["hitpoints"] = 200.00000
 GameData["health_ext"]["return_from_dead_duration"] = 5.00000
 GameData["health_ext"]["spawn_usable_body_on_death"] = "ebps\\environment\\gameplay\\necron_flayed_one_body.lua"
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
-GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["moving_ext"]["turning_behavior_template"] = "infantry"
 GameData["spawn_ext"]["oncreate_event_name"] = "flayed_spawn_sound_events.events"
 GameData["spawn_ext"]["oncreate_motion_duration"] = 6.00000

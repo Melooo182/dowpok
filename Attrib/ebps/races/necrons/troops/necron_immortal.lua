@@ -48,7 +48,6 @@ GameData["health_ext"]["regeneration_rate"] = 0.62500
 GameData["health_ext"]["max_repairers"] = 0.00000
 GameData["health_ext"]["spawn_usable_body_on_death"] = "ebps\\environment\\gameplay\\necron_immortal_body.lua"
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
-GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["moving_ext"]["turning_behavior_template"] = "infantry"
 GameData["special_attack_physics_ext"]["get_up_time"] = 6.07000
 --T5

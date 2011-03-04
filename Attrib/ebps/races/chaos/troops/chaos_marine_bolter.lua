@@ -81,7 +81,6 @@ GameData["cost_ext"]["time_cost"]["time_seconds"] = 7.50000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/Chaos_Space_Marine_Codex"
 GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 1.00000
-GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["dead_zombie_time"] = 5.60000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["dead_zombie_time"] = 4.10000
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Chaos_Marines/Marine"

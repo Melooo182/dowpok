@@ -9,9 +9,9 @@ MetaData = InheritMeta([[addons\space_marine_hq_addon_3.lua]])
 
 GameData["modifiers"]["modifier_01"]["target_type_name"] = "ebps\\races\\guard\\structures\\guard_hq.lua"
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\guard\\\\structures\\guard_hq.lua"
-GameData["requirements"]["required_2"]["addon_name"] = "addons\\addon_guard_hq_1.lua"
-GameData["requirements"]["required_3"]["addon_name"] = "addons\\addon_guard_hq_1.lua"
-GameData["requirements"]["required_4"]["global_mutually_exclusive_with"] = "addons\\addon_guard_hq_2.lua"
+GameData["requirements"]["required_2"]["addon_name"] = "addons\\addon_guard_hq_2.lua"
+GameData["requirements"]["required_3"]["addon_name"] = "addons\\addon_guard_hq_2.lua"
+GameData["requirements"]["required_4"]["global_mutually_exclusive_with"] = "addons\\addon_guard_hq_3.lua"
 GameData["ui_hotkey_name"] = "addon_guard_hq_2"
 --[[GameData["ui_info"]["help_text_list"]["text_01"] = "$691850"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$691851"

@@ -85,7 +85,7 @@ GameData["health_ext"]["regeneration_rate"] = 5.00000
 
 GameData["health_ext"]["spawn_on_death"] = "ebps\\environment\\gameplay\\dead_daemon_prince.lua"
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
-GameData["moving_ext"]["speed_max"] = 12.00000
+GameData["moving_ext"]["speed_max"] = 14.00000
 GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])
 GameData["spawn_ext"]["oncreate_motion_duration"] = 4.03000
 GameData["spawn_ext"]["oncreate_motion_name"] = "Daemonic_Stature"

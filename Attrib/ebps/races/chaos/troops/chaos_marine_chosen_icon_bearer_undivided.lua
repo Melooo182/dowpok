@@ -56,7 +56,6 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_05"
 GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_05"]["weapon"] = "weapon\\chaos_icon_dummy.lua"
 
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/Chaos_icon_bearer"
-GameData["moving_ext"]["speed_max"] = 12.00000
 
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])

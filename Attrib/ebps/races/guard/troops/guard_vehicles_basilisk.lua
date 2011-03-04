@@ -7,15 +7,15 @@
 GameData = Inherit([[ebps\races\guard\troops\guard_vehicles.nil]])
 MetaData = InheritMeta([[ebps\races\guard\troops\guard_vehicles.nil]])
 
-GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\guard_open_topped_vehicle_keensight.lua"
-GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\guard_enclosed_vehicle_keensight.lua"
+--~ GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\guard_open_topped_vehicle_keensight.lua"
+--~ GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\guard_enclosed_vehicle_keensight.lua"
 
 GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
 GameData["addon_ext"]["addons"]["addon_01"] = "addons\\guard_reinforced_armour_upgrade.lua"
 GameData["addon_ext"]["addons"]["addon_02"] = "addons\\guard_rough_terrain_modification_upgrade.lua"
 GameData["addon_ext"]["addons"]["addon_03"] = "addons\\guard_track_guards_upgrade.lua"
 GameData["addon_ext"]["addons"]["addon_04"] = "addons\\guard_hk_missile_upgrade.lua"
-GameData["addon_ext"]["addons"]["addon_05"] = "addons\\guard_armoured_crew_upgrade.lua"
+--~ GameData["addon_ext"]["addons"]["addon_05"] = "addons\\guard_armoured_crew_upgrade.lua"
 GameData["addon_ext"]["addons"]["addon_06"] = "addons\\guard_hellhound_hull_flamer_upgrade.lua"
 GameData["addon_ext"]["addons"]["addon_07"] = "addons\\guard_artillery_pintle_upgrade.lua"
 GameData["addon_ext"]["addons"]["addon_08"] = "addons\\guard_arco_ace_gunner_skill.lua"
@@ -68,10 +68,11 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_01"
 --Vehicle Upgrades
 --Armoured Crew Compartment
 GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["hardpoint_weapon_variant_motion_name"] = "Wargear_Upgrade_05"
-GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "<None>"
+GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Wargear_05"
+--~ GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "<None>"
 GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
-GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Wargear_05"
-GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+--~ GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Wargear_05"
+--~ GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
 --Hatch Heavy Stubber
 GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Shoulder"
 GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Shoulder"
@@ -119,21 +120,26 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_10"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_10"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Wargear_04"
 GameData["combat_ext"]["hardpoints"]["hardpoint_10"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
 
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 125.00000
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 625.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 62.50000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 125.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 625.00000
+--~ GameData["cost_ext"]["time_cost"]["time_seconds"] = 62.50000
+GameData["cost_ext"]["time_cost"]["cost"]["power"] = 140.00000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 700.00000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 70.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Imperial_Guard/Troops/Basilisk_Codex"
 GameData["entity_blueprint_ext"]["scale_x"] = 1.80000
 GameData["entity_blueprint_ext"]["scale_y"] = 2.00000
 GameData["entity_blueprint_ext"]["scale_z"] = 3.00000
 GameData["health_ext"]["armour"] = 100.00000
---Open Topped -87.5HP
-GameData["health_ext"]["hitpoints"] = 262.50000
+--~ --Open Topped -87.5HP
+--~ GameData["health_ext"]["hitpoints"] = 262.50000
+GameData["health_ext"]["hitpoints"] = 350.00000
 --GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = 0.90000
 --GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = 0.90000
 GameData["moving_ext"]["rotation_rate"] = 90.00000
 GameData["moving_ext"]["turning_behavior_template"] = "tank"
-GameData["sight_ext"]["keen_sight_radius"] = 9.00000
+--~ GameData["sight_ext"]["keen_sight_radius"] = 9.00000
+GameData["sight_ext"]["keen_sight_radius"] = 0.00000
 GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
 --AV12
 GameData["special_attack_physics_ext"]["mass"] = 36.00000 --12x3

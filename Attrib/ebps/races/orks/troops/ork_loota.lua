@@ -32,6 +32,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["origin"]["y"] = 1.63000
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["origin"]["z"] = 0.13000
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\ork_deff_gun"
+GameData["cost_ext"]["time_cost"]["cost"]["power"] = 15.00000
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 75.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 7.50000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Orks/Troops/Lootas"

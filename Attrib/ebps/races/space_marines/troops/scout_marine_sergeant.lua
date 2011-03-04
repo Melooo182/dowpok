@@ -30,9 +30,12 @@ GameData["cover_ext"]["cover_negative"]["modifiers"]["modifier_02"]["value"] = 0
 GameData["cover_ext"]["cover_stealth"]["modifiers"]["modifier_02"]["value"] = 0.85000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/Scout_Sergeant_Codex"
 GameData["infiltration_ext"]["infiltration_event_name"] = "data:Art\\Events\\Order_Confirm_Events/infiltrate_marines.events"
---Scout USR speed x1.125
-GameData["moving_ext"]["speed_max"] = 13.50000
+
+--Scout 1.125x
+GameData["moving_ext"]["speed_max"] = 15.75000
+GameData["sight_ext"]["keen_sight_radius"] = 9.000000
 GameData["sight_ext"]["sight_radius"] = 45.00000
+
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_infantry_high.lua]])
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$61000481"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$61000482"

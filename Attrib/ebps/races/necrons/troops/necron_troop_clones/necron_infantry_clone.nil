@@ -9,6 +9,7 @@ MetaData = InheritMeta([[ebps\races\necrons\troops\necron_troop_clones\necron_tr
 
 GameData["event_manager_ext"]["event_24"]["event_entry_01"]["event_name"] = "Necron/Abilities/phase_shift_unit"
 GameData["event_manager_ext"]["event_24"]["modifier_name"] = "ability_necron_phase_shift_event"
+GameData["moving_ext"]["speed_max"] = 14.00000
 --T4
 GameData["special_attack_physics_ext"]["mass"] = 8.00000
 

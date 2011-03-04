@@ -90,7 +90,7 @@ GameData["moving_ext"]["acceleration_time"] = 3.00000
 GameData["moving_ext"]["corner_anticipation_time"] = 1.00000
 GameData["moving_ext"]["deceleration_time"] = 3.00000
 GameData["moving_ext"]["rotation_rate"] = 25.00000
-GameData["moving_ext"]["speed_max"] = 12.00000
+GameData["moving_ext"]["speed_max"] = 14.00000
 GameData["moving_ext"]["turning_behavior_template"] = "turnonspot"
 GameData["special_attack_physics_ext"]["get_up_time"] = 0.00000
 --AV14

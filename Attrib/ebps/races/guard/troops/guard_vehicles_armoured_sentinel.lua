@@ -99,8 +99,8 @@ GameData["health_ext"]["regeneration_rate"] = 0.50000
 GameData["moving_ext"]["rotation_rate"] = 600.00000
 GameData["moving_ext"]["turning_behavior_template"] = "default"
 
--- Running Speed 24 /1.6 dmged slow down
-GameData["moving_ext"]["speed_max"] = 15.00000
+-- Running Speed 28 /2 dmged slow down
+GameData["moving_ext"]["speed_max"] = 14.00000
 
 --AV12
 GameData["special_attack_physics_ext"]["mass"] = 36.00000 --12x3

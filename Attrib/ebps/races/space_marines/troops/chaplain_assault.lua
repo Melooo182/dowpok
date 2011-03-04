@@ -17,6 +17,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["vertical_aim_motion_variab
 GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Wargear_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\space_marine_dummy_weapon.lua"
 
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.00000
 GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"

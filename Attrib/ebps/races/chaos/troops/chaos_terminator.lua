@@ -13,11 +13,6 @@ GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\chaos_mark_of_u
 GameData["ability_ext"]["abilities"]["ability_04"] = ""
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["ability_ext"]["abilities"]["ability_20"] = "abilities\\chaos_night_lords_night_vision.lua"
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["horizontal_aim_motion_variable_name"] = "Aim_Horizontal_Main"
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["shoot_motion_variable_name"] = "Weapon_Range_Firing_Main"
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["vertical_aim_motion_variable_name"] = "Aim_Vertical_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Chaos_Combi_Bolter"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_combi_bolter_terminator.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Chaos_Combi_Flamer"
@@ -26,7 +21,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"]["weapon"] = "weapon\\chaos_combi_bolter_melta_terminator.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_04"]["name_for_this_weapon_choice"] = "Chaos_Combi_Plasma"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_04"]["weapon"] = "weapon\\chaos_combi_bolter_plasma_terminator.lua"
-GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Melee_Upgrade_Main"
+
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "chaos_chain_axe"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_power_sword_terminator.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "chaos_power_claw"
@@ -38,11 +33,14 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_04"
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 150.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 15.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/chaos/Troops/chaos_chosen_Terminator"
---~ GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 1.20000
---~ GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 1.20000
+
+--Sweeping advance restriction -1 to movement speed and assault speed is 16
+GameData["moving_ext"]["speed_max"] = 13.00000
+GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 1.25000
+GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 1.25000
+
 GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 1.00000
-GameData["moving_ext"]["speed_max"] = 11.00000
 GameData["special_attack_physics_ext"]["get_up_time"] = 2.70000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["killer_invulnerable_time"] = 4.70000

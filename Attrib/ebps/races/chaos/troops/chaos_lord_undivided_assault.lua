@@ -18,6 +18,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_08"]["hardpoint_weapon_variant_m
 GameData["combat_ext"]["hardpoints"]["hardpoint_11"]["hardpoint_weapon_variant_motion_name"] = "Wargear_Upgrade_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_11"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "wargear_01"
 
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.00000
 GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"

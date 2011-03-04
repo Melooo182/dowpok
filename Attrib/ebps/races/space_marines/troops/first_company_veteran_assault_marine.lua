@@ -47,6 +47,7 @@ GameData["cost_ext"]["time_cost"]["time_seconds"] = 23.75000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/space_marine_vanguard_assault"
 GameData["health_ext"]["death_event"] = "data:/art/events/unit_death_events/sink_into_ground.events"
 
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.00000
 GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"

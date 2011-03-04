@@ -272,7 +272,6 @@ GameData["modifier_apply_ext"]["modifiers"]["modifier_10"] = Reference([[modifie
 GameData["moving_ext"]["acceleration_time"] = 0.50000
 GameData["moving_ext"]["deceleration_time"] = 0.50000
 GameData["moving_ext"]["rotation_rate"] = 600.00000
-GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["moving_ext"]["turning_behavior_template"] = "hovercraft"
 --[[GameData["possess_ext"] = Reference([[ebpextensions\possess_ext.lua]])
 GameData["possess_ext"]["automatic_possession_time"] = 60.00000

@@ -20,6 +20,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 110.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 11.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Eldar/Troops/Warp_Spider_codex"
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"
 GameData["melee_ext"]["melee_leap_curve_ratio"] = 0.20000
 GameData["melee_ext"]["melee_leap_knock_down"]["direction_angle_random"] = 5.00000

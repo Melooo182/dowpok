@@ -4,8 +4,8 @@
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[ebps\races\chaos\troops\chaos_troop.nil]])
-MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_troop.nil]])
+GameData = Inherit([[ebps\races\chaos\troops\chaos_commander.nil]])
+MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_commander.nil]])
 
 
 GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
@@ -43,13 +43,7 @@ GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\chaos_daemon_we
 GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\chaos_daemon_weapon_attacks_mark_nurgle.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\chaos_daemon_weapon_attacks_mark_slaanesh.lua"
 GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\chaos_daemon_weapon_attacks_mark_tzeentch.lua"
-GameData["combat_ext"] = Reference([[ebpextensions\combat_ext.lua]])
-GameData["combat_ext"]["complex_upgrades"] = true
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["horizontal_aim_motion_variable_name"] = "Aim_Horizontal_Main"
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["shoot_motion_variable_name"] = "Weapon_Range_Firing_Main"
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["vertical_aim_motion_variable_name"] = "Aim_Vertical_Main"
+
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "chaos_bolt_pistol"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_bolt_pistol_lord.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "chaos_plasma_pistol"
@@ -64,11 +58,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_06"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_06"]["weapon"] = "weapon\\chaos_combi_bolter_plasma_lord.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_07"]["name_for_this_weapon_choice"] = "chaos_lightning_claw"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_07"]["weapon"] = "weapon\\chaos_lightning_claws_dual_lord_dummy.lua"
-GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["attack_motion_variable_name"] = ""
-GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["hardpoint_weapon_variant_motion_name"] = "Weapon_melee_upgrade_main"
-GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["horizontal_aim_motion_variable_name"] = ""
-GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["shoot_motion_variable_name"] = ""
-GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["vertical_aim_motion_variable_name"] = ""
+
 --GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "chaos_chainsword"
 --GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_chainsword_lord.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "chaos_power_sword"
@@ -87,8 +77,6 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_07"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_07"]["weapon"] = "weapon\\chaos_lightning_claws_dual_lord.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_08"]["name_for_this_weapon_choice"] = "chaos_deathscreamer"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_08"]["weapon"] = "weapon\\chaos_daemon_weapon_deathscreamer.lua"
-
-GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\melee_slowdown_weapon.lua"
 
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\melee_weapon_dummy.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\chaos_daemon_weapon_blissgiver_instakill.lua"
@@ -150,18 +138,6 @@ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 525.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 52.50000
 
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/Chaos_Lord_Codex"
-GameData["health_ext"]["display_health_bar"] = true
-GameData["health_ext"]["hitpoints"] = 600.00000
-GameData["health_ext"]["keep_persistent_body"] = false
-GameData["health_ext"]["morale_death"] = 200.00000
-GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.75000
-GameData["health_ext"]["regeneration_rate"] = 1.50000
-GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
-GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
-GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
-GameData["morale_add_ext"]["inc_morale_max"] = 100.00000
-GameData["morale_add_ext"]["inc_morale_rate"] = 10.00000
-GameData["moving_ext"]["speed_max"] = 12.00000
 
 --[[GameData["possess_ext"] = Reference([[ebpextensions\possess_ext.lua]])
 GameData["possess_ext"]["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])
@@ -204,9 +180,6 @@ GameData["possess_ext"]["show_possession_ui_button"] = false
 GameData["possess_ext"]["transfer_health_percentage"] = true
 GameData["possess_ext"]["squad_replacement_name"] = "chaos_squad_lord_assault"
 
-GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
-GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_cap.lua]])
-GameData["requirement_ext"]["requirements"]["required_1"]["max_cap"] = 1.00000
 GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
 GameData["research_ext"]["research_limit"] = 3.00000
 GameData["special_attack_ext"] = Reference([[ebpextensions\special_attack_ext.lua]])
@@ -302,10 +275,7 @@ GameData["special_attack_ext"]["special_attacks"]["special_attack_03"]["duration
 GameData["special_attack_ext"]["time_between_special_attacks"] = 15.00000
 GameData["special_attack_ext"]["time_between_special_attacks_random"] = 12.00000
 GameData["special_attack_physics_ext"]["disable_special_attack"] = true
-GameData["special_attack_physics_ext"]["get_up_time"] = 2.77000
-GameData["summon_ext"] = Reference([[ebpextensions\summon_ext.lua]])
-GameData["syncdeath_ext"] = Reference([[ebpextensions\syncdeath_ext.lua]])
-GameData["synckill_ext"] = Reference([[ebpextensions\synckill_ext.lua]])
+
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["dead_zombie_time"] = 5.60000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["killer_invulnerable_time"] = 5.70000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["chance"] = 100.00000
@@ -322,8 +292,7 @@ GameData["synckill_ext"]["synckillinfos"]["synckillinfo_04"]["distance"] = 4.000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_04"]["killer_invulnerable_time"] = 17.70000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_04"]["killer_motion_name"] = "SyncKill_7"
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_04"]["synckill_id"] = Reference([[type_synckillids\sk_id_07.lua]])
-GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_invuln_3_5.lua]])
-GameData["type_ext"]["type_armour_2"] = Reference([[type_armour\tp_invuln_3_4.lua]])
+
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Chaos_Marines/Lord"
 GameData["ui_ext"]["ui_hotkey_name"] = "chaos_lord"
 GameData["ui_ext"]["ui_index_hint"] = 2.00000
@@ -338,7 +307,6 @@ GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$56001198"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$56001199"
 GameData["ui_ext"]["ui_info"]["icon_name"] = "chaos_icons/chaos_lord"
 GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$56001190"
-GameData["ui_ext"]["use_hero_ui"] = true
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, rangeStart = 575000, rangeEnd = 575049, }

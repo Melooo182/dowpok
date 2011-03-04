@@ -69,7 +69,6 @@ GameData["health_ext"]["display_health_bar"] = true
 GameData["health_ext"]["hitpoints"] = 750.00000
 GameData["health_ext"]["keep_persistent_body"] = false
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
-GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["moving_ext"]["turning_behavior_template"] = "infantry"
 GameData["special_attack_physics_ext"]["disable_special_attack"] = true
 GameData["special_attack_physics_ext"]["get_up_time"] = 2.40000

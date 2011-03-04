@@ -9,6 +9,7 @@ MetaData = InheritMeta([[abilities\guard_artillery_bombardment.lua]])
 
 GameData["ability_cursor_event"] = ""
 GameData["child_ability_name"] = "guard_artillery_bombardment_child_2"
+GameData["initial_delay_time"] = 3.50000
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

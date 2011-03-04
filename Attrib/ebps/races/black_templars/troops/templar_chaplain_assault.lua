@@ -14,6 +14,7 @@ GameData["ability_ext"]["abilities"]["ability_08"] = ""
 --Jump Pack
 GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Wargear_02"
 
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.000000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.000000
 GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"

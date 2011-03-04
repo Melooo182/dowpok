@@ -30,12 +30,17 @@ GameData["health_ext"]["regeneration_decrease_in_combat"] = 3.00000
 GameData["health_ext"]["regeneration_rate"] = 6.00000
 
 --Wings/Jumppack
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.00000
 
---Furious Charge
+--Furious Charge, removed melee leap damage and added a modifier that increases damage in melee by 10
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"] = Reference([[modifiers\max_damage_weapon_modifier.lua]])
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["value"] = 10.00000
 GameData["melee_ext"]["melee_leap_curve_ratio"] = 0.01000
-GameData["melee_ext"]["melee_leap_damage"] = 40.00000
+GameData["melee_ext"]["melee_leap_damage"] = 0.00000
 GameData["melee_ext"]["melee_leap_knock_down"]["force_max"] = 25.00000
 GameData["melee_ext"]["melee_leap_knock_down"]["force_min"] = 15.00000
 GameData["melee_ext"]["melee_leap_knock_down"]["up_angle_max"] = 10.00000
@@ -49,7 +54,7 @@ GameData["melee_ext"]["melee_leap_target_pos_offset"] = 2.50000
 GameData["melee_ext"]["melee_leap_tendency"] = 1.00000
 
 --Wings/Jumppack speed
-GameData["moving_ext"]["speed_max"] = 12.00000
+--GameData["moving_ext"]["speed_max"] = 28.00000
 
 GameData["special_attack_ext"] = Reference([[ebpextensions\special_attack_ext.lua]])
 GameData["special_attack_ext"]["special_attacks"]["special_attack_01"]["area_effect"]["area_effect_information"]["angle_left"] = -30.00000

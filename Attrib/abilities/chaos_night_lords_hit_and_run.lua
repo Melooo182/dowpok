@@ -12,7 +12,7 @@ GameData["area_effect"]["area_effect_information"]["filter_type"] = Reference([[
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["max_lifetime"] = 1.00000
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"] = Reference([[modifiers\enable_squad_jump.lua]])
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["exclusive"] = true
-GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["value"] = 1.00000
+GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["value"] = 100.00000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_1"]["research_name"] = "research\\mark_night_lords.lua"
 

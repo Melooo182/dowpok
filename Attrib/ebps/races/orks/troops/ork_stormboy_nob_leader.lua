@@ -15,6 +15,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"]["weapon"] = "weapon\\ork_power_claw_nobz.lua"
 GameData["entity_blueprint_ext"]["animator"] = "Races/Orks/Troops/Stormboy_Nob"
 
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.000000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.000000
 --GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"

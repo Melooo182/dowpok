@@ -13,6 +13,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_01"
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 675.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 67.50000
 
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.00000
 GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"

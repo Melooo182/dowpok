@@ -19,7 +19,8 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["vertical_aim_motion_variab
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Eldar_Knife"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\eldar_knife_fire_dragon.lua"
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 95.00000
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 8.00000 -- estimated value of firedragons fusiongun
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 8.00000 -- estimated value of firedragons fusiongun
+GameData["cost_ext"]["time_cost"]["cost"]["power"] = 19.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 9.50000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Eldar/Troops/fire_dragon_codex"
 GameData["special_attack_physics_ext"]["get_up_time"] = 2.03000

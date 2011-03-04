@@ -28,6 +28,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"]["weapon"] = "weapon\\space_marine_thunder_hammer_veteran.lua"
 GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/sergeant_vanguard_assault"
 
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.00000
 GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"

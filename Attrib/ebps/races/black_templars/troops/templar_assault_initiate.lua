@@ -43,6 +43,8 @@ GameData["entity_blueprint_ext"]["animator"] = "Races/Black_Templar/Troops/Initi
 GameData["event_manager_ext"]["event_20"]["event_entry_01"]["event_name"] = ""
 GameData["event_manager_ext"]["event_08"]["event_entry_01"]["event_name"] = "Space_Marines\\Upgrade_02"
 GameData["event_manager_ext"]["event_10"]["event_entry_01"]["event_name"] = "Space_Marines\\Upgrade_01"
+
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.000000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.000000
 GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"
@@ -60,6 +62,7 @@ GameData["melee_ext"]["melee_leap_speed"] = 20.00000
 GameData["melee_ext"]["melee_leap_target_pos_offset"] = 1.00000
 GameData["melee_ext"]["melee_leap_tendency"] = 1.00000
 --GameData["moving_ext"]["speed_max"] = 28.00000
+
 GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])
 GameData["spawn_ext"]["oncreate_event_name"] = "flayed_spawn_sound_events.events"
 GameData["spawn_ext"]["oncreate_motion_duration"] = 6.00000

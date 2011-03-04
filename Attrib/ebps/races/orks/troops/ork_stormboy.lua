@@ -16,6 +16,7 @@ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 60.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 6.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Orks/Troops/stormboyz_codex"
 
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.000000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.000000
 --GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"

@@ -51,7 +51,7 @@ GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
 --Global
 GameData["research_ext"]["research_table"]["research_01"] = "research\\guard_upgrade_carapace_hq.lua"
 GameData["research_ext"]["research_table"]["research_02"] = "research\\guard_upgrade_cameleoline_hq.lua"
-GameData["research_ext"]["research_table"]["research_03"] = "research\\guard_melta_bomb_research.lua"
+--~ GameData["research_ext"]["research_table"]["research_03"] = "research\\guard_melta_bomb_research.lua"
 --GameData["research_ext"]["research_table"]["research_04"] = "research\\guard_upgrade_leader_ranged.lua"
 --GameData["research_ext"]["research_table"]["research_04"] = "research\\guard_upgrade_leader_ranged_2.lua"
 --GameData["research_ext"]["research_table"]["research_05"] = "research\\guard_hq_defensive_operations_research.lua"

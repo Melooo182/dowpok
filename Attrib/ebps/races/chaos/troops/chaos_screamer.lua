@@ -27,6 +27,7 @@ GameData["health_ext"]["regeneration_rate"] = 0.50000
 --~ GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
 --~ GameData["health_ext"]["regeneration_rate"] = 1.00000
 
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.00000
 GameData["melee_ext"]["melee_leap_action_name"] = "Feral_Leap"
@@ -42,7 +43,7 @@ GameData["melee_ext"]["melee_leap_min_time_separation"] = 80.00000
 GameData["melee_ext"]["melee_leap_speed"] = 20.00000
 GameData["melee_ext"]["melee_leap_target_pos_offset"] = 2.50000
 GameData["melee_ext"]["melee_leap_tendency"] = 1.00000
-GameData["moving_ext"]["speed_max"] = 12.00000
+--GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])
 GameData["spawn_ext"]["oncreate_motion_duration"] = 1.03000
 GameData["spawn_ext"]["oncreate_motion_name"] = "spawn"

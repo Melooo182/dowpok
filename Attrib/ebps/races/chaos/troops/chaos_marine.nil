@@ -18,6 +18,7 @@ GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lu
 GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
 GameData["morale_add_ext"]["inc_morale_max"] = 90.00000
 GameData["special_attack_physics_ext"]["get_up_time"] = 2.77000
+GameData["moving_ext"]["speed_max"] = 14.00000
 GameData["summon_ext"] = Reference([[ebpextensions\summon_ext.lua]])
 GameData["syncdeath_ext"] = Reference([[ebpextensions\syncdeath_ext.lua]])
 GameData["synckill_ext"] = Reference([[ebpextensions\synckill_ext.lua]])

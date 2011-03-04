@@ -28,7 +28,7 @@ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 221.25000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 22.12500
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/rubric_marine"
 --Slow and Purposeful
-GameData["moving_ext"]["speed_max"] = 6.00000
+GameData["moving_ext"]["speed_max"] = 7.00000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["chance"] = 2.00000

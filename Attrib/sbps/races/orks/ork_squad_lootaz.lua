@@ -39,6 +39,7 @@ GameData["squad_morale_ext"]["max"] = 70.00000
 GameData["squad_morale_ext"]["morale_armour"] = 0.50000
 GameData["squad_morale_ext"]["rate_per_second"] = 7.00000
 GameData["squad_reinforce_ext"] = Reference([[sbpextensions\squad_reinforce_ext.lua]])
+GameData["squad_reinforce_ext"]["cost"]["cost"]["power"] = 15.00000
 GameData["squad_reinforce_ext"]["cost"]["cost"]["requisition"] = 75.00000
 GameData["squad_reinforce_ext"]["cost"]["time_seconds"] = 7.50000
 GameData["squad_reinforce_ext"]["leader_event"] = "Unit_Upgrade_Morale_FX/reinforce_ork_trooper"

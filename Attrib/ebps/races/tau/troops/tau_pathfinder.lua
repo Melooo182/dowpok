@@ -56,9 +56,13 @@ GameData["infiltration_ext"]["infiltration_event_name"] = "Guard\\Abilities\\Inf
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 --GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
 --GameData["mob_ext"]["mob_value"] = 1.00000
-GameData["moving_ext"]["speed_max"] = 13.50000
-GameData["sim_entity_ext"]["is_collide"] = true
+
+--Scout 1.125x
+GameData["moving_ext"]["speed_max"] = 15.75000
+GameData["sight_ext"]["keen_sight_radius"] = 9.000000
 GameData["sight_ext"]["sight_radius"] = 45.00000
+
+GameData["sim_entity_ext"]["is_collide"] = true
 GameData["special_attack_physics_ext"]["get_up_time"] = 3.80000
 GameData["syncdeath_ext"] = Reference([[ebpextensions\syncdeath_ext.lua]])
 GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_01"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])

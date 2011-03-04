@@ -48,10 +48,11 @@ GameData["infiltration_ext"]["infiltration_event_name"] = "data:Art\\Events\\Ord
 GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 1.00000
 
---Scout USR speed x1.125
-GameData["moving_ext"]["speed_max"] = 13.50000
-
+--Scout 1.125x
+GameData["moving_ext"]["speed_max"] = 15.75000
+GameData["sight_ext"]["keen_sight_radius"] = 9.000000
 GameData["sight_ext"]["sight_radius"] = 45.00000
+
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_infantry_high.lua]])
 GameData["type_ext"]["type_surface"] = Reference([[type_surface\tp_flesh.lua]])
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Space_Marines/Scout"

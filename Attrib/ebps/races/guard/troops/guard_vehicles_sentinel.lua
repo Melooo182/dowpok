@@ -101,8 +101,8 @@ GameData["moving_ext"]["rotation_rate"] = 600.00000
 GameData["moving_ext"]["turning_behavior_template"] = "default"
 
 --Scout
--- Running Speed 24 with Scout x1.125 /1.6 dmged slow down
-GameData["moving_ext"]["speed_max"] = 16.87500
+-- Running Speed 28 with Scout x1.125 /2 dmged slow down
+GameData["moving_ext"]["speed_max"] = 15.75000
 GameData["sight_ext"]["sight_radius"] = 45.00000
 
 GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_01"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])

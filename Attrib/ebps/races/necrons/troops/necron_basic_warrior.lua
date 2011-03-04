@@ -38,7 +38,6 @@ GameData["health_ext"]["hitpoints"] = 200.00000
 GameData["health_ext"]["max_repairers"] = 0.00000
 GameData["health_ext"]["spawn_usable_body_on_death"] = "ebps\\environment\\gameplay\\necron_basic_warrior_body.lua"
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
-GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["moving_ext"]["turning_behavior_template"] = "infantry"
 GameData["sim_entity_ext"]["is_collide"] = true
 GameData["special_attack_ext"] = Reference([[ebpextensions\special_attack_ext.lua]])

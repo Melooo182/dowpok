@@ -11,6 +11,7 @@ GameData["event_manager_ext"]["event_24"]["event_entry_01"]["event_name"] = "Nec
 GameData["event_manager_ext"]["event_24"]["modifier_name"] = "ability_necron_phase_shift_event"
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.93750
 GameData["health_ext"]["regeneration_rate"] = 1.87500
+GameData["moving_ext"]["speed_max"] = 14.00000
 GameData["sight_ext"]["keen_sight_radius"] = 9.00000
 GameData["sight_ext"]["sight_radius"] = 25.00000
 GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])

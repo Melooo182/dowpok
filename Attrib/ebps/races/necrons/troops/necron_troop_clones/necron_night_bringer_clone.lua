@@ -35,7 +35,6 @@ GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 GameData["moving_ext"]["acceleration_time"] = 0.50000
 GameData["moving_ext"]["deceleration_time"] = 0.50000
 GameData["moving_ext"]["rotation_rate"] = 600.00000
-GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["moving_ext"]["turning_behavior_template"] = "hovercraft"
 GameData["sim_entity_ext"]["is_collide"] = true
 GameData["special_attack_physics_ext"]["disable_special_attack"] = true

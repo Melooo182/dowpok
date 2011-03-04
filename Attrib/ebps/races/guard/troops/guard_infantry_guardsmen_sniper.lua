@@ -51,7 +51,11 @@ GameData["health_ext"]["max_repairers"] = 0.00000
 GameData["infiltration_ext"]["infiltration_event_name"] = "Guard\\Abilities\\Infiltrate_Guard"
 GameData["infiltration_ext"]["enemy_infiltrate_opacity"] = 0.50000
 GameData["special_attack_physics_ext"]["get_up_time"] = 2.17000
+
+--Scout 1.125x
+GameData["moving_ext"]["speed_max"] = 15.75000
 GameData["sight_ext"]["sight_radius"] = 45.00000
+
 GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_05"]["dead_motion_name"] = "SyncDeath_1"
 GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_05"]["synckill_id"] = Reference([[type_synckillids\sk_id_05.lua]])
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["dead_zombie_time"] = 5.77000

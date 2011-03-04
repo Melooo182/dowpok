@@ -4,8 +4,8 @@
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[ebps\races\chaos\troops\chaos_troop.nil]])
-MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_troop.nil]])
+GameData = Inherit([[ebps\races\chaos\troops\chaos_marine.nil]])
+MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_marine.nil]])
 
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_frag_grenades.lua"
@@ -28,7 +28,6 @@ GameData["ability_ext"]["abilities"]["ability_17"] = "abilities\\chaos_upgrade_v
 GameData["ability_ext"]["abilities"]["ability_18"] = "abilities\\chaos_upgrade_visual_tzeentch.lua"
 GameData["ability_ext"]["abilities"]["ability_20"] = "abilities\\chaos_alpha_legion_infiltrate.lua"
 GameData["ability_ext"]["abilities"]["ability_21"] = "abilities\\chaos_night_lords_stealth.lua"
-GameData["combat_ext"] = Reference([[ebpextensions\combat_ext.lua]])
 GameData["combat_ext"]["complex_upgrades"] = true
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"
@@ -59,8 +58,6 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"]["name_for_this_weapon_choice"] = "chaos_power_fist"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"]["weapon"] = "weapon\\chaos_power_fist_champion.lua"
 
-GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\melee_slowdown_weapon.lua"
-
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["hardpoint_weapon_variant_motion_name"] = "Wargear_Upgrade_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "vis_banner_upgrade"
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\melee_weapon_dummy.lua"
@@ -81,34 +78,20 @@ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 135.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 30.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/Chaos_Space_Marine_Codex"
 GameData["health_ext"]["display_health_bar"] = true
-GameData["health_ext"]["hitpoints"] = 200.00000
-GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.25000
-GameData["health_ext"]["regeneration_rate"] = 0.50000
-GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 1.00000
-GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
 --[[GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\enable_hardpoint_04.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -1.00000]]
-GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
 GameData["morale_add_ext"]["inc_morale_max"] = 100.00000
 GameData["morale_add_ext"]["inc_morale_rate"] = 1.00000
-GameData["moving_ext"]["speed_max"] = 12.00000
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"]["structure_name"] = "ebps\\races\\chaos\\structures\\chaos_temple.lua"
-GameData["special_attack_physics_ext"]["get_up_time"] = 2.77000
-GameData["summon_ext"] = Reference([[ebpextensions\summon_ext.lua]])
-GameData["syncdeath_ext"] = Reference([[ebpextensions\syncdeath_ext.lua]])
-GameData["synckill_ext"] = Reference([[ebpextensions\synckill_ext.lua]])
-GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["dead_zombie_time"] = 5.77000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["killer_invulnerable_time"] = 5.70000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["dead_zombie_time"] = 5.60000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["killer_invulnerable_time"] = 5.30000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["dead_zombie_time"] = 4.10000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["killer_invulnerable_time"] = 4.00000
-GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_infantry_heavy_med.lua]])
-GameData["type_ext"]["type_armour_2"] = Reference([[type_armour\tp_invuln_3_5.lua]])
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Chaos_Marines/Marine"
 GameData["ui_ext"]["ui_hotkey_name"] = "chaos_aspiring_champion"
 GameData["ui_ext"]["ui_info"]["help_text_id"] = "$97391"

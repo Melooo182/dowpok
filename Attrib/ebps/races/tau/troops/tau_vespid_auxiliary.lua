@@ -34,6 +34,7 @@ GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.25000
 GameData["health_ext"]["regeneration_rate"] = 0.50000
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.00000
 GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"

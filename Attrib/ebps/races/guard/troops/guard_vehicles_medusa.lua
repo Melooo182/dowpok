@@ -19,9 +19,12 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["origin"]["z"] = -0.60000
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\guard_medusa_siege_cannon_bastion_breacher.lua"
 
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 135.00000
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 675.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 67.50000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 135.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 675.00000
+--~ GameData["cost_ext"]["time_cost"]["time_seconds"] = 67.50000
+GameData["cost_ext"]["time_cost"]["cost"]["power"] = 150.00000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 750.00000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 75.00000
 
 GameData["ui_ext"]["ui_hotkey_name"] = "marine_machine_cult"
 GameData["ui_ext"]["ui_index_hint"] = 10.00000

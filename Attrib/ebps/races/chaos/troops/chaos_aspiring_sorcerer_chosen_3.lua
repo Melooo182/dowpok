@@ -4,8 +4,8 @@
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[ebps\races\chaos\troops\chaos_aspiring_sorcerer_3.lua]])
-MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_sorcerer_3.lua]])
+GameData = Inherit([[ebps\races\chaos\troops\chaos_aspiring_sorcerer.lua]])
+MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_sorcerer.lua]])
 
 --GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_melta_bombs_aspiring.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\chaos_warp_time_aspiring_chosen.lua"
@@ -26,6 +26,7 @@ GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$56000936"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$56000937"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$56000938"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$56000939"
+GameData["ui_ext"]["ui_info"]["icon_name"] = "chaos_icons/chaos_aspsorcerer3"
 GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$56000920"
 
 

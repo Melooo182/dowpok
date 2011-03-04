@@ -40,6 +40,7 @@ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 100.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 10.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/Raptor_Codex"
 
+GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.00000
 GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"
@@ -55,16 +56,15 @@ GameData["melee_ext"]["melee_leap_min_time_separation"] = 40.00000
 GameData["melee_ext"]["melee_leap_speed"] = 20.00000
 GameData["melee_ext"]["melee_leap_target_pos_offset"] = 1.00000
 GameData["melee_ext"]["melee_leap_tendency"] = 1.00000
+
 GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 1.00000
-GameData["moving_ext"]["speed_max"] = 12.00000
-GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
-GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
-GameData["requirement_ext"]["requirements"]["required_1"]["structure_name"] = "ebps\\races\\chaos\\structures\\chaos_armoury.lua"
+
 GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])
 GameData["spawn_ext"]["oncreate_event_name"] = "flayed_spawn_sound_events.events"
 GameData["spawn_ext"]["oncreate_motion_duration"] = 6.00000
 GameData["spawn_ext"]["oncreate_motion_name"] = "spawn"
+
 GameData["special_attack_physics_ext"]["get_up_time"] = 2.70000
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Chaos_Marines/Raptor"
 GameData["ui_ext"]["ui_hotkey_name"] = "chaos_raptors"

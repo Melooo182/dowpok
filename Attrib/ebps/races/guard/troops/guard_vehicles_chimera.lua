@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\guard\troops\guard_vehicles.nil]])
 MetaData = InheritMeta([[ebps\races\guard\troops\guard_vehicles.nil]])
 
-GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\ability_reinforcement_aura_squad_only.lua"
+GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\ability_reinforcement_aura.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\guard_hk_missile_chimera.lua"
 GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
 GameData["addon_ext"]["addons"]["addon_01"] = "addons\\guard_reinforced_armour_upgrade.lua"

@@ -20,8 +20,8 @@ GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_02"]["value"] = 1.00
 GameData["cover_ext"]["cover_negative"]["modifiers"]["modifier_02"]["value"] = 1.00000
 GameData["cover_ext"]["cover_stealth"]["modifiers"]["modifier_02"]["value"] = 1.00000
 
---Scout
-GameData["moving_ext"]["speed_max"] = 13.50000
+--Scout 1.125x
+GameData["moving_ext"]["speed_max"] = 15.75000
 GameData["sight_ext"]["keen_sight_radius"] = 9.000000
 GameData["sight_ext"]["sight_radius"] = 45.00000
 

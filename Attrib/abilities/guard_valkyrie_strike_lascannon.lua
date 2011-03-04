@@ -91,6 +91,7 @@ GameData["random_offset"] = 0.00000
 GameData["range"] = 50.00000
 GameData["recharge_time"] = 30.00000
 GameData["recharge_timer_global"] = false
+GameData["recharge_timer_id"] = 122.00000 --Valkyrie ID 122
 GameData["refresh_time"] = 10.00000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["is_display_requirement"] = true

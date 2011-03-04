@@ -40,7 +40,7 @@ GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 1.00000
 
-GameData["moving_ext"]["speed_max"] = 6.00000
+GameData["moving_ext"]["speed_max"] = 10.50000 --7x1.5
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_invuln_3_4.lua]])
 GameData["type_ext"]["type_armour_2"] = Reference([[type_armour\tp_invuln_3_4.lua]])

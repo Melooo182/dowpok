@@ -29,7 +29,7 @@ GameData["health_ext"]["hitpoints"] = 1500.00000 --T6xW5
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 3.75000
 GameData["health_ext"]["regeneration_rate"] = 7.50000
 --Slow and Purposeful
-GameData["moving_ext"]["speed_max"] = 9.00000
+GameData["moving_ext"]["speed_max"] = 10.50000
 
 GameData["spawn_ext"]["oncreate_event_name"] = ""
 GameData["spawn_ext"]["oncreate_motion_duration"] = 4.030000

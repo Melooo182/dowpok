@@ -38,7 +38,8 @@ GameData["possess_ext"]["squad_replacement_name"] = "tau_devilfish_troop_carrier
 GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
 GameData["modifier_ext"] = Reference([[ebpextensions\modifier_ext.lua]])
 GameData["moving_ext"] = Reference([[ebpextensions\moving_ext.lua]])
-GameData["moving_ext"]["speed_max"] = 13.50000
+--Scout 1.125x
+GameData["moving_ext"]["speed_max"] = 15.75000
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_squad.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"]["min_count"] = 20.00000

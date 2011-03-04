@@ -25,10 +25,10 @@ GameData["cover_ext"]["cover_stealth"]["modifiers"]["modifier_02"]["value"] = 0.
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 106.25000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 10.62500
 
---Scout
-GameData["moving_ext"]["speed_max"] = 18.00000
+--Scout 1.125x
+GameData["moving_ext"]["speed_max"] = 15.75000
 GameData["sight_ext"]["keen_sight_radius"] = 9.000000
-GameData["sight_ext"]["sight_radius"] = 35.00000
+GameData["sight_ext"]["sight_radius"] = 45.00000
 
 GameData["ui_ext"]["ui_index_hint"] = 6.00000
 

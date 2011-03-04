@@ -51,8 +51,8 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 15.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 66.00000
 --Str 9 Weapon Damage Scaled for a Rate of Fire of 6sec
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 270.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 240.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 180.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 90.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 50.00000
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["max_lifetime"] = 6.00000
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"] = Reference([[modifiers\speed_maximum_modifier.lua]])

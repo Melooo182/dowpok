@@ -22,6 +22,7 @@ GameData["random_offset"] = 3.00000
 GameData["range"] = 50.00000
 GameData["recharge_time"] = 30.00000
 GameData["recharge_timer_global"] = false
+GameData["recharge_timer_id"] = 122.00000 --Valkyrie ID 122
 GameData["refresh_time"] = 10.00000
 GameData["spawned_entity_name"] = "ebps\\game\\airstrike\\valkyrie_bomb_run.lua"
 GameData["speech_directory"] = "ability/strafing_run"
