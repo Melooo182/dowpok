@@ -16,6 +16,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_05"
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 0.20000]]
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 80.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 8.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["population"] = 16.00000
 GameData["mob_ext"]["mob_value"] = 2.00000
 GameData["ui_ext"]["ui_index_hint"] = 1.00000
 

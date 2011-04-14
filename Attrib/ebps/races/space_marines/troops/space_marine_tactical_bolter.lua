@@ -67,6 +67,8 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 --Cost for Fluffy leaders, sarge cost added
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 112.50000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 11.25000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["population"] = 22.50000
+--~ GameData["health_ext"]["death_resource"]["pop"] = 16.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/Space_Marine_tactical"
 GameData["health_ext"]["death_event"] = "data:/art/events/unit_death_events/sink_into_ground.events"
 

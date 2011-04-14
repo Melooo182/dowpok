@@ -4,16 +4,15 @@
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[ebps\races\eldar\troops\eldar_vehicle.nil]])
-MetaData = InheritMeta([[ebps\races\eldar\troops\eldar_vehicle.nil]])
+GameData = Inherit([[ebps\races\eldar\troops\eldar_troop.nil]])
+MetaData = InheritMeta([[ebps\races\eldar\troops\eldar_troop.nil]])
 
+GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\eldar_run_wraithlord.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\eldar_wraith_sight_random_wl.lua"
-GameData["ability_ext"]["abilities"]["ability_10"] = ""
-GameData["ability_ext"]["abilities"]["ability_11"] = ""
-GameData["ability_ext"]["abilities"]["ability_12"] = ""
-GameData["ability_ext"]["abilities"]["ability_13"] = ""
+
+GameData["combat_ext"] = Reference([[ebpextensions\combat_ext.lua]])
 GameData["combat_ext"]["complex_upgrades"] = true
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Shoulder"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Shoulder"
@@ -82,45 +81,9 @@ GameData["cover_ext"]["cover_negative"]["modifiers"]["modifier_02"]["value"] = 0
 GameData["cover_ext"]["cover_stealth"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
 GameData["cover_ext"]["cover_stealth"]["modifiers"]["modifier_02"]["value"] = 0.85000
 
-GameData["death_explosion_ext"]["chance"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["area_effect_events"]["dirtsand"] = ""
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["area_effect_events"]["grass"] = ""
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["area_effect_events"]["rock"] = ""
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["area_effect_events"]["water"] = ""
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_point.lua]])
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["radius"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["throw_data"]["direction_angle_random"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["throw_data"]["force_max"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["throw_data"]["force_min"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["throw_data"]["up_angle_max"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["throw_data"]["up_angle_min"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["chance"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["area_effect_events"]["dirtsand"] = ""
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["area_effect_events"]["grass"] = ""
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["area_effect_events"]["rock"] = ""
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["area_effect_events"]["water"] = ""
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_point.lua]])
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["radius"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["throw_data"]["direction_angle_random"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["throw_data"]["force_max"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["throw_data"]["force_min"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["throw_data"]["up_angle_max"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["throw_data"]["up_angle_min"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_05"]["armour_piercing_value"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_06"]["armour_piercing_value"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_07"]["armour_piercing_value"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_08"]["armour_piercing_value"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_09"]["armour_piercing_value"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_12"]["armour_piercing_value"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_13"]["armour_piercing_value"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_14"]["armour_piercing_value"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 0.00000
-GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["chance"] = 0.00000
+GameData["event_manager_ext"]["event_04"]["event_entry_01"]["event_name"] = "Guard\\Abilities\\curse_the_machine"
+GameData["event_manager_ext"]["event_04"]["modifier_name"] = "ability_ig_curse_of_the_machine_spirit_event"
+GameData["event_manager_ext"]["event_13"]["event_entry_01"]["event_name"] = "Tau\\Abilities\\Mark_Target_Big"
 GameData["entity_blueprint_ext"]["animator"] = "Races/Eldar/Troops/Wraithlord"
 GameData["entity_blueprint_ext"]["scale_x"] = 1.50000
 GameData["entity_blueprint_ext"]["scale_z"] = 1.50000
@@ -134,6 +97,7 @@ GameData["health_ext"]["regeneration_rate"] = 3.00000
 GameData["health_ext"]["spawn_on_death"] = ""
 GameData["health_ext"]["stay_in_pathfinding_after_dead_time"] = 0.00000
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
+GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\enable_production.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -1.00000
@@ -310,6 +274,8 @@ GameData["special_attack_ext"]["special_attacks"]["special_attack_04"]["duration
 GameData["special_attack_ext"]["time_between_special_attacks"] = 16.00000
 GameData["special_attack_ext"]["time_between_special_attacks_random"] = 14.00000
 GameData["special_attack_physics_ext"]["disable_special_attack"] = true
+GameData["special_attack_physics_ext"]["face_backwards_when_flying"] = false
+GameData["special_attack_physics_ext"]["get_up_time"] = 0.00000
 
 --T8xW3
 GameData["special_attack_physics_ext"]["mass"] = 24.00000
@@ -340,6 +306,8 @@ GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["chance"] = 0.00000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_tough_8_wraith.lua]])
 GameData["type_ext"]["type_speech"] = Reference([[type_speech\speech_monstrosity.lua]])
+GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_vehicle_low.lua]])
+GameData["type_ext"]["type_surface"] = Reference([[type_surface\tp_heavy_metal_armour.lua]])
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Eldar/Wraithlord"
 GameData["ui_ext"]["ui_hotkey_name"] = "eldar_wraithlord"
 GameData["ui_ext"]["ui_index_hint"] = 2.00000

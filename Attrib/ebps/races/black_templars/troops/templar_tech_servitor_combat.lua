@@ -8,7 +8,7 @@ GameData = Inherit([[ebps\races\space_marines\troops\space_marine_soldier.nil]])
 MetaData = InheritMeta([[ebps\races\space_marines\troops\space_marine_soldier.nil]])
 
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
-GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\templar_servitor_max2.lua"
+GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\ability_max_leaders.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\templar_mind_lock.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\ability_combat_servitor_repair_boost.lua"

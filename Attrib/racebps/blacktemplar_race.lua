@@ -14,8 +14,6 @@ GameData["race_path"]["speech_path"] = "Speech/Races/Space_Marines/Shared"
 GameData["race_path"]["squad_path"] = "Races/Black_Templars"
 GameData["race_path"]["taskbar_path"] = "templars"
 GameData["race_path"]["unit_path"] = "Races/Black_Templars/Troops"
-GameData["race_pop"] = Reference([[tables\race_pop_table.lua]])
-GameData["race_pop"]["max_pop_cap"] = 36.00000
 GameData["race_squad_cap_table"]["base_squad_cap"] = 2.00000
 --2000 - 850req
 GameData["starting_res_normal"]["requisition"] = 1150.00000

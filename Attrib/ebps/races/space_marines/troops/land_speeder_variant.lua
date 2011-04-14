@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\space_marines\troops\space_marine_vehicle.nil]])
 MetaData = InheritMeta([[ebps\races\space_marines\troops\space_marine_vehicle.nil]])
 
-GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\templar_servitor_max1.lua"
+GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\ability_max_troopers.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\ability_vehicle_flat_out_speed_skimmer.lua"
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\ability_skimmer_dmged_slow.lua"
 GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\ability_vehicle_combat_speed_fast_skimmer.lua"
@@ -76,15 +76,18 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_03"
 GameData["cost_ext"]["time_cost"]["cost"]["power"] = 50.00000
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 250.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 25.00000
+
 GameData["cover_ext"]["cover_blocking"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_blocking"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
 GameData["cover_ext"]["cover_heavy"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
 GameData["cover_ext"]["cover_heavy"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
 GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
 GameData["cover_ext"]["cover_light"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
-GameData["cover_ext"]["cover_negative"]["modifiers"]["modifier_01"] = Reference([[modifiers\health_rangedamage_received_1_modifier.lua]])
-GameData["cover_ext"]["cover_negative"]["modifiers"]["modifier_01"]["modifier_class_name"] = Reference([[type_modifier\tp_modifier_cover.lua]])
+GameData["cover_ext"]["cover_negative"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
 GameData["cover_ext"]["cover_negative"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
 GameData["cover_ext"]["cover_stealth"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
+GameData["cover_ext"]["cover_stealth"]["modifiers"]["modifier_02"] = Reference([[modifiers\no_modifier.lua]])
+
 GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["radius"] = 5.00000
 GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["radius"] = 4.50000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/land_speeder_codex"

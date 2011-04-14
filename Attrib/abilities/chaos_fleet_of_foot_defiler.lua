@@ -8,7 +8,7 @@ GameData = Inherit([[abilities\ability_fleetoffoot.nil]])
 MetaData = InheritMeta([[abilities\ability_fleetoffoot.nil]])
 
 --GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["exclusive"] = false
-GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["value"] = 3.0000 -- 2 x 1.5
+GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["value"] = 2.62500 -- 1.75 x 1.5
 GameData["speech_directory"] = "run"
 GameData["ui_index_hint"] = 12.00000
 GameData["ui_info"]["help_text_id"] = "$92331"

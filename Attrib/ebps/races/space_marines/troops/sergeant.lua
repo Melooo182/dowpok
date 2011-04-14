@@ -44,6 +44,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"]["weapon"] = "weapon\\space_marine_power_fist_sergeant.lua"
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 75.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 30.00000
+--~ GameData["health_ext"]["death_resource"]["pop"] = 26.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/sergeant_tactical"
 GameData["health_ext"]["death_event"] = "data:/art/events/unit_death_events/sink_into_ground.events"
 GameData["health_ext"]["display_health_bar"] = true

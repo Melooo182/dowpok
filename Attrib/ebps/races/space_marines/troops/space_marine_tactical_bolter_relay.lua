@@ -11,6 +11,7 @@ MetaData = InheritMeta([[ebps\races\space_marines\troops\space_marine_tactical_b
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 113.89000
 GameData["cost_ext"]["time_cost"]["cost"]["power"] = 3.89000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 11.38000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["population"] = 18.88889
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\space_marines\troops\land_speeder_variant.lua]])
 MetaData = InheritMeta([[ebps\races\space_marines\troops\land_speeder_variant.lua]])
 
-GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\templar_servitor_max2.lua"
+GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\ability_max_leaders.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["use_for_facing"] = true
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["use_for_facing"] = false
 GameData["cost_ext"]["time_cost"]["cost"]["power"] = 50.00000

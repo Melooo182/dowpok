@@ -7,6 +7,7 @@
 GameData = Inherit([[ebps\races\orks\troops\ork_vehicle.nil]])
 MetaData = InheritMeta([[ebps\races\orks\troops\ork_vehicle.nil]])
 
+GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\ability_walker_dmged_slow.lua"
 GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\ability_run_walkers.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["ability_ext"]["abilities"]["ability_13"] = ""

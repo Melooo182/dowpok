@@ -7,7 +7,6 @@
 GameData = Inherit([[abilities\ability_heavy_tank_dmged_slow.lua]])
 MetaData = InheritMeta([[abilities\ability_heavy_tank_dmged_slow.lua]])
 
-GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
 GameData["requirements"]["required_2"] = Reference([[requirements\local_required_addon_exclusive.lua]])
 GameData["requirements"]["required_2"]["mutually_exclusive_with"] = "addons\\inq_track_guards_upgrade.lua"
 

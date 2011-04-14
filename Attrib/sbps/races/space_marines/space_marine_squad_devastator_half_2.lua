@@ -36,6 +36,7 @@ GameData["squad_morale_ext"]["morale_armour"] = 0.40000
 GameData["squad_morale_ext"]["rate_per_second"] = 16.00000
 GameData["squad_reinforce_ext"] = Reference([[sbpextensions\squad_reinforce_ext.lua]])
 GameData["squad_reinforce_ext"]["cost"]["cost"]["requisition"] = 80.00000
+--~ GameData["squad_reinforce_ext"]["cost"]["cost"]["population"] = 16.00000
 GameData["squad_reinforce_ext"]["cost"]["time_seconds"] = 8.00000
 GameData["squad_reinforce_ext"]["leader_event"] = "Unit_Upgrade_Morale_FX/reinforce_marine_trooper"
 GameData["squad_requirement_ext"] = Reference([[sbpextensions\squad_requirement_ext.lua]])

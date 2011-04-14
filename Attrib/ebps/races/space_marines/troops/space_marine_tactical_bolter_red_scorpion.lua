@@ -10,6 +10,7 @@ MetaData = InheritMeta([[ebps\races\space_marines\troops\space_marine_tactical_b
 --Tactical Squad 90pts + Apothercary upgrade 25pts = 115pts x5 = 575pts /4 = 143.75req
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 143.75000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 14.37500
+--~ GameData["cost_ext"]["time_cost"]["cost"]["population"] = 28.75000
 GameData["ui_ext"]["ui_index_hint"] = 3.00000
 GameData["ui_ext"]["ui_info"]["icon_name"] = "space_marine_icons/pride_and_purity_tacticalmarine_icon"
 

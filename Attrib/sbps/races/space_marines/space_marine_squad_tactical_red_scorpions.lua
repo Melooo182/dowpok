@@ -8,6 +8,7 @@ GameData = Inherit([[sbps\races\space_marines\space_marine_squad_tactical.lua]])
 MetaData = InheritMeta([[sbps\races\space_marines\space_marine_squad_tactical.lua]])
 
 GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 255.00000
+--~ GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["population"] = 51.00000
 GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 25.50000
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\space_marines\\troops\\sergeant_apothecary_red_scorpion.lua"
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\space_marines\\troops\\space_marine_tactical_bolter_red_scorpion.lua"

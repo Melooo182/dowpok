@@ -37,6 +37,9 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 --105pts (sarge combat shield cost included) x5 = 525req /4 = 131.25req
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 131.25000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 13.12500
+--~ GameData["cost_ext"]["time_cost"]["cost"]["population"] = 26.25000
+--~ GameData["health_ext"]["death_resource"]["pop"] = 18.00000
+
 GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/space_marine_assault"
 GameData["event_manager_ext"]["event_08"]["event_entry_01"]["event_name"] = "Space_Marines\\Upgrade_02"
 GameData["event_manager_ext"]["event_10"]["event_entry_01"]["event_name"] = "Space_Marines\\Upgrade_01"
