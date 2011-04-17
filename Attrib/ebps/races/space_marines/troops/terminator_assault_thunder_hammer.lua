@@ -7,17 +7,11 @@
 GameData = Inherit([[ebps\races\space_marines\troops\terminator_assault.lua]])
 MetaData = InheritMeta([[ebps\races\space_marines\troops\terminator_assault.lua]])
 
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = ""
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = ""
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = ""
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["weapon"] = ""
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"]["name_for_this_weapon_choice"] = ""
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"]["weapon"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "space_marines_thunder_hammer"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\space_marine_thunder_hammer_terminator.lua"
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 200.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 20.00000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/Terminator_Assault_Codex"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/Terminator_codex"
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_invuln_2_3.lua]])
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$61000651"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$61000652"
