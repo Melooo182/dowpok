@@ -11,6 +11,7 @@ GameData["accuracy"] = 0.98000
 
 GameData["cost"]["cost"]["requisition"] = 25.00000
 GameData["cost"]["time_seconds"] = 2.50000
+GameData["squad_max"] = 1.00000
 
 GameData["ui_effective_against"]["text_01"] = "$0"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$65500181"
