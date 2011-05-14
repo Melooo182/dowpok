@@ -90,7 +90,10 @@ GameData["squad_requirement_ext"]["requirements"]["required_6"]["squad_table"]["
 GameData["squad_requirement_ext"]["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["squad_requirement_ext"]["requirements"]["required_10"]["structure_name"] = "ebps\\races\\sisters\\structures\\inquisition_inquisitorial_landing_pad.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_11"] = Reference([[requirements\required_structure.lua]])
+GameData["squad_requirement_ext"]["requirements"]["required_11"]["structure_name"] = "ebps\\races\\sisters\\structures\\sisters_sanctuary.lua"
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])
+GameData["squad_transportable_ext"]["transport_type"] = Reference([[type_transportable\transport_infantry_teleport.lua]])
 GameData["squad_transportable_ext"]["activate_transport_ability"] = true
 GameData["squad_ui_ext"]["multi_select_priority"] = 3.00000
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$65000531"

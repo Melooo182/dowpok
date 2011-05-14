@@ -32,6 +32,11 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 60.000
 --Initiative 4 60x0.4=24
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 24.00000
 GameData["reload_time"] = 1.50000
+
+GameData["requirements"] = Reference([[tables\requirements.lua]])
+GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
+GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\sisters\\structures\\sisters_sanctuary.lua"
+
 GameData["ui_effective_against"]["text_01"] = "$0"
 
 

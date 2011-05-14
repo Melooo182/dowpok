@@ -1,13 +1,13 @@
 ----------------------------------------
--- File: 'ebps\game\valkryie_drop.lua'
+-- File: 'weapon\space_marine_dummy_weapon.lua'
 -- Created by: AttributeEditor v2.0
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[ebps\game\deepstrike\valkyrie_drop_airborne.lua]])
-MetaData = InheritMeta([[ebps\game\deepstrike\valkyrie_drop_airborne.lua]])
+GameData = Inherit([[weapon\shooting_weapon_dummy.lua]])
+MetaData = InheritMeta([[weapon\shooting_weapon_dummy.lua]])
 
-GameData["entity_blueprint_ext"]["animator"] = "Races/Inquisition/Troops/valkyrie_kasrkin"
+GameData["show_in_reinforce"] = false
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

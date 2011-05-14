@@ -1,7 +1,8 @@
 ----------------------------------------
--- File: 'type_transportable\transport_elysian_non_droppable.lua'
--- Created by: Kresjah
--- (c) 2006 Elysian Legends modification team
+-- File: 'type_transportable\transport_relay_terminator.lua'
+-- Created by: AttributeEditor v2.0
+-- Note: Do NOT edit by hand!
+-- (c) 2001 Relic Entertainment Inc.
 
 GameData = Inherit([[type_transportable\type_transportable.nil]])
 MetaData = InheritMeta([[type_transportable\type_transportable.nil]])

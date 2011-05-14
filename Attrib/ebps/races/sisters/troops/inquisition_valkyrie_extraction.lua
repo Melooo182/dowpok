@@ -54,6 +54,7 @@ GameData["squad_hold_ext"] = Reference([[ebpextensions\squad_hold_ext.lua]])
 GameData["squad_hold_ext"]["acceptable_type_02"] = Reference([[type_transportable\transport_relay.lua]])
 GameData["squad_hold_ext"]["acceptable_type_03"] = Reference([[type_transportable\transport_infantry_teleport.lua]])
 GameData["squad_hold_ext"]["acceptable_type_04"] = Reference([[type_transportable\transport_storm_trooper.lua]])
+GameData["squad_hold_ext"]["acceptable_type_05"] = Reference([[type_transportable\transport_infantry_teleport_half.lua]])
 GameData["squad_hold_ext"]["modifiers_no_squads"]["modifier_01"] = Reference([[modifiers\health_regeneration_modifier.lua]])
 GameData["squad_hold_ext"]["modifiers_no_squads"]["modifier_01"]["value"] = 1.00000
 GameData["squad_hold_ext"]["modifiers_squad_01"]["modifier_01"] = Reference([[modifiers\enable_death.lua]])

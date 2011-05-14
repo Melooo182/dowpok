@@ -9,6 +9,8 @@ MetaData = InheritMeta([[weapon\inquisition_nemesis_daemon_hammer_gk.lua]])
 
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["max_lifetime"] = 8.00000
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"] = Reference([[modifiers\eldar_heavy_flamer_hit_event.lua]])
+--A3 6/3=2sec
+GameData["reload_time"] = 2.00000	--Power Fists, Chainfists, Power Klaws and Thunder Hammers get reload time 2x, and dmg increased to mantain DPS
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

@@ -51,7 +51,7 @@ GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\siste
 --~ GameData["squad_leader_ext"]["multi_with_reinforce"] = true
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\sisters\\troops\\inquisition_infantry_grey_knights_teleport.lua"
 GameData["squad_loadout_ext"]["unit_max"] = 9.00000
-GameData["squad_loadout_ext"]["unit_min"] = 9.00000
+GameData["squad_loadout_ext"]["unit_min"] = 4.00000
 GameData["squad_melee_stance_ext"] = Reference([[sbpextensions\squad_melee_stance_ext.lua]])
 GameData["squad_melee_stance_ext"]["default_to_melee"] = true
 

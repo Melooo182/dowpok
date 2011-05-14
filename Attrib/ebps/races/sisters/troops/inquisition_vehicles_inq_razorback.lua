@@ -108,6 +108,7 @@ GameData["special_attack_physics_ext"]["mass"] = 33.00000 --11x3
 
 GameData["squad_hold_ext"] = Reference([[ebpextensions\squad_hold_ext.lua]])
 GameData["squad_hold_ext"]["acceptable_type_01"] = Reference([[type_transportable\transport_relay.lua]])
+GameData["squad_hold_ext"]["acceptable_type_02"] = Reference([[type_transportable\transport_infantry_teleport_half.lua]])
 GameData["squad_hold_ext"]["nr_available_spots"] = 1.00000
 GameData["squad_hold_ext"]["unload_delay"] = 3.00000
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_vehicle_1.lua]])

@@ -59,6 +59,13 @@ GameData["cost"]["cost"]["requisition"] = 150.00000
 GameData["cost"]["time_seconds"] = 15.00000
 --A2 6/2=3sec
 GameData["reload_time"] = 3.00000	--Power Fists, Chainfists, Power Klaws and Thunder Hammers get reload time 2x, and dmg increased to mantain DPS
+
+GameData["requirements"] = Reference([[tables\requirements.lua]])
+GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
+GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\sisters\\structures\\sisters_sanctuary.lua"
+GameData["requirements"]["required_10"] = Reference([[requirements\global_required_addon.lua]])
+GameData["requirements"]["required_10"]["global_addon_name"] = "addons\\addon_sisters_hq_3.lua"
+
 GameData["ui_info"]["help_text_id"] = "$95261"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$65500191"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$65500192"

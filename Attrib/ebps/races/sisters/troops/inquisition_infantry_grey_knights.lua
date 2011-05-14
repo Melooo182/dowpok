@@ -34,7 +34,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["horizontal_aim_motion_vari
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["shoot_motion_variable_name"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["vertical_aim_motion_variable_name"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Inquisition_Nemesis_Force_Weapon"
-GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\inquisition_halberd_grey_knights.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\inquisition_nemesis_force_weapon_gk.lua"
 
 --Adjusted Cost to include Justicar, Fluffy Leaders
 --GK 25pts x4 = 100pts + Justicar 50pts = 150pts x5 = 750req /4 = 187.5req

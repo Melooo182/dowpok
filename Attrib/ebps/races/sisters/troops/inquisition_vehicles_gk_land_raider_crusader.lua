@@ -197,10 +197,12 @@ GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["special_attack_physics_ext"]["mass"] = 42.00000 --14x3
 
 GameData["squad_hold_ext"] = Reference([[ebpextensions\squad_hold_ext.lua]])
-GameData["squad_hold_ext"]["acceptable_type_02"] = Reference([[type_transportable\transport_terminator.lua]])
+GameData["squad_hold_ext"]["acceptable_type_02"] = Reference([[type_transportable\transport_terminator_half.lua]])
 GameData["squad_hold_ext"]["acceptable_type_03"] = Reference([[type_transportable\transport_relay.lua]])
 GameData["squad_hold_ext"]["acceptable_type_04"] = Reference([[type_transportable\transport_infantry_teleport.lua]])
-GameData["squad_hold_ext"]["acceptable_type_05"] = Reference([[type_transportable\transport_storm_trooper.lua]])
+GameData["squad_hold_ext"]["acceptable_type_05"] = Reference([[type_transportable\transport_infantry_teleport_half.lua]])
+GameData["squad_hold_ext"]["acceptable_type_06"] = Reference([[type_transportable\transport_storm_trooper.lua]])
+GameData["squad_hold_ext"]["acceptable_type_07"] = Reference([[type_transportable\transport_terminator.lua]])
 GameData["squad_hold_ext"]["unload_delay"] = 3.00000
 GameData["type_ext"]["can_be_possessed_by_enemy"] = false
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_vehicle_4.lua]])
