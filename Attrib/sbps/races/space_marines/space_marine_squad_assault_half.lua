@@ -8,7 +8,7 @@ GameData = Inherit([[sbps\races\space_marines\space_marine_squad_assault.lua]])
 MetaData = InheritMeta([[sbps\races\space_marines\space_marine_squad_assault.lua]])
 
 
---GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\space_marines\\troops\\sergeant_assault_marine_half.lua"
+GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\space_marines\\troops\\sergeant_assault_marine_half.lua"
 --[[GameData["squad_leader_ext"]["leader_2"]["leader"]["type"] = "ebps\\races\\space_marines\\troops\\dummy_combat_squad_assault.lua"
 GameData["squad_leader_ext"]["max_leaders"] = 2.00000
 GameData["squad_leader_ext"]["multi_with_reinforce"] = true]]

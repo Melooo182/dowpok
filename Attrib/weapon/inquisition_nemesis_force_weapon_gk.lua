@@ -4,8 +4,8 @@
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[weapon\inquisition_halberd.lua]])
-MetaData = InheritMeta([[weapon\inquisition_halberd.lua]])
+GameData = Inherit([[weapon\inquisition_nemesis_force_weapon.lua]])
+MetaData = InheritMeta([[weapon\inquisition_nemesis_force_weapon.lua]])
 
 GameData["accuracy"] = 0.85000
 

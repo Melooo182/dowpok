@@ -17,9 +17,9 @@ GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_05"] = Refere
 GameData["squad_combat_stance_ext"]["ranged_attackrange"] = 36.00000
 GameData["squad_leader_ext"] = Reference([[sbpextensions\squad_leader_ext.lua]])
 GameData["squad_leader_ext"]["leader_1"]["add_while_moving"] = true
---Familiar 6pts + either Scourging, Banishment or Holocaust 20pts = 26pts x5 = 130req
-GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 30.00000
-GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 3.00000
+--Familiar 3pts (psychic powers are paid each time used now)
+GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 15.00000
+GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 1.50000
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\sisters\\troops\\inquisition_infantry_henchman_familiar.lua"
 GameData["squad_leader_ext"]["leader_2"]["add_while_moving"] = true
 GameData["squad_leader_ext"]["leader_2"]["cost_time"]["cost"]["requisition"] = 40.00000

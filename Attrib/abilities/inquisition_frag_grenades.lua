@@ -13,7 +13,7 @@ GameData["area_effect"]["area_effect_information"]["area_effect_events"]["grass"
 GameData["area_effect"]["area_effect_information"]["area_effect_events"]["rock"] = "Unit_Ability_FX/Marine_Frag_grenade_explosion"
 GameData["area_effect"]["area_effect_information"]["area_effect_events"]["water"] = "Unit_Ability_FX/Marine_Frag_grenade_explosion"
 GameData["entity_busy_time"] = 1.00000
-GameData["fire_cost"]["requisition"] = 5.00000
+GameData["fire_cost"]["requisition"] = 0.00000
 GameData["initial_delay_time"] = 0.33000
 GameData["projectile_name"] = "frag_grenade"
 GameData["projectile_spawn_pos"]["x"] = -0.52000

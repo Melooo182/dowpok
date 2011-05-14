@@ -17,9 +17,9 @@ GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_05"] = Refere
 GameData["squad_combat_stance_ext"]["ranged_attackrange"] = 36.00000
 GameData["squad_leader_ext"] = Reference([[sbpextensions\squad_leader_ext.lua]])
 GameData["squad_leader_ext"]["leader_1"]["add_while_moving"] = true
---Familiar 6pts + either Scourging, Banishment or Holocaust 20pts = 26pts x5 = 130req
-GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 30.00000
-GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 3.00000
+--Familiar 3pts (psychic powers are paid each time used now)
+GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 15.00000
+GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 1.50000
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\sisters\\troops\\inquisition_infantry_henchman_familiar.lua"
 GameData["squad_leader_ext"]["leader_2"]["add_while_moving"] = true
 GameData["squad_leader_ext"]["leader_2"]["cost_time"]["cost"]["requisition"] = 40.00000
@@ -43,10 +43,10 @@ GameData["squad_morale_ext"]["max"] = 80.00000
 GameData["squad_morale_ext"]["morale_armour"] = 0.40000
 GameData["squad_morale_ext"]["rate_per_second"] = 8.00000
 GameData["squad_reinforce_ext"] = Reference([[sbpextensions\squad_reinforce_ext.lua]])
-GameData["squad_reinforce_ext"]["can_upgrade"] = true
-GameData["squad_reinforce_ext"]["cost"]["cost"]["requisition"] = 40.00000
-GameData["squad_reinforce_ext"]["cost"]["time_seconds"] = 4.00000
-GameData["squad_reinforce_ext"]["max_upgrades"] = 3.00000
+--~ GameData["squad_reinforce_ext"]["can_upgrade"] = true
+GameData["squad_reinforce_ext"]["cost"]["cost"]["requisition"] = 20.00000
+GameData["squad_reinforce_ext"]["cost"]["time_seconds"] = 2.00000
+--~ GameData["squad_reinforce_ext"]["max_upgrades"] = 3.00000
 GameData["squad_requirement_ext"] = Reference([[sbpextensions\squad_requirement_ext.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["research_name"] = "research\\inquisition_ordo_malleus.lua"

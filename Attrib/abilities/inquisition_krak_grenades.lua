@@ -9,7 +9,7 @@ MetaData = InheritMeta([[abilities\ability_grenade_krak.nil]])
 
 GameData["ability_motion_name"] = "frag_grenades"
 GameData["entity_busy_time"] = 1.00000
-GameData["fire_cost"]["requisition"] = 10.00000
+GameData["fire_cost"]["requisition"] = 0.00000
 GameData["initial_delay_time"] = 0.33000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["is_display_requirement"] = true

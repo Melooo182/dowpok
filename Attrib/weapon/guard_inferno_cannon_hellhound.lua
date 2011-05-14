@@ -83,6 +83,7 @@ GameData["attack_priorities"]["priority_09"] = Reference([[type_armour\tp_invuln
 GameData["attack_priorities"]["priority_10"] = Reference([[type_armour\tp_vehicle_0.lua]])
 GameData["attack_priorities"]["priority_11"] = Reference([[type_armour\tp_vehicle_1.lua]])
 GameData["horizontal_traverse_speed"] = 180.00000
+GameData["linger_on_target_after_fire_time"] = 1.50000
 GameData["max_range"] = 30.00000
 GameData["max_traverse_down"] = -5.00000
 GameData["max_traverse_left"] = -110.00000

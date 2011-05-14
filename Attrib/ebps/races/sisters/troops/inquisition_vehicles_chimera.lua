@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\sisters\troops\inquisition_vehicles.nil]])
 MetaData = InheritMeta([[ebps\races\sisters\troops\inquisition_vehicles.nil]])
 
-GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\ability_reinforcement_aura_squad_only.lua"
+GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\ability_reinforcement_aura.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\inquisition_hk_missile_chimera.lua"
 GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\inquisition_tank_dmged_slow.lua"
 GameData["ability_ext"]["abilities"]["ability_14"] = "abilities\\inquisition_tank_dmged_slow_track_guards.lua"

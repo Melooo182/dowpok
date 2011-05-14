@@ -52,9 +52,9 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\inquisition_daemon_hammer_inquisitor.lua"
 
 --Henchmen Cost Included, Fluffy Leader
---Inqusitor 45pts + Icon of the Just 25pts + Power Weapon 15pts + Plasma Pistol 15pts + Hammerhand 10pts = 110pts x5 = 550req
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 550.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 55.00000
+--Inqusitor 25pts + Power Armour 8pts + Icon of the Just 25pts + Power Weapon 10pts + Plasma Pistol 10pts + Hammerhand 10pts = 88pts x5 = 440req
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 440.00000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 44.00000
 
 GameData["event_manager_ext"]["event_15"]["event_entry_01"]["event_name"] = "unit_ability_fx/furious_charge"
 GameData["event_manager_ext"]["event_15"]["modifier_name"] = "ability_beserk_event"

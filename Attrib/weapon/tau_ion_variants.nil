@@ -40,6 +40,7 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Un
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Unit_Ability_FX/Haywire_explosion"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Unit_Ability_FX/Haywire_explosion"
 GameData["max_range"] = 90.00000
+GameData["linger_on_target_after_fire_time"] = 1.50000
 --GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 1.00000
 

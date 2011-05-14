@@ -4,8 +4,8 @@
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[weapon\inquisition_halberd_grey_knights.lua]])
-MetaData = InheritMeta([[weapon\inquisition_halberd_grey_knights.lua]])
+GameData = Inherit([[weapon\inquisition_nemesis_force_weapon_gk.lua]])
+MetaData = InheritMeta([[weapon\inquisition_nemesis_force_weapon_gk.lua]])
 
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_02"]["armour_piercing_value"] = 100.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_03"]["armour_piercing_value"] = 85.00000

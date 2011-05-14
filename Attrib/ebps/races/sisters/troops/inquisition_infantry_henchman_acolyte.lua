@@ -20,9 +20,9 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Melee_Upgrade_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "sisters_knife"
 
---Acolyte 8pts x2 = 16pts + Familiar(Scourge) 26pts = 42pts x5 = 210req /2 = 105req
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 105.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 10.50000
+--Acolyte 4pts x2 = 8pts + Familiar(Scourge) 23pts = 35pts x5 = 175req /2 = 87.5req
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 87.50000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 8.75000
 
 GameData["entity_blueprint_ext"]["animator"] = "Races/Sisters/Troops/missionary"
 GameData["special_attack_physics_ext"]["get_up_time"] = 2.48000
@@ -31,7 +31,7 @@ GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_05"]["dead_motion_nam
 GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_05"]["synckill_id"] = Reference([[type_synckillids\sk_id_05.lua]])
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["synckill_id"] = Reference([[type_synckillids\sk_id_03.lua]])
-GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_infantry_high.lua]])
+--~ GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_infantry_low.lua]])
 GameData["entity_blueprint_ext"]["animator"] = "Races/Sisters/Troops/missionary"
 GameData["ui_ext"]["ui_hotkey_name"] = "guard_sergeant"
 GameData["ui_ext"]["ui_index_hint"] = 22.00000

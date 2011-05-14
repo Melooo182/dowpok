@@ -29,9 +29,9 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"]["name_for_this_weapon_choice"] = "space_marines_multi_melta"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"]["weapon"] = "weapon\\inquisition_multi_melta_servitor.lua"
 
---Gun Servitor(HB) 25pts x2 = 50pts + Familiar(Scourge) 26pts = 76pts x5 = 380req /2 = 190req
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 190.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 19.00000
+--Gun Servitor(HB) 25pts x2 = 50pts + Familiar(Scourge) 23pts = 73pts x5 = 365req /2 = 182.5req
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 182.50000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 18.25000
 
 GameData["entity_blueprint_ext"]["animator"] = "Races/Inquisition/Troops/Inquisition_Servitors_codex"
 GameData["health_ext"]["hitpoints"] = 300.00000

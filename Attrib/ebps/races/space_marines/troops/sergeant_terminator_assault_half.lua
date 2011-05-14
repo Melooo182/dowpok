@@ -7,6 +7,7 @@
 GameData = Inherit([[ebps\races\space_marines\troops\sergeant_terminator_assault.lua]])
 MetaData = InheritMeta([[ebps\races\space_marines\troops\sergeant_terminator_assault.lua]])
 
+GameData["ability_ext"]["abilities"]["ability_16"] = "abilities\\marines_locator_beacon.lua"
 --[[GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 2000.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 200.00000]]
 GameData["ui_ext"]["ui_index_hint"] = 22.00000

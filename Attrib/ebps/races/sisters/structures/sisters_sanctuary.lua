@@ -87,7 +87,7 @@ GameData["requirement_ext"]["requirements"]["required_11"] = Reference([[require
 GameData["requirement_ext"]["requirements"]["required_11"]["max_cap"] = 1.00000
 
 GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
-GameData["research_ext"]["research_table"]["research_01"] = "research\\inquisition_melta_bomb_research.lua"
+--GameData["research_ext"]["research_table"]["research_01"] = "research\\inquisition_melta_bomb_research.lua"
 --GameData["research_ext"]["research_table"]["research_02"] = "research\\inquisition_daemon_hammer_inquisitor_research.lua"
 --Justicar Armour upgrades
 --GameData["research_ext"]["research_table"]["research_03"] = "research\\inquisition_artificer_armour_research_troops.lua"

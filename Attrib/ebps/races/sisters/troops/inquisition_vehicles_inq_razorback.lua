@@ -9,7 +9,7 @@ MetaData = InheritMeta([[ebps\races\sisters\troops\inquisition_vehicles.nil]])
 
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\inquisition_smoke_launchers.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\inquisition_hk_missile_razorback.lua"
-GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\ability_reinforcement_aura_squad_only.lua"
+GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\ability_reinforcement_aura.lua"
 
 --Vehicle Upgrade Menu
 GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])

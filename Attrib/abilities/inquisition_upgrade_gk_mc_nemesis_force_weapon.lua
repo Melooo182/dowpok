@@ -13,16 +13,16 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["value"] = 1.00000
 GameData["duration_time"] = 9999999.99
-GameData["entity_busy_time"] = 7.50000
-GameData["initial_delay_time"] = 7.50000
+GameData["entity_busy_time"] = 2.50000
+GameData["initial_delay_time"] = 2.50000
 GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["structure_name"] = "ebps\\races\\sisters\\structures\\sisters_sanctuary.lua"
 GameData["fire_cost"]["power"] = 0.00000
-GameData["fire_cost"]["requisition"] = 75.00000
+GameData["fire_cost"]["requisition"] = 25.00000
 GameData["recharge_time"] = 9999999.99
 GameData["target_self"] = true
-GameData["ui_index_hint"] = 20.00000
+GameData["ui_index_hint"] = 18.00000
 GameData["ui_info"]["help_text_id"] = "$98101"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$65000471"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$65000472"
@@ -30,7 +30,7 @@ GameData["ui_info"]["help_text_list"]["text_03"] = "$65000473"
 GameData["ui_info"]["help_text_list"]["text_04"] = "$65000474"
 GameData["ui_info"]["help_text_list"]["text_05"] = "$65000475"
 GameData["ui_info"]["help_text_list"]["text_09"] = "$55000231"
-GameData["ui_info"]["icon_name"] = "guard_icons/inq_power_weapon_research_troops"
+GameData["ui_info"]["icon_name"] = "space_marine_icons/relic_blade"
 GameData["ui_info"]["screen_name_id"] = "$65000470"
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, rangeStart = 665600, rangeEnd = 665649, }

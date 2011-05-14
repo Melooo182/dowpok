@@ -54,6 +54,7 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"]
 GameData["cost"]["cost"]["requisition"] = 200.00000
 GameData["cost"]["time_seconds"] = 20.00000
 GameData["fire_cone_angle"] = 2.00000
+GameData["linger_on_target_after_fire_time"] = 1.50000
 GameData["max_range"] = 72.00000
 GameData["max_traverse_left"] = -35.00000
 GameData["max_traverse_right"] = 35.00000

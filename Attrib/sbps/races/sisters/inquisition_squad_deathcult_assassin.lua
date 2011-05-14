@@ -73,6 +73,8 @@ GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"][
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_02"] = "sbps\\races\\sisters\\inquisition_squad_assassin_vindicare.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_03"] = "sbps\\races\\sisters\\sisters_squad_celestian.lua.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_04"] = "sbps\\races\\sisters\\sisters_squad_repentia.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_05"] = "sbps\\races\\sisters\\inquisition_squad_grey_knights_terminator.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_06"] = "sbps\\races\\sisters\\inquisition_squad_grey_knights_purifier.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"] = Reference([[requirements\required_squad.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_name"] = "sbps\\races\\sisters\\inquisition_squad_inquisitor.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_3"] = Reference([[requirements\required_cumulative_squad_cap.lua]])
