@@ -34,7 +34,6 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Un
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Unit_Impact_events/Death_spinner_hit_hvy"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Unit_Impact_events/Death_spinner_hit_hvy"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Unit_Impact_events/Death_spinner_hit_hvy"
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 18.00000
 --GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 1.50000

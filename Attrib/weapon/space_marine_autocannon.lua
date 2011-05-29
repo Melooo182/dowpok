@@ -38,7 +38,6 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Un
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Unit_Impact_events\\impact_autocannon_all"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Unit_Impact_events\\impact_autocannon_all"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Unit_Impact_events\\impact_autocannon_hvy"
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_range"] = 72.00000
 GameData["max_traverse_down"] = -15.00000
 GameData["max_traverse_left"] = -360.00000

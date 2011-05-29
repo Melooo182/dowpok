@@ -55,7 +55,6 @@ GameData["attack_priorities"]["priority_06"] = Reference([[type_armour\tp_buildi
 GameData["attack_priorities"]["priority_07"] = Reference([[type_armour\tp_building_med.lua]])
 GameData["attack_priorities"]["priority_08"] = Reference([[type_armour\tp_building_low.lua]])
 GameData["attack_priorities"]["priority_09"] = Reference([[type_armour\tp_building_hq.lua]])
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 18.00000
 GameData["min_range"] = 5.00000
 --GameData["obey_terrain_line_of_sight"] = true

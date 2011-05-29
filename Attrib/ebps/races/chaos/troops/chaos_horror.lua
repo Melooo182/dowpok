@@ -7,6 +7,8 @@
 GameData = Inherit([[ebps\races\chaos\troops\chaos_daemons.nil]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_daemons.nil]])
 
+GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_daemon_squad_size_increase_tzeentch.lua"
+
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["horizontal_aim_motion_variable_name"] = "Aim_Horizontal_Main"

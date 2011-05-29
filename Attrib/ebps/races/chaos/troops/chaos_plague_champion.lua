@@ -61,7 +61,7 @@ GameData["possess_ext"]["area_effect"]["weapon_damage"]["armour_damage"]["morale
 GameData["possess_ext"]["horizontal_movement_seconds_delay"] = 2.92000
 GameData["possess_ext"]["possession_motion_duration"] = 8.03000
 GameData["possess_ext"]["possession_motion_name"] = "die"
---GameData["possess_ext"]["possession_motion_name"] = "possession"
+GameData["possess_ext"]["possession_motion_name"] = "possession"
 GameData["possess_ext"]["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
 GameData["possess_ext"]["requirements"]["required_1"]["research_name"] = "chaos_greatuncleanone_research"
 GameData["possess_ext"]["research_to_revert"] = "chaos_greatuncleanone_research"

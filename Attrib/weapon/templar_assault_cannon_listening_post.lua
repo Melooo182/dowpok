@@ -9,6 +9,8 @@ MetaData = InheritMeta([[weapon\templar_assault_cannon.nil]])
 
 GameData["accuracy"] = 0.55000
 GameData["can_attack_air_units"] = true
+GameData["horizontal_traverse_speed"] = 180.00000
+GameData["move_aim_to_home"] = true
 GameData["max_range"] = 54.00000
 GameData["max_traverse_left"] = -180.00000
 GameData["max_traverse_right"] = 180.00000

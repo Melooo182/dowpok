@@ -49,7 +49,6 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Un
 GameData["cost"]["cost"]["requisition"] = 25.00000
 GameData["cost"]["time_seconds"] = 3.00000
 GameData["fired_projectile"] = "guard_guardsmen_grenade_launcher"
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 36.00000
 GameData["max_traverse_down"] = -60.00000
 GameData["max_traverse_left"] = -45.00000

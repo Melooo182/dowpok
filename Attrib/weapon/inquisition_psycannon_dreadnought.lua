@@ -9,7 +9,6 @@ MetaData = InheritMeta([[weapon\inquisition_psycannon.lua]])
 
 GameData["cost"]["cost"]["power"] = 30.00000
 GameData["cost"]["time_seconds"] = 30.00000
-GameData["horizontal_traverse_speed"] = 90.00000
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

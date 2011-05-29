@@ -44,7 +44,6 @@ GameData["cost"]["cost"]["power"] = 100.00000
 GameData["cost"]["cost"]["requisition"] = 100.00000
 GameData["cost"]["time_seconds"] = 30.00000
 GameData["fired_projectile"] = "dcannon_projectile"
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 36.00000
 GameData["min_range"] = 7.38000
 --GameData["obey_terrain_line_of_sight"] = true

@@ -312,7 +312,7 @@ GameData["type_ext"]["type_synckill"] = Reference([[type_synckill\tp_sk_bloodthi
 
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Chaos_Marines/Bloodthirster"
 GameData["ui_ext"]["ui_hotkey_name"] = "chaos_bloodthirster"
-GameData["ui_ext"]["ui_index_hint"] = 5.00000
+GameData["ui_ext"]["ui_index_hint"] = 21.00000
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$56001031"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$56001032"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$56001033"

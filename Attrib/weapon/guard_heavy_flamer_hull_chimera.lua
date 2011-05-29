@@ -10,7 +10,6 @@ MetaData = InheritMeta([[weapon\guard_heavy_flamer.lua]])
 GameData["accuracy_reduction_when_moving"] = 1.00000
 GameData["cost"]["cost"]["requisition"] = 25.00000
 GameData["cost"]["time_seconds"] = 5.00000
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_traverse_down"] = -10.00000
 GameData["max_traverse_left"] = -20.00000
 GameData["max_traverse_right"] = 20.00000

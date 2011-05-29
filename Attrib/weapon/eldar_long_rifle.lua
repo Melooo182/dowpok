@@ -64,7 +64,6 @@ GameData["attack_priorities"]["priority_06"] = Reference([[type_armour\tp_invuln
 GameData["attack_priorities"]["priority_07"] = Reference([[type_armour\tp_invuln_3_4.lua]])
 GameData["attack_priorities"]["priority_08"] = Reference([[type_armour\tp_invuln_3_5.lua]])
 GameData["attack_priorities"]["priority_09"] = Reference([[type_armour\tp_invuln_2_5.lua]])
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 54.00000
 GameData["max_traverse_left"] = -35.00000
 GameData["max_traverse_right"] = 35.00000

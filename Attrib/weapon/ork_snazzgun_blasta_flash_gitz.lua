@@ -40,6 +40,7 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Un
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Unit_Impact_events\\zzap_gun_hit_hvy"
 
 
+GameData["reload_time"] = 4.00000 -- +1sec because of Gets Hot!
 GameData["ui_info"]["help_text_list"]["text_01"] = "$95832"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$95833"
 GameData["ui_info"]["icon_name"] = "ork_icons/research_evenmoredakka_icon"

@@ -28,7 +28,6 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 15.000
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_impact_events/wraithbone_hit_small"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_impact_events/Impact_Bolter_Sml"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "unit_impact_events/Impact_Bolter_hvy"
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 18.00000
 GameData["max_traverse_left"] = -60.00000
 GameData["max_traverse_right"] = 60.00000

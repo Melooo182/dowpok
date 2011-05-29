@@ -9,6 +9,7 @@ MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_lord_marked.nil]])
 
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\chaos_alpha_legion_infiltrate.lua"
 GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\chaos_night_lords_stealth.lua"
+GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\chaos_iron_warriors_enable_repair.lua"
 
 GameData["addon_ext"]["addons"]["addon_12"] = "addons\\chaos_commander_servo_arm.lua"
 --Servo Arm
@@ -33,10 +34,6 @@ GameData["cost_ext"]["time_cost"]["time_seconds"] = 52.50000
 
 --GameData["possess_ext"]["squad_replacement_name"] = "chaos_squad_daemon_prince"
 GameData["possess_ext"]["squad_replacement_name"] = "chaos_squad_lord_undivided_assault"
-
-GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
-GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\enable_can_repair.lua]])
-GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -1.00000
 
 GameData["repair_ext"] = Reference([[ebpextensions\repair_ext.lua]])
 GameData["repair_ext"]["health_repaired_per_second"] = 10.00000

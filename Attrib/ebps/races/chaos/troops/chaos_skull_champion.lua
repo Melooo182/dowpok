@@ -33,7 +33,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_02"]["weapon"] = ""
 
-GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/bezerker_champion"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/khorne_berzerker_champion"
 
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 

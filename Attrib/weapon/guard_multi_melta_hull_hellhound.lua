@@ -10,7 +10,6 @@ MetaData = InheritMeta([[weapon\guard_multi_melta.nil]])
 --Secondary Weapon, cannot fire on move
 GameData["accuracy_reduction_when_moving"] = 1.00000
 
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["linger_on_target_after_fire_time"] = 1.00000
 
 GameData["max_traverse_down"] = -10.00000

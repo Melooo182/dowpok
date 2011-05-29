@@ -53,7 +53,6 @@ GameData["attack_priorities"]["priority_06"] = Reference([[type_armour\tp_living
 GameData["cost"]["cost"]["power"] = 5.00000
 GameData["cost"]["cost"]["requisition"] = 25.00000
 GameData["cost"]["time_seconds"] = 5.00000
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["linger_on_target_after_fire_time"] = 1.50000
 GameData["max_range"] = 72.00000
 GameData["max_traverse_down"] = -10.00000

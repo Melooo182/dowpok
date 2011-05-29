@@ -42,6 +42,8 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Un
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Unit_Impact_events\\zzap_gun_hit_hvy"
 GameData["fired_projectile"] = "ork_mega_blasta_bolt"
 
+GameData["reload_time"] = 4.00000 -- +1sec because of Gets Hot!
+
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
 MetaData["$METACOLOURTAG"] = 

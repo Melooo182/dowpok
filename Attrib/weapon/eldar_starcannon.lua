@@ -47,7 +47,6 @@ GameData["attack_priorities"]["priority_06"] = Reference([[type_armour\tp_invuln
 GameData["cost"]["cost"]["power"] = 50.00000
 GameData["cost"]["cost"]["requisition"] = 100.00000
 GameData["cost"]["time_seconds"] = 20.00000
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 54.00000
 --GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 1.50000

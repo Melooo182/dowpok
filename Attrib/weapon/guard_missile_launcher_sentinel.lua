@@ -20,7 +20,6 @@ GameData["attack_priorities"]["priority_07"] = Reference([[type_armour\tp_buildi
 GameData["attack_priorities"]["priority_08"] = Reference([[type_armour\tp_building_high.lua]])
 GameData["cost"]["cost"]["requisition"] = 50.00000
 GameData["cost"]["time_seconds"] = 5.00000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["linger_on_target_after_fire_time"] = 1.00000
 GameData["max_range"] = 72.00000
 GameData["max_traverse_down"] = -60.00000

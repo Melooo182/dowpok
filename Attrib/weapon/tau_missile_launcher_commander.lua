@@ -16,7 +16,6 @@ GameData["attack_priorities"]["priority_04"] = Reference([[type_armour\tp_vehicl
 GameData["cost"]["cost"]["requisition"] = 100.00000
 GameData["cost"]["time_seconds"] = 20.00000
 GameData["fired_projectile"] = "tau_commander_missile"
-GameData["horizontal_traverse_speed"] = 20.00000
 GameData["linger_on_target_after_fire_time"] = 1.00000
 GameData["fire_cone_angle"] = 45.00000
 GameData["max_traverse_down"] = -60.00000

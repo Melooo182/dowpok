@@ -23,7 +23,9 @@ GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_08"] = Refere
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_09"] = Reference([[type_armour\tp_invuln_3_4.lua]])
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_10"] = Reference([[type_armour\tp_invuln_3_5.lua]])
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_11"] = Reference([[type_armour\tp_tough_8_ctan.lua]])
-GameData["squad_combat_stance_ext"]["ranged_attackrange"] = 30.00000
+GameData["squad_combat_stance_ext"]["default_stance"] = Reference([[type_stance\tp_stance_standground.lua]])
+GameData["squad_combat_stance_ext"]["ignore_building_stance"] = true
+GameData["squad_combat_stance_ext"]["ranged_attackrange"] = 56.00000
 GameData["squad_infiltration_ext"] = Reference([[sbpextensions\squad_infiltration_ext.lua]])
 GameData["squad_infiltration_ext"]["modifiers_while_concealed"]["modifier_01"] = Reference([[modifiers\ability_necron_phase_shift_event.lua]])
 GameData["squad_leader_ext"] = Reference([[sbpextensions\squad_leader_ext.lua]])
@@ -41,7 +43,7 @@ GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\sisters\\t
 GameData["squad_loadout_ext"]["unit_max"] = 9.00000
 GameData["squad_loadout_ext"]["unit_min"] = 2.00000
 GameData["squad_melee_stance_ext"] = Reference([[sbpextensions\squad_melee_stance_ext.lua]])
-GameData["squad_melee_stance_ext"]["default_to_melee"] = true
+GameData["squad_melee_stance_ext"]["default_to_melee"] = false
 
 --Shrouding Special Rule
 GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_04"]["modifier"] = Reference([[modifiers\enable_infiltration.lua]])

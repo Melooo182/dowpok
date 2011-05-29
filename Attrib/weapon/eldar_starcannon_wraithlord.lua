@@ -10,7 +10,6 @@ MetaData = InheritMeta([[weapon\eldar_starcannon.lua]])
 GameData["cost"]["cost"]["power"] = 0.00000
 GameData["cost"]["cost"]["requisition"] = 175.00000
 GameData["cost"]["time_seconds"] = 17.50000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["ui_info"]["help_text_id"] = "$57000176"
 GameData["ui_info"]["icon_name"] = "eldar_icons/upgrade_starcannon"
 

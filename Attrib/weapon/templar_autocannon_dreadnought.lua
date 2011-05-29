@@ -10,7 +10,6 @@ MetaData = InheritMeta([[weapon\templar_autocannon.nil]])
 GameData["accuracy"] = 0.88000
 GameData["cost"]["cost"]["requisition"] = 100.00000
 GameData["cost"]["time_seconds"] = 30.00000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_traverse_left"] = -90.00000
 GameData["max_traverse_right"] = 90.00000
 GameData["max_traverse_up"] = 60.00000

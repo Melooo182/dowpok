@@ -33,7 +33,6 @@ GameData["cost"]["time_seconds"] = 30.00000
 --GameData["group_weapon_table"] = Reference([[tables\group_weapon_table.lua]])
 --GameData["group_weapon_table"]["weapon_01"]["referenced_weapon_name"] = "space_marine_missile_launcher_landspeeder_frag"
 --GameData["group_weapon_table"]["weapon_02"]["referenced_weapon_name"] = "space_marine_missile_launcher_landspeeder_krak"
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_traverse_down"] = -5.00000
 GameData["max_traverse_left"] = -5.00000
 GameData["max_traverse_right"] = 5.00000

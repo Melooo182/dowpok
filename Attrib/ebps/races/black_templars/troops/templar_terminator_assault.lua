@@ -22,7 +22,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 --Terminator 40pts + Veteran Skill(Furious Charge) 3pts = 43pts x5 = 215req
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 215.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 21.50000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Black_Templar/Troops/Terminator_Assault_Codex"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Black_Templar/Troops/Terminator_Codex"
 
 --Furious Charge Veteran Skill removed melee leap damage and added a modifier that increases damage in melee by 10
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"] = Reference([[modifiers\max_damage_weapon_modifier.lua]])

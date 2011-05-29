@@ -43,7 +43,6 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Pr
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Projectile_FX/tau_missile_impact_02"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Projectile_FX/tau_missile_impact_02"
 GameData["fired_projectile"] = "tau_smart_missile"
-GameData["horizontal_traverse_speed"] = 40.00000
 GameData["max_range"] = 36.00000
 GameData["obey_terrain_line_of_sight"] = false
 GameData["reload_time"] = 0.75000

@@ -9,7 +9,6 @@ MetaData = InheritMeta([[weapon\space_marine_assault_cannon.lua]])
 
 GameData["cost"]["cost"]["requisition"] = 50.00000
 GameData["cost"]["time_seconds"] = 10.00000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_traverse_left"] = -90.00000
 GameData["max_traverse_right"] = 90.00000
 GameData["max_traverse_up"] = 60.00000

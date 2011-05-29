@@ -8,9 +8,8 @@ GameData = Inherit([[weapon\guard_plasma_variants.nil]])
 MetaData = InheritMeta([[weapon\guard_plasma_variants.nil]])
 
 GameData["accuracy_reduction_when_moving"] = 0.25000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["damage_reduction_when_moving"] = 70.00000
-GameData["horizontal_traverse_speed"] = 180.00000
-GameData["reload_time"] = 1.50000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["damage_reduction_when_moving"] = 35.00000
+GameData["reload_time"] = 2.00000 -- +0.5sec because of lack of Gets Hot! rule
 GameData["stationary_horizontal_multiplier"] = 0.10000
 GameData["ui_effective_against"]["text_01"] = "$0"
 GameData["ui_hotkey_name"] = "guard_plasma_gun"

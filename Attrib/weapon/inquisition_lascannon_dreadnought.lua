@@ -8,7 +8,6 @@ GameData = Inherit([[weapon\inquisition_lascannon.nil]])
 MetaData = InheritMeta([[weapon\inquisition_lascannon.nil]])
 
 GameData["accuracy"] = 0.88000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_traverse_down"] = -20.00000
 GameData["max_traverse_left"] = -90.00000
 GameData["max_traverse_right"] = 90.00000

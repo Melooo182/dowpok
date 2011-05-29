@@ -59,6 +59,7 @@ GameData["spawner_ext"]["squad_table"]["squad_03"] = "sbps\\races\\sisters\\inqu
 GameData["spawner_ext"]["squad_table"]["squad_04"] = "sbps\\races\\sisters\\inquisition_squad_grey_knights_purifier.lua"
 GameData["spawner_ext"]["squad_table"]["squad_05"] = "sbps\\races\\sisters\\inquisition_squad_grey_knights_terminator.lua"
 GameData["spawner_ext"]["squad_table"]["squad_06"] = "sbps\\races\\sisters\\inquisition_squad_gk_dreadnought.lua"
+GameData["spawner_ext"]["squad_table"]["squad_07"] = "sbps\\races\\sisters\\inquisition_squad_grey_knights_champion.lua"
 GameData["squad_hold_ext"] = Reference([[ebpextensions\squad_hold_ext.lua]])
 GameData["squad_hold_ext"]["acceptable_type_01"] = Reference([[type_transportable\transport_infantry_teleport.lua]])
 GameData["squad_hold_ext"]["acceptable_type_02"] = Reference([[type_transportable\transport_infantry_teleport_half.lua]])

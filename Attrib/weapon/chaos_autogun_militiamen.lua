@@ -7,7 +7,6 @@
 GameData = Inherit([[weapon\chaos_autogun.nil]])
 MetaData = InheritMeta([[weapon\chaos_autogun.nil]])
 
-GameData["horizontal_traverse_speed"] = 180.00000
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

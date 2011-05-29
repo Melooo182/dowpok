@@ -8,7 +8,6 @@ GameData = Inherit([[weapon\space_marine_plasma_cannon.nil]])
 MetaData = InheritMeta([[weapon\space_marine_plasma_cannon.nil]])
 
 GameData["accuracy_reduction_when_moving"] = 0.00000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_traverse_left"] = -90.00000
 GameData["max_traverse_right"] = 90.00000
 GameData["max_traverse_up"] = 60.00000

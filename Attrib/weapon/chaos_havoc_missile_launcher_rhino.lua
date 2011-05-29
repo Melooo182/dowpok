@@ -8,7 +8,6 @@ GameData = Inherit([[weapon\chaos_havoc_missile_launcher.nil]])
 MetaData = InheritMeta([[weapon\chaos_havoc_missile_launcher.nil]])
 
 GameData["linger_on_target_after_fire_time"] = 1.00000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_traverse_down"] = -20.00000
 GameData["max_traverse_left"] = -180.00000
 GameData["max_traverse_right"] = 180.00000

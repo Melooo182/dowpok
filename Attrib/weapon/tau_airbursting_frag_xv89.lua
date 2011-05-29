@@ -48,7 +48,6 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_03"]["modifier"]
 GameData["cost"]["cost"]["requisition"] = 100.00000
 GameData["cost"]["time_seconds"] = 15.00000
 GameData["fired_projectile"] = "tau_abfp_projectile"
-GameData["horizontal_traverse_speed"] = 45.00000
 GameData["max_range"] = 27.00000
 GameData["min_range"] = 8.00000
 GameData["requirements"] = Reference([[tables\requirements.lua]])

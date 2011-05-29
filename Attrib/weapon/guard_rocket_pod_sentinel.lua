@@ -41,7 +41,6 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = ""
 GameData["cost"]["cost"]["requisition"] = 75.00000
 GameData["cost"]["time_seconds"] = 7.50000
 GameData["fired_projectile"] = "guard_sentinel_rocket"
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["linger_on_target_after_fire_time"] = 1.00000
 GameData["max_range"] = 36.00000
 GameData["max_traverse_down"] = -60.00000

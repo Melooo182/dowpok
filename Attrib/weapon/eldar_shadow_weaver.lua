@@ -52,7 +52,6 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"]
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"]["probability_of_applying"] = 0.60000
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"]["value"] = 0.50000
 GameData["fired_projectile"] = "shadow_weaver_projectile"
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 72.00000
 GameData["max_traverse_left"] = -45.00000
 GameData["max_traverse_right"] = 45.00000

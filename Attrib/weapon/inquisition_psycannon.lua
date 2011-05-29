@@ -49,7 +49,6 @@ GameData["attack_priorities"]["priority_08"] = Reference([[type_armour\tp_tough_
 GameData["attack_priorities"]["priority_09"] = Reference([[type_armour\tp_tough_8_ctan.lua]])
 GameData["cost"]["cost"]["requisition"] = 150.00000
 GameData["cost"]["time_seconds"] = 30.00000
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 54.00000
 GameData["max_traverse_down"] = -40.00000
 GameData["max_traverse_up"] = 60.00000

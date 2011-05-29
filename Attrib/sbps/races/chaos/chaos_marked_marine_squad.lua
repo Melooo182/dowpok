@@ -65,7 +65,7 @@ GameData["squad_requirement_ext"]["requirements"]["required_12"] = Reference([[r
 GameData["squad_requirement_ext"]["requirements"]["required_12"]["research_name"] = "Research\\mark_of_undivided.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_12"]["research_must_not_be_complete"] = true
 GameData["squad_requirement_ext"]["requirements"]["required_12"]["hide_the_button_when_failed"] = true
---[[GameData["squad_requirement_ext"]["requirements"]["required_13"] = Reference([[requirements\required_research.lua]])
+GameData["squad_requirement_ext"]["requirements"]["required_13"] = Reference([[requirements\required_research.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_13"]["research_name"] = "Research\\mark_alpha_legion.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_13"]["research_must_not_be_complete"] = true
 GameData["squad_requirement_ext"]["requirements"]["required_13"]["hide_the_button_when_failed"] = true
@@ -80,7 +80,7 @@ GameData["squad_requirement_ext"]["requirements"]["required_15"]["hide_the_butto
 GameData["squad_requirement_ext"]["requirements"]["required_16"] = Reference([[requirements\required_research.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_16"]["research_name"] = "Research\\mark_word_bearers.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_16"]["research_must_not_be_complete"] = true
-GameData["squad_requirement_ext"]["requirements"]["required_16"]["hide_the_button_when_failed"] = true]]
+GameData["squad_requirement_ext"]["requirements"]["required_16"]["hide_the_button_when_failed"] = true
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])
 GameData["squad_transportable_ext"]["nr_spots"] = 2.00000
 GameData["squad_ui_ext"]["multi_select_priority"] = 4.00000

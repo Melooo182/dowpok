@@ -29,6 +29,9 @@ GameData["squad_requirement_ext"]["requirements"]["required_11"]["max_cumulative
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_01"] = "sbps\\races\\sisters\\sisters_squad_canoness.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_02"] = "sbps\\races\\sisters\\sisters_squad_canoness_advance_sp.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_03"] = "sbps\\races\\sisters\\sisters_squad_living_saint.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_04"] = "sbps\\races\\sisters\\inquisition_squad_grey_knights_champion.lua"
+--~ GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_05"] = "sbps\\races\\sisters\\inquisition_squad_grey_knights_captain.lua"
+--~ GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_06"] = "sbps\\races\\sisters\\inquisition_squad_grey_knights_master.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"] = Reference([[requirements\required_structure.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["structure_name"] = "ebps\\races\\sisters\\structures\\sisters_hq.lua"
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])

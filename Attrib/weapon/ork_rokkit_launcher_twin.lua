@@ -8,7 +8,6 @@ GameData = Inherit([[weapon\ork_rokkit_launcher.lua]])
 MetaData = InheritMeta([[weapon\ork_rokkit_launcher.lua]])
 
 GameData["accuracy"] = 0.44000
-GameData["stationary_horizontal_multiplier"] = 1.00000
 GameData["ui_hotkey_name"] = "ork_rokkit_launcha_twin"
 GameData["ui_info"]["help_text_id"] = "$98461"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$98461"

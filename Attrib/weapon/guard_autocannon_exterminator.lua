@@ -18,7 +18,6 @@ GameData["attack_priorities"]["priority_03"] = Reference([[type_armour\tp_infant
 GameData["attack_priorities"]["priority_04"] = Reference([[type_armour\tp_infantry_med.lua]])
 GameData["attack_priorities"]["priority_05"] = Reference([[type_armour\tp_infantry_low.lua]])
 GameData["can_attack_air_units"] = true
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_traverse_down"] = -10.00000
 GameData["max_traverse_left"] = -360.00000
 GameData["max_traverse_right"] = 360.00000

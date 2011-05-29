@@ -11,7 +11,6 @@ MetaData = InheritMeta([[weapon\chaos_heavy_flamer.lua]])
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 25.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 12.50000
 GameData["fire_cone_angle"] = 30.00000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_traverse_down"] = -40.00000
 GameData["vertical_traverse_speed"] = 30.00000
 

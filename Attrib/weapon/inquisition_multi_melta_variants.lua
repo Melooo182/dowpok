@@ -19,7 +19,6 @@ GameData["attack_priorities"]["priority_09"] = Reference([[type_armour\tp_buildi
 GameData["cost"]["cost"]["requisition"] = 50.00000
 GameData["cost"]["time_seconds"] = 10.00000
 --GameData["fire_cost"]["power"] = 8.00000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["linger_on_target_after_fire_time"] = 1.00000
 GameData["max_range"] = 36.00000
 GameData["obey_terrain_line_of_sight"] = true

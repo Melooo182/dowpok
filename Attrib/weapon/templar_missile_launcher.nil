@@ -63,7 +63,6 @@ GameData["attack_priorities"]["priority_07"] = Reference([[type_armour\tp_buildi
 GameData["attack_priorities"]["priority_08"] = Reference([[type_armour\tp_building_high.lua]])
 GameData["can_attack_air_units"] = true
 GameData["fired_projectile"] = "krak_missile"
-GameData["horizontal_traverse_speed"] = 20.00000
 GameData["max_range"] = 72.00000
 GameData["max_traverse_up"] = 30.00000
 GameData["min_range"] = 5.00000

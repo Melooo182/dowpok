@@ -32,7 +32,6 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 20.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 10.00000
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"] = Reference([[modifiers\eldar_heavy_flamer_hit_event.lua]])
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["stationary_horizontal_multiplier"] = 1.00000
 GameData["ui_hotkey_name"] = "marine_heavy_flamer"
 GameData["ui_info"]["help_text_id"] = "$98051"

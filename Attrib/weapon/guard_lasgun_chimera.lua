@@ -17,7 +17,6 @@ GameData["area_effect"]["area_effect_information"]["target_filter"]["entry_06"] 
 GameData["area_effect"]["area_effect_information"]["target_filter"]["entry_07"] = Reference([[type_armour\tp_invuln_2_5.lua]])
 GameData["area_effect"]["area_effect_information"]["target_filter"]["entry_08"] = Reference([[type_armour\tp_invuln_3_4.lua]])
 GameData["area_effect"]["area_effect_information"]["target_filter"]["entry_09"] = Reference([[type_armour\tp_monster_high.lua]])
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_traverse_left"] = -80.00000
 GameData["max_traverse_right"] = 80.00000
 

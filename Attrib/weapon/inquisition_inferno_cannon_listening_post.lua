@@ -12,7 +12,7 @@ GameData["max_traverse_down"] = -60.00000
 GameData["max_traverse_left"] = -180.00000
 GameData["max_traverse_right"] = 180.00000
 GameData["max_traverse_up"] = 60.00000
-GameData["move_aim_to_home"] = false
+GameData["move_aim_to_home"] = true
 GameData["stationary_horizontal_multiplier"] = 1.00000
 
 

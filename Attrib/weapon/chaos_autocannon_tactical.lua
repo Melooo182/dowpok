@@ -10,7 +10,6 @@ MetaData = InheritMeta([[weapon\chaos_autocannon.lua]])
 GameData["accuracy_reduction_when_moving"] = 1.00000
 GameData["cost"]["cost"]["requisition"] = 50.00000
 GameData["cost"]["time_seconds"] = 5.00000
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_traverse_down"] = -15.00000
 GameData["max_traverse_left"] = -35.00000
 GameData["max_traverse_right"] = 35.00000

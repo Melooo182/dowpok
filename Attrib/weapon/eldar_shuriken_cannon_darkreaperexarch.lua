@@ -14,6 +14,7 @@ GameData["accuracy_reduction_when_moving"] = 0.00000
 GameData["reload_time"] = 0.75000
 GameData["setup_time"] = 0.00000
 
+GameData["stationary_horizontal_multiplier"] = 0.10000
 GameData["ui_info"]["help_text_id"] = "$57000178"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$57000121"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$57000122"

@@ -10,6 +10,7 @@ MetaData = InheritMeta([[weapon\space_marine_missile_launcher.lua]])
 GameData["accuracy"] = 0.75000
 GameData["fired_projectile"] = "marine_turret_missile"
 GameData["horizontal_traverse_speed"] = 180.00000
+GameData["move_aim_to_home"] = false
 GameData["max_traverse_left"] = -180.00000
 GameData["max_traverse_right"] = 180.00000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_none.lua]])

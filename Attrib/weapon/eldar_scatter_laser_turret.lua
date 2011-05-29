@@ -8,6 +8,7 @@ GameData = Inherit([[weapon\eldar_scatter_laser.lua]])
 MetaData = InheritMeta([[weapon\eldar_scatter_laser.lua]])
 
 GameData["accuracy"] = 0.55000
+GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_traverse_down"] = -60.00000
 GameData["max_traverse_left"] = -180.00000
 GameData["max_traverse_right"] = 180.00000

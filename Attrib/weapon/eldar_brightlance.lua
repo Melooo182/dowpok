@@ -49,7 +49,6 @@ GameData["attack_priorities"]["priority_05"] = Reference([[type_armour\tp_vehicl
 GameData["cost"]["cost"]["power"] = 50.00000
 GameData["cost"]["cost"]["requisition"] = 100.00000
 GameData["cost"]["time_seconds"] = 15.00000
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["linger_on_target_after_fire_time"] = 1.00000
 GameData["max_range"] = 54.00000
 GameData["max_traverse_up"] = 50.00000

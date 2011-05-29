@@ -30,7 +30,6 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Un
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_impact_events/impact_bolter_stone"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_impact_events/impact_bolter_metal_s"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Unit_Impact_events/impact_bolter_metal_l"
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 36.00000
 GameData["max_traverse_left"] = -35.00000
 GameData["max_traverse_right"] = 35.00000

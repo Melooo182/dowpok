@@ -7,7 +7,6 @@
 GameData = Inherit([[weapon\templar_lascannon_twin.nil]])
 MetaData = InheritMeta([[weapon\templar_lascannon_twin.nil]])
 
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_traverse_left"] = -90.00000
 GameData["max_traverse_right"] = 90.00000
 GameData["max_traverse_up"] = 60.00000

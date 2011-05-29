@@ -17,7 +17,6 @@ GameData["attack_priorities"]["priority_11"] = Reference([[type_armour\tp_tough_
 GameData["cost"]["cost"]["power"] = 0.00000
 GameData["cost"]["cost"]["requisition"] = 0.00000
 GameData["cost"]["time_seconds"] = 0.00000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_range"] = 72.00000
 GameData["max_traverse_down"] = -10.00000
 GameData["max_traverse_left"] = -360.00000

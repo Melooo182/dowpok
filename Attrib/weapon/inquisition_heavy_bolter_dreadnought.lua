@@ -10,7 +10,6 @@ MetaData = InheritMeta([[weapon\inquisition_heavy_bolter.lua]])
 GameData["accuracy"] = 0.88000
 GameData["cost"]["cost"]["requisition"] = 80.00000
 GameData["cost"]["time_seconds"] = 12.00000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["requirements"] = Reference([[tables\requirements.lua]])
 GameData["stationary_horizontal_multiplier"] = 0.10000
 GameData["ui_hotkey_name"] = "marine_heavy_bolter"

@@ -8,7 +8,6 @@ GameData = Inherit([[weapon\eldar_wraithcannon_variants.lua]])
 MetaData = InheritMeta([[weapon\eldar_wraithcannon_variants.lua]])
 
 GameData["accuracy"] = 0.66000
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 18.00000
 
 

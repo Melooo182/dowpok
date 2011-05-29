@@ -7,7 +7,6 @@
 GameData = Inherit([[weapon\guard_autocannon.lua]])
 MetaData = InheritMeta([[weapon\guard_autocannon.lua]])
 
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_traverse_down"] = -1.00000
 GameData["max_traverse_left"] = -1.00000
 GameData["max_traverse_right"] = 1.00000

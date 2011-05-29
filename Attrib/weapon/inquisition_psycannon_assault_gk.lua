@@ -10,7 +10,6 @@ MetaData = InheritMeta([[weapon\inquisition_psycannon.lua]])
 GameData["max_range"] = 27.00000
 GameData["cost"]["cost"]["requisition"] = 62.50000
 GameData["cost"]["time_seconds"] = 6.25000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["ui_info"]["help_text_list"]["text_01"] = "$60500141"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$60500142"
 GameData["ui_info"]["help_text_list"]["text_03"] = "$60500143"

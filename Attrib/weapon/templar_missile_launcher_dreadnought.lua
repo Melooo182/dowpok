@@ -9,7 +9,6 @@ MetaData = InheritMeta([[weapon\templar_missile_launcher.nil]])
 
 GameData["cost"]["cost"]["requisition"] = 50.00000
 GameData["cost"]["time_seconds"] = 20.00000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_traverse_left"] = -5.00000
 GameData["max_traverse_right"] = 15.00000
 GameData["min_range"] = 10.00000

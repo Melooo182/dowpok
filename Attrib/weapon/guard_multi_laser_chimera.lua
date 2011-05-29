@@ -8,7 +8,6 @@ GameData = Inherit([[weapon\guard_multi_laser.lua]])
 MetaData = InheritMeta([[weapon\guard_multi_laser.lua]])
 
 GameData["accuracy_reduction_when_moving"] = 0.00000
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_traverse_down"] = -5.00000
 GameData["max_traverse_left"] = -360.00000
 GameData["max_traverse_right"] = 360.00000

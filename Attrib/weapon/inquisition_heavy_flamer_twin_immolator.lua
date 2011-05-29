@@ -9,7 +9,6 @@ MetaData = InheritMeta([[weapon\inquisition_heavy_flamer_twin.nil]])
 
 --Can Fire Heavy Flamers at full speed
 GameData["accuracy_reduction_when_moving"] = 0.00000
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_traverse_down"] = -15.00000
 GameData["max_traverse_left"] = -360.00000
 GameData["max_traverse_right"] = 360.00000

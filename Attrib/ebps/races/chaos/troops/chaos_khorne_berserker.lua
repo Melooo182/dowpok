@@ -25,7 +25,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_01"
 
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 105.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 10.50000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops//Khorne_Bezerker_codex"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops//Khorne_Berzerker_codex"
 GameData["event_manager_ext"]["event_15"]["event_entry_01"]["event_name"] = "Unit_Ability_FX/Ork_fightin_juice"
 
 --Furious Charge, removed melee leap damage and added a modifier that increases damage in melee by 10

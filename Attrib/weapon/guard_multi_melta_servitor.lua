@@ -16,7 +16,6 @@ GameData["cost"]["cost"]["power"] = 10.00000
 GameData["cost"]["cost"]["requisition"] = 50.00000
 GameData["cost"]["time_seconds"] = 5.00000
 
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["linger_on_target_after_fire_time"] = 1.00000
 GameData["max_traverse_left"] = -35.00000
 GameData["max_traverse_right"] = 35.00000

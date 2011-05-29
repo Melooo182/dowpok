@@ -80,7 +80,6 @@ GameData["attack_priorities"]["priority_09"] = Reference([[type_armour\tp_buildi
 GameData["attack_priorities"]["priority_10"] = Reference([[type_armour\tp_building_low.lua]])
 --GameData["fire_cost"]["power"] = 10.00000
 GameData["fired_projectile"] = "space_marine_demolisher_shell"
-GameData["horizontal_traverse_speed"] = 90.00000
 GameData["max_range"] = 36.00000
 GameData["max_traverse_down"] = -5.00000
 GameData["max_traverse_left"] = -5.00000

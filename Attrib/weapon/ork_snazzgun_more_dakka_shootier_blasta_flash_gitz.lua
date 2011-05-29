@@ -45,6 +45,7 @@ GameData["fired_projectile"] = "ork_mega_blasta_bolt"
 
 GameData["cost"]["cost"]["requisition"] = 75.00000
 GameData["cost"]["time_seconds"] = 7.50000
+GameData["reload_time"] = 4.00000 -- +1sec because of Gets Hot!
 GameData["ui_info"]["help_text_list"]["text_05"] = "$95832"
 GameData["ui_info"]["help_text_list"]["text_06"] = "$95833"
 GameData["ui_info"]["screen_name_id"] = "More Dakka/Shootier/Blasta"

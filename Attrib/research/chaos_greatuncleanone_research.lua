@@ -1,5 +1,5 @@
 ----------------------------------------
--- File: 'research\chaos_bloodthirster_research.lua'
+-- File: 'research\chaos_greatuncleanone_research.lua'
 -- Created by: AttributeEditor v2.0
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
@@ -15,15 +15,26 @@ GameData["requirements"]["required_10"]["structure_name"] = "chaos_hq"
 GameData["requirements"]["required_11"] = Reference([[requirements\required_ownership.lua]])
 GameData["requirements"]["required_11"]["own_name"] = "relic_struct"
 GameData["requirements"]["required_11"]["owned_count"] = 1.00000
-GameData["requirements"]["required_2"] = Reference([[requirements\required_research_either.lua]])
-GameData["requirements"]["required_2"]["research_name_either"] = "research\\mark_of_nurgle.lua"
-GameData["requirements"]["required_2"]["research_name_or"] = "research\\mark_word_bearers.lua"
-GameData["requirements"]["required_3"] = Reference([[requirements\required_research_either.lua]])
+GameData["requirements"]["required_2"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_2"]["research_name"] = "research\\mark_of_nurgle.lua"
+GameData["requirements"]["required_3"] = Reference([[requirements\required_research.lua]])
 GameData["requirements"]["required_3"]["is_display_requirement"] = true
-GameData["requirements"]["required_3"]["research_name_either"] = "research\\mark_of_nurgle.lua"
-GameData["requirements"]["required_3"]["research_name_or"] = "research\\mark_word_bearers.lua"
+GameData["requirements"]["required_3"]["research_name"] = "research\\mark_of_nurgle.lua"
+--~ GameData["requirements"]["required_2"] = Reference([[requirements\required_research_either.lua]])
+--~ GameData["requirements"]["required_2"]["research_name_either"] = "research\\mark_of_nurgle.lua"
+--~ GameData["requirements"]["required_2"]["research_name_or"] = "research\\mark_word_bearers.lua"
+--~ GameData["requirements"]["required_3"] = Reference([[requirements\required_research_either.lua]])
+--~ GameData["requirements"]["required_3"]["is_display_requirement"] = true
+--~ GameData["requirements"]["required_3"]["research_name_either"] = "research\\mark_of_nurgle.lua"
+--~ GameData["requirements"]["required_3"]["research_name_or"] = "research\\mark_word_bearers.lua"
 GameData["requirements"]["required_4"] = Reference([[requirements\global_required_addon.lua]])
 GameData["requirements"]["required_4"]["global_addon_name"] = "addons\\chaos_hq_addon_2.lua"
+GameData["requirements"]["required_5"] = Reference([[requirements\required_squad.lua]])
+GameData["requirements"]["required_5"]["min_count"] = 0.00000
+GameData["requirements"]["required_5"]["squad_name"] = "chaos_squad_bloodthirster"
+GameData["requirements"]["required_6"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_6"]["research_name"] = "research\\chaos_bloodthirster_research.lua"
+GameData["requirements"]["required_6"]["research_must_not_be_complete"] = true
 --Great Unclean One 205pts + 15pts Unholy Might(S8) + 30pts Breath of Chaos = 205pts x5 = 1025req
 GameData["time_cost"]["cost"]["requisition"] = 1025.00000
 GameData["time_cost"]["cost"]["power"] = 205.00000

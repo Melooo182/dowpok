@@ -12,7 +12,6 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Gu
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Guard\\Weapons\\Lasgun_Impact_bone"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Guard\\Weapons\\Lasgun_Impact_light_metal"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Guard\\Weapons\\Lasgun_Impact_HVY"
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 36.00000
 GameData["max_traverse_left"] = -90.00000
 GameData["max_traverse_right"] = 90.00000

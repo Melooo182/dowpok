@@ -9,7 +9,7 @@ MetaData = InheritMeta([[abilities\inquisition_frag_grenades.lua]])
 
 GameData["ability_motion_name"] = "special_ability_1"
 GameData["entity_busy_time"] = 1.50000
-GameData["fire_cost"]["requisition"] = 5.00000
+--~ GameData["fire_cost"]["requisition"] = 5.00000
 GameData["initial_delay_time"] = 1.00000
 GameData["projectile_name"] = "guard_kasrkin_grenade"
 GameData["projectile_spawn_pos"]["x"] = -0.34000

@@ -32,7 +32,6 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Un
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_impact_events/wraithbone_hit_small"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Unit_Impact_events\\Impact_Bolter_Hvy_blood"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Unit_Impact_events\\Impact_Bolter_Hvy"
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_range"] = 18.00000
 GameData["max_traverse_down"] = -60.00000
 GameData["max_traverse_up"] = 40.00000

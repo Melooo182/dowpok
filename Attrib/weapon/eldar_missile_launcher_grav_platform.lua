@@ -18,7 +18,6 @@ GameData["attack_priorities"]["priority_06"] = Reference([[type_armour\tp_vehicl
 GameData["attack_priorities"]["priority_07"] = Reference([[type_armour\tp_building_high.lua]])
 GameData["fire_cone_angle"] = 30.00000
 GameData["linger_on_target_after_fire_time"] = 1.00000
-GameData["horizontal_traverse_speed"] = 180.00000
 GameData["max_traverse_down"] = -35.00000
 GameData["max_traverse_left"] = -90.00000
 GameData["max_traverse_right"] = 90.00000

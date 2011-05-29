@@ -10,7 +10,7 @@ MetaData = InheritMeta([[weapon\necron_gauss_cannon_variants.nil]])
 GameData["accuracy"] = 0.55000
 GameData["max_traverse_left"] = -180.00000
 GameData["max_traverse_right"] = 180.00000
-GameData["vertical_traverse_speed"] = 180.00000
+GameData["horizontal_traverse_speed"] = 180.00000
 GameData["stationary_horizontal_multiplier"] = 1.00000
 
 
