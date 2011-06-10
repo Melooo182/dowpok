@@ -41,6 +41,9 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_07"]["modifier"]
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_07"]["modifier"]["value"] = 0.50000
 GameData["duration_time"] = 10.00000
 GameData["initial_delay_time"] = 2.00000
+GameData["recharge_time"] = 10.00000
+--343, vehicle speed abilities ID
+GameData["recharge_timer_id"] = 343.00000
 GameData["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])
 GameData["requirements"]["required_1"]["global_addon_name"] = "addons\\eldar_aspect_stone_star.lua"
 GameData["requirements"]["required_2"] = Reference([[requirements\required_health.lua]])

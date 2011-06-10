@@ -12,14 +12,18 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\ork_slugga_stormboyz.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Ork_Choppa"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\ork_choppa_boyz_stormboyz.lua"
+
+GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["hardpoint_weapon_variant_motion_name"] = "Visuals"
+GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Ork_Vis_Stormboy"
+GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\ork_dummy_weapon.lua"
+
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 60.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 6.00000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Orks/Troops/stormboyz_codex"
 
 GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.000000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.000000
---GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"
+GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"
 GameData["melee_ext"]["melee_leap_curve_ratio"] = 0.30000
 GameData["melee_ext"]["melee_leap_damage"] = 0.00000
 GameData["melee_ext"]["melee_leap_knock_down"]["direction_angle_random"] = 5.00000

@@ -316,12 +316,17 @@ GameData["type_ext"]["type_surface"] = Reference([[type_surface\tp_light_metal_a
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Orks/Warboss"
 GameData["ui_ext"]["ui_hotkey_name"] = "ork_warboss"
 GameData["ui_ext"]["ui_index_hint"] = 4.00000
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$97622"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$97623"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$97624"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$97625"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$63000311"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$63000312"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$63000313"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$63000314"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$63000315"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$63000316"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$63000317"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$63000318"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$63000319"
 GameData["ui_ext"]["ui_info"]["icon_name"] = "ork_icons/warboss_icon"
-GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$97620"
+GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$63000310"
 GameData["ui_ext"]["use_hero_ui"] = true
 
 

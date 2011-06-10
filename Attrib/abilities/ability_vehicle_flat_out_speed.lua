@@ -24,6 +24,8 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"]
 GameData["duration_time"] = 5.00000
 --GameData["persist_across_squad_leader_death"] = true
 GameData["recharge_time"] = 10.00000
+--343, vehicle speed abilities ID
+GameData["recharge_timer_id"] = 343.00000
 GameData["speech_directory"] = "ability/fleetoffoot"
 GameData["requirements"]["required_1"] = Reference([[requirements\required_health.lua]])
 GameData["requirements"]["required_1"]["min_health_fraction"] = 0.33000

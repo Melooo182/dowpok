@@ -16,6 +16,8 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]
 GameData["duration_time"] = 5.00000
 --GameData["persist_across_squad_leader_death"] = true
 GameData["recharge_time"] = 10.00000
+--341, units infiltration abilities ID
+GameData["recharge_timer_id"] = 341.00000
 GameData["refresh_time"] = 4.000000
 GameData["ui_hotkey_name"] = "infiltrate"
 GameData["ui_index_hint"] = 10.00000

@@ -14,7 +14,9 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\ork_burna_melee.lua"
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 75.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 7.50000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Orks/Troops/Boyz_codex"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Orks/Troops/Kommandos"
+GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_01"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
+GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_04"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["killer_invulnerable_time"] = 5.60000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["killer_invulnerable_time"] = 3.37000
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Orks/Boyz"

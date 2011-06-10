@@ -7,6 +7,23 @@
 GameData = Inherit([[ebps\races\guard\troops\guard_vehicles_chimera.lua]])
 MetaData = InheritMeta([[ebps\races\guard\troops\guard_vehicles_chimera.lua]])
 
+GameData["addon_ext"]["addons"]["addon_07"] = ""
+GameData["addon_ext"]["addons"]["addon_08"] = ""
+GameData["addon_ext"]["addons"]["addon_09"] = ""
+
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["muzzle"]["x"] = 0.36300
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["muzzle"]["y"] = 2.42000
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["muzzle"]["z"] = 3.49800
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Guard_Autocannon"
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["origin"]["x"] = 0.36300
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["origin"]["y"] = 2.42000
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["origin"]["z"] = 0.83600
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_autocannon_chimera.lua"
+
+GameData["cost_ext"]["time_cost"]["cost"]["power"] = 65.00000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 325.00000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 32.50000
+
 GameData["entity_blueprint_ext"]["animator"] = "Races/Imperial_Guard/Troops/Chimera_Kronus_pattern"
 GameData["ui_ext"]["ui_hotkey_name"] = "tau_shrine_of_kauyon"
 GameData["ui_ext"]["ui_index_hint"] = 4.00000

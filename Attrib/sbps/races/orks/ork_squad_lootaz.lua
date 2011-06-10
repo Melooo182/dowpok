@@ -49,8 +49,6 @@ GameData["squad_reinforce_ext"]["weapon_event"] = "Unit_Upgrade_Morale_FX/Ork_We
 GameData["squad_requirement_ext"] = Reference([[sbpextensions\squad_requirement_ext.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["global_addon_name"] = "addons\\ork_hq_addon_2.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_10"] = Reference([[requirements\global_required_addon.lua]])
-GameData["squad_requirement_ext"]["requirements"]["required_10"]["global_addon_name"] = "addons\\ork_hq_addon.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"] = Reference([[requirements\required_structure.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["is_display_requirement"] = true
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["structure_name"] = "ebps\\races\\orks\\structures\\ork_boy_hut.lua"
@@ -61,8 +59,6 @@ GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["
 GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_03"] = "sbps\\races\\orks\\ork_squad_kommandoz.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_04"] = "sbps\\races\\orks\\ork_squad_nob.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_05"] = "sbps\\races\\orks\\ork_squad_tankbusta.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_4"] = Reference([[requirements\required_research.lua]])
-GameData["squad_requirement_ext"]["requirements"]["required_4"]["research_name"] = "research\\ork_research_da_big_waagh.lua"
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])
 GameData["squad_ui_ext"]["multi_select_priority"] = 6.00000
 GameData["squad_ui_ext"]["ui_info"]["help_text_id"] = "$97601"

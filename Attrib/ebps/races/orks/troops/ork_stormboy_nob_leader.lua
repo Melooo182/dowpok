@@ -13,12 +13,17 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\ork_big_choppa_nob.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"]["name_for_this_weapon_choice"] = "Ork_Power_Klaw"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_03"]["weapon"] = "weapon\\ork_power_claw_nobz.lua"
-GameData["entity_blueprint_ext"]["animator"] = "Races/Orks/Troops/Stormboy_Nob"
+--Rokkit Pack
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["hardpoint_weapon_variant_motion_name"] = "Wargear_Upgrade_03"
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Wargear_01"
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\ork_dummy_weapon.lua"
+
+--~ GameData["entity_blueprint_ext"]["animator"] = "Races/Orks/Troops/Stormboy_Nob"
 
 GameData["melee_ext"]["charge_range"] = 24.00000
 GameData["melee_ext"]["charge_modifiers"]["modifier_01"]["value"] = 2.000000
 GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 2.000000
---GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"
+GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"
 GameData["melee_ext"]["melee_leap_curve_ratio"] = 0.30000
 GameData["melee_ext"]["melee_leap_damage"] = 0.00000
 GameData["melee_ext"]["melee_leap_knock_down"]["direction_angle_random"] = 5.00000

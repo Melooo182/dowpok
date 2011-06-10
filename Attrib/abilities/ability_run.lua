@@ -40,6 +40,8 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_06"]["modifier"]
 GameData["duration_time"] = 8.00000
 GameData["persist_across_squad_leader_death"] = true
 GameData["recharge_time"] = 24.00000
+--342, units speed abilities ID
+GameData["recharge_timer_id"] = 342.00000
 GameData["speech_directory"] = "run"
 GameData["ui_hotkey_name"] = "eldar_fleetoffoot"
 GameData["ui_index_hint"] = 11.00000

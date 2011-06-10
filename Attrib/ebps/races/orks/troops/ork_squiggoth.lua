@@ -71,8 +71,8 @@ GameData["cover_ext"]["cover_stealth"]["modifiers"]["modifier_01"] = Reference([
 GameData["cover_ext"]["cover_stealth"]["modifiers"]["modifier_02"]["value"] = 0.85000
 
 GameData["entity_blueprint_ext"]["animator"] = "Races/Orks/Troops/Squiggoth"
-GameData["entity_blueprint_ext"]["scale_x"] = 3.50000
-GameData["entity_blueprint_ext"]["scale_z"] = 3.50000
+GameData["entity_blueprint_ext"]["scale_x"] = 1.50000
+GameData["entity_blueprint_ext"]["scale_z"] = 1.50000
 GameData["event_manager_ext"]["event_11"]["event_entry_01"]["event_name"] = "Tau\\Abilities\\Mark_Target_Big"
 GameData["event_manager_ext"]["event_13"]["event_entry_01"]["event_name"] = "Guard\\Abilities\\curse_the_machine"
 GameData["event_manager_ext"]["event_13"]["modifier_name"] = "ability_ig_curse_of_the_machine_spirit_event"

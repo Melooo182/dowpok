@@ -32,13 +32,13 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_29"]["armour_piercing_value"] = 15.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 15.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 50.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 100.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 200.00000 --2x, 100 x 2 = 200
 --Initiative 2 100x0.2=20
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 20.00000
-GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "unit_ability_fx\\marine_krak_grenade_explosion"
-GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_ability_fx\\marine_krak_grenade_explosion"
-GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_ability_fx\\marine_krak_grenade_explosion"
-GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "unit_ability_fx\\marine_krak_grenade_explosion"
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 40.00000 --2x, 20 x 2 = 40
+--~ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "unit_ability_fx\\marine_krak_grenade_explosion"
+--~ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_ability_fx\\marine_krak_grenade_explosion"
+--~ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_ability_fx\\marine_krak_grenade_explosion"
+--~ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "unit_ability_fx\\marine_krak_grenade_explosion"
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["max_lifetime"] = 8.00000
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"] = Reference([[modifiers\health_get_back_up_modifier.lua]])
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
@@ -46,7 +46,7 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"]
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"]["value"] = -0.50000
 GameData["cost"]["cost"]["requisition"] = 0.00000
 GameData["cost"]["time_seconds"] = 10.00000
-GameData["reload_time"] = 1.50000
+GameData["reload_time"] = 3.00000 --2x (because of animation), 1.5 x 2 = 3sec
 GameData["ui_effective_against"]["text_01"] = "$0"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$63500131"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$63500132"

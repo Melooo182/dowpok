@@ -59,6 +59,12 @@ GameData["melee_ext"]["charge_modifiers"]["modifier_02"]["value"] = 1.25000
 GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 1.00000
 GameData["morale_add_ext"]["inc_morale_max"] = 90.00000
+
+GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])
+GameData["spawn_ext"]["oncreate_event_name"] = "unit_ability_FX/deep_strike_UNIT"
+GameData["spawn_ext"]["oncreate_motion_duration"] = 0.10000
+GameData["spawn_ext"]["oncreate_motion_name"] = "spawn"
+
 GameData["special_attack_physics_ext"]["get_up_time"] = 2.70000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["killer_invulnerable_time"] = 5.63000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["killer_invulnerable_time"] = 4.70000

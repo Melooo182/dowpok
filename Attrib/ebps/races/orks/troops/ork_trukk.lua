@@ -64,8 +64,8 @@ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 35.00000
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 175.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 17.50000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Orks/Troops/Trukk"
-GameData["entity_blueprint_ext"]["scale_x"] = 1.50000
-GameData["entity_blueprint_ext"]["scale_z"] = 1.50000
+GameData["entity_blueprint_ext"]["scale_x"] = 1.10000
+GameData["entity_blueprint_ext"]["scale_z"] = 1.10000
 --Open Topped -87.5HP
 GameData["health_ext"]["hitpoints"] = 262.50000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_03"] = Reference([[modifiers\cost_time_modifier.lua]])

@@ -19,14 +19,14 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Ork_kan_buzzsaw"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\ork_choppa_boyz_slugga.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Ork_kan_buzzsaw"
+--Eavy Armour
+GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["hardpoint_weapon_variant_motion_name"] = "Wargear_Upgrade_01"
+GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "wargear_01"
+GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\melee_weapon_dummy.lua"
+
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 50.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 5.00000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Orks/Troops/ard_boyz"
-GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["dead_zombie_time"] = 5.60000
-GameData["synckill_ext"]["synckillinfos"]["synckillinfo_01"]["killer_invulnerable_time"] = 5.70000
-GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["dead_zombie_time"] = 4.60000
-GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["dead_zombie_time"] = 3.00000
-GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["killer_invulnerable_time"] = 3.30000
+
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_infantry_high.lua]])
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Orks/Boyz"
 GameData["ui_ext"]["ui_hotkey_name"] = "ork_slugga_boyz"

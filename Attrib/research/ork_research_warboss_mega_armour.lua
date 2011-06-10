@@ -26,15 +26,15 @@ GameData["time_cost"]["time_seconds"] = 17.50000
 GameData["ui_hotkey_name"] = "ork_warboss_ranged_research"
 GameData["ui_index_hint"] = 17.00000
 GameData["ui_info"]["help_text_id"] = "$96021"
-GameData["ui_info"]["help_text_list"]["text_01"] = "$63002390"
-GameData["ui_info"]["help_text_list"]["text_02"] = "$63002391"
-GameData["ui_info"]["help_text_list"]["text_03"] = "$63002392"
-GameData["ui_info"]["help_text_list"]["text_04"] = "$63002393"
-GameData["ui_info"]["help_text_list"]["text_05"] = "$63002394"
-GameData["ui_info"]["help_text_list"]["text_06"] = "$63002395"
-GameData["ui_info"]["help_text_list"]["text_07"] = "$63002396"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$63002391"
+GameData["ui_info"]["help_text_list"]["text_02"] = "$63002392"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$63002393"
+GameData["ui_info"]["help_text_list"]["text_04"] = "$63002394"
+GameData["ui_info"]["help_text_list"]["text_05"] = "$63002395"
+GameData["ui_info"]["help_text_list"]["text_06"] = "$63002396"
+GameData["ui_info"]["help_text_list"]["text_07"] = "$63002397"
 GameData["ui_info"]["icon_name"] = "ork_icons/upgrade_mega_armour"
-GameData["ui_info"]["screen_name_id"] = "$63002380"
+GameData["ui_info"]["screen_name_id"] = "$63002390"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
