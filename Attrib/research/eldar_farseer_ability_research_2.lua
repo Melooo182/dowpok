@@ -6,6 +6,7 @@
 
 GameData = Inherit([[research\eldar_farseer_ability_research.lua]])
 MetaData = InheritMeta([[research\eldar_farseer_ability_research.lua]])
+--Guide
 
 GameData["modifiers"]["modifier_02"]["value"] = 100.00000
 --GameData["modifiers"]["modifier_03"] = Reference([[modifiers\default_weapon_modifier_hardpoint4.lua]])

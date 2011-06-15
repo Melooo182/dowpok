@@ -115,8 +115,8 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_28"]["armour_piercing_value"] = 0.00000 -- Land Raider are inmune
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_15"]["armour_piercing_value"] = 0.00000 -- Monoliths are inmune
 
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 300.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 30.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 150.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 15.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 50.00000
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Unit_Impact_events\\Impact_bolter_hvy_blood_only"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_impact_events\\wraithbone_hit_small"
@@ -156,8 +156,8 @@ GameData["projectile_spawn_pos"]["x"] = -0.52000
 GameData["projectile_spawn_pos"]["y"] = 1.75000
 GameData["projectile_spawn_pos"]["z"] = 1.66000
 GameData["range"] = 18.00000
-GameData["recharge_time"] = 45.00000
-GameData["refresh_time"] = 45.00000
+GameData["recharge_time"] = 25.00000
+GameData["refresh_time"] = 30.00000
 --GameData["target_ground"] = true
 GameData["ui_index_hint"] = 1.00000
 GameData["ui_info"]["help_text_id"] = "$91511"

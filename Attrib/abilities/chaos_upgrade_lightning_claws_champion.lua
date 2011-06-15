@@ -37,6 +37,7 @@ GameData["ui_info"]["help_text_list"]["text_02"] = "$56500122"
 GameData["ui_info"]["help_text_list"]["text_03"] = "$56500123"
 GameData["ui_info"]["help_text_list"]["text_04"] = "$56500124"
 GameData["ui_info"]["help_text_list"]["text_05"] = "$56500125"
+GameData["ui_info"]["help_text_list"]["text_09"] = "$55000231"
 GameData["ui_info"]["icon_name"] = "chaos_icons/lightning_claw"
 GameData["ui_info"]["screen_name_id"] = "$56500120"
 

@@ -8,7 +8,7 @@ GameData = Inherit([[ebps\races\tau\troops\tau_crisis_suit_fireknife.lua]])
 MetaData = InheritMeta([[ebps\races\tau\troops\tau_crisis_suit_fireknife.lua]])
 
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\tau_failsafe_detonator.lua"
-GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\tau_shasvre_fusion_blaster_upgrade.lua"
+GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\tau_upgrade_shasvre_fusion_blaster.lua"
 GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\tau_max_drones.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["muzzle"]["x"] = -0.84700
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["muzzle"]["y"] = 2.00000

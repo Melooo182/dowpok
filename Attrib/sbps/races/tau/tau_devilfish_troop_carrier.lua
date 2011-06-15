@@ -35,8 +35,8 @@ GameData["squad_requirement_ext"]["requirements"]["required_1"]["is_display_requ
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["structure_name"] = "ebps\\races\\tau\\structures\\tau_vehicle_building.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"] = Reference([[requirements\required_squad_cap.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["max_squad_cap"] = 6.00000
-GameData["squad_requirement_ext"]["requirements"]["required_3"] = Reference([[requirements\global_required_addon.lua]])
-GameData["squad_requirement_ext"]["requirements"]["required_3"]["global_addon_name"] = "addons\\addon_tau_hq_1.lua"
+--~ GameData["squad_requirement_ext"]["requirements"]["required_3"] = Reference([[requirements\global_required_addon.lua]])
+--~ GameData["squad_requirement_ext"]["requirements"]["required_3"]["global_addon_name"] = "addons\\addon_tau_hq_1.lua"
 GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "$59000140"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$59000141"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$59000142"

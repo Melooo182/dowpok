@@ -76,8 +76,8 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_04"
 GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_05"]["name_for_this_weapon_choice"] = "vis_tzeentch"
 GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_05"]["weapon"] = "weapon\\chaos_icon_dummy.lua"
 
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 75.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 7.50000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 80.00000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 8.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/Chaos_Space_Marine_Codex"
 GameData["mob_ext"] = Reference([[ebpextensions\mob_ext.lua]])
 GameData["mob_ext"]["mob_value"] = 1.00000

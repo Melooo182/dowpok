@@ -25,13 +25,14 @@ GameData["recharge_timer_id"] = 3.00000
 GameData["recharge_time"] = 999999.99
 GameData["target_self"] = true
 GameData["ui_index_hint"] = 21.00000
-GameData["ui_info"]["help_text_list"]["text_01"] = "$60002781"
-GameData["ui_info"]["help_text_list"]["text_02"] = "$60002782"
-GameData["ui_info"]["help_text_list"]["text_03"] = "$60002783"
-GameData["ui_info"]["help_text_list"]["text_04"] = "$60002784"
-GameData["ui_info"]["help_text_list"]["text_05"] = "$60002785"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$56001595"
+GameData["ui_info"]["help_text_list"]["text_02"] = "$56001596"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$56001597"
+GameData["ui_info"]["help_text_list"]["text_04"] = "$56001598"
+--~ GameData["ui_info"]["help_text_list"]["text_05"] = "$56001599"
+GameData["ui_info"]["help_text_list"]["text_09"] = "$55000231"
 GameData["ui_info"]["icon_name"] = "chaos_icons/upgrade_heavy_bolter"
-GameData["ui_info"]["screen_name_id"] = "$60002780"
+GameData["ui_info"]["screen_name_id"] = "$56001594"
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, rangeStart = 665600, rangeEnd = 665649, }
 MetaData["$METACOLOURTAG"] = 

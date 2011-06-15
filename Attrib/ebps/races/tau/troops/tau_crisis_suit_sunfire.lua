@@ -4,8 +4,8 @@
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[ebps\races\tau\troops\tau_crisis_suit.lua]])
-MetaData = InheritMeta([[ebps\races\tau\troops\tau_crisis_suit.lua]])
+GameData = Inherit([[ebps\races\tau\troops\tau_crisis_suit.nil]])
+MetaData = InheritMeta([[ebps\races\tau\troops\tau_crisis_suit.nil]])
 
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\tau_burst_cannon_xv81_crisis_suit_r.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\tau_fusion_blaster_xv81_crisis_suit_l.lua"

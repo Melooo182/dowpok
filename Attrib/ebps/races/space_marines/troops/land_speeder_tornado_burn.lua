@@ -39,6 +39,9 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_03"
 GameData["cost_ext"]["time_cost"]["cost"]["power"] = 50.00000
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 250.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 20.00000
+GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
+GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])
+GameData["requirement_ext"]["requirements"]["required_1"]["global_addon_name"] = "addons\\space_marine_hq_addon_2.lua"
 GameData["ui_ext"]["ui_index_hint"] = 1.00000
 GameData["ui_ext"]["ui_info"]["help_text_id"] = "$16020201"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$61001371"

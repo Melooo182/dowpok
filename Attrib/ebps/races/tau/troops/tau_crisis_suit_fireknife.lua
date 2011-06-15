@@ -4,8 +4,8 @@
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[ebps\races\tau\troops\tau_crisis_suit.lua]])
-MetaData = InheritMeta([[ebps\races\tau\troops\tau_crisis_suit.lua]])
+GameData = Inherit([[ebps\races\tau\troops\tau_crisis_suit.nil]])
+MetaData = InheritMeta([[ebps\races\tau\troops\tau_crisis_suit.nil]])
 
 --Targeting Array
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["muzzle"]["x"] = 0.84700

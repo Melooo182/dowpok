@@ -9,8 +9,8 @@ MetaData = InheritMeta([[abilities\tau_abilities.nil]])
 
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"] = Reference([[modifiers\enable_armour_2.lua]])
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
-GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
-GameData["requirements"]["required_1"]["research_name"] = "research\\tau_xv89_command_role_research.lua"
+GameData["requirements"]["required_1"] = Reference([[requirements\local_required_addon.lua]])
+GameData["requirements"]["required_1"]["addon_name"] = "addons\\tau_xv89_command_role_research.lua"
 GameData["speech_directory"] = "Ability\\Shield_Activated"
 GameData["ui_hotkey_name"] = "tau_ion_shield"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$666101"

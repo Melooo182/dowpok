@@ -52,13 +52,13 @@ GameData["max_range"] = 54.00000
 GameData["reload_time"] = 1.50000
 GameData["ui_hotkey_name"] = "eldar_starcannon"
 GameData["ui_info"]["help_text_id"] = "$57000127"
-GameData["ui_info"]["help_text_list"]["text_01"] = "$57000128"
-GameData["ui_info"]["help_text_list"]["text_02"] = "$57000129"
-GameData["ui_info"]["help_text_list"]["text_03"] = "$57000130"
-GameData["ui_info"]["help_text_list"]["text_04"] = "$57000131"
-GameData["ui_info"]["help_text_list"]["text_05"] = "$57000132"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$57500091"
+GameData["ui_info"]["help_text_list"]["text_02"] = "$57500092"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$57500093"
+GameData["ui_info"]["help_text_list"]["text_04"] = "$57500094"
+GameData["ui_info"]["help_text_list"]["text_05"] = "$57500095"
 GameData["ui_info"]["icon_name"] = "eldar_icons/upgrade_starcannon"
-GameData["ui_info"]["screen_name_id"] = "$57000126"
+GameData["ui_info"]["screen_name_id"] = "$57500090"
 GameData["vertical_traverse_speed"] = 50.00000
 
 

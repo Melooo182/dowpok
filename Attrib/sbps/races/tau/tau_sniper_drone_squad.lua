@@ -40,12 +40,10 @@ GameData["squad_requirement_ext"]["requirements"]["required_1"]["structure_name"
 GameData["squad_requirement_ext"]["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["squad_requirement_ext"]["requirements"]["required_10"]["structure_name"] = "ebps\\races\\tau\\structures\\tau_research_building.lua"
---GameData["squad_requirement_ext"]["requirements"]["required_11"] = Reference([[requirements\required_research.lua]])
---GameData["squad_requirement_ext"]["requirements"]["required_11"]["research_name"] = "research\\tau_drone_controller_research.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_11"] = Reference([[requirements\global_required_addon.lua]])
+GameData["squad_requirement_ext"]["requirements"]["required_11"]["global_addon_name"] = "addons\\addon_tau_hq_2.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"] = Reference([[requirements\required_squad_cap.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["max_squad_cap"] = 3.00000
---GameData["squad_requirement_ext"]["requirements"]["required_3"] = Reference([[requirements\required_research.lua]])
---GameData["squad_requirement_ext"]["requirements"]["required_3"]["research_name"] = "research\\tau_teachings_of_montka_research.lua"
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])
 GameData["squad_transportable_ext"]["nr_spots"] = 2.00000
 GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "$59000190"

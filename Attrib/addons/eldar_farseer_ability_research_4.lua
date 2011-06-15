@@ -6,6 +6,7 @@
 
 GameData = Inherit([[Addons\eldar_farseer_ability_research.lua]])
 MetaData = InheritMeta([[Addons\eldar_farseer_ability_research.lua]])
+--Doom
 
 GameData["modifiers"]["modifier_02"]["value"] = 125.00000
 GameData["requirements"]["required_3"]["global_mutually_exclusive_with"] = "addons\\eldar_farseer_ability_research.lua"

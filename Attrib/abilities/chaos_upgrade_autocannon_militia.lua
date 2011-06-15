@@ -32,6 +32,7 @@ GameData["ui_info"]["help_text_list"]["text_02"] = "$56001672"
 GameData["ui_info"]["help_text_list"]["text_03"] = "$56001673"
 GameData["ui_info"]["help_text_list"]["text_04"] = "$56001674"
 GameData["ui_info"]["help_text_list"]["text_05"] = "$56001675"
+GameData["ui_info"]["help_text_list"]["text_09"] = "$55000231"
 GameData["ui_info"]["icon_name"] = "chaos_icons/chaos_autocannon_havoc"
 GameData["ui_info"]["screen_name_id"] = "$56001670"
 

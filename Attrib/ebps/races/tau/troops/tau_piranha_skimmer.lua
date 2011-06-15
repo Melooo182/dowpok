@@ -9,7 +9,7 @@ MetaData = InheritMeta([[ebps\races\tau\troops\tau_vehicles.nil]])
 
 GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\ability_vehicle_flat_out_speed_skimmer.lua"
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\tau_skimmer_dmged_slow_squadrons.lua"
-GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\ability_vehicle_combat_speed_fast_skimmer.lua"
+GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\ability_vehicle_combat_speed_squadron_fast_skimmer.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\tau_vehicle_blacksun_filter_squadrons.lua"
 GameData["ability_ext"]["abilities"]["ability_14"] = "abilities\\tau_disruption_pod_squadrons.lua"

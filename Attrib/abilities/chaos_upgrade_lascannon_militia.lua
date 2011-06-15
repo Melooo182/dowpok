@@ -32,6 +32,7 @@ GameData["ui_info"]["help_text_list"]["text_02"] = "$56001678"
 GameData["ui_info"]["help_text_list"]["text_03"] = "$56001679"
 GameData["ui_info"]["help_text_list"]["text_04"] = "$56001680"
 GameData["ui_info"]["help_text_list"]["text_05"] = "$56001681"
+GameData["ui_info"]["help_text_list"]["text_09"] = "$55000231"
 GameData["ui_info"]["icon_name"] = "chaos_icons/upgrade_lascannon"
 GameData["ui_info"]["screen_name_id"] = "$56001676"
 

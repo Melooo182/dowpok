@@ -30,6 +30,18 @@ GameData["requirements"]["required_3"] = Reference([[requirements\local_required
 GameData["requirements"]["required_3"]["mutually_exclusive_with"] = "addons\\chaos_mark_of_tzeentch_lord.lua"
 GameData["requirements"]["required_4"] = Reference([[requirements\local_required_addon_exclusive.lua]])
 GameData["requirements"]["required_4"]["mutually_exclusive_with"] = "addons\\chaos_commander_daemon_weapon_undivided.lua"
+GameData["requirements"]["required_5"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_5"]["research_name"] = "research\\mark_of_nurgle.lua"
+GameData["requirements"]["required_5"]["research_must_not_be_complete"] = true
+GameData["requirements"]["required_5"]["hide_the_button_when_failed"] = true
+GameData["requirements"]["required_6"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_6"]["research_name"] = "research\\mark_of_khorne.lua"
+GameData["requirements"]["required_6"]["research_must_not_be_complete"] = true
+GameData["requirements"]["required_6"]["hide_the_button_when_failed"] = true
+GameData["requirements"]["required_7"] = Reference([[requirements\required_research.lua]])
+GameData["requirements"]["required_7"]["research_name"] = "research\\mark_of_tzeentch.lua"
+GameData["requirements"]["required_7"]["research_must_not_be_complete"] = true
+GameData["requirements"]["required_7"]["hide_the_button_when_failed"] = true
 
 --5pts
 GameData["time_cost"]["cost"]["power"] = 0.00000

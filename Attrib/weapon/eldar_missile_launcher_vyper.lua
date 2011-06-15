@@ -26,13 +26,8 @@ GameData["max_traverse_up"] = 50.00000
 GameData["setup_time"] = 0.00000
 GameData["stationary_horizontal_multiplier"] = 0.50000
 GameData["ui_info"]["help_text_id"] = "$57000106"
-GameData["ui_info"]["help_text_list"]["text_01"] = "$57000107"
-GameData["ui_info"]["help_text_list"]["text_02"] = "$57000108"
-GameData["ui_info"]["help_text_list"]["text_03"] = "$57000109"
-GameData["ui_info"]["help_text_list"]["text_04"] = "$57000110"
-GameData["ui_info"]["help_text_list"]["text_05"] = "$57000111"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$57500070"
 GameData["ui_info"]["icon_name"] = "eldar_icons/upgrade_missile_launcher"
-GameData["ui_info"]["screen_name_id"] = "$57000105"
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
 MetaData["$METACOLOURTAG"] = 

@@ -6,6 +6,7 @@
 
 GameData = Inherit([[addons\addon.nil]])
 MetaData = InheritMeta([[addons\addon.nil]])
+--Fortune
 
 GameData["modifiers"]["modifier_01"] = Reference([[modifiers\cost_time_modifier.lua]])
 GameData["modifiers"]["modifier_01"]["target_type_name"] = "eldar_farseer"

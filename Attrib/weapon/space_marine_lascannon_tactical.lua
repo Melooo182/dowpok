@@ -8,9 +8,10 @@ GameData = Inherit([[weapon\space_marine_lascannon.lua]])
 MetaData = InheritMeta([[weapon\space_marine_lascannon.lua]])
 
 GameData["accuracy_reduction_when_moving"] = 1.00000
-GameData["cost"]["cost"]["power"] = 0.00000
-GameData["cost"]["cost"]["requisition"] = 50.00000
-GameData["cost"]["time_seconds"] = 5.00000
+GameData["cost"]["cost"]["requisition"] = 100.00000
+GameData["cost"]["time_seconds"] = 10.00000
+--~ GameData["cost"]["cost"]["requisition"] = 50.00000
+--~ GameData["cost"]["time_seconds"] = 5.00000
 --GameData["fire_cost"]["power"] = 9.00000
 GameData["max_traverse_left"] = -35.00000
 GameData["max_traverse_right"] = 35.00000

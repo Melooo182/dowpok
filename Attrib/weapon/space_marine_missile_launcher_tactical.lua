@@ -8,8 +8,10 @@ GameData = Inherit([[weapon\space_marine_missile_launcher.lua]])
 MetaData = InheritMeta([[weapon\space_marine_missile_launcher.lua]])
 
 GameData["accuracy_reduction_when_moving"] = 1.00000
-GameData["cost"]["cost"]["requisition"] = 0.00000
-GameData["cost"]["time_seconds"] = 0.00000
+GameData["cost"]["cost"]["requisition"] = 50.00000
+GameData["cost"]["time_seconds"] = 5.00000
+--~ GameData["cost"]["cost"]["requisition"] = 0.00000
+--~ GameData["cost"]["time_seconds"] = 0.00000
 GameData["linger_on_target_after_fire_time"] = 1.00000
 GameData["max_traverse_left"] = -35.00000
 GameData["max_traverse_right"] = 35.00000

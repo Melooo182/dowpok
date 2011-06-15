@@ -6,6 +6,7 @@
 
 GameData = Inherit([[research\eldar_farseer_ability_research.lua]])
 MetaData = InheritMeta([[research\eldar_farseer_ability_research.lua]])
+--Doom
 
 GameData["modifiers"]["modifier_02"]["value"] = 125.00000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])

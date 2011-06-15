@@ -11,6 +11,8 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\templar_multi_melta_land_speeder.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\templar_missile_launcher_landspeeder.lua"
 GameData["entity_blueprint_ext"]["animator"] = "Races/Black_Templar/Troops/land_speeder_codex"
+GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
+GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"]["global_addon_name"] = "addons\\black_marine_hq_addon_2.lua"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$62000691"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$62000692"

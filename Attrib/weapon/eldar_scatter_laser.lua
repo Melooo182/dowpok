@@ -46,13 +46,13 @@ GameData["max_range"] = 54.00000
 GameData["reload_time"] = 0.75000
 GameData["ui_hotkey_name"] = "eldar_scatter_laser"
 GameData["ui_info"]["help_text_id"] = "$57000099"
-GameData["ui_info"]["help_text_list"]["text_01"] = "$57000100"
-GameData["ui_info"]["help_text_list"]["text_02"] = "$57000101"
-GameData["ui_info"]["help_text_list"]["text_03"] = "$57000102"
-GameData["ui_info"]["help_text_list"]["text_04"] = "$57000103"
-GameData["ui_info"]["help_text_list"]["text_05"] = "$57000104"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$57500121"
+GameData["ui_info"]["help_text_list"]["text_02"] = "$57500122"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$57500123"
+GameData["ui_info"]["help_text_list"]["text_04"] = "$57500124"
+GameData["ui_info"]["help_text_list"]["text_05"] = "$57500125"
 GameData["ui_info"]["icon_name"] = "eldar_icons/eldar_scatterlaser"
-GameData["ui_info"]["screen_name_id"] = "$57000098"
+GameData["ui_info"]["screen_name_id"] = "$57500120"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

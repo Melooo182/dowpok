@@ -24,7 +24,7 @@ GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$63000077"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$63000078"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$63000079"
 GameData["squad_ui_ext"]["ui_info"]["icon_name"] = "ork_icons/Trukk_'Ard_Boyz_Icon"
-GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "'$63000070"
+GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "$63000070"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

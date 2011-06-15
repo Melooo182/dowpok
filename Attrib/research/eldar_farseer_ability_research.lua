@@ -6,6 +6,7 @@
 
 GameData = Inherit([[research\eldar_research.nil]])
 MetaData = InheritMeta([[research\eldar_research.nil]])
+--Fortune
 
 GameData["modifiers"]["modifier_01"] = Reference([[modifiers\cost_time_modifier.lua]])
 GameData["modifiers"]["modifier_01"]["target_type_name"] = "eldar_farseer"

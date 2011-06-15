@@ -6,6 +6,7 @@
 
 GameData = Inherit([[Addons\eldar_farseer_ability_research.lua]])
 MetaData = InheritMeta([[Addons\eldar_farseer_ability_research.lua]])
+--Guide
 
 GameData["modifiers"]["modifier_02"]["value"] = 100.00000
 GameData["modifiers"]["modifier_03"] = Reference([[modifiers\no_modifier.lua]])

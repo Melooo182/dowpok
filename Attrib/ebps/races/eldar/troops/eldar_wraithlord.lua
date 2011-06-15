@@ -306,7 +306,6 @@ GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["chance"] = 0.00000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["synckill_id"] = Reference([[type_synckillids\sk_none.lua]])
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_tough_8_wraith.lua]])
 GameData["type_ext"]["type_speech"] = Reference([[type_speech\speech_monstrosity.lua]])
-GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_vehicle_low.lua]])
 GameData["type_ext"]["type_surface"] = Reference([[type_surface\tp_heavy_metal_armour.lua]])
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Eldar/Wraithlord"
 GameData["ui_ext"]["ui_hotkey_name"] = "eldar_wraithlord"

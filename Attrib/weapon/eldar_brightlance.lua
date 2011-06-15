@@ -54,15 +54,20 @@ GameData["max_range"] = 54.00000
 GameData["max_traverse_up"] = 50.00000
 --GameData["obey_terrain_line_of_sight"] = true
 GameData["reload_time"] = 6.00000
+GameData["requirements"] = Reference([[tables\requirements.lua]])
+GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
+GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\eldar\\structures\\eldar_soul_shrine.lua"
+GameData["requirements"]["required_2"] = Reference([[requirements\global_required_addon.lua]])
+GameData["requirements"]["required_2"]["global_addon_name"] = "addons\\eldar_hq_addon_2.lua"
 GameData["ui_hotkey_name"] = "eldar_bright_lance"
 GameData["ui_info"]["help_text_id"] = "$57000162"
-GameData["ui_info"]["help_text_list"]["text_01"] = "$57000163"
-GameData["ui_info"]["help_text_list"]["text_02"] = "$57000164"
-GameData["ui_info"]["help_text_list"]["text_03"] = "$57000165"
-GameData["ui_info"]["help_text_list"]["text_04"] = "$57000166"
-GameData["ui_info"]["help_text_list"]["text_05"] = "$57000167"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$57500081"
+GameData["ui_info"]["help_text_list"]["text_02"] = "$57500082"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$57500083"
+GameData["ui_info"]["help_text_list"]["text_04"] = "$57500084"
+GameData["ui_info"]["help_text_list"]["text_05"] = "$57500085"
 GameData["ui_info"]["icon_name"] = "eldar_icons/upgrade_bright_lance"
-GameData["ui_info"]["screen_name_id"] = "$57000161"
+GameData["ui_info"]["screen_name_id"] = "$57500080"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

@@ -26,8 +26,8 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"]
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"]["value"] = 1.30000
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_03"]["modifier"] = Reference([[modifiers\ability_aura_event.lua]])
-GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
-GameData["requirements"]["required_1"]["research_name"] = "research\\tau_xv89_command_role_research.lua"
+GameData["requirements"]["required_1"] = Reference([[requirements\local_required_addon.lua]])
+GameData["requirements"]["required_1"]["addon_name"] = "addons\\tau_xv89_command_role_research.lua"
 GameData["ui_hotkey_name"] = "tau_ion_shield"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$666101"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$666103"

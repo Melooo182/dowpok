@@ -28,7 +28,7 @@ GameData["squad_leader_ext"] = Reference([[sbpextensions\squad_leader_ext.lua]])
 GameData["squad_leader_ext"]["leader_1"]["add_while_moving"] = true
 GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 275.00000
 GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 27.50000
-GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\tau\\troops\\tau_xv81_crisis_suit.lua"
+GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\tau\\troops\\tau_shasvre_crisis_suit_fireknife.lua"
 
 --Drone in squads
 GameData["squad_leader_ext"]["leader_2"]["add_while_moving"] = true
@@ -50,7 +50,7 @@ GameData["squad_leader_ext"]["max_leaders"] = 2.00000
 
 GameData["squad_leader_ext"]["multi_with_reinforce"] = true
 GameData["squad_leader_ext"]["multi_with_upgrades"] = true
-GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\tau\\troops\\tau_crisis_suit.lua"
+GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\tau\\troops\\tau_crisis_suit_fireknife.lua"
 GameData["squad_loadout_ext"]["unit_max"] = 2.00000
 GameData["squad_loadout_ext"]["unit_min"] = 1.00000
 GameData["squad_melee_stance_ext"] = Reference([[sbpextensions\squad_melee_stance_ext.lua]])

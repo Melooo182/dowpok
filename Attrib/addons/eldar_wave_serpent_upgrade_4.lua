@@ -9,6 +9,7 @@ MetaData = InheritMeta([[addons\eldar_wave_serpent_upgrade_1.lua]])
 
 GameData["modifiers"]["modifier_01"]["value"] = 4.00000
 GameData["requirements"]["required_3"]["mutually_exclusive_with"] = "addons\\eldar_wave_serpent_upgrade_1.lua"
+GameData["requirements"]["required_12"]["global_addon_name"] = "addons\\eldar_hq_addon_2.lua"
 GameData["time_cost"]["cost"]["power"] = 35.00000
 GameData["time_cost"]["cost"]["requisition"] = 175.00000
 GameData["time_cost"]["time_seconds"] = 17.50000

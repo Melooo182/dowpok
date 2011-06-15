@@ -17,13 +17,8 @@ GameData["max_traverse_right"] = 360.00000
 GameData["max_traverse_up"] = 50.00000
 GameData["stationary_horizontal_multiplier"] = 0.50000
 GameData["ui_info"]["help_text_id"] = "$57000099"
-GameData["ui_info"]["help_text_list"]["text_01"] = "$57000100"
-GameData["ui_info"]["help_text_list"]["text_02"] = "$57000101"
-GameData["ui_info"]["help_text_list"]["text_03"] = "$57000102"
-GameData["ui_info"]["help_text_list"]["text_04"] = "$57000103"
-GameData["ui_info"]["help_text_list"]["text_05"] = "$57000104"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$57500070"
 GameData["ui_info"]["icon_name"] = "eldar_icons/eldar_scatterlaser"
-GameData["ui_info"]["screen_name_id"] = "$57000098"
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
 MetaData["$METACOLOURTAG"] = 

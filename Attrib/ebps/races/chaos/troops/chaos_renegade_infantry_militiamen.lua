@@ -56,9 +56,10 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_knife_militiamen.lua"
 --GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 25.00000
 --GameData["cost_ext"]["time_cost"]["time_seconds"] = 3.00000
---Sarge cost added Fluffy leaders, 30x7 = 210+60 = 270/7 = 28.5715....
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 38.57150
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 3.8571
+--Sarge cost added Fluffy leaders, 30x7 = 210+60 = 270/7 = 38.5715.... OLD
+--Sarge cost added Fluffy leaders, 25x7 = 175+50 = 225/7 = 32.1428....
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 32.14286
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 3.21429
 GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/renegade_militia"
 GameData["entity_blueprint_ext"]["scale_z"] = 0.00000
 GameData["health_ext"]["max_repairers"] = 0.00000

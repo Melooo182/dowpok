@@ -23,8 +23,12 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["vertical_aim_motion_variable_name"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Eldar_Knife"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\eldar_knife_guardian.lua"
+
+-- Shuriken Cannon Plarform Added
+-- 10 Guardians 400req + Platform 25req = 425req /10 = 42.5req
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 42.50000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 4.25000
+
 GameData["entity_blueprint_ext"]["animator"] = "Races/Eldar/Troops/guardian_defender"
 GameData["infiltration_ext"]["infiltration_event_name"] = "Order_Confirm_Events/infiltrate_eldar.events"
 GameData["special_attack_physics_ext"]["get_up_time"] = 1.70000

@@ -8,7 +8,7 @@ GameData = Inherit([[ebps\races\tau\troops\tau_guevesa_auxiliary.lua]])
 MetaData = InheritMeta([[ebps\races\tau\troops\tau_guevesa_auxiliary.lua]])
 
 GameData["ability_ext"]["abilities"]["ability_01"] = ""
-GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\tau_guevesaui_pulse_carbine_upgrade.lua"
+GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\tau_upgrade_guevesaui_pulse_carbine.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "tau_pulse_rifle"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\tau_pulse_rifle_gue'vesa'la.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "tau_pulse_carbine"

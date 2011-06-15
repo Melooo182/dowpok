@@ -7,6 +7,7 @@
 GameData = Inherit([[ebps\races\orks\troops\ork_vehicle.nil]])
 MetaData = InheritMeta([[ebps\races\orks\troops\ork_vehicle.nil]])
 
+GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\ability_vehicle_combat_speed_squadron.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"

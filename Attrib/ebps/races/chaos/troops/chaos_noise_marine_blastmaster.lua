@@ -14,9 +14,14 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"
 
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_knife_noise_marine.lua"
 
+--Blastmaster visual
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["hardpoint_weapon_variant_motion_name"] = "Wargear_Upgrade_01"
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Chaos_Blastmaster"
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\melee_weapon_dummy.lua"
+
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 300.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 30.00000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/noise_marine_blastmaster"
+--~ GameData["entity_blueprint_ext"]["animator"] = "Races/Chaos/Troops/noise_marine_blastmaster"
 
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])

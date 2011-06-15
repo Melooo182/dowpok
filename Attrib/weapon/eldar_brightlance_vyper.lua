@@ -16,13 +16,8 @@ GameData["max_traverse_left"] = -360.00000
 GameData["max_traverse_right"] = 360.00000
 GameData["stationary_horizontal_multiplier"] = 0.50000
 GameData["ui_info"]["help_text_id"] = "$57000162"
-GameData["ui_info"]["help_text_list"]["text_01"] = "$57000163"
-GameData["ui_info"]["help_text_list"]["text_02"] = "$57000164"
-GameData["ui_info"]["help_text_list"]["text_03"] = "$57000165"
-GameData["ui_info"]["help_text_list"]["text_04"] = "$57000166"
-GameData["ui_info"]["help_text_list"]["text_05"] = "$57000167"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$57500070"
 GameData["ui_info"]["icon_name"] = "eldar_icons/eldar_brightlance"
-GameData["ui_info"]["screen_name_id"] = "$57000161"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

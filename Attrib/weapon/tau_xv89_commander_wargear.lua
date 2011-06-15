@@ -10,7 +10,7 @@ MetaData = InheritMeta([[weapon\tau_melee_weapons.nil]])
 GameData["accuracy"] = 0.00000
 GameData["requirements"] = Reference([[tables\requirements.lua]])
 GameData["requirements"]["required_1"] = Reference([[requirements\required_research.lua]])
-GameData["requirements"]["required_1"]["research_name"] = "research\\tau_xv89_tank_hunter_research.lua"
+GameData["requirements"]["required_1"]["research_name"] = "research\\dummy_research.lua"
 GameData["show_in_reinforce"] = false
 
 
