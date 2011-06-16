@@ -59,8 +59,8 @@ GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_05"] = "sbps\\races\\space_marines\\space_marine_squad_chaplain_assault.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_06"] = "sbps\\races\\space_marines\\space_marine_squad_force_commander_assault.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_07"] = "sbps\\races\\space_marines\\space_marine_squad_chapter_master_assault.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_08"] = "sbps\\races\\space_marines\\space_marine_squad_force_commander_advance_sp.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_09"] = "sbps\\races\\space_marines\\space_marine_squad_force_commander_assault_advance_sp.lua"
+--~ GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_08"] = "sbps\\races\\space_marines\\space_marine_squad_force_commander_advance_sp.lua"
+--~ GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_09"] = "sbps\\races\\space_marines\\space_marine_squad_force_commander_assault_advance_sp.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_10"] = "sbps\\races\\space_marines\\space_marine_squad_librarian_assault.lua"
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])
 GameData["squad_transportable_ext"]["transport_type"] = Reference([[type_transportable\transport_relay.lua]])
