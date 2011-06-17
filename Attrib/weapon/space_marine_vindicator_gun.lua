@@ -79,7 +79,7 @@ GameData["attack_priorities"]["priority_08"] = Reference([[type_armour\tp_buildi
 GameData["attack_priorities"]["priority_09"] = Reference([[type_armour\tp_building_med.lua]])
 GameData["attack_priorities"]["priority_10"] = Reference([[type_armour\tp_building_low.lua]])
 --GameData["fire_cost"]["power"] = 10.00000
-GameData["fired_projectile"] = "space_marine_demolisher_shell"
+GameData["fired_projectile"] = "space_marine_demolisher_shell" --Keep scattering for fun
 GameData["max_range"] = 36.00000
 GameData["max_traverse_down"] = -5.00000
 GameData["max_traverse_left"] = -5.00000
@@ -91,7 +91,7 @@ GameData["miss_events"]["rock"] = "data:Art/Events/ground_impact/Impact_Artiller
 GameData["miss_events"]["water"] = "ground_impact/artillery_impact_water"
 GameData["move_aim_to_home"] = false
 GameData["reload_time"] = 6.00000
-GameData["setup_time"] = 3.00000
+--~ GameData["setup_time"] = 3.00000 --Barrage
 GameData["ui_info"]["help_text_id"] = "$16020132"
 GameData["ui_info"]["screen_name_id"] = "$16020133"
 

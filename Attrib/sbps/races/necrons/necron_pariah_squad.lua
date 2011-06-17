@@ -43,9 +43,7 @@ GameData["squad_requirement_ext"]["requirements"]["required_2"]["max_cumulative_
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_01"] = "sbps\\races\\necrons\\necron_flayed_one_squad.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_02"] = "sbps\\races\\necrons\\necron_immortal_squad.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_3"] = Reference([[requirements\required_structure.lua]])
-GameData["squad_requirement_ext"]["requirements"]["required_3"]["structure_name"] = "ebps\\races\\necrons\\structures\\necron_energy_core.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_4"] = Reference([[requirements\required_structure.lua]])
-GameData["squad_requirement_ext"]["requirements"]["required_4"]["structure_name"] = "ebps\\races\\necrons\\structures\\necron_forbidden_archive.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_3"]["structure_name"] = "ebps\\races\\necrons\\structures\\necron_forbidden_archive.lua"
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])
 GameData["squad_ui_ext"]["multi_select_priority"] = 9.00000
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$64000391"

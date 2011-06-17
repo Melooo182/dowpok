@@ -65,6 +65,7 @@ GameData["health_ext"]["keep_persistent_body"] = false
 GameData["health_ext"]["morale_death"] = 200.00000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.93750
 GameData["health_ext"]["regeneration_rate"] = 1.87500
+GameData["health_ext"]["spawn_on_death"] = "ebps\\environment\\gameplay\\dead_warboss.lua"
 GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
 GameData["morale_add_ext"]["inc_morale_max"] = 200.00000
 GameData["morale_add_ext"]["inc_morale_rate"] = 20.00000

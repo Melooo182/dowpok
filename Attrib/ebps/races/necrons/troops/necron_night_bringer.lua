@@ -259,6 +259,7 @@ GameData["health_ext"]["display_health_bar"] = true
 GameData["health_ext"]["hitpoints"] = 2000.00000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 2.50000
 GameData["health_ext"]["regeneration_rate"] = 5.00000
+GameData["health_ext"]["spawn_on_death"] = "ebps\\environment\\gameplay\\dead_ctan.lua"
 GameData["melee_ext"] = Reference([[ebpextensions\melee_ext.lua]])
 --GameData["melee_ext"]["in_melee_modifiers"]["modifier_10"] = Reference([[modifiers\no_modifier.lua]])
 GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])

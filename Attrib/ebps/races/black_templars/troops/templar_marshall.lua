@@ -121,6 +121,7 @@ GameData["health_ext"]["hitpoints"] = 1200.000000
 GameData["health_ext"]["morale_death"] = 200.00000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.75000
 GameData["health_ext"]["regeneration_rate"] = 1.50000
+GameData["health_ext"]["spawn_on_death"] = "ebps\\environment\\gameplay\\dead_marshall.lua"
 GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
 GameData["morale_add_ext"]["inc_morale_rate"] = 10.00000
 

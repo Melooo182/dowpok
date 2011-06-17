@@ -8,6 +8,7 @@ GameData = Inherit([[abilities\necron_resurrection_orb.lua]])
 MetaData = InheritMeta([[abilities\necron_resurrection_orb.lua]])
 
 GameData["area_effect"]["area_effect_information"]["radius"] = 18.00000
+GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"] = Reference([[modifiers\no_modifier.lua]])
 --GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["value"] = 1.00000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_none.lua]])
 
