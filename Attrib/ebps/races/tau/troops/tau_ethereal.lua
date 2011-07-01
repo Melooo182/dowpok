@@ -13,6 +13,7 @@ GameData["spawner_ext"]["squad_table"]["squad_01"] = "sbps\\races\\tau\\tau_ethe
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\tau_for_the_greater_good.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\ability_fearless.lua"
+GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\tau_barracuda_strike.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\ability_run.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\ability_attach_disable_jump.lua"
