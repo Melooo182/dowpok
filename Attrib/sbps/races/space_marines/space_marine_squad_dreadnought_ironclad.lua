@@ -55,7 +55,7 @@ GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["
 GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_16"] = "sbps\\races\\space_marines\\space_marine_squad_terminator_half.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_17"] = "sbps\\races\\space_marines\\space_marine_squad_terminator_assault_half.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_5"] = Reference([[requirements\required_cumulative_squad_cap.lua]])
-GameData["squad_requirement_ext"]["requirements"]["required_5"]["max_cumulative_squad_cap"] = 1.00000
+GameData["squad_requirement_ext"]["requirements"]["required_5"]["max_cumulative_squad_cap"] = 3.00000
 GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_01"] = "sbps\\races\\space_marines\\space_marine_squad_sternguard_veterans_half_2.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_02"] = "sbps\\races\\space_marines\\space_marine_squad_sternguard_veterans_kantor_half_2.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_03"] = "sbps\\races\\space_marines\\space_marine_squad_terminator_half_2.lua"

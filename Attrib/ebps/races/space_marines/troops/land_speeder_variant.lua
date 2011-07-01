@@ -92,6 +92,7 @@ GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_
 GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["radius"] = 4.50000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Space_Marines/Troops/land_speeder_codex"
 GameData["entity_blueprint_ext"]["scale_z"] = 0.60000
+GameData["health_ext"]["max_repairers"] = 0.00000
 GameData["health_ext"]["post_death_event_delay"] = 4.00000
 GameData["health_ext"]["pre_death_event_delay"] = 4.00000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000

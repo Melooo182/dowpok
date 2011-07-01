@@ -9,10 +9,9 @@ MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_marine.nil]])
 
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_icon_of_glory_of_chaos.lua"
-GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\chaos_run.lua"
-GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\chaos_run_2.lua"
-GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
---GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\ability_attach_disable_jump.lua"
+GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\ability_run.lua"
+GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\ability_infiltration_detection_field.lua"
+--GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_attach_disable_jump.lua"
 
 --GameData["combat_ext"]["complex_upgrades"] = true
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"

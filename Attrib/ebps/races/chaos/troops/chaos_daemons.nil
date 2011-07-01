@@ -8,7 +8,7 @@ GameData = Inherit([[ebps\races\chaos\troops\chaos_troop.nil]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_troop.nil]])
 
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
-GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\chaos_run.lua"
+GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\ability_run.lua"
 GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\ability_fearless.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["combat_ext"] = Reference([[ebpextensions\combat_ext.lua]])

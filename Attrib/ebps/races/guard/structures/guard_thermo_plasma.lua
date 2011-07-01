@@ -64,6 +64,13 @@ GameData["modifier_apply_ext"]["modifiers_immediate"]["modifier_01"]["usage_type
 GameData["modifier_apply_ext"]["modifiers_immediate"]["modifier_01"]["value"] = 1.0500000]]
 --GameData["modifier_apply_ext"]["modifiers_immediate"]["modifier_03"] = Reference([[modifiers\enable_armour_2.lua]])
 GameData["resource_ext"] = Reference([[ebpextensions\resource_ext.lua]])
+GameData["resource_ext"]["decay_amber_event"] = "aura/Pulse_AMBER"
+GameData["resource_ext"]["decay_delay_time"] = 600.00000
+GameData["resource_ext"]["decay_enabled"] = true
+GameData["resource_ext"]["decay_green_event"] = "aura/Pulse_GREEN"
+GameData["resource_ext"]["decay_lower_limit_percentage"] = 0.33000
+GameData["resource_ext"]["decay_red_event"] = "aura/Pulse_RED_objective"
+GameData["resource_ext"]["decay_to_lower_limit_time"] = 1200.00000
 GameData["resource_ext"]["power_per_second"] = 2.00000
 GameData["sight_ext"]["sight_radius"] = 15.00000
 GameData["structure_buildable_ext"]["build_menu_priority"] = 8.00000

@@ -63,6 +63,9 @@ GameData["squad_requirement_ext"]["requirements"]["required_10"]["is_display_req
 GameData["squad_requirement_ext"]["requirements"]["required_10"]["structure_name"] = "ebps\\races\\space_marines\\structures\\space_marine_hq.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_11"] = Reference([[requirements\required_squad_cap.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["max_squad_cap"] = 1.000000
+GameData["squad_requirement_ext"]["requirements"]["required_12"] = Reference([[requirements\required_ownership.lua]])
+GameData["squad_requirement_ext"]["requirements"]["required_12"]["own_name"] = "relic_struct"
+GameData["squad_requirement_ext"]["requirements"]["required_12"]["owned_count"] = 1.00000
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])
 GameData["squad_transportable_ext"]["nr_spots"] = 2.00000
 GameData["squad_ui_ext"]["multi_select_priority"] = 3.00000

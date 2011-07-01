@@ -10,6 +10,8 @@ MetaData = InheritMeta([[ebpextensions\extension.nil]])
 GameData["modifiers"] = Reference([[tables\modifier_table.lua]])
 --~ GameData["modifiers"]["modifier_31"] = Reference([[modifiers\population_growth_rate_player_modifier.lua]])
 --~ GameData["modifiers"]["modifier_31"]["value"] = 0.00001
+--~ GameData["modifiers"]["modifier_31"] = Reference([[modifiers\ability_bonus_unit.lua]])
+--~ GameData["modifiers"]["modifier_31"]["value"] = 8.00000
 GameData["modifiers_idle"] = Reference([[tables\modifier_table.lua]])
 GameData["modifiers_immediate"] = Reference([[tables\modifier_table.lua]])
 

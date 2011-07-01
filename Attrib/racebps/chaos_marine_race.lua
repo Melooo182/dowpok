@@ -52,6 +52,7 @@ GameData["teamcolour_preview"]["entity_21"] = "ebps\\races\\chaos\\troops\\chaos
 GameData["teamcolour_preview"]["entity_22"] = "ebps\\races\\chaos\\troops\\chaos_vindicator.lua"
 GameData["teamcolour_preview"]["entity_23"] = "ebps\\races\\chaos\\troops\\chaos_land_raider.lua"
 GameData["teamcolour_preview"]["entity_24"] = "chaos_bloodletters"
+--~ GameData["teamcolour_preview"]["entity_24"] = "chaos_fleshhound"
 GameData["teamcolour_preview"]["entity_25"] = "chaos_plaguebearer"
 GameData["teamcolour_preview"]["entity_26"] = "chaos_daemonettes"
 GameData["teamcolour_preview"]["entity_27"] = "chaos_horror"

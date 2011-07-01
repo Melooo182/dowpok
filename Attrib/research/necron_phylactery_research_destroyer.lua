@@ -4,8 +4,8 @@
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[research\necron_phase_shifter_research.lua]])
-MetaData = InheritMeta([[research\necron_phase_shifter_research.lua]])
+GameData = Inherit([[research\necron_phylactery_research.lua]])
+MetaData = InheritMeta([[research\necron_phylactery_research.lua]])
 
 GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint4.lua]])
 GameData["modifiers"]["modifier_01"]["target_type_name"] = "necron_lord_destroyer"

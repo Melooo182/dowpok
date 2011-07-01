@@ -8,13 +8,13 @@ GameData = Inherit([[ebps\races\chaos\troops\chaos_aspiring_champion_marked.nil]
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_champion_marked.nil]])
 
 GameData["ability_ext"]["abilities"]["ability_03"] = ""
-GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\chaos_upgrade_plasma_pistol_champion_plague.lua"
-GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\chaos_upgrade_power_weapon_champion_plague.lua"
-GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\chaos_upgrade_power_fist_champion_plague.lua"
-GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\chaos_upgrade_combi_bolter_champion.lua"
-GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\chaos_upgrade_combi_flamer_champion.lua"
-GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\chaos_upgrade_combi_melta_champion.lua"
-GameData["ability_ext"]["abilities"]["ability_14"] = "abilities\\chaos_upgrade_combi_plasma_champion.lua"
+GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_upgrade_plasma_pistol_champion_plague.lua"
+GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\chaos_upgrade_power_weapon_champion_plague.lua"
+GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\chaos_upgrade_power_fist_champion_plague.lua"
+GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\chaos_upgrade_combi_bolter_champion.lua"
+GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\chaos_upgrade_combi_flamer_champion.lua"
+GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\chaos_upgrade_combi_melta_champion.lua"
+GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\chaos_upgrade_combi_plasma_champion.lua"
 
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "chaos_bolter"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_bolter_tactical.lua"

@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\orks\troops\ork_nob_leader.lua]])
 MetaData = InheritMeta([[ebps\races\orks\troops\ork_nob_leader.lua]])
 
-GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\ork_stikkbombs_kommandos.lua"
+GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\ork_stikkbombs.lua"
 
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\ork_slugga_kommando_nob.lua"
 

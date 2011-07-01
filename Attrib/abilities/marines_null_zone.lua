@@ -9,7 +9,7 @@ MetaData = InheritMeta([[abilities\marines_psychic_abilities.nil]])
 
 GameData["ability_motion_name"] = "Weaken_Resolve"
 GameData["activation"] = Reference([[type_abilityactivation\tp_ability_activation_timed.lua]])
-GameData["anticipation_event_name"] = "unit_ability_fx/weaken_resolve_unit"
+--~ GameData["anticipation_event_name"] = "unit_ability_fx/weaken_resolve_unit"
 GameData["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])
 GameData["area_effect"]["area_effect_information"]["filter_type"] = Reference([[type_areafilter\tp_area_filter_enemy.lua]])
 GameData["area_effect"]["area_effect_information"]["radius"] = 36.00000

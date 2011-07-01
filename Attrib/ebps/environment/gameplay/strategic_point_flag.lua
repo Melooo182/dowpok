@@ -8,7 +8,8 @@ GameData = Inherit([[ebps\environment\gameplay\strategic_point_struct.nil]])
 MetaData = InheritMeta([[ebps\environment\gameplay\strategic_point_struct.nil]])
 
 GameData["entity_blueprint_ext"]["scale_z"] = 2.00000
-GameData["resource_ext"]["decay_to_lower_limit_time"] = 1100.00000
+GameData["resource_ext"]["decay_enabled"] = true
+--~ GameData["resource_ext"]["decay_to_lower_limit_time"] = 1100.00000
 GameData["strategic_point_ext"]["right_click_fow_fx"] = "art/events/order_confirm_events/FOW_Strategic_Point_Capture"
 GameData["ui_ext"]["minimap_color_b"] = 238.00000
 GameData["ui_ext"]["minimap_color_g"] = 40.00000

@@ -8,6 +8,7 @@ GameData = Inherit([[ebps\races\chaos\troops\chaos_lord_marked.nil]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_lord_marked.nil]])
 
 --GameData["spawner_ext"]["squad_table"]["squad_01"] = "sbps\\races\\chaos\\chaos_squad_lord_khorne_assault.lua"
+GameData["addon_ext"]["addons"]["addon_08"] = "addons\\chaos_commander_daemon_weapon_khorne.lua"
 
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_daemon_weapon_attacks_bloodfeeder.lua"
 

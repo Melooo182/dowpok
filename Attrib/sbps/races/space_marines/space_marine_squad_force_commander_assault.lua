@@ -21,7 +21,7 @@ GameData["squad_jump_ext"]["jump_min_height"] = 4.00000
 GameData["squad_jump_ext"]["jump_time_max"] = 3.00000
 GameData["squad_jump_ext"]["setup_time"] = 0.40000
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\space_marines\\troops\\force_commander_assault.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_1"]["squad_table"]["squad_03"] = "sbps\\races\\space_marines\\space_marine_squad_force_commander.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_1"]["squad_table"]["squad_01"] = "sbps\\races\\space_marines\\space_marine_squad_force_commander.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_06"] = "sbps\\races\\space_marines\\space_marine_squad_force_commander.lua"
 GameData["squad_transportable_ext"]["transport_type"] = Reference([[type_transportable\transport_asm.lua]])
 

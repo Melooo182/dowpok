@@ -7,7 +7,6 @@
 GameData = Inherit([[ebps\races\chaos\troops\chaos_aspiring_sorcerer.lua]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_sorcerer.lua]])
 
---GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_melta_bombs_aspiring.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\chaos_wind_of_chaos_aspiring.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = ""
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_icon_blasted_standard.lua"

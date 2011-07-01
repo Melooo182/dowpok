@@ -106,7 +106,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_20"]["armour_piercing_value"] = 33.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_21"]["armour_piercing_value"] = 50.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_22"]["armour_piercing_value"] = 33.00000
--- Vehicles (15% of 400dmg translated to 300dmg = 20%)
+-- Vehicles (15% of 200dmg translated to 150dmg = 20%)
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_23"]["armour_piercing_value"] = 20.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_24"]["armour_piercing_value"] = 20.00000 -- assuming all rear armor AV10
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_25"]["armour_piercing_value"] = 20.00000 -- assuming all rear armor AV10
@@ -156,7 +156,7 @@ GameData["projectile_spawn_pos"]["x"] = -0.52000
 GameData["projectile_spawn_pos"]["y"] = 1.75000
 GameData["projectile_spawn_pos"]["z"] = 1.66000
 GameData["range"] = 18.00000
-GameData["recharge_time"] = 25.00000
+GameData["recharge_time"] = 22.50000
 GameData["refresh_time"] = 30.00000
 --GameData["target_ground"] = true
 GameData["ui_index_hint"] = 1.00000

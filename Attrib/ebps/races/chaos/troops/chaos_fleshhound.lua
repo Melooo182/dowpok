@@ -87,7 +87,7 @@ GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$56001556"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$56001557"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$56001558"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$56001559"
-GameData["ui_ext"]["ui_info"]["icon_name"] = "dark_eldar_icons/warp_beast_icon"
+GameData["ui_ext"]["ui_info"]["icon_name"] = "chaos_icons/fleshhound_icon"
 GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$56001550"
 
 

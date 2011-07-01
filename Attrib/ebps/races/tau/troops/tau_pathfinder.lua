@@ -44,12 +44,12 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["in_combat_modifiers"]["modifier_01"] = Reference([[modifiers\enable_infiltration.lua]])
 GameData["combat_ext"]["in_combat_modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
 GameData["combat_ext"]["in_combat_modifiers"]["modifier_01"]["value"] = -1.000000
---GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 60.00000
---GameData["cost_ext"]["time_cost"]["time_seconds"] = 6.00000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 60.00000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 6.00000
 --Devilfish cost added
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 160.00000
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 20.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 16.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 160.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 20.00000
+--~ GameData["cost_ext"]["time_cost"]["time_seconds"] = 16.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Tau/Troops/Pathfinder_Codex"
 GameData["health_ext"]["armour"] = 100.00000
 GameData["infiltration_ext"]["infiltration_event_name"] = "Guard\\Abilities\\Infiltrate_Guard"

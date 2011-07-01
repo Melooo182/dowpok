@@ -9,9 +9,9 @@ MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_champion_marked.
 
 --GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\chaos_doom_siren.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\ability_max_troopers.lua"
-GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\chaos_upgrade_power_weapon_champion_noise.lua"
-GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\chaos_upgrade_power_fist_champion_noise.lua"
-GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\chaos_upgrade_doom_siren_champion_noise.lua"
+GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\chaos_upgrade_power_weapon_champion_noise.lua"
+GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\chaos_upgrade_power_fist_champion_noise.lua"
+GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\chaos_upgrade_doom_siren_champion_noise.lua"
 
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Chaos_Bolter"
 

@@ -36,12 +36,17 @@ GameData["squad_leader_ext"]["leader_3"]["cost_time"]["cost"]["requisition"] = 5
 GameData["squad_leader_ext"]["leader_3"]["cost_time"]["cost"]["power"] = 00.00000
 GameData["squad_leader_ext"]["leader_3"]["cost_time"]["time_seconds"] = 5.00000
 GameData["squad_leader_ext"]["leader_3"]["leader"]["type"] = "ebps\\races\\tau\\troops\\tau_drone_gun_drone.lua"
+GameData["squad_leader_ext"]["leader_4"]["add_while_moving"] = true
+GameData["squad_leader_ext"]["leader_4"]["cost_time"]["cost"]["requisition"] = 150.00000
+GameData["squad_leader_ext"]["leader_4"]["cost_time"]["cost"]["power"] = 00.00000
+GameData["squad_leader_ext"]["leader_4"]["cost_time"]["time_seconds"] = 15.00000
+GameData["squad_leader_ext"]["leader_4"]["leader"]["type"] = "ebps\\races\\tau\\troops\\tau_drone_marker_drone.lua"
 
-GameData["squad_leader_ext"]["leader_4"]["add_while_moving"] = false
-GameData["squad_leader_ext"]["leader_4"]["cost_time"]["cost"]["requisition"] = 400.00000
-GameData["squad_leader_ext"]["leader_4"]["cost_time"]["cost"]["power"] = 80.00000
-GameData["squad_leader_ext"]["leader_4"]["cost_time"]["time_seconds"] = 40.00000
-GameData["squad_leader_ext"]["leader_4"]["leader"]["type"] = "ebps\\races\\tau\\troops\\tau_pathfinder_devilfish_dummy.lua"
+--~ GameData["squad_leader_ext"]["leader_4"]["add_while_moving"] = false
+--~ GameData["squad_leader_ext"]["leader_4"]["cost_time"]["cost"]["requisition"] = 400.00000
+--~ GameData["squad_leader_ext"]["leader_4"]["cost_time"]["cost"]["power"] = 80.00000
+--~ GameData["squad_leader_ext"]["leader_4"]["cost_time"]["time_seconds"] = 40.00000
+--~ GameData["squad_leader_ext"]["leader_4"]["leader"]["type"] = "ebps\\races\\tau\\troops\\tau_pathfinder_devilfish_dummy.lua"
 GameData["squad_leader_ext"]["max_leaders"] = 2.00000
 
 GameData["squad_leader_ext"]["multi_with_reinforce"] = true

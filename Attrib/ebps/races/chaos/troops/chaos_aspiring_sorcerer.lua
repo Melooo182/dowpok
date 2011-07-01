@@ -11,11 +11,10 @@ GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_melta_bombs.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\chaos_doombolt_aspiring_shared.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\chaos_bolt_of_change_aspiring_shared.lua"
-GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_warp_time_aspiring_shared.lua"
---GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\chaos_sorcerer_commands.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\chaos_run.lua"
 GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\ability_fearless.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
+GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_warp_time_aspiring_shared.lua"
 
 GameData["combat_ext"] = Reference([[ebpextensions\combat_ext.lua]])
 GameData["combat_ext"]["complex_upgrades"] = true

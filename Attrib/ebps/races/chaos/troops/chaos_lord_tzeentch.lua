@@ -7,13 +7,15 @@
 GameData = Inherit([[ebps\races\chaos\troops\chaos_lord_marked.nil]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_lord_marked.nil]])
 
+GameData["addon_ext"]["addons"]["addon_08"] = "addons\\chaos_commander_daemon_weapon_tzeentch.lua"
+
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 --GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_pink_fire_of_tzeentch.lua" --Minor Psyichic Power of Tzeentch
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_deathscreamer_blast.lua" --Daemon Weapon special ranged attack
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\chaos_bolt_of_change_lord.lua"
 --GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\chaos_doombolt_lord.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\chaos_melta_bombs.lua"
-GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\chaos_run.lua"
+GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\ability_run.lua"
 GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\ability_fearless.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_daemon_weapon_attacks_deathscreamer.lua"

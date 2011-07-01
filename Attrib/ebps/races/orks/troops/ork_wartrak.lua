@@ -44,6 +44,7 @@ GameData["entity_blueprint_ext"]["scale_x"] = 1.50000
 GameData["entity_blueprint_ext"]["scale_z"] = 1.50000
 --Open Topped -87.5HP
 GameData["health_ext"]["hitpoints"] = 262.50000
+GameData["health_ext"]["max_repairers"] = 0.00000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
 GameData["health_ext"]["regeneration_rate"] = 0.50000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_04"] = Reference([[modifiers\no_modifier.lua]])

@@ -52,6 +52,14 @@ GameData["entity_blueprint_ext"]["minimum_update_radius"] = 35.00000
 GameData["entity_blueprint_ext"]["scale_x"] = 1.50000
 GameData["entity_blueprint_ext"]["scale_y"] = 5.00000
 GameData["entity_blueprint_ext"]["scale_z"] = 1.50000
+GameData["event_manager_ext"]["event_31"]["event_entry_01"]["event_name"] = "heroes_events/hero_vehicle_lvl1"
+GameData["event_manager_ext"]["event_31"]["event_entry_02"]["event_name"] = "heroes_events/hero_vehicle_lvl2"
+GameData["event_manager_ext"]["event_31"]["event_entry_03"]["event_name"] = "heroes_events/hero_vehicle_lvl3"
+GameData["event_manager_ext"]["event_31"]["event_entry_04"]["event_name"] = "heroes_events/hero_vehicle_lvl4"
+GameData["event_manager_ext"]["event_31"]["event_entry_05"]["event_name"] = "heroes_events/hero_vehicle_lvl5"
+GameData["event_manager_ext"]["event_31"]["event_entry_06"]["event_name"] = "heroes_events/hero_vehicle_lvl6"
+GameData["event_manager_ext"]["event_31"]["event_entry_07"]["event_name"] = "heroes_events/hero_vehicle_lvl7"
+GameData["event_manager_ext"]["event_31"]["event_entry_08"]["event_name"] = "heroes_events/hero_vehicle_lvl8"
 
 --C'tan Death explosion
 GameData["death_explosion_ext"] = Reference([[ebpextensions\death_explosion_ext.lua]])

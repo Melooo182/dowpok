@@ -7,9 +7,8 @@
 GameData = Inherit([[ebps\races\chaos\troops\chaos_marine_bolter.lua]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_marine_bolter.lua]])
 
-GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_melta_bombs.lua"
+GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\chaos_melta_bombs.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\ability_infiltrate_chaos_chosen.lua"
-GameData["ability_ext"]["abilities"]["ability_13"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_bolter_chosen.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\chaos_flamer_chosen.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"]["weapon"] = "weapon\\chaos_heavy_bolter_chosen.lua"

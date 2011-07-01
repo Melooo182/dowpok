@@ -50,14 +50,12 @@ GameData["entity_blueprint_ext"]["scale_y"] = 2.00000
 GameData["entity_blueprint_ext"]["scale_z"] = 3.00000
 GameData["event_manager_ext"]["event_21"]["event_entry_01"]["event_name"] = "aura/cover_aura"
 GameData["event_manager_ext"]["event_21"]["modifier_name"] = "cover_event_modifier"
-GameData["health_ext"]["armour_minimum"] = 33.00000
+GameData["health_ext"]["max_repairers"] = 0.00000
 GameData["health_ext"]["can_be_repaired"] = true
-GameData["health_ext"]["display_health_bar"] = true
 --Open Topped -125HP
 GameData["health_ext"]["hitpoints"] = 225.00000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
 GameData["health_ext"]["regeneration_rate"] = 0.50000
-GameData["health_ext"]["max_repairers"] = 3.00000
 
 GameData["modifier_apply_ext"]["modifiers"]["modifier_04"] = Reference([[modifiers\no_modifier.lua]])
 

@@ -7,11 +7,10 @@
 GameData = Inherit([[ebps\races\chaos\troops\chaos_aspiring_sorcerer.lua]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_sorcerer.lua]])
 
---GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_melta_bombs_aspiring.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\chaos_doombolt_aspiring.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = ""
-GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\ability_max_leaders.lua"
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_icon_blasted_standard.lua"
+GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\ability_max_leaders.lua"
 
 GameData["combat_ext"]["complex_upgrades"] = false
 --Aspiring Sorcerer 60pts x 5 = 300pts + Doombolt 10pts + Bolt of Change 25pts + Warptime 25pts + Wind of Chaos 30pts + Gift of Chaos 30pts = 420pts x5 = 2100req
