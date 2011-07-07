@@ -7,6 +7,8 @@
 GameData = Inherit([[ebps\races\guard\troops\guard_vehicles.nil]])
 MetaData = InheritMeta([[ebps\races\guard\troops\guard_vehicles.nil]])
 
+GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\guard_hk_missile_thunderer.lua"
+
 --Vehicle Upgrade Menu
 GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
 GameData["addon_ext"]["addons"]["addon_01"] = "addons\\guard_reinforced_armour_upgrade.lua"
@@ -39,6 +41,69 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["origin"]["y"] = 1.79000
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["origin"]["z"] = 1.13000
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\guard_lascannon_laser_destroyer_slick_loader.lua"
+
+--Vehicle Upgrades
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+--Hatch Heavy Stubber
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Shoulder"
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Shoulder"
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["horizontal_aim_motion_variable_name"] = "Aim_Horizontal_Shoulder"
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["shoot_motion_variable_name"] = "Weapon_Range_Firing_Shoulder"
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["vertical_aim_motion_variable_name"] = "Aim_Vertical_Shoulder"
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "<None>"
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_02"]["muzzle"]["x"] = 0.31200
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_02"]["muzzle"]["y"] = 3.49700
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_02"]["muzzle"]["z"] = 2.14500
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "guard_heavy_stubber"
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_02"]["origin"]["x"] = 0.31200
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_02"]["origin"]["y"] = 3.49700
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_02"]["origin"]["z"] = 0.00000
+GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\guard_heavy_stubber_leman_russ.lua"
+--Dozer Blades
+GameData["combat_ext"]["hardpoints"]["hardpoint_07"]["attack_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_07"]["hardpoint_weapon_variant_motion_name"] = "Wargear_Upgrade_01"
+GameData["combat_ext"]["hardpoints"]["hardpoint_07"]["horizontal_aim_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_07"]["shoot_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_07"]["vertical_aim_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_07"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "<None>"
+GameData["combat_ext"]["hardpoints"]["hardpoint_07"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_07"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Wargear_01"
+GameData["combat_ext"]["hardpoints"]["hardpoint_07"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+--Extra Armor
+GameData["combat_ext"]["hardpoints"]["hardpoint_08"]["attack_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_08"]["hardpoint_weapon_variant_motion_name"] = "Wargear_Upgrade_02"
+GameData["combat_ext"]["hardpoints"]["hardpoint_08"]["horizontal_aim_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_08"]["shoot_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_08"]["vertical_aim_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_08"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "<None>"
+GameData["combat_ext"]["hardpoints"]["hardpoint_08"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_08"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Wargear_02"
+GameData["combat_ext"]["hardpoints"]["hardpoint_08"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+--Hunter Killer Missile
+GameData["combat_ext"]["hardpoints"]["hardpoint_09"]["attack_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_09"]["hardpoint_weapon_variant_motion_name"] = "Wargear_Upgrade_03"
+GameData["combat_ext"]["hardpoints"]["hardpoint_09"]["horizontal_aim_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_09"]["shoot_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_09"]["vertical_aim_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_09"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "<None>"
+GameData["combat_ext"]["hardpoints"]["hardpoint_09"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_09"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Wargear_03"
+GameData["combat_ext"]["hardpoints"]["hardpoint_09"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+--Track Guards
+GameData["combat_ext"]["hardpoints"]["hardpoint_10"]["attack_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_10"]["hardpoint_weapon_variant_motion_name"] = "Wargear_Upgrade_04"
+GameData["combat_ext"]["hardpoints"]["hardpoint_10"]["horizontal_aim_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_10"]["shoot_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_10"]["vertical_aim_motion_variable_name"] = ""
+GameData["combat_ext"]["hardpoints"]["hardpoint_10"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "<None>"
+GameData["combat_ext"]["hardpoints"]["hardpoint_10"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+GameData["combat_ext"]["hardpoints"]["hardpoint_10"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Wargear_04"
+GameData["combat_ext"]["hardpoints"]["hardpoint_10"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
+
 GameData["cost_ext"]["time_cost"]["cost"]["power"] = 160.00000
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 800.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 80.00000
@@ -46,7 +111,7 @@ GameData["entity_blueprint_ext"]["animator"] = "Races/Imperial_Guard/Troops/Lase
 GameData["entity_blueprint_ext"]["scale_x"] = 1.80000
 GameData["entity_blueprint_ext"]["scale_y"] = 2.00000
 GameData["entity_blueprint_ext"]["scale_z"] = 3.00000
-GameData["health_ext"]["armour"] = 100.00000
+
 GameData["moving_ext"]["acceleration_time"] = 1.50000
 GameData["moving_ext"]["rotation_rate"] = 100.00000
 GameData["moving_ext"]["turning_behavior_template"] = "tank"

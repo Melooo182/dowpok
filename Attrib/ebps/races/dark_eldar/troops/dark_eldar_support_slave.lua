@@ -17,7 +17,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["shoot_motion_variable_name
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["vertical_aim_motion_variable_name"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_dummy_weapon_2.lua"
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 75.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 10.00000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 3.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Dark_Eldar/Troops/Tortured_Slave"
 GameData["health_ext"]["armour_minimum"] = 5.00000
 GameData["health_ext"]["hitpoints"] = 180.00000

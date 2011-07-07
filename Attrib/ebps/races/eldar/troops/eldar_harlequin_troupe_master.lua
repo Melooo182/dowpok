@@ -8,6 +8,7 @@ GameData = Inherit([[ebps\races\eldar\troops\eldar_harlequins.lua]])
 MetaData = InheritMeta([[ebps\races\eldar\troops\eldar_harlequins.lua]])
 
 
+GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Eldar_Power_Sword"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\eldar_riveblade.lua"
 GameData["morale_add_ext"]["inc_morale_max"] = 100.00000
 GameData["morale_add_ext"]["inc_morale_rate"] = 1.00000

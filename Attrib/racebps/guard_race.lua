@@ -64,7 +64,7 @@ GameData["teamcolour_preview"]["entity_26"] = "ebps\\races\\guard\\troops\\guard
 GameData["teamcolour_preview"]["entity_27"] = "ebps\\races\\guard\\troops\\guard_vehicles_basilisk_ap.lua"
 GameData["teamcolour_preview"]["entity_28"] = "ebps\\races\\guard\\troops\\guard_vehicles_lemanruss.lua"
 GameData["teamcolour_preview"]["entity_29"] = "ebps\\races\\guard\\troops\\guard_vehicles_thunderer.lua"
-GameData["teamcolour_preview"]["entity_30"] = "ebps\\races\\guard\\troops\\guard_vehicles_laser_destroyer.lua"
+--~ GameData["teamcolour_preview"]["entity_30"] = "ebps\\races\\guard\\troops\\guard_vehicles_laser_destroyer.lua"
 GameData["teamcolour_preview"]["entity_31"] = "ebps\\races\\guard\\troops\\guard_vehicles_baneblade.lua"
 
 

@@ -14,6 +14,7 @@ GameData["requirements"]["required_10"] = Reference([[requirements\global_requir
 GameData["requirements"]["required_10"]["global_addon_name"] = "addons\\eldar_hq_addon_1.lua"
 GameData["fire_cost"]["power"] = 0.00000
 GameData["fire_cost"]["requisition"] = 100.00000
+GameData["ui_index_hint"] = 19.00000
 GameData["ui_info"]["help_text_list"]["text_02"] = "$57500092"
 GameData["ui_info"]["help_text_list"]["text_03"] = "$57500093"
 GameData["ui_info"]["help_text_list"]["text_04"] = "$57500094"

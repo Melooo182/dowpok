@@ -8,8 +8,8 @@ GameData = Inherit([[weapon\eldar_shooting_weapons.nil]])
 MetaData = InheritMeta([[weapon\eldar_shooting_weapons.nil]])
 
 GameData["accuracy"] = 0.50000
-GameData["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])
-GameData["area_effect"]["area_effect_information"]["radius"] = 1.50000
+--~ GameData["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])
+--~ GameData["area_effect"]["area_effect_information"]["radius"] = 1.50000
 GameData["area_effect"]["throw_data"]["force_max"] = 24.00000
 GameData["area_effect"]["throw_data"]["force_min"] = 8.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_02"]["armour_piercing_value"] = 100.00000

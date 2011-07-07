@@ -8,23 +8,26 @@ GameData = Inherit([[ebps\races\guard\troops\guard_vehicles_lemanruss.lua]])
 MetaData = InheritMeta([[ebps\races\guard\troops\guard_vehicles_lemanruss.lua]])
 
 GameData["addon_ext"]["addons"]["addon_12"] = ""
+GameData["addon_ext"]["addons"]["addon_15"] = "addons\\guard_leman_russ_coaxial_storm_bolter.lua"
 
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["muzzle"]["z"] = 6.04500
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "guard_vanquisher_cannon"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_battle_cannon_leman_russ_vanquisher.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["weapon"] = ""
-GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Coaxial"
-GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Coaxial"
-GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["horizontal_aim_motion_variable_name"] = "Aim_Horizontal_Coaxial"
-GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["shoot_motion_variable_name"] = "Weapon_Range_Firing_Coaxial"
-GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["vertical_aim_motion_variable_name"] = "Aim_Vertical_Coaxial"
-GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Guard_Heavy_Bolter"
-GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\guard_storm_bolter_vanquisher.lua"
 
--- 155pts + co-axial storm bolter 10pts = 165pts
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 165.00000
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 825.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 82.50000
+GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_02"]["muzzle"]["x"] = 0.01300
+GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_02"]["muzzle"]["y"] = 3.39300
+GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_02"]["muzzle"]["z"] = 2.21000
+GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Guard_Storm_Bolter"
+GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_02"]["origin"]["x"] = 0.01300
+GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_02"]["origin"]["y"] = 3.39300
+GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_02"]["origin"]["z"] = 0.00000
+GameData["combat_ext"]["hardpoints"]["hardpoint_05"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\guard_storm_bolter_vanquisher.lua"
+
+-- 155pts
+GameData["cost_ext"]["time_cost"]["cost"]["power"] = 155.00000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 775.00000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 77.50000
 
 GameData["ui_ext"]["ui_hotkey_name"] = "guard_leman_russ"
 GameData["ui_ext"]["ui_index_hint"] = 7.00000

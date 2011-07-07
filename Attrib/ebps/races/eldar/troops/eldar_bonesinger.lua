@@ -25,7 +25,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["vertical_aim_motion_variab
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Eldar_sword"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\eldar_sword_bonesinger.lua"
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 60.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 9.00000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 3.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Eldar/Troops/Bonesinger"
 GameData["health_ext"]["death_event"] = "data:/art/events/unit_death_events/sink_into_ground.events"
 GameData["health_ext"]["display_health_bar"] = true

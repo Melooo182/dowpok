@@ -28,7 +28,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_04"]["weapon_table"]["weapon_01"
 --has a single wound - 15pts
 --has no power weapon -10pts
 -- total = 40pts x5 = 200req
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 225.00000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 250.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 9.00000
 
 GameData["entity_blueprint_ext"]["animator"] = "Races/Black_Templar/Troops/templar_techmarine_builder"
