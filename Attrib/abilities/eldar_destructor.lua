@@ -52,6 +52,10 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["max_lifeti
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"] = Reference([[modifiers\enable_ignore_cover_bonuses.lua]])
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["shield_of_faith"] = true
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["value"] = 1.00000
+
+--Destructor Cost 10pts x5 = 50req
+GameData["fire_cost"]["requisition"] = 50.00000
+
 GameData["duration_time"] = 3.00000
 GameData["entity_busy_time"] = 2.00000
 GameData["initial_delay_time"] = 1.65000

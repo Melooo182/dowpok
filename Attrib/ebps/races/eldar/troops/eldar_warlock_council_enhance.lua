@@ -11,10 +11,14 @@ GameData["ability_ext"]["abilities"]["ability_02"] = ""
 --Warlock Enhance 200req, Warlock Destructor +175req, Warlock Conceal +200req
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 575.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 57.50000
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_05"] = Reference([[modifiers\reload_time_weapon_modifier.lua]])
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_05"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_05"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_multiplication.lua]])
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_05"]["value"] = 0.67000
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"] = Reference([[modifiers\min_damage_weapon_modifier.lua]])
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_multiplication.lua]])
-GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["value"] = 1.07143
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["value"] = 1.25000
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_07"] = Reference([[modifiers\accuracy_weapon_modifier.lua]])
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_07"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_07"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_multiplication.lua]])

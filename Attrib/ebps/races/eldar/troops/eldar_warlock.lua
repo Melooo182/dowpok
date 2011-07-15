@@ -62,7 +62,7 @@ GameData["special_attack_ext"]["special_attacks"]["special_attack_01"]["area_eff
 GameData["special_attack_ext"]["special_attacks"]["special_attack_01"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 15.00000
 GameData["special_attack_ext"]["special_attacks"]["special_attack_01"]["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 50.00000
 GameData["special_attack_ext"]["special_attacks"]["special_attack_01"]["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 30.00000
-GameData["special_attack_ext"]["special_attacks"]["special_attack_01"]["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 20.00000
+GameData["special_attack_ext"]["special_attacks"]["special_attack_01"]["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 12.00000 --I4 30x0.4=12
 GameData["special_attack_ext"]["special_attacks"]["special_attack_01"]["area_effect_time"] = 0.97000
 GameData["special_attack_ext"]["special_attacks"]["special_attack_01"]["chance"] = 100.00000
 GameData["special_attack_ext"]["special_attacks"]["special_attack_01"]["duration"] = 2.03000

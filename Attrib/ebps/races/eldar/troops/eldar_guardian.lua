@@ -39,7 +39,7 @@ GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["dead_zombie_time"]
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_02"]["killer_invulnerable_time"] = 5.36000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["dead_zombie_time"] = 3.02000
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["killer_invulnerable_time"] = 3.69000
-GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_infantry_med.lua]])
+GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_infantry_high.lua]])
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Eldar/Guardian"
 GameData["ui_ext"]["ui_hotkey_name"] = "eldar_guardians"
 GameData["ui_ext"]["ui_index_hint"] = 5.00000

@@ -8,8 +8,8 @@ GameData = Inherit([[ebps\races\sisters\structures\sisters_building.nil]])
 MetaData = InheritMeta([[ebps\races\sisters\structures\sisters_building.nil]])
 
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 450.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["power"] = 450.00000
+--~ GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 450.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 100.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races\\Sisters\\Structures\\Shrine_of_St_Celestine"
 GameData["entity_blueprint_ext"]["scale_x"] = 2.30000

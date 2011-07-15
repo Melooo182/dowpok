@@ -28,6 +28,7 @@ GameData["ui_index_hint"] = 18.00000
 GameData["ui_info"]["help_text_id"] = "$0"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$16040851"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$16040852"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$16040853"
 GameData["ui_info"]["icon_name"] = "chaos_icons/furious_skill"
 GameData["ui_info"]["screen_name_id"] = "$16040850"
 
