@@ -36,7 +36,7 @@ GameData["starting_squad_offset_03"] = Reference([[tables\position.lua]])
 GameData["starting_squad_offset_03"]["x"] = 8.80000
 GameData["starting_squad_offset_03"]["z"] = -12.10000
 GameData["teamcolour_preview"]["entity_01"] = "ebps\\races\\sisters\\troops\\inquisition_infantry_stormtrooper.lua"
-GameData["teamcolour_preview"]["entity_02"] = "ebps\\races\\sisters\\troops\\inquisition_infantry_stormtrooper_sergeant.lua"
+--~ GameData["teamcolour_preview"]["entity_02"] = "ebps\\races\\sisters\\troops\\inquisition_infantry_stormtrooper_sergeant.lua" --bad model in AP
 GameData["teamcolour_preview"]["entity_03"] = "ebps\\races\\sisters\\troops\\inquisition_leaders_inquisitor_lord.lua"
 GameData["teamcolour_preview"]["entity_04"] = "ebps\\races\\sisters\\troops\\inquisition_infantry_henchman_familiar.lua"
 GameData["teamcolour_preview"]["entity_05"] = "ebps\\races\\sisters\\troops\\inquisition_infantry_henchman_hierophant.lua"
@@ -64,8 +64,8 @@ GameData["teamcolour_preview"]["entity_26"] = "ebps\\races\\sisters\\troops\\inq
 GameData["teamcolour_preview"]["entity_27"] = "ebps\\races\\sisters\\troops\\inquisition_vehicles_inq_rhino.lua"
 GameData["teamcolour_preview"]["entity_28"] = "ebps\\races\\sisters\\troops\\inquisition_vehicles_inq_razorback.lua"
 GameData["teamcolour_preview"]["entity_29"] = "ebps\\races\\sisters\\troops\\inquisition_vehicles_gk_land_raider.lua"
-GameData["teamcolour_preview"]["entity_30"] = "ebps\\races\\sisters\\troops\\inquisition_vehicles_gk_land_raider_crusader.lua"
-GameData["teamcolour_preview"]["entity_31"] = "ebps\\races\\sisters\\troops\\inquisition_vehicles_gk_land_raider_redeemer.lua"
+--~ GameData["teamcolour_preview"]["entity_30"] = "ebps\\races\\sisters\\troops\\inquisition_vehicles_gk_land_raider_crusader.lua" --bad model in AP
+--~ GameData["teamcolour_preview"]["entity_31"] = "ebps\\races\\sisters\\troops\\inquisition_vehicles_gk_land_raider_redeemer.lua" --bad model in AP
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, rangeStart = 584500, rangeEnd = 584549, }
