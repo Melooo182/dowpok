@@ -70,6 +70,7 @@ GameData["modifiers"]["modifier_19"]["target_type_name"] = "chaos_lord_tzeentch_
 GameData["modifiers"]["modifier_20"] = Reference([[modifiers\enable_armour_2.lua]])
 GameData["modifiers"]["modifier_20"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
 GameData["modifiers"]["modifier_20"]["target_type_name"] = "chaos_lord_slaanesh_assault"
+
 GameData["modifiers"]["modifier_21"] = Reference([[modifiers\default_weapon_modifier_hardpoint5.lua]])
 GameData["modifiers"]["modifier_21"]["target_type_name"] = "chaos_lord_khorne_assault"
 GameData["modifiers"]["modifier_22"] = Reference([[modifiers\default_weapon_modifier_hardpoint5.lua]])

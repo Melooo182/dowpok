@@ -21,8 +21,8 @@ GameData["modifiers"]["modifier_03"]["target_type_name"] = "chaos_lord_dark_apos
 GameData["modifiers"]["modifier_04"] = Reference([[modifiers\enable_armour_2.lua]])
 GameData["modifiers"]["modifier_04"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity_type.lua]])
 GameData["modifiers"]["modifier_04"]["target_type_name"] = "chaos_lord_dark_apostle_assault"
-GameData["modifiers"]["modifier_07"] = Reference([[modifiers\default_weapon_modifier_hardpoint5.lua]])
-GameData["modifiers"]["modifier_07"]["target_type_name"] = "chaos_lord_dark_apostle_assault"
+GameData["modifiers"]["modifier_05"] = Reference([[modifiers\default_weapon_modifier_hardpoint5.lua]])
+GameData["modifiers"]["modifier_05"]["target_type_name"] = "chaos_lord_dark_apostle_assault"
 
 GameData["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])
 GameData["requirements"]["required_1"]["global_addon_name"] = "addons\\chaos_hq_addon_1.lua"
