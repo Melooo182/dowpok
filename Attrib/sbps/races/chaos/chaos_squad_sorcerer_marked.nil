@@ -109,6 +109,8 @@ GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["
 GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_10"] = "sbps\\races\\chaos\\chaos_squad_lord_advance_sp.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_11"] = "sbps\\races\\chaos\\chaos_squad_lord_dark_apostle.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_12"] = "sbps\\races\\chaos\\chaos_squad_lord_dark_apostle_assault.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_13"] = "sbps\\races\\chaos\\chaos_squad_bloodthirster_wb.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_14"] = "sbps\\races\\chaos\\chaos_squad_great_unclean_one_wb.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_6"] = Reference([[requirements\required_research.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_6"]["is_display_requirement"] = true
 GameData["squad_requirement_ext"]["requirements"]["required_6"]["research_name"] = "research\\mark_of_undivided.lua"

@@ -84,6 +84,8 @@ GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["
 GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_06"] = "sbps\\races\\chaos\\chaos_squad_lord_of_change.lua"
 --~ GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_07"] = "sbps\\races\\chaos\\chaos_squad_sorcerer_assault.lua"
 --~ GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_08"] = "sbps\\races\\chaos\\chaos_squad_daemon_prince_wings.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_09"] = "sbps\\races\\chaos\\chaos_squad_bloodthirster_wb.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_10"] = "sbps\\races\\chaos\\chaos_squad_great_unclean_one_wb.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_4"] = Reference([[requirements\required_human_player_metamap_game.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_4"]["is_display_requirement"] = false
 GameData["squad_requirement_ext"]["requirements"]["required_4"]["is_human_player_in_a_metamap_game"] = false

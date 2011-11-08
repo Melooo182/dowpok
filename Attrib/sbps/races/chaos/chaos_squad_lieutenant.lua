@@ -101,6 +101,8 @@ GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_20"] = "sbps\\races\\chaos\\chaos_squad_keeper_of_secrets.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_21"] = "sbps\\races\\chaos\\chaos_squad_lord_of_change.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_22"] = "sbps\\races\\chaos\\chaos_squad_lord_advance_sp.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_23"] = "sbps\\races\\chaos\\chaos_squad_bloodthirster_wb.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_24"] = "sbps\\races\\chaos\\chaos_squad_great_unclean_one_wb.lua"
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])
 GameData["squad_transportable_ext"]["transport_type"] = Reference([[type_transportable\transport_relay.lua]])
 GameData["squad_ui_ext"]["multi_select_priority"] = 1.00000
