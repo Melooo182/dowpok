@@ -63,7 +63,7 @@ GameData["squad_requirement_ext"]["requirements"]["required_3"]["structure_name"
 GameData["squad_requirement_ext"]["requirements"]["required_4"] = Reference([[requirements\global_required_addon.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_4"]["global_addon_name"] = "addons\\addon_tau_hq_1.lua"
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])
-GameData["squad_transportable_ext"]["transport_type"] = Reference([[type_transportable\transport_terminator.lua]])
+GameData["squad_transportable_ext"]["transport_type"] = Reference([[type_transportable\transport_dreadnought.lua]])
 GameData["squad_transportable_ext"]["nr_spots"] = 2.00000
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$59000431"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$59000432"

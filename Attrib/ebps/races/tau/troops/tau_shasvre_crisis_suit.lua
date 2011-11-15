@@ -4,8 +4,8 @@
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[ebps\races\tau\troops\tau_crisis_suit.lua]])
-MetaData = InheritMeta([[ebps\races\tau\troops\tau_crisis_suit.lua]])
+GameData = Inherit([[ebps\races\tau\troops\tau_crisis_suit.nil]])
+MetaData = InheritMeta([[ebps\races\tau\troops\tau_crisis_suit.nil]])
 
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\tau_failsafe_detonator.lua"
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\tau_upgrade_shasvre_plasma_rifle.lua"

@@ -17,9 +17,15 @@ GameData["spots"]["spot_02"]["priority"] = 90.000000
 GameData["spots"]["spot_03"]["pos_x"] = -0.750000
 GameData["spots"]["spot_03"]["pos_y"] = -1.500000
 GameData["spots"]["spot_03"]["priority"] = 90.000000
-GameData["spots"]["spot_04"]["pos_x"] = 0.000000
-GameData["spots"]["spot_04"]["pos_y"] = -3.000000
-GameData["spots"]["spot_04"]["priority"] = 90.000000
+GameData["spots"]["spot_04"]["pos_x"] = 3.000000
+GameData["spots"]["spot_04"]["pos_y"] = 0.000000
+GameData["spots"]["spot_04"]["priority"] = 70.000000
+GameData["spots"]["spot_05"]["pos_x"] = -3.000000
+GameData["spots"]["spot_05"]["pos_y"] = 0.000000
+GameData["spots"]["spot_05"]["priority"] = 70.000000
+GameData["spots"]["spot_06"]["pos_x"] = 0.000000
+GameData["spots"]["spot_06"]["pos_y"] = -3.000000
+GameData["spots"]["spot_06"]["priority"] = 40.000000
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

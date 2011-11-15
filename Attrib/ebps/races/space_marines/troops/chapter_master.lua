@@ -20,10 +20,10 @@ GameData["addon_ext"]["addons"]["addon_06"] = "addons\\marine_combi_melta_master
 GameData["addon_ext"]["addons"]["addon_07"] = "addons\\marine_combi_flamer_master_hq.lua"
 GameData["addon_ext"]["addons"]["addon_08"] = "addons\\marine_combi_plasma_master_hq.lua"
 GameData["addon_ext"]["addons"]["addon_09"] = "addons\\marine_hellfire_bolter_master_hq.lua"
-GameData["addon_ext"]["addons"]["addon_10"] = "addons\\marine_storm_shield_master_hq.lua"
-GameData["addon_ext"]["addons"]["addon_11"] = "addons\\marine_lightning_claws_pair_master_hq.lua"
-GameData["addon_ext"]["addons"]["addon_12"] = "addons\\marine_jump_pack_master_hq.lua"
-GameData["addon_ext"]["addons"]["addon_13"] = "addons\\marine_digital_weapons_master_hq.lua"
+GameData["addon_ext"]["addons"]["addon_10"] = "addons\\marine_lightning_claws_pair_master_hq.lua"
+GameData["addon_ext"]["addons"]["addon_11"] = "addons\\marine_jump_pack_master_hq.lua"
+GameData["addon_ext"]["addons"]["addon_12"] = "addons\\marine_digital_weapons_master_hq.lua"
+GameData["addon_ext"]["addons"]["addon_13"] = "addons\\marine_storm_shield_master_hq.lua"
 
 --Jump Pack "Upgrade"
 GameData["possess_ext"] = Reference([[ebpextensions\possess_ext.lua]])
