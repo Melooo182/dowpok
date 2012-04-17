@@ -51,6 +51,7 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Gu
 
 --Inquisitor lord has 3 wounds, % reduced to a third
 GameData["backfire_percent"] = 0.009259
+--~ GameData["backfire_percent"] = 0.000000 --No Backfire since its used in a squad
 
 GameData["backfire_area_effect"]["area_effect_information"]["area_effect_events"]["dirtsand"] = "Unit_Ability_FX/smite_impact_FX"
 GameData["backfire_area_effect"]["area_effect_information"]["area_effect_events"]["grass"] = "Unit_Ability_FX/smite_impact_FX"

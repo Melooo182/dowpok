@@ -10,11 +10,11 @@ MetaData = InheritMeta([[addons\addon.nil]])
 GameData["modifiers"]["modifier_01"] = Reference([[modifiers\health_maximum_modifier.lua]])
 GameData["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
 GameData["modifiers"]["modifier_01"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifiers"]["modifier_01"]["value"] = 300.00000
+GameData["modifiers"]["modifier_01"]["value"] = 150.00000 --Toughness +1, Basic Lord has 3 wounds and T4 = 50x4x3=600hp. + MoN he should get +150hp
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\health_regeneration_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
 GameData["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifiers"]["modifier_02"]["value"] = 1.50000
+GameData["modifiers"]["modifier_02"]["value"] = 0.37500 -- +1T, 0.125 x 3W = 0.375
 
 GameData["modifiers"]["modifier_04"] = Reference([[modifiers\default_weapon_modifier_hardpoint5.lua]])
 GameData["modifiers"]["modifier_04"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])

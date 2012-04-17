@@ -10,11 +10,11 @@ MetaData = InheritMeta([[addons\addon.nil]])
 GameData["modifiers"]["modifier_01"] = Reference([[modifiers\health_maximum_modifier.lua]])
 GameData["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
 GameData["modifiers"]["modifier_01"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifiers"]["modifier_01"]["value"] = 400.00000
+GameData["modifiers"]["modifier_01"]["value"] = 200.00000 -- +1T, 50xW4
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\health_regeneration_modifier.lua]])
 GameData["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
 GameData["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifiers"]["modifier_02"]["value"] = 2.00000
+GameData["modifiers"]["modifier_02"]["value"] = 0.75000 -- +1T, 0.125 x 3W = 0.375 x2 because DPrince has eternal warrior
 
 GameData["requirements"]["required_1"] = Reference([[requirements\local_required_addon_exclusive.lua]])
 GameData["requirements"]["required_1"]["mutually_exclusive_with"] = "addons\\chaos_mark_of_khorne_prince.lua"

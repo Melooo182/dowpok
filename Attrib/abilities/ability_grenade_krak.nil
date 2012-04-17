@@ -34,7 +34,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_26"]["armour_piercing_value"] = 50.00000 -- assuming all rear armor AV10
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_27"]["armour_piercing_value"] = 33.00000 -- Leman Russ has rear armour AV11
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 600.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 60.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 30.00000 --halved from 60 for test
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "unit_ability_fx\\marine_krak_grenade_explosion"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_ability_fx\\marine_krak_grenade_explosion"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_ability_fx\\marine_krak_grenade_explosion"
@@ -45,7 +45,7 @@ GameData["fire_cost"]["power"] = 75.00000
 GameData["fire_cost"]["requisition"] = 0.00000
 GameData["initial_delay_time"] = 0.33000
 GameData["projectile_name"] = "frag_grenade"
-GameData["range"] = 18.00000
+GameData["range"] = 13.50000 --Downed from 18 for test
 GameData["recharge_time"] = 45.00000
 --GameData["target_leader_in_squad"] = true
 GameData["speech_directory"] = "ability/frag_grenades"
