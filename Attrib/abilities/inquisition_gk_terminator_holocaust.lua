@@ -43,7 +43,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 15.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 50.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 500.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 250.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 50.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 100.00000
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Guard\\Weapons\\Inferno_Cannon_Area_Flame"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Guard\\Weapons\\Inferno_Cannon_Area_Flame"

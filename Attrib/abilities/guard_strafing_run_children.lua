@@ -52,7 +52,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 15.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 66.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 800.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 400.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 80.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 40.00000
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "unit_impact_events/Unit_Thrown_Smoke_Spray"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_impact_events/Unit_Thrown_Smoke_Spray"

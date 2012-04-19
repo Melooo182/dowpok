@@ -92,8 +92,8 @@ GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"][
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_08"] = "sbps\\races\\chaos\\chaos_squad_keeper_of_secrets.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_09"] = "sbps\\races\\chaos\\chaos_squad_lord_of_change.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_10"] = "sbps\\races\\chaos\\chaos_squad_lord_advance_sp.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_11"] = "sbps\\races\\chaos\\chaos_squad_lord.lua"
-GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_12"] = "sbps\\races\\chaos\\chaos_squad_lord_assault.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_11"] = "sbps\\races\\chaos\\chaos_squad_lord_dark_apostle.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_12"] = "sbps\\races\\chaos\\chaos_squad_lord_dark_apostle_assault.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_13"] = "sbps\\races\\chaos\\chaos_squad_bloodthirster_wb.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_14"] = "sbps\\races\\chaos\\chaos_squad_great_unclean_one_wb.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_12"] = Reference([[requirements\required_structure.lua]])

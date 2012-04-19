@@ -105,9 +105,9 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\shooting_weapon_dummy.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Wargear_03"
 GameData["combat_ext"]["hardpoints"]["hardpoint_06"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\shooting_weapon_dummy.lua"
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 100.00000
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 500.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 50.00000
+GameData["cost_ext"]["time_cost"]["cost"]["power"] = 110.00000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 550.00000 --Changed from 500req/100pwr
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 55.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Eldar/Troops/Wave_serpent"
 GameData["entity_blueprint_ext"]["scale_x"] = 2.00000
 GameData["entity_blueprint_ext"]["scale_z"] = 2.50000

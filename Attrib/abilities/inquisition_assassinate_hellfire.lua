@@ -65,7 +65,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_24"]["armour_piercing_value"] = 3.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_25"]["armour_piercing_value"] = 1.50000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 1000.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 10.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 100.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 200.00000
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Guard\\Weapons\\exitus_rifle_hit_flesh"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Guard\\Weapons\\exitus_rifle_hit_flesh"

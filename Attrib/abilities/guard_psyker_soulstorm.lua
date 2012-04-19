@@ -42,7 +42,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 27.77000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 61.11000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 400.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 200.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 40.00000
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Unit_Impact_events/Eldar_BrightLance_HIT_Flesh"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Unit_Impact_events/Eldar_BrightLance_HIT_Flesh"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "Unit_Impact_events/Eldar_BrightLance_HIT_Flesh"

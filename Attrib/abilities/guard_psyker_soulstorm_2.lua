@@ -37,7 +37,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 27.77000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 61.11000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 900.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 450.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 90.00000
 GameData["recharge_time"] = 60.00000
 GameData["requirements"]["required_1"]["mobvalue_required"] = 9.00000
 GameData["ui_hotkey_name"] = "guard_psyker_strip_soul"

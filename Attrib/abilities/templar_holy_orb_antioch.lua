@@ -61,7 +61,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_28"]["armour_piercing_value"] = 4.50000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_15"]["armour_piercing_value"] = 4.50000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 1000.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 10.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 100.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 100.00000
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Unit_Impact_events\\Impact_bolter_hvy_blood_only"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_impact_events\\wraithbone_hit_small"

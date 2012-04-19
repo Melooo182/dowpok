@@ -41,8 +41,8 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_25"]["armour_piercing_value"] = 33.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_26"]["armour_piercing_value"] = 33.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_27"]["armour_piercing_value"] = 15.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 60.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 50.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 70.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 35.00000
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Unit_Impact_events\\Impact_Autocannon_Flesh"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_impact_events/Impact_Autocannon_All"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_impact_events/Impact_Autocannon_All"

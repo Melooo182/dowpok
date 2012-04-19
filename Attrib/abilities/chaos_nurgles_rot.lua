@@ -50,7 +50,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 7.50000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 25.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 60.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 50.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 30.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 5.00000
 GameData["duration_time"] = 1.00000
 GameData["refresh_time"] = 6.00000
