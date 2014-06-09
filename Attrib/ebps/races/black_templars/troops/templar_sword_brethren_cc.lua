@@ -43,7 +43,7 @@ GameData["cost_ext"]["time_cost"]["time_seconds"] = 12.50000]]
 
 GameData["entity_blueprint_ext"]["animator"] = "Races/Black_Templar/Troops/Sword_Brethren"
 GameData["health_ext"]["death_event"] = "data:/art/events/unit_death_events/sink_into_ground.events"
-GameData["health_ext"]["hitpoints"] = 400.00000
+--~ GameData["health_ext"]["hitpoints"] = 400.00000
 
 --Furious Charge Veteran Skill removed melee leap damage and added a modifier that increases damage in melee by 10
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"] = Reference([[modifiers\max_damage_weapon_modifier.lua]])

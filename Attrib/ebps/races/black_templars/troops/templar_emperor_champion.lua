@@ -33,8 +33,8 @@ GameData["entity_blueprint_ext"]["animator"] = "Races/Black_Templar/Troops/emper
 GameData["health_ext"]["death_event"] = "art/events/unit_death_events/sink_into_ground"
 GameData["health_ext"]["display_health_bar"] = true
 GameData["health_ext"]["hitpoints"] = 400.000000
-GameData["health_ext"]["regeneration_decrease_in_combat"] = 2.00000
-GameData["health_ext"]["regeneration_rate"] = 4.00000
+GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
+GameData["health_ext"]["regeneration_rate"] = 1.00000
 
 --Armour of Faith
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"] = Reference([[modifiers\enable_armour_2.lua]])
