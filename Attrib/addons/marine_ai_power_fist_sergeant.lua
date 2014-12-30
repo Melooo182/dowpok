@@ -1,5 +1,5 @@
 ----------------------------------------
--- File: 'research\marine_power_fist_commander_hq.lua'
+-- File: 'research\marine_power_fist_master_hq.lua'
 -- Created by: AttributeEditor v2.0
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
@@ -9,27 +9,23 @@ MetaData = InheritMeta([[addons\addon.nil]])
 
 GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint2.lua]])
 GameData["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
-GameData["modifiers"]["modifier_01"]["value"] = 3.00000
+GameData["modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["requirements"]["required_1"] = Reference([[requirements\global_required_addon.lua]])
 GameData["requirements"]["required_1"]["global_addon_name"] = "addons\\space_marine_hq_addon_2.lua"
---[[GameData["requirements"]["required_2"] = Reference([[requirements\required_structure_either.lua]])
-GameData["requirements"]["required_2"]["structure_name_either"] = "ebps\\races\\space_marines\\structures\\space_marine_vehicle_building.lua"
-GameData["requirements"]["required_2"]["structure_name_or"] = "ebps\\races\\space_marines\\structures\\space_marine_orbital_relay.lua"]]
-GameData["requirements"]["required_3"] = Reference([[requirements\required_structure.lua]])
-GameData["requirements"]["required_3"]["is_display_requirement"] = true
-GameData["requirements"]["required_3"]["structure_name"] = "ebps\\races\\space_marines\\structures\\space_marine_armoury.lua"
+GameData["requirements"]["required_2"] = Reference([[requirements\required_structure.lua]])
+GameData["requirements"]["required_2"]["is_display_requirement"] = true
+GameData["requirements"]["required_2"]["structure_name"] = "ebps\\races\\space_marines\\structures\\space_marine_armoury.lua"
+GameData["requirements"]["required_3"] = Reference([[requirements\local_required_addon_exclusive.lua]])
+GameData["requirements"]["required_3"]["mutually_exclusive_with"] = "addons\\marine_ai_power_weapon_sergeant.lua"
 GameData["requirements"]["required_4"] = Reference([[requirements\local_required_addon_exclusive.lua]])
-GameData["requirements"]["required_4"]["mutually_exclusive_with"] = "addons\\marine_relic_blade_commander_hq.lua"
+GameData["requirements"]["required_4"]["mutually_exclusive_with"] = "addons\\marine_ai_relic_blade_sergeant.lua"
 GameData["requirements"]["required_5"] = Reference([[requirements\local_required_addon_exclusive.lua]])
-GameData["requirements"]["required_5"]["mutually_exclusive_with"] = "addons\\marine_thunder_hammer_commander_hq.lua"
-GameData["requirements"]["required_6"] = Reference([[requirements\local_required_addon_exclusive.lua]])
-GameData["requirements"]["required_6"]["mutually_exclusive_with"] = "addons\\marine_lightning_claws_pair_commander.lua"
---Power Fist 25pts - Power weapon 15pts = 10pts
+GameData["requirements"]["required_5"]["mutually_exclusive_with"] = "addons\\marine_ai_thunder_hammer_sergeant.lua"
 GameData["time_cost"]["cost"]["power"] = 0.00000
-GameData["time_cost"]["cost"]["requisition"] = 50.00000
-GameData["time_cost"]["time_seconds"] = 5.00000
-GameData["ui_hotkey_name"] = "marine_sergeant_melee_research_2"
-GameData["ui_index_hint"] = 2.00000
+GameData["time_cost"]["cost"]["requisition"] = 125.00000
+GameData["time_cost"]["time_seconds"] = 12.50000
+GameData["ui_hotkey_name"] = ""
+GameData["ui_index_hint"] = 41.00000
 GameData["ui_info"]["help_text_id"] = "$0"
 GameData["ui_info"]["help_text_list"]["text_01"] = "$61001141"
 GameData["ui_info"]["help_text_list"]["text_02"] = "$61001142"

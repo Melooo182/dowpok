@@ -7,6 +7,15 @@
 GameData = Inherit([[ebps\races\space_marines\troops\space_marine_soldier.nil]])
 MetaData = InheritMeta([[ebps\races\space_marines\troops\space_marine_soldier.nil]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\marine_ai_combi_flamer_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_02"] = "addons\\marine_ai_combi_plasma_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_03"] = "addons\\marine_ai_combi_melta_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_04"] = "addons\\marine_ai_power_weapon_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_04"] = "addons\\marine_ai_power_fist_sergeant.lua"
+
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\marines_frag_grenades.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\marines_krak_grenades.lua"

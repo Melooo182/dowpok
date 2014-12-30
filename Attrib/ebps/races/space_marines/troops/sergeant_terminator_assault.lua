@@ -7,6 +7,11 @@
 GameData = Inherit([[ebps\races\space_marines\troops\space_marine_soldier.nil]])
 MetaData = InheritMeta([[ebps\races\space_marines\troops\space_marine_soldier.nil]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\marine_ai_thunder_hammer_sergeant_terminator.lua"
+
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 --GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\marines_run.lua"
 GameData["ability_ext"]["abilities"]["ability_01"] = ""

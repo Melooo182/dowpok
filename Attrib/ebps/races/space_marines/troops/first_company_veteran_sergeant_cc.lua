@@ -7,6 +7,13 @@
 GameData = Inherit([[ebps\races\space_marines\troops\first_company_veteran_marine_cc.lua]])
 MetaData = InheritMeta([[ebps\races\space_marines\troops\first_company_veteran_marine_cc.lua]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\marine_ai_plasma_pistol_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_02"] = "addons\\marine_ai_relic_blade_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_03"] = "addons\\marine_ai_thunder_hammer_sergeant.lua"
+
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\marines_upgrade_plasma_pistol_sergeant_vanguard.lua"
 GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\marines_upgrade_relic_blade_sergeant_vanguard.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\marines_upgrade_thunder_hammer_sergeant_vanguard.lua"
