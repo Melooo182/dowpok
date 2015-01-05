@@ -14,7 +14,7 @@ GameData["addon_ext"]["addons"]["addon_01"] = "addons\\marine_ai_combi_flamer_se
 GameData["addon_ext"]["addons"]["addon_02"] = "addons\\marine_ai_combi_plasma_sergeant_sternguard.lua"
 GameData["addon_ext"]["addons"]["addon_03"] = "addons\\marine_ai_combi_melta_sergeant_sternguard.lua"
 GameData["addon_ext"]["addons"]["addon_04"] = "addons\\marine_ai_power_weapon_sergeant.lua"
-GameData["addon_ext"]["addons"]["addon_04"] = "addons\\marine_ai_power_fist_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_05"] = "addons\\marine_ai_power_fist_sergeant.lua"
 
 GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\marines_melta_bombs.lua"
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\marines_upgrade_combi_plasma_sergeant_sternguard.lua"

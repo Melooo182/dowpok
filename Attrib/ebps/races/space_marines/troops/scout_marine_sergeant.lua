@@ -7,6 +7,12 @@
 GameData = Inherit([[ebps\races\space_marines\troops\sergeant.lua]])
 MetaData = InheritMeta([[ebps\races\space_marines\troops\sergeant.lua]])
 
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\marine_ai_plasma_pistol_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_02"] = "addons\\marine_ai_power_weapon_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_03"] = "addons\\marine_ai_power_fist_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_04"] = ""
+GameData["addon_ext"]["addons"]["addon_05"] = ""
+
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\marines_scouts_max1.lua" --Takes place of outflank chapter tactic ability, scouts already outflank
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\marines_upgrade_plasma_pistol_sergeant_scout.lua"
 GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\marines_upgrade_power_weapon_sergeant_scout.lua"

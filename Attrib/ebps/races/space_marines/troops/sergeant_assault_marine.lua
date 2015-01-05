@@ -11,7 +11,7 @@ GameData["addon_ext"]["addons"]["addon_01"] = "addons\\marine_ai_plasma_pistol_s
 GameData["addon_ext"]["addons"]["addon_02"] = "addons\\marine_ai_power_weapon_sergeant.lua"
 GameData["addon_ext"]["addons"]["addon_03"] = "addons\\marine_ai_power_fist_sergeant.lua"
 GameData["addon_ext"]["addons"]["addon_04"] = ""
-GameData["addon_ext"]["addons"]["addon_04"] = ""
+GameData["addon_ext"]["addons"]["addon_05"] = ""
 
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\marines_upgrade_plasma_pistol_sergeant_assault.lua"
 GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\marines_upgrade_power_weapon_sergeant_assault.lua"
