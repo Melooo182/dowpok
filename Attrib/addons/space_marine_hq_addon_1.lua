@@ -27,8 +27,12 @@ GameData["requirements"]["required_2"] = Reference([[requirements\required_struc
 GameData["requirements"]["required_2"]["structure_name"] = "ebps\\races\\space_marines\\structures\\space_marine_barracks.lua"
 GameData["requirements"]["required_3"] = Reference([[requirements\global_required_addon_exclusive.lua]])
 GameData["requirements"]["required_3"]["global_mutually_exclusive_with"] = "addons\\space_marine_hq_addon_1.lua"
-GameData["time_cost"]["cost"]["power"] = 400.00000
-GameData["time_cost"]["cost"]["requisition"] = 30.00000
+--GameData["time_cost"]["cost"]["power"] = 400.00000
+--GameData["time_cost"]["cost"]["requisition"] = 30.00000
+--GameData["time_cost"]["time_seconds"] = 100.00000
+--Tier up cost increased 1.5x
+GameData["time_cost"]["cost"]["power"] = 600.00000
+GameData["time_cost"]["cost"]["requisition"] = 45.00000
 GameData["time_cost"]["time_seconds"] = 100.00000
 GameData["ui_hotkey_name"] = "marine_hq_addon_1"
 GameData["ui_index_hint"] = 9.00000

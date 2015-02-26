@@ -10,9 +10,9 @@ MetaData = InheritMeta([[addons\addon.nil]])
 GameData["modifiers"]["modifier_01"] = Reference([[modifiers\default_weapon_modifier_hardpoint7.lua]])
 GameData["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_entity.lua]])
 GameData["modifiers"]["modifier_01"]["value"] = 1.00000
---Holofield special rule, HP×3
+--Holofield special rule, HP×1.5
 GameData["modifiers"]["modifier_02"] = Reference([[modifiers\health_maximum_modifier.lua]])
-GameData["modifiers"]["modifier_02"]["value"] = 3.00000
+GameData["modifiers"]["modifier_02"]["value"] = 1.50000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\eldar\\structures\\eldar_support_portal.lua"
 GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])

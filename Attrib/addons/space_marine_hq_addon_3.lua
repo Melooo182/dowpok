@@ -22,8 +22,12 @@ GameData["requirements"]["required_3"]["addon_name"] = "addons\\space_marine_hq_
 GameData["requirements"]["required_3"]["is_display_requirement"] = true
 GameData["requirements"]["required_4"] = Reference([[requirements\global_required_addon_exclusive.lua]])
 GameData["requirements"]["required_4"]["global_mutually_exclusive_with"] = "addons\\space_marine_hq_addon_3.lua"
-GameData["time_cost"]["cost"]["power"] = 1100.00000
-GameData["time_cost"]["cost"]["requisition"] = 75.00000
+--GameData["time_cost"]["cost"]["power"] = 1100.00000
+--GameData["time_cost"]["cost"]["requisition"] = 75.00000
+--GameData["time_cost"]["time_seconds"] = 120.00000
+--Tier up cost increased 1.5x
+GameData["time_cost"]["cost"]["power"] = 1650.00000
+GameData["time_cost"]["cost"]["requisition"] = 115.00000
 GameData["time_cost"]["time_seconds"] = 120.00000
 GameData["ui_hotkey_name"] = "marine_hq_addon_2"
 GameData["ui_index_hint"] = 9.00000
