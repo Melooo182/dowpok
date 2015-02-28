@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\space_marines\troops\sergeant.lua]])
 MetaData = InheritMeta([[ebps\races\space_marines\troops\sergeant.lua]])
 
-GameData["addon_ext"]["addons"]["addon_01"] = "addons\\marine_ai_relic_blade_sergeant_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\marine_ai_relic_blade_sergeant.lua"
 GameData["addon_ext"]["addons"]["addon_02"] = "addons\\marine_ai_thunder_hammer_sergeant.lua"
 GameData["addon_ext"]["addons"]["addon_03"] = ""
 GameData["addon_ext"]["addons"]["addon_04"] = ""

@@ -18,7 +18,10 @@ GameData["attack_priorities"]["priority_08"] = Reference([[type_armour\tp_buildi
 GameData["attack_priorities"]["priority_09"] = Reference([[type_armour\tp_building_hq.lua]])
 GameData["cost"]["cost"]["requisition"] = 50.00000
 GameData["cost"]["time_seconds"] = 10.00000
---GameData["fire_cost"]["power"] = 8.00000
+
+--Firecost added Feb-2015
+GameData["fire_cost"]["power"] = 5.000000
+
 GameData["linger_on_target_after_fire_time"] = 1.00000
 GameData["max_range"] = 36.00000
 GameData["obey_terrain_line_of_sight"] = true

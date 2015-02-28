@@ -20,7 +20,7 @@ GameData["requirements"]["required_1"]["global_addon_name"] = "addons\\chaos_hq_
 GameData["requirements"]["required_10"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_10"]["is_display_requirement"] = true
 GameData["requirements"]["required_10"]["structure_name"] = "ebps\\races\\chaos\\structures\\chaos_armoury.lua"
-GameData["fire_cost"]["power"] = 10.00000
+GameData["fire_cost"]["power"] = 50.00000
 GameData["fire_cost"]["requisition"] = 50.00000
 GameData["recharge_time"] = 9999999.99
 --1 = Sarge melee weapons, 2 = Sarge ranged weapons

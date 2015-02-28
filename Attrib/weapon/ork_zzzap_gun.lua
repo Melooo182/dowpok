@@ -53,7 +53,10 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"]
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"]["probability_of_applying"] = 0.50000
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_percentage.lua]])
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"]["value"] = -0.50000
---GameData["fire_cost"]["power"] = 9.00000
+
+--Firecost added Feb-2015
+GameData["fire_cost"]["power"] = 2.000000
+
 GameData["linger_on_target_after_fire_time"] = 0.50000
 GameData["max_range"] = 54.00000
 GameData["max_traverse_left"] = -45.00000

@@ -9,6 +9,14 @@ MetaData = InheritMeta([[sbps\races\guard\guard_squad_hellhound.lua]])
 
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_devildog_3.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["squad_table"]["squad_06"] = "sbps\\races\\guard\\guard_squad_banewolf_3.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_devildog_3.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_06"] = "sbps\\races\\guard\\guard_squad_banewolf_3.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_devildog_3.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_06"] = "sbps\\races\\guard\\guard_squad_banewolf_3.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_devildog_3.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_06"] = "sbps\\races\\guard\\guard_squad_banewolf_3.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_6"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_devildog_3.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_6"]["squad_table"]["squad_06"] = "sbps\\races\\guard\\guard_squad_banewolf_3.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"] = Reference([[requirements\required_ownership.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["own_name"] = "strategic_point_flag"
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["owned_count"] = 4.00000

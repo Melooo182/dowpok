@@ -18,6 +18,10 @@ GameData["squad_combat_stance_ext"]["ranged_attackrange"] = 36.00000
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\guard\\troops\\guard_vehicles_devildog.lua"
 
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_hellhound.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_hellhound.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_hellhound.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_hellhound.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_6"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_hellhound.lua"
 
 GameData["squad_ui_ext"]["multi_select_priority"] = 10.00000
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$60002541"

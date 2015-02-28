@@ -7,6 +7,12 @@
 GameData = Inherit([[ebps\races\guard\troops\guard_infantry_kasrkin_recon.lua]])
 MetaData = InheritMeta([[ebps\races\guard\troops\guard_infantry_kasrkin_recon.lua]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\guard_ai_plasma_pistol_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_02"] = "addons\\guard_ai_power_weapon_sergeant_st.lua"
+
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\ability_auspex_ig_sws.lua"
 GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\guard_upgrade_plasma_pistol_sergeant_st.lua"
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\guard_upgrade_power_weapon_sergeant_st.lua"

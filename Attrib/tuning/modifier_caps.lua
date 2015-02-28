@@ -118,8 +118,14 @@ GameData["garrison_requisition_modifier"] = Reference([[tables\modifier_cap_tabl
 GameData["health_degeneration_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["health_maximum_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["health_meleedamage_received_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["health_meleedamage_received_modifier"]["maximum_multiplier"] = 10.00000
+GameData["health_meleedamage_received_modifier"]["minimum_multiplier"] = 0.00100
 GameData["health_rangedamage_received_1_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["health_rangedamage_received_1_modifier"]["maximum_multiplier"] = 10.00000
+GameData["health_rangedamage_received_1_modifier"]["minimum_multiplier"] = 0.00100
 GameData["health_rangedamage_received_2_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["health_rangedamage_received_2_modifier"]["maximum_multiplier"] = 10.00000
+GameData["health_rangedamage_received_2_modifier"]["minimum_multiplier"] = 0.00100
 GameData["health_regeneration_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["income_cap_population_player_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["income_cap_requisition_player_modifier"] = Reference([[tables\modifier_cap_table.lua]])
@@ -129,6 +135,8 @@ GameData["income_power_player_modifier"] = Reference([[tables\modifier_cap_table
 GameData["income_requisition_player_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["infiltration_detection_distance_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["max_damage_weapon_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["max_damage_weapon_modifier"]["maximum_multiplier"] = 10.00000
+GameData["max_damage_weapon_modifier"]["minimum_multiplier"] = 0.00100
 GameData["max_leaders_squad_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["max_range_weapon_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["max_squad_cap_player_modifier"] = Reference([[tables\modifier_cap_table.lua]])
@@ -137,6 +145,8 @@ GameData["max_troopers_squad_modifier"] = Reference([[tables\modifier_cap_table.
 GameData["max_upgrades_squad_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["melee_charge_range_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["min_damage_weapon_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["min_damage_weapon_modifier"]["maximum_multiplier"] = 10.00000
+GameData["min_damage_weapon_modifier"]["minimum_multiplier"] = 0.00100
 GameData["min_range_weapon_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["mine_field_max_explosions_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["mine_field_recharge_time_modifier"] = Reference([[tables\modifier_cap_table.lua]])
@@ -180,6 +190,7 @@ GameData["speed_rotation_time_modifier"] = Reference([[tables\modifier_cap_table
 GameData["squad_cap_player_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["support_cap_player_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["thunder_hammer_damage_event"] = Reference([[tables\modifier_cap_table.lua]])
+--DC?
 GameData["health_get_back_up_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["health_resurrect_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["keen_sight_radius_modifier"] = Reference([[tables\modifier_cap_table.lua]])
@@ -189,6 +200,13 @@ GameData["ability_chaos_purge_the_weak_event"] = Reference([[tables\modifier_cap
 GameData["ability_ig_curse_of_the_machine_spirit_event"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["ability_tau_snare_trap_event"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["ability_bonus_unit"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["ability_bonus_unit"]["maximum_addition"] = 100.000000
+GameData["ability_bonus_unit"]["maximum_multiplier"] = 1.000000
+GameData["ability_bonus_unit"]["maximum_percentage"] = 0.000000
+GameData["ability_bonus_unit"]["minimum_addition"] = 1.000000
+GameData["ability_bonus_unit"]["minimum_multiplier"] = 1.000000
+GameData["ability_bonus_unit"]["minimum_percentage"] = 0.000000
+GameData["ability_necron_chronometron_event"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["ability_necron_phase_shift_event"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["ability_souless_strike_event"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["ability_khorne_berserker_fear"] = Reference([[tables\modifier_cap_table.lua]])
@@ -197,6 +215,53 @@ GameData["enable_voice"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["enable_melee_leap"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["health_maximum_player_modifier"] = Reference([[tables\modifier_cap_table.lua]])
 GameData["morale_maximum_player_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["death_resource"] = Reference([[tables\modifier_cap_table.lua]])
+--SS?
+GameData["ability_laud_hailers_foeaura_event"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["ability_mandate_event"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["ability_animus_vitae_event"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["ability_crucible_event"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["ability_tracking_device_event"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["ability_energy_field_event"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["ability_gruesome_display_event"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["ability_torture_amp_event"] = Reference([[tables\modifier_cap_table.lua]])
+--MOAR SS and DC?
+GameData["cost_faith_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["cost_souls_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["resource_per_tick_faith_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["resource_per_tick_souls_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["enable_attack_allies"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["life_leech_damage_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["max_lifetime_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["enable_vision_granting"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["enable_death_blossom"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["fear_area_attack"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["retaliation_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["retaliation_ranged_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["ability_soul_destruction"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["enable_charge_lock"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["sisters_rampage"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["enable_charge_toggle"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["enable_shield_of_faith"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["enable_death_resource"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["lose_control"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["poison_enable"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["ability_short_circuit_event"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["sisters_righteous_fervor_event"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["enable_squad_voice"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["enable_screaming_jets"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["morale_degeneration"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["disable_abilities_ui"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["fire_cost_faith"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["fire_cost_souls"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["enable_ignore_cover_bonuses"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["income_cap_faith_player_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["income_cap_souls_player_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["cannibalize_souls_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["faith_max_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["reinforce_time2_player_modifier"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["holy_icon_cost_requisition"] = Reference([[tables\modifier_cap_table.lua]])
+GameData["holy_icon_cost_power"] = Reference([[tables\modifier_cap_table.lua]])
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
@@ -255,7 +320,12 @@ MetaData["default_weapon_modifier_hardpoint1"] = {desc = [[]], type = 4, categor
 MetaData["default_weapon_modifier_hardpoint2"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
 MetaData["default_weapon_modifier_hardpoint3"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
 MetaData["default_weapon_modifier_hardpoint4"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
-GameData["default_weapon_modifier_hardpoint5"] = Reference([[tables\modifier_cap_table.lua]])
+MetaData["default_weapon_modifier_hardpoint5"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["default_weapon_modifier_hardpoint6"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["default_weapon_modifier_hardpoint7"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["default_weapon_modifier_hardpoint8"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["default_weapon_modifier_hardpoint9"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
+MetaData["default_weapon_modifier_hardpoint10"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
 MetaData["eldar_heavy_flamer_hit_event"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
 MetaData["eldar_to_war_event"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }
 MetaData["enable_abilities"] = {desc = [[]], type = 4, category = [[]], dispval = [[]], }

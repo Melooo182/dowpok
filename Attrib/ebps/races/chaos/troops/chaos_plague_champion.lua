@@ -7,6 +7,17 @@
 GameData = Inherit([[ebps\races\chaos\troops\chaos_aspiring_champion_marked.nil]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_champion_marked.nil]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\chaos_ai_plasma_pistol_champion.lua"
+GameData["addon_ext"]["addons"]["addon_02"] = "addons\\chaos_ai_power_weapon_champion.lua"
+GameData["addon_ext"]["addons"]["addon_03"] = "addons\\chaos_ai_power_fist_champion.lua"
+GameData["addon_ext"]["addons"]["addon_04"] = "addons\\chaos_ai_combi_bolter_champion.lua"
+GameData["addon_ext"]["addons"]["addon_05"] = "addons\\chaos_ai_combi_flamer_champion.lua"
+GameData["addon_ext"]["addons"]["addon_06"] = "addons\\chaos_ai_combi_melta_champion.lua"
+GameData["addon_ext"]["addons"]["addon_07"] = "addons\\chaos_ai_combi_plasma_champion.lua"
+
 GameData["ability_ext"]["abilities"]["ability_03"] = ""
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_upgrade_plasma_pistol_champion_plague.lua"
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\chaos_upgrade_power_weapon_champion_plague.lua"
@@ -36,6 +47,8 @@ GameData["health_ext"]["hitpoints"] = 250.00000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.31250
 GameData["health_ext"]["regeneration_rate"] = 0.62500
 GameData["mob_ext"]["mob_value"] = 0.00000
+
+--FNP
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\health_rangedamage_received_1_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -4.95000

@@ -7,6 +7,11 @@
 GameData = Inherit([[ebps\races\chaos\troops\chaos_renegade_infantry.nil]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_renegade_infantry.nil]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_05"] = "addons\\chaos_ai_lascannon_militiamen.lua"
+
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_upgrade_lascannon_militia.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\ability_run.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"

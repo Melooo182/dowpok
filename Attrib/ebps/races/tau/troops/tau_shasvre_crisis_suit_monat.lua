@@ -7,6 +7,10 @@
 GameData = Inherit([[ebps\races\tau\troops\tau_crisis_suit_Monat.lua]])
 MetaData = InheritMeta([[ebps\races\tau\troops\tau_crisis_suit_Monat.lua]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\tau_ai_plasma_rifle_shasvre.lua"
+
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\tau_failsafe_detonator.lua"
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\tau_upgrade_shasvre_plasma_rifle.lua"
 GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\tau_max_drones.lua"

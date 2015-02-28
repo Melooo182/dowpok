@@ -8,6 +8,12 @@ GameData = Inherit([[ebps\races\guard\troops\guard_vehicles_walkers.nil]])
 MetaData = InheritMeta([[ebps\races\guard\troops\guard_vehicles_walkers.nil]])
 
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\guard_sentinel_run.lua"
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["spawner_ext"]["squad_table"]["squad_01"] = "sbps\\races\\guard\\guard_squad_armoured_sentinel_2.lua"
+GameData["spawner_ext"]["squad_table"]["squad_02"] = "sbps\\races\\guard\\guard_squad_armoured_sentinel_3.lua"
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\guard_reinforced_armour_upgrade.lua"
+
 GameData["combat_ext"]["complex_upgrades"] = false
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"
@@ -97,7 +103,8 @@ GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
 GameData["health_ext"]["regeneration_rate"] = 0.50000
 
 GameData["moving_ext"]["rotation_rate"] = 600.00000
-GameData["moving_ext"]["turning_behavior_template"] = "default"
+--~ GameData["moving_ext"]["turning_behavior_template"] = "default"
+GameData["moving_ext"]["turning_behavior_template"] = "walker"
 
 -- Running Speed 28 /2 dmged slow down
 GameData["moving_ext"]["speed_max"] = 14.00000
@@ -112,7 +119,7 @@ GameData["syncdeath_ext"]["syncdeathinfos"]["syncdeathinfo_04"]["synckill_id"] =
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_vehicle_1.lua]])
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Guard/Sentinel;Speech/Races/Guard/Tanks"
 GameData["ui_ext"]["ui_hotkey_name"] = "guard_sentinel"
-GameData["ui_ext"]["ui_index_hint"] = 2.00000
+--GameData["ui_ext"]["ui_index_hint"] = 2.00000
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$60002671"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$60002672"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$60002673"

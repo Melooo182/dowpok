@@ -7,6 +7,13 @@
 GameData = Inherit([[ebps\races\eldar\troops\eldar_troop.nil]])
 MetaData = InheritMeta([[ebps\races\eldar\troops\eldar_troop.nil]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\eldar_ai_bright_lance_guardian.lua"
+GameData["addon_ext"]["addons"]["addon_02"] = "addons\\eldar_ai_missile_launcher_guardian.lua"
+GameData["addon_ext"]["addons"]["addon_03"] = "addons\\eldar_ai_scatter_laser_guardian.lua"
+GameData["addon_ext"]["addons"]["addon_04"] = "addons\\eldar_ai_star_cannon_guardian.lua"
+
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\eldar_upgrade_platform_bright_lance.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\eldar_upgrade_platform_missile_launcher.lua"

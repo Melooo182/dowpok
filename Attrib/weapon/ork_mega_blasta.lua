@@ -45,7 +45,10 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "Un
 GameData["cost"]["cost"]["power"] = 30.00000
 GameData["cost"]["cost"]["requisition"] = 40.00000
 GameData["cost"]["time_seconds"] = 10.00000
---GameData["fire_cost"]["power"] = 8.00000
+
+--Firecost added Feb-2015
+GameData["fire_cost"]["power"] = 4.000000
+
 GameData["fired_projectile"] = "ork_mega_blasta_bolt"
 GameData["max_range"] = 36.00000
 GameData["max_traverse_left"] = -35.00000

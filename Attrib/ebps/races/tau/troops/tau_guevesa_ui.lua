@@ -7,6 +7,10 @@
 GameData = Inherit([[ebps\races\tau\troops\tau_guevesa_auxiliary.lua]])
 MetaData = InheritMeta([[ebps\races\tau\troops\tau_guevesa_auxiliary.lua]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\tau_ai_pulse_carbine_guevesaui.lua"
+
 GameData["ability_ext"]["abilities"]["ability_01"] = ""
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\tau_upgrade_guevesaui_pulse_carbine.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "tau_pulse_rifle"

@@ -8,6 +8,12 @@ GameData = Inherit([[ebps\races\guard\troops\guard_vehicles_walkers.nil]])
 MetaData = InheritMeta([[ebps\races\guard\troops\guard_vehicles_walkers.nil]])
 
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\guard_sentinel_run.lua"
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["spawner_ext"]["squad_table"]["squad_01"] = "sbps\\races\\guard\\guard_squad_sentinel_2.lua"
+GameData["spawner_ext"]["squad_table"]["squad_02"] = "sbps\\races\\guard\\guard_squad_sentinel_3.lua"
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\guard_reinforced_armour_upgrade.lua"
+
 GameData["combat_ext"]["complex_upgrades"] = false
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"
@@ -98,7 +104,8 @@ GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
 GameData["health_ext"]["regeneration_rate"] = 0.50000
 
 GameData["moving_ext"]["rotation_rate"] = 600.00000
-GameData["moving_ext"]["turning_behavior_template"] = "default"
+--~ GameData["moving_ext"]["turning_behavior_template"] = "default"
+GameData["moving_ext"]["turning_behavior_template"] = "walker"
 
 --Scout
 -- Running Speed 28 with Scout x1.125 /2 dmged slow down

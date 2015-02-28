@@ -7,6 +7,11 @@
 GameData = Inherit([[ebps\races\orks\troops\ork_leaders.nil]])
 MetaData = InheritMeta([[ebps\races\orks\troops\ork_leaders.nil]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\ork_ai_big_choppa_nob.lua"
+GameData["addon_ext"]["addons"]["addon_02"] = "addons\\ork_ai_power_klaw_nob.lua"
+
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\ork_scrag_da_runt.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\ork_stikkbombs.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\ork_upgrade_big_choppa_nob.lua"

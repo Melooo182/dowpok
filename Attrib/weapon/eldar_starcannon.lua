@@ -44,6 +44,10 @@ GameData["attack_priorities"]["priority_03"] = Reference([[type_armour\tp_invuln
 GameData["attack_priorities"]["priority_04"] = Reference([[type_armour\tp_invuln_3_4.lua]])
 GameData["attack_priorities"]["priority_05"] = Reference([[type_armour\tp_invuln_2_5.lua]])
 GameData["attack_priorities"]["priority_06"] = Reference([[type_armour\tp_invuln_0_5.lua]])
+
+--Firecost added Feb-2015
+GameData["fire_cost"]["power"] = 1.000000
+
 GameData["cost"]["cost"]["power"] = 50.00000
 GameData["cost"]["cost"]["requisition"] = 100.00000
 GameData["cost"]["time_seconds"] = 20.00000

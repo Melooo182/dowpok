@@ -25,7 +25,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_27"]["armour_piercing_value"] = 90.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_28"]["armour_piercing_value"] = 40.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 600.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 60.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 30.00000 -- Halved from 60 for test
 GameData["fire_cost"]["power"] = 85.00000
 GameData["fire_cost"]["requisition"] = 0.00000
 GameData["duration_time"] = 1.00000

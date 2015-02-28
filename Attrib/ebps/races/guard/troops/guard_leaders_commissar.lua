@@ -7,6 +7,13 @@
 GameData = Inherit([[ebps\races\guard\troops\guard_leaders.nil]])
 MetaData = InheritMeta([[ebps\races\guard\troops\guard_leaders.nil]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\guard_ai_power_fist_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_02"] = "addons\\guard_ai_plasma_pistol_officer.lua"
+GameData["addon_ext"]["addons"]["addon_03"] = "addons\\guard_ai_power_weapon_sergeant.lua"
+
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\guard_frag_grenades.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\guard_krak_grenades_kasrkin.lua"
@@ -17,10 +24,6 @@ GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltr
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\guard_upgrade_plasma_pistol_commissar.lua"
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\guard_upgrade_power_weapon_commissar.lua"
 GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\guard_upgrade_power_fist_commissar.lua"
-GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
---GameData["addon_ext"]["addons"]["addon_01"] = "addons\\guard_power_fist_commissar.lua"
---GameData["addon_ext"]["addons"]["addon_02"] = "addons\\guard_plasma_pistol_commissar.lua"
---GameData["addon_ext"]["addons"]["addon_03"] = "addons\\guard_bolter_commissar.lua"
 
 GameData["combat_ext"]["complex_upgrades"] = true
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
@@ -57,7 +60,6 @@ GameData["health_ext"]["regeneration_rate"] = 0.37500
 GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
 GameData["morale_add_ext"]["inc_morale_max"] = 110.00000
 GameData["morale_add_ext"]["inc_morale_rate"] = 11.00000
-GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 --GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 --GameData["requirement_ext"]["requirements"]["required_1"]["structure_name"] = "ebps\\races\\guard\\structures\\guard_tactica.lua"
@@ -65,7 +67,6 @@ GameData["requirement_ext"]["requirements"]["required_10"] = Reference([[require
 GameData["requirement_ext"]["requirements"]["required_10"]["mobvalue_required"] = 10.00000
 GameData["requirement_ext"]["requirements"]["required_10"]["proximity_required"] = 10.00000
 GameData["requirement_ext"]["requirements"]["required_10"]["squad_activated"] = true
-GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
 GameData["special_attack_ext"] = Reference([[ebpextensions\special_attack_ext.lua]])
 GameData["special_attack_ext"]["special_attacks"]["special_attack_01"]["area_effect"]["area_effect_information"]["angle_left"] = -45.00000
 GameData["special_attack_ext"]["special_attacks"]["special_attack_01"]["area_effect"]["area_effect_information"]["angle_right"] = 45.00000

@@ -48,6 +48,10 @@ GameData["attack_priorities"]["priority_07"] = Reference([[type_armour\tp_tough_
 GameData["attack_priorities"]["priority_08"] = Reference([[type_armour\tp_vehicle_2.lua]])
 GameData["attack_priorities"]["priority_09"] = Reference([[type_armour\tp_vehicle_2_serpent.lua]])
 GameData["attack_priorities"]["priority_10"] = Reference([[type_armour\tp_building_high.lua]])
+
+--Firecost added Feb-2015
+GameData["fire_cost"]["power"] = 1.000000
+
 GameData["cost"]["cost"]["requisition"] = 50.00000
 GameData["cost"]["time_seconds"] = 10.00000
 GameData["linger_on_target_after_fire_time"] = 1.50000

@@ -24,6 +24,10 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Un
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "Unit_Impact_events/Plasma_Cannon_Hit_Flesh"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_impact_events/Plasma_Cannon_Hit_Light_Metal"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "unit_impact_events/Plasma_Cannon_Hit_Heavy_Metal"
+
+--Firecost added Feb-2015
+GameData["fire_cost"]["power"] = 4.000000
+
 GameData["cost"]["cost"]["power"] = 10.00000
 GameData["cost"]["cost"]["requisition"] = 50.00000
 GameData["cost"]["time_seconds"] = 10.00000

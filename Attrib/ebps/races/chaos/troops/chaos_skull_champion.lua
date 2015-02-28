@@ -7,6 +7,13 @@
 GameData = Inherit([[ebps\races\chaos\troops\chaos_aspiring_champion_marked.nil]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_champion_marked.nil]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\chaos_ai_plasma_pistol_champion.lua"
+GameData["addon_ext"]["addons"]["addon_02"] = "addons\\chaos_ai_power_weapon_champion.lua"
+GameData["addon_ext"]["addons"]["addon_03"] = "addons\\chaos_ai_power_fist_champion.lua"
+
 GameData["ability_ext"]["abilities"]["ability_03"] = ""
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_upgrade_plasma_pistol_champion_berzerker.lua"
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\chaos_upgrade_power_weapon_champion_berzerker.lua"

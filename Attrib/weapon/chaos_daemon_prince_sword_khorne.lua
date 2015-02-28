@@ -8,8 +8,12 @@ GameData = Inherit([[weapon\chaos_daemon_prince_weapon.nil]])
 MetaData = InheritMeta([[weapon\chaos_daemon_prince_weapon.nil]])
 
 
---A5 3sec/5=0.6sec
-GameData["reload_time"] = 0.60000
+--S6x10=60x(0.625/0.6)=62.5
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 62.50000
+--Initiative 5 60x0.5=84x(0.625/0.6)=31.25
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 31.25000
+--A5 3sec/5=0.6sec -> 0.625sec
+GameData["reload_time"] = 0.62500
 GameData["ui_effective_against"]["text_01"] = "$0"
 
 

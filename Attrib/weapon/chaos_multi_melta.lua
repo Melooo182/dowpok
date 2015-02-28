@@ -17,6 +17,10 @@ GameData["attack_priorities"]["priority_01"] = Reference([[type_armour\tp_vehicl
 GameData["attack_priorities"]["priority_02"] = Reference([[type_armour\tp_vehicle_med.lua]])
 GameData["attack_priorities"]["priority_03"] = Reference([[type_armour\tp_vehicle_high.lua]])
 GameData["attack_priorities"]["priority_04"] = Reference([[type_armour\tp_building_low.lua]])
+
+--Firecost added Feb-2015
+GameData["fire_cost"]["power"] = 5.000000
+
 GameData["cost"]["time_seconds"] = 30.00000
 GameData["ui_info"]["screen_name_id"] = "$503695"
 

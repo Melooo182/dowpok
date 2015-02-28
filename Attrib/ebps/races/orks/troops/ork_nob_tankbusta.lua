@@ -7,6 +7,9 @@
 GameData = Inherit([[ebps\races\orks\troops\ork_nob_leader.lua]])
 MetaData = InheritMeta([[ebps\races\orks\troops\ork_nob_leader.lua]])
 
+GameData["addon_ext"]["addons"]["addon_01"] = ""
+GameData["addon_ext"]["addons"]["addon_02"] = ""
+
 GameData["ability_ext"]["abilities"]["ability_03"] = ""
 GameData["ability_ext"]["abilities"]["ability_04"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Ork_Power_Klaw"

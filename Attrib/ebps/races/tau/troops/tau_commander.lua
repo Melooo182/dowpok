@@ -7,6 +7,10 @@
 GameData = Inherit([[ebps\races\tau\troops\tau_leaders.nil]])
 MetaData = InheritMeta([[ebps\races\tau\troops\tau_leaders.nil]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\tau_ai_smart_missiles_x22_commander.lua"
+
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\tau_failsafe_detonator.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\ability_run.lua"

@@ -7,6 +7,11 @@
 GameData = Inherit([[ebps\races\black_templars\troops\templar_initiate.nil]])
 MetaData = InheritMeta([[ebps\races\black_templars\troops\templar_initiate.nil]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\templar_ai_plasma_pistol_company_champion.lua"
+GameData["addon_ext"]["addons"]["addon_02"] = "addons\\templar_ai_thunder_hammer_company_champion.lua"
+
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\templar_frag_grenades.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\templar_krak_grenades.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\templar_servitor_max1.lua"

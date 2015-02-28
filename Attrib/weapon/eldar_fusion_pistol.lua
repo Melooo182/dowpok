@@ -7,6 +7,9 @@
 GameData = Inherit([[weapon\eldar_fusion_gun.lua]])
 MetaData = InheritMeta([[weapon\eldar_fusion_gun.lua]])
 
+--Firecost added Feb-2015
+GameData["fire_cost"]["power"] = 2.000000
+
 GameData["max_range"] = 9.00000
 GameData["min_range"] = 0.00000
 GameData["ui_info"]["help_text_id"] = "$0"

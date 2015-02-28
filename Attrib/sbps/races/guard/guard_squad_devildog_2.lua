@@ -9,6 +9,14 @@ MetaData = InheritMeta([[sbps\races\guard\guard_squad_devildog.lua]])
 
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_hellhound_2.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["squad_table"]["squad_06"] = "sbps\\races\\guard\\guard_squad_banewolf_2.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_hellhound_2.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_06"] = "sbps\\races\\guard\\guard_squad_banewolf_2.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_hellhound_2.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_06"] = "sbps\\races\\guard\\guard_squad_banewolf_2.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_hellhound_2.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_5"]["squad_table"]["squad_06"] = "sbps\\races\\guard\\guard_squad_banewolf_2.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_6"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_hellhound_2.lua"
+GameData["squad_requirement_ext"]["requirements"]["required_6"]["squad_table"]["squad_06"] = "sbps\\races\\guard\\guard_squad_banewolf_2.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_10"] = Reference([[requirements\required_research.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_10"]["research_name"] = "research\\guard_doctrine_armour.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_11"] = Reference([[requirements\required_research.lua]])

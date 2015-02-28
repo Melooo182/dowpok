@@ -7,6 +7,10 @@
 GameData = Inherit([[ebps\races\tau\troops\tau_fire_warrior.lua]])
 MetaData = InheritMeta([[ebps\races\tau\troops\tau_fire_warrior.lua]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\tau_ai_pulse_carbine_shasui.lua"
+
 GameData["ability_ext"]["abilities"]["ability_01"] = ""
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\tau_emp_grenade.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\tau_photon_grenade.lua"

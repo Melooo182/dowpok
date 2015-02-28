@@ -8,6 +8,10 @@ GameData = Inherit([[weapon\inquisition_plasma_variants.nil]])
 MetaData = InheritMeta([[weapon\inquisition_plasma_variants.nil]])
 
 GameData["accuracy_reduction_when_moving"] = 0.00000
+
+--Firecost added Feb-2015
+GameData["fire_cost"]["power"] = 1.000000
+
 GameData["fired_projectile"] = "space_marine_plasma"
 GameData["cost"]["cost"]["power"] = 10.00000
 GameData["cost"]["cost"]["requisition"] = 50.00000

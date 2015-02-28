@@ -7,6 +7,12 @@
 GameData = Inherit([[ebps\races\chaos\troops\chaos_renegade_infantry.nil]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_renegade_infantry.nil]])
 
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_03"] = "addons\\chaos_ai_autocannon_militiamen.lua"
+GameData["addon_ext"]["addons"]["addon_04"] = "addons\\chaos_ai_heavy_bolter_militiamen.lua"
+
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\chaos_upgrade_heavy_bolter_militia.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\chaos_upgrade_autocannon_militia.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\ability_run.lua"

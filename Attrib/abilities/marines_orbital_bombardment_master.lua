@@ -14,6 +14,7 @@ GameData["initial_delay_time"] = 10.00000
 GameData["fire_cost"]["power"] = 50.00000
 GameData["fire_cost"]["requisition"] = 0.00000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_none.lua]])
+GameData["spawned_entity_name"] = ""
 GameData["ui_index_hint"] = 4.00000
 GameData["ui_info"]["help_text_list"]["text_05"] = "$91566"
 

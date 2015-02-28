@@ -37,6 +37,7 @@ GameData["squad_leader_ext"]["leader_4"]["cost_time"]["time_seconds"] = 7.50000
 GameData["squad_leader_ext"]["leader_4"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_renegade_infantry_hwt_mortar.lua"]]
 GameData["squad_leader_ext"]["max_leaders"] = 2.00000
 GameData["squad_leader_ext"]["multi_with_reinforce"] = true
+GameData["squad_leader_ext"]["multi_with_upgrades"] = true
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\chaos\\troops\\chaos_renegade_infantry_militiamen.lua"
 GameData["squad_loadout_ext"]["unit_max"] = 7.00000
 GameData["squad_loadout_ext"]["unit_min"] = 7.00000

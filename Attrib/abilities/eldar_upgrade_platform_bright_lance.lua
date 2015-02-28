@@ -4,8 +4,8 @@
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[abilities\eldar_upgrade_platform.lua]])
-MetaData = InheritMeta([[abilities\eldar_upgrade_platform.lua]])
+GameData = Inherit([[abilities\eldar_upgrade_platform.nil]])
+MetaData = InheritMeta([[abilities\eldar_upgrade_platform.nil]])
 
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["value"] = 3.00000
 GameData["entity_busy_time"] = 12.50000

@@ -31,6 +31,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 40.000
 --Initiative 5 40x0.5=20
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 20.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 50.00000
+--A3 + Pistol 3/4=0.75
 GameData["reload_time"] = 0.75000
 GameData["ui_effective_against"]["text_01"] = "$15022409"
 

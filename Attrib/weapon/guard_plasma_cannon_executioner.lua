@@ -11,6 +11,10 @@ MetaData = InheritMeta([[weapon\guard_plasma_cannon.lua]])
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 420.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 210.00000
 
+--Firecost added Feb-2015
+GameData["fire_cost"]["power"] = 5.000000
+
+
 GameData["linger_on_target_after_fire_time"] = 1.00000
 GameData["max_range"] = 81.00000
 GameData["max_traverse_down"] = -10.00000

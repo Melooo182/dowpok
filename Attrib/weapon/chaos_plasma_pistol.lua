@@ -9,6 +9,10 @@ MetaData = InheritMeta([[weapon\chaos_plasma_variants.lua]])
 
 GameData["accuracy_reduction_when_moving"] = 0.00000
 GameData["fired_projectile"] = "chaos_plasma"
+
+--Firecost added Feb-2015
+GameData["fire_cost"]["power"] = 1.000000
+
 GameData["max_range"] = 18.00000
 GameData["max_traverse_left"] = -60.00000
 GameData["max_traverse_right"] = 60.00000

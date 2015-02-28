@@ -150,7 +150,7 @@ GameData["synckill_ext"]["synckillinfos"]["synckillinfo_04"]["killer_invulnerabl
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_04"]["killer_motion_name"] = "SyncKill_4"
 GameData["synckill_ext"]["synckillinfos"]["synckillinfo_04"]["synckill_id"] = Reference([[type_synckillids\sk_id_04.lua]])
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_infantry_heavy_high.lua]])
-GameData["ui_ext"]["speech_directory"] = "Speech/Races/Guard/Enginseer"
+GameData["ui_ext"]["speech_directory"] = "Speech/Races/Space_Marines/Techmarine"
 GameData["ui_ext"]["ui_hotkey_name"] = "guard_enginseer"
 GameData["ui_ext"]["ui_index_hint"] = 9.00000
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$61000611"

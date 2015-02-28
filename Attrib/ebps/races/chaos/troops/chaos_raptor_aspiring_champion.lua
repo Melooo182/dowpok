@@ -7,6 +7,13 @@
 GameData = Inherit([[ebps\races\chaos\troops\chaos_aspiring_champion.lua]])
 MetaData = InheritMeta([[ebps\races\chaos\troops\chaos_aspiring_champion.lua]])
 
+GameData["addon_ext"]["addons"]["addon_02"] = "addons\\chaos_ai_lightning_claws_champion_raptor.lua"
+GameData["addon_ext"]["addons"]["addon_03"] = "addons\\chaos_ai_power_weapon_champion.lua"
+GameData["addon_ext"]["addons"]["addon_04"] = "addons\\chaos_ai_power_fist_champion.lua"
+GameData["addon_ext"]["addons"]["addon_05"] = ""
+GameData["addon_ext"]["addons"]["addon_06"] = ""
+GameData["addon_ext"]["addons"]["addon_07"] = ""
+
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\chaos_upgrade_plasma_pistol_champion_raptor.lua"
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\chaos_upgrade_power_weapon_champion_raptor.lua"
 GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\chaos_upgrade_power_fist_champion_raptor.lua"

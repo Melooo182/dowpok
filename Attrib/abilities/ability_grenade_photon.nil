@@ -68,7 +68,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_26"]["armour_piercing_value"] = 0.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_27"]["armour_piercing_value"] = 0.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 400.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 40.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 20.00000 --halved from 40 for test
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 50.00000
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["max_lifetime"] = 8.00000
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"] = Reference([[modifiers\keen_sight_radius_modifier.lua]])

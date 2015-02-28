@@ -56,7 +56,11 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["max_lifeti
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"] = Reference([[modifiers\health_get_back_up_modifier.lua]])
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_percentage.lua]])
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_04"]["modifier"]["value"] = -0.50000
+
+--Firecost added Feb-2015
+GameData["fire_cost"]["power"] = 9.000000
 --GameData["fire_cost"]["requisition"] = 9.00000
+
 GameData["fired_projectile"] = "guard_basilisk_projectile"
 GameData["max_range"] = 180.00000
 GameData["max_traverse_up"] = 80.00000
