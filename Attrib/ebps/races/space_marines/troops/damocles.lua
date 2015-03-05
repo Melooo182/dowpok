@@ -12,6 +12,7 @@ GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\marines_smoke_l
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\marines_orbital_bombardment.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\marines_improved_communications.lua"
 GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\marines_hk_missile.lua"
+GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\marines_tempest_strike.lua"
 GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
 GameData["addon_ext"]["addons"]["addon_01"] = "addons\\marine_reinforced_armour_upgrade.lua"
 GameData["addon_ext"]["addons"]["addon_02"] = "addons\\marine_hk_missile_upgrade.lua"

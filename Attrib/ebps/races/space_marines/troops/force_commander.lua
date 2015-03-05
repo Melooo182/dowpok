@@ -52,6 +52,7 @@ GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\marines_chapter
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\marines_chapter_tactics_fleetoffoot.lua"
 GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\marines_melta_bombs.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\marines_digital_weapons_captain.lua"
+GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\marines_tempest_strike.lua"
 
 GameData["combat_ext"]["complex_upgrades"] = true
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"

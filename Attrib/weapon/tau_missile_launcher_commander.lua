@@ -39,7 +39,6 @@ GameData["ui_info"]["help_text_list"]["text_03"] = "$709852"
 GameData["ui_info"]["help_text_list"]["text_04"] = "$709853"
 GameData["ui_info"]["icon_name"] = "tau_icons/tau_commander_missile_icon"
 GameData["ui_info"]["screen_name_id"] = "$709854"
-GameData["weapon_spawned_event_name"] = "Missile Pods"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, rangeStart = 709850, rangeEnd = 709899, }

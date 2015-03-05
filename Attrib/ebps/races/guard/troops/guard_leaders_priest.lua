@@ -16,8 +16,8 @@ GameData["addon_ext"]["addons"]["addon_03"] = "addons\\guard_evicerator_priest.l
 --GameData["research_ext"]["research_table"]["research_01"] = "research\\guard_upgrade_priest_melee.lua"
 
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
-GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\guard_priest_fanatical.lua"
-GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\guard_priest_righteous_fury.lua"
+GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\guard_priest_fanatical.lua" --Righteous Fury FX
+--~ GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\guard_priest_righteous_fury.lua"
 GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\ability_run.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
 
@@ -35,13 +35,21 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_03"]["weapon"] = "weapon\\guard_eviscerator_priest.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_04"]["name_for_this_weapon_choice"] = "Guard_Eviscerator"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_04"]["weapon"] = "weapon\\guard_eviscerator_priest_honorifica.lua"
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 135.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 13.50000
+-- 45pts -3pts (frags, laspistol, flak vest) = 42pts x5 = 210req
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 210.00000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 21.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Imperial_Guard/Troops/Priest"
-GameData["health_ext"]["hitpoints"] = 300.00000
+GameData["health_ext"]["hitpoints"] = 150.00000
 GameData["health_ext"]["morale_death"] = 200.00000
-GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.37500
-GameData["health_ext"]["regeneration_rate"] = 0.75000
+GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.18750
+GameData["health_ext"]["regeneration_rate"] = 0.37500
+
+--Righteous Fury Effect
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"] = Reference([[modifiers\accuracy_weapon_modifier.lua]])
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
+GameData["melee_ext"]["in_melee_modifiers"]["modifier_06"]["value"] = 0.25000
+
 GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
 GameData["morale_add_ext"]["inc_morale_max"] = 100.00000
 GameData["morale_add_ext"]["inc_morale_rate"] = 10.00000
