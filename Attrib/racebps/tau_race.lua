@@ -14,9 +14,9 @@ GameData["race_path"]["speech_path"] = "Speech/Races/Tau/Shared"
 GameData["race_path"]["squad_path"] = "Races/Tau"
 GameData["race_path"]["taskbar_path"] = "Tau"
 GameData["race_path"]["unit_path"] = "Races/Tau/Troops"
-GameData["race_squad_cap_table"]["base_squad_cap"] = 8.00000
-GameData["race_squad_cap_table"]["max_squad_cap"] = 24.00000
-GameData["race_squad_cap_table"]["max_support_cap"] = 9.00000
+GameData["race_squad_cap_table"]["base_squad_cap"] = 10.00000
+GameData["race_squad_cap_table"]["max_squad_cap"] = 20.00000
+GameData["race_squad_cap_table"]["max_support_cap"] = 20.00000
 GameData["starting_buildings"]["building_01"] = "tau_hq"
 --GameData["starting_res_normal"]["power"] = 500.00000
 --2000 - 600req

@@ -7,11 +7,11 @@
 GameData = Inherit([[research\guard_research.nil]])
 MetaData = InheritMeta([[research\guard_research.nil]])
 
-GameData["modifiers"]["modifier_01"] = Reference([[modifiers\max_squad_cap_player_modifier.lua]])
-GameData["modifiers"]["modifier_01"]["value"] = 12.00000
-GameData["modifiers"]["modifier_02"] = Reference([[modifiers\squad_cap_player_modifier.lua]])
-GameData["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_multiplication.lua]])
-GameData["modifiers"]["modifier_02"]["value"] = 2.00000
+--; GameData["modifiers"]["modifier_01"] = Reference([[modifiers\max_squad_cap_player_modifier.lua]])
+--; GameData["modifiers"]["modifier_01"]["value"] = 1.00000
+--; GameData["modifiers"]["modifier_02"] = Reference([[modifiers\squad_cap_player_modifier.lua]])
+--; GameData["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_multiplication.lua]])
+--; GameData["modifiers"]["modifier_02"]["value"] = 1.00000
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\guard\\structures\\guard_hq.lua"
 GameData["requirements"]["required_2"] = Reference([[requirements\required_structure.lua]])

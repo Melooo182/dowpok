@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\eldar\eldar_squad_support_platforms.nil]])
 MetaData = InheritMeta([[sbps\races\eldar\eldar_squad_support_platforms.nil]])
 
+GameData["squad_cap_ext"]["support_cap_usage"] = 3.00000
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\eldar\\troops\\eldar_support_platform_dcannon.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_10"] = Reference([[requirements\global_required_addon.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_10"]["global_addon_name"] = "addons\\eldar_hq_addon_2.lua"

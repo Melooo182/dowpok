@@ -7,8 +7,7 @@
 GameData = Inherit([[sbps\races\orks\ork_squad_deff_dread.lua]])
 MetaData = InheritMeta([[sbps\races\orks\ork_squad_deff_dread.lua]])
 
-GameData["squad_cap_ext"]["support_cap_usage"] = 0.00000
-GameData["squad_cap_ext"]["squad_cap_usage"] = 1.00000
+GameData["squad_cap_ext"]["support_cap_usage"] = 2.00000
 GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_04"]["modifier"] = Reference([[modifiers\income_power_player_modifier.lua]])
 GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_04"]["modifier"]["value"] = 0.85000
 GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_05"]["modifier"] = Reference([[modifiers\income_requisition_player_modifier.lua]])

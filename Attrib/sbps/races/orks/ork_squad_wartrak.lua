@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\orks\ork_squad.nil]])
 MetaData = InheritMeta([[sbps\races\orks\ork_squad.nil]])
 
+GameData["squad_cap_ext"]["support_cap_usage"] = 1.00000
 --[[GameData["squad_capture_strategic_point_ext"] = Reference([[sbpextensions\squad_capture_strategic_point_ext.lua]])
 GameData["squad_capture_strategic_point_ext"]["able_to_capture"] = false
 GameData["squad_capture_strategic_point_ext"]["able_to_uncapture"] = false

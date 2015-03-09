@@ -14,7 +14,9 @@ GameData["race_path"]["speech_path"] = "Speech/Races/Space_Marines/Shared"
 GameData["race_path"]["squad_path"] = "Races/Black_Templars"
 GameData["race_path"]["taskbar_path"] = "templars"
 GameData["race_path"]["unit_path"] = "Races/Black_Templars/Troops"
-GameData["race_squad_cap_table"]["base_squad_cap"] = 2.00000
+GameData["race_squad_cap_table"]["base_squad_cap"] = 10.00000
+GameData["race_squad_cap_table"]["max_squad_cap"] = 20.00000
+GameData["race_squad_cap_table"]["max_support_cap"] = 20.00000
 --2000 - 850req
 GameData["starting_res_normal"]["requisition"] = 1150.00000
 --6000 - 850req

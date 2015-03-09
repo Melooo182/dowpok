@@ -7,7 +7,7 @@
 GameData = Inherit([[sbps\races\eldar\eldar_squad_rangers.lua]])
 MetaData = InheritMeta([[sbps\races\eldar\eldar_squad_rangers.lua]])
 
-
+GameData["squad_cap_ext"]["squad_cap_usage"] = 5.00000
 --Scout Special Rule Bonuses Disabled when using Infiltration
 GameData["squad_infiltration_ext"]["modifiers_while_concealed"]["modifier_02"]["value"] = 1.11112
 GameData["squad_infiltration_ext"]["modifiers_while_concealed"]["modifier_03"]= Reference([[modifiers\sight_radius_modifier.lua]])
@@ -22,6 +22,14 @@ GameData["squad_requirement_ext"] = Reference([[sbpextensions\squad_requirement_
 GameData["squad_requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["is_display_requirement"] = true
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["structure_name"] = "ebps\\races\\eldar\\structures\\eldar_hq.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"] = Reference([[requirements\required_cumulative_squad_cap.lua]])
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["max_cumulative_squad_cap"] = 6.00000
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_01"] = "sbps\\races\\eldar\\eldar_squad_rangers.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_03"] = "sbps\\races\\eldar\\eldar_guardian_storm_squad.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_04"] = "sbps\\races\\eldar\\eldar_guardian_storm_squad_half.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_05"] = "sbps\\races\\eldar\\eldar_guardian_squad.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_06"] = "sbps\\races\\eldar\\eldar_guardian_squad_half.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_07"] = "sbps\\races\\eldar\\eldar_dire_avenger_squad.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_10"] = Reference([[requirements\required_research.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_10"]["research_name"] = "research\\eldar_ranger_infiltration_research.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_11"] = Reference([[requirements\global_required_addon.lua]])

@@ -7,7 +7,7 @@
 GameData = Inherit([[sbps\races\eldar\eldar_squad_aspect_base.nil]])
 MetaData = InheritMeta([[sbps\races\eldar\eldar_squad_aspect_base.nil]])
 
-GameData["squad_cap_ext"]["squad_cap_usage"] = 1.00000
+GameData["squad_cap_ext"]["squad_cap_usage"] = 3.00000
 GameData["squad_capture_strategic_point_ext"]["able_to_capture"] = true
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_01"] = Reference([[type_armour\tp_infantry_high.lua]])
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_02"] = Reference([[type_armour\tp_infantry_med.lua]])
@@ -43,6 +43,14 @@ GameData["squad_requirement_ext"] = Reference([[sbpextensions\squad_requirement_
 GameData["squad_requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["is_display_requirement"] = true
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["structure_name"] = "ebps\\races\\eldar\\structures\\eldar_aspect_portal.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"] = Reference([[requirements\required_cumulative_squad_cap.lua]])
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["max_cumulative_squad_cap"] = 6.00000
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_01"] = "sbps\\races\\eldar\\eldar_squad_rangers.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_02"] = "sbps\\races\\eldar\\eldar_squad_rangers_pathfinders.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_03"] = "sbps\\races\\eldar\\eldar_guardian_storm_squad.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_04"] = "sbps\\races\\eldar\\eldar_guardian_storm_squad_half.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_05"] = "sbps\\races\\eldar\\eldar_guardian_squad.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_06"] = "sbps\\races\\eldar\\eldar_guardian_squad_half.lua"
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])
 GameData["squad_transportable_ext"]["nr_spots"] = 2.00000
 GameData["squad_ui_ext"]["multi_select_priority"] = 15.00000

@@ -14,8 +14,9 @@ GameData["race_path"]["speech_path"] = "Speech/Races/Chaos_Marines/Shared"
 GameData["race_path"]["squad_path"] = "Races/Chaos"
 GameData["race_path"]["taskbar_path"] = "Chaos"
 GameData["race_path"]["unit_path"] = "Races/Chaos/Troops"
-GameData["race_squad_cap_table"]["base_squad_cap"] = 6.00000
-GameData["race_squad_cap_table"]["max_squad_cap"] = 18.00000
+GameData["race_squad_cap_table"]["base_squad_cap"] = 10.00000
+GameData["race_squad_cap_table"]["max_squad_cap"] = 20.00000
+GameData["race_squad_cap_table"]["max_support_cap"] = 20.00000
 --2000 - 675req
 GameData["starting_res_normal"]["requisition"] = 1325.00000
 --6000 - 675req

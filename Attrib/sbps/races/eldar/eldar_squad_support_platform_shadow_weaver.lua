@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\eldar\eldar_squad_support_platforms.nil]])
 MetaData = InheritMeta([[sbps\races\eldar\eldar_squad_support_platforms.nil]])
 
+GameData["squad_cap_ext"]["support_cap_usage"] = 2.00000
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\eldar\\troops\\eldar_support_platform_shadow_weaver.lua"
 GameData["squad_reinforce_ext"]["cost"]["cost"]["requisition"] = 150.00000
 GameData["squad_reinforce_ext"]["cost"]["cost"]["power"] = 30.00000

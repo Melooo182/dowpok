@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\guard\guard_squad_armoured_sentinel.lua]])
 MetaData = InheritMeta([[sbps\races\guard\guard_squad_armoured_sentinel.lua]])
 
+GameData["squad_cap_ext"]["support_cap_usage"] = 2.00000
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["squad_table"]["squad_03"] = "sbps\\races\\guard\\guard_squad_sentinel.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_03"] = "sbps\\races\\guard\\guard_squad_sentinel.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_3"]["squad_table"]["squad_03"] = "sbps\\races\\guard\\guard_squad_sentinel.lua"

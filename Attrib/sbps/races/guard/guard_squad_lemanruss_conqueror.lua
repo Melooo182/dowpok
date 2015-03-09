@@ -7,7 +7,7 @@
 GameData = Inherit([[sbps\races\guard\guard_squad.nil]])
 MetaData = InheritMeta([[sbps\races\guard\guard_squad.nil]])
 
-GameData["squad_cap_ext"]["support_cap_usage"] = 1.00000
+GameData["squad_cap_ext"]["support_cap_usage"] = 4.00000
 GameData["squad_combat_stance_ext"] = Reference([[sbpextensions\squad_combat_stance_ext.lua]])
 GameData["squad_combat_stance_ext"]["ranged_attackrange"] = 72.00000
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\guard\\troops\\guard_vehicles_lemanruss_conqueror.lua"

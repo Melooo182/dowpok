@@ -15,9 +15,9 @@ GameData["race_path"]["speech_path"] = "Speech/Races/Guard/Shared"
 GameData["race_path"]["squad_path"] = "Races/Guard"
 GameData["race_path"]["taskbar_path"] = "Imperial_Guard"
 GameData["race_path"]["unit_path"] = "Races/Guard/Troops"
-GameData["race_squad_cap_table"]["base_squad_cap"] = 6.00000
-GameData["race_squad_cap_table"]["max_squad_cap"] = 18.00000
-GameData["race_squad_cap_table"]["max_support_cap"] = 3.00000
+GameData["race_squad_cap_table"]["base_squad_cap"] = 10.00000
+GameData["race_squad_cap_table"]["max_squad_cap"] = 20.00000
+GameData["race_squad_cap_table"]["max_support_cap"] = 20.00000
 --2000 - 800req
 GameData["starting_res_normal"]["requisition"] = 1200.00000
 --6000 - 800req
@@ -25,8 +25,8 @@ GameData["starting_res_quickstart"]["requisition"] = 5200.00000
 GameData["starting_buildings"]["building_01"] = "guard_hq"
 GameData["starting_squads"]["squad_01"] = "sbps\\races\\guard\\guard_squad_enginseer.lua"
 --Foward Sentries 400req x2 = 800req
-GameData["starting_squads"]["squad_02"] = "sbps\\races\\guard\\guard_squad_veterans.lua"
-GameData["starting_squads"]["squad_03"] = "sbps\\races\\guard\\guard_squad_veterans.lua"
+GameData["starting_squads"]["squad_02"] = "sbps\\races\\guard\\guard_squad_veterans_grenadiers.lua"
+GameData["starting_squads"]["squad_03"] = "sbps\\races\\guard\\guard_squad_veterans_grenadiers.lua"
 --Platoon 560req x2 = 1120req
 --Platoon 560req + Forward Sentries 400req = 960req
 --GameData["starting_squads"]["squad_02"] = "sbps\\races\\guard\\guard_squad_guardsmen.lua"

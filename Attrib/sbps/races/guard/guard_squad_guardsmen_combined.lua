@@ -7,7 +7,7 @@
 GameData = Inherit([[sbps\races\guard\guard_squad_guardsmen.lua]])
 MetaData = InheritMeta([[sbps\races\guard\guard_squad_guardsmen.lua]])
 
-GameData["squad_cap_ext"]["squad_cap_usage"] = 3.00000
+GameData["squad_cap_ext"]["squad_cap_usage"] = 4.00000
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\guard\\troops\\guard_infantry_guardsmen_sergeant_combined.lua"
 GameData["squad_leader_ext"]["leader_2"]["leader"]["type"] = "ebps\\races\\guard\\troops\\guard_heavy_weapons_team_hb_combined.lua"
 GameData["squad_leader_ext"]["leader_3"]["leader"]["type"] = "ebps\\races\\guard\\troops\\guard_heavy_weapons_team_ml_combined.lua"

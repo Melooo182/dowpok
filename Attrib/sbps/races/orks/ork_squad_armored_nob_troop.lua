@@ -7,7 +7,8 @@
 GameData = Inherit([[sbps\races\orks\ork_squad_armored_nob.lua]])
 MetaData = InheritMeta([[sbps\races\orks\ork_squad_armored_nob.lua]])
 
-GameData["squad_cap_ext"]["squad_cap_usage"] = 1.00000
+GameData["squad_cap_ext"]["support_cap_usage"] = 2.00000
+GameData["squad_cap_ext"]["squad_cap_usage"] = 2.00000
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\orks\\troops\\ork_armored_nob_retinue.lua"
 GameData["squad_loadout_ext"]["unit_max"] = 6.00000
 --[[GameData["squad_modifier_apply_ext"]["modifiers"]["modifier_03"]["modifier"] = Reference([[modifiers\income_power_player_modifier.lua]])

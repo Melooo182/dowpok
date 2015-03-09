@@ -14,14 +14,15 @@ GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\eldar_fleetoffo
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["shoot_motion_variable_name"] = "Weapon_Range_Firing_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["vertical_aim_motion_variable_name"] = "Aim_Vertical_Main"
-GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Eldar_Death_Spinner"
+GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "eldar_las_blaster"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\eldar_lasblaster_hawk.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["vertical_aim_motion_variable_name"] = ""
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Eldar_Knife"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\eldar_knife_hawk.lua"
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 105.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 10.50000
-GameData["entity_blueprint_ext"]["animator"] = "Races/Eldar/Troops/Warp_Spider_codex"
+--; GameData["entity_blueprint_ext"]["animator"] = "Races/Eldar/Troops/Warp_Spider_codex"
+GameData["entity_blueprint_ext"]["animator"] = "Races/Eldar/Troops/Swooping_Hawk"
 GameData["melee_ext"]["melee_leap_action_name"] = "feral_leap"
 GameData["melee_ext"]["melee_leap_curve_ratio"] = 0.30000
 GameData["melee_ext"]["melee_leap_damage"] = 20.00000
@@ -48,15 +49,18 @@ GameData["synckill_ext"]["synckillinfos"]["synckillinfo_03"]["killer_invulnerabl
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_infantry_high.lua]])
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Eldar/Warp_Spider"
 GameData["ui_ext"]["ui_hotkey_name"] = "eldar_warp_spiders"
-GameData["ui_ext"]["ui_index_hint"] = 9.00000
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$97872"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$97873"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$97874"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$97875"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$97876"
-GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$552405"
+GameData["ui_ext"]["ui_index_hint"] = 2.00000
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$57000191"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$57000192"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$57000193"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$57000194"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$57000195"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$57000196"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$57000197"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$57000198"
+GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$57000199"
 GameData["ui_ext"]["ui_info"]["icon_name"] = "eldar_icons/warp_spider_icon"
-GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$90716"
+GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$57000190"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

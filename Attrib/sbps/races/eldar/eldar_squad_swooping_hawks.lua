@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\eldar\eldar_squad_aspect_base.nil]])
 MetaData = InheritMeta([[sbps\races\eldar\eldar_squad_aspect_base.nil]])
 
+GameData["squad_cap_ext"]["squad_cap_usage"] = 5.00000
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_01"] = Reference([[type_armour\tp_infantry_high.lua]])
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_02"] = Reference([[type_armour\tp_infantry_med.lua]])
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_03"] = Reference([[type_armour\tp_infantry_low.lua]])
@@ -70,16 +71,16 @@ GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transporta
 GameData["squad_transportable_ext"]["transport_type"] = Reference([[type_transportable\transport_asm.lua]])
 GameData["squad_transportable_ext"]["nr_spots"] = 2.00000
 GameData["squad_ui_ext"]["multi_select_priority"] = 8.00000
-GameData["squad_ui_ext"]["ui_info"]["help_text_id"] = "$97871"
-GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$57001891"
-GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$57001892"
-GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$57001893"
-GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$57001894"
-GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$57001895"
-GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$57001896"
-GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$57001897"
-GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$57001898"
-GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$57001899"
+GameData["squad_ui_ext"]["ui_info"]["help_text_id"] = "$57000190"
+GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_01"] = "$57000191"
+GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_02"] = "$57000192"
+GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_03"] = "$57000193"
+GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_04"] = "$57000194"
+GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$57000195"
+GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$57000196"
+GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$57000197"
+GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$57000198"
+GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$57000199"
 GameData["squad_ui_ext"]["ui_info"]["icon_name"] = "eldar_icons/warp_spider_icon"
 GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "Swooping Hawks"
 

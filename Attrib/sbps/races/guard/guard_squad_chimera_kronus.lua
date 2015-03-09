@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\guard\guard_squad_chimera.lua]])
 MetaData = InheritMeta([[sbps\races\guard\guard_squad_chimera.lua]])
 
+GameData["squad_cap_ext"]["support_cap_usage"] = 2.00000
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\guard\\troops\\guard_vehicles_chimera_kronus.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_11"]["squad_table"]["squad_01"] = "sbps\\races\\guard\\guard_squad_chimera.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"] = Reference([[requirements\global_required_addon.lua]])

@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\guard\guard_squad.nil]])
 MetaData = InheritMeta([[sbps\races\guard\guard_squad.nil]])
 
+GameData["squad_cap_ext"]["support_cap_usage"] = 2.00000
 GameData["squad_capture_strategic_point_ext"] = Reference([[sbpextensions\squad_capture_strategic_point_ext.lua]])
 GameData["squad_capture_strategic_point_ext"]["able_to_capture"] = false
 GameData["squad_capture_strategic_point_ext"]["capture_rate"] = 1.50000

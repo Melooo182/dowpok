@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\eldar\eldar_guardian_squad.lua]])
 MetaData = InheritMeta([[sbps\races\eldar\eldar_guardian_squad.lua]])
 
+GameData["squad_cap_ext"]["squad_cap_usage"] = 2.00000
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\eldar\\troops\\eldar_guardian_half.lua"
 GameData["squad_loadout_ext"]["unit_max"] = 10.00000
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])
@@ -22,7 +23,14 @@ GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$57001718"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$57001719"
 GameData["squad_ui_ext"]["ui_info"]["icon_name"] = "eldar_icons/guardian_combat_icon"
 GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "$57002165"
-
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"] = Reference([[requirements\required_cumulative_squad_cap.lua]])
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["max_cumulative_squad_cap"] = 6.00000
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_01"] = "sbps\\races\\eldar\\eldar_squad_rangers.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_02"] = "sbps\\races\\eldar\\eldar_squad_rangers_pathfinders.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_03"] = "sbps\\races\\eldar\\eldar_guardian_storm_squad.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_04"] = "sbps\\races\\eldar\\eldar_guardian_storm_squad_half.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_05"] = "sbps\\races\\eldar\\eldar_guardian_squad.lua"
+--; GameData["squad_requirement_ext"]["requirements"]["required_4"]["squad_table"]["squad_07"] = "sbps\\races\\eldar\\eldar_dire_avenger_squad.lua"
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
 MetaData["$METACOLOURTAG"] = 

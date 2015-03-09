@@ -141,6 +141,10 @@ GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$57001839"
 GameData["ui_ext"]["ui_info"]["icon_name"] = "eldar_icons/vyper_icon"
 GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$57001830"
 
+--Tank Squadrons
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
+GameData["spawner_ext"]["squad_table"]["squad_01"] = "sbps\\races\\eldar\\eldar_squad_vypers_2.lua"
+GameData["spawner_ext"]["squad_table"]["squad_02"] = "sbps\\races\\eldar\\eldar_squad_vypers_3.lua"
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
 MetaData["$METACOLOURTAG"] = 

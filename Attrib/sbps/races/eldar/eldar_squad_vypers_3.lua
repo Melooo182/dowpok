@@ -74,7 +74,7 @@ GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$57001837"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$57001838"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_05"] = "$57001839"
 GameData["squad_ui_ext"]["ui_info"]["icon_name"] = "eldar_icons/vyper_icon"
-GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "$57001830"
+GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "$57002643"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

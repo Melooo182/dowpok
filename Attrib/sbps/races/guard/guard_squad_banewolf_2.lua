@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\guard\guard_squad_banewolf.lua]])
 MetaData = InheritMeta([[sbps\races\guard\guard_squad_banewolf.lua]])
 
+GameData["squad_cap_ext"]["support_cap_usage"] = 3.00000
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_devildog_2.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["squad_table"]["squad_06"] = "sbps\\races\\guard\\guard_squad_hellhound_2.lua"
 GameData["squad_requirement_ext"]["requirements"]["required_2"]["squad_table"]["squad_05"] = "sbps\\races\\guard\\guard_squad_devildog_2.lua"
