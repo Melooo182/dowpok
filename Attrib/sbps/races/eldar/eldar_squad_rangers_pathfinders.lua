@@ -7,7 +7,7 @@
 GameData = Inherit([[sbps\races\eldar\eldar_squad_rangers.lua]])
 MetaData = InheritMeta([[sbps\races\eldar\eldar_squad_rangers.lua]])
 
-GameData["squad_cap_ext"]["squad_cap_usage"] = 5.00000
+GameData["squad_cap_ext"]["squad_cap_usage"] = 4.00000
 --Scout Special Rule Bonuses Disabled when using Infiltration
 GameData["squad_infiltration_ext"]["modifiers_while_concealed"]["modifier_02"]["value"] = 1.11112
 GameData["squad_infiltration_ext"]["modifiers_while_concealed"]["modifier_03"]= Reference([[modifiers\sight_radius_modifier.lua]])

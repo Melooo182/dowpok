@@ -8,7 +8,7 @@ GameData = Inherit([[sbps\races\eldar\eldar_squad.nil]])
 MetaData = InheritMeta([[sbps\races\eldar\eldar_squad.nil]])
 
 GameData["squad_attach_receive_ext"] = Reference([[sbpextensions\squad_attach_receive_ext.lua]])
-GameData["squad_cap_ext"]["squad_cap_usage"] = 4.00000
+GameData["squad_cap_ext"]["squad_cap_usage"] = 3.00000
 GameData["squad_capture_strategic_point_ext"] = Reference([[sbpextensions\squad_capture_strategic_point_ext.lua]])
 GameData["squad_combat_stance_ext"] = Reference([[sbpextensions\squad_combat_stance_ext.lua]])
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_01"] = Reference([[type_armour\tp_infantry_high.lua]])

@@ -8,7 +8,7 @@ GameData = Inherit([[sbps\races\guard\guard_squad.nil]])
 MetaData = InheritMeta([[sbps\races\guard\guard_squad.nil]])
 
 GameData["squad_attach_receive_ext"] = Reference([[sbpextensions\squad_attach_receive_ext.lua]])
-GameData["squad_cap_ext"]["squad_cap_usage"] = 3.00000
+GameData["squad_cap_ext"]["squad_cap_usage"] = 2.00000
 GameData["squad_capture_strategic_point_ext"] = Reference([[sbpextensions\squad_capture_strategic_point_ext.lua]])
 GameData["squad_capture_strategic_point_ext"]["time_till_flag_planted"] = 1.90000
 GameData["squad_combat_stance_ext"] = Reference([[sbpextensions\squad_combat_stance_ext.lua]])

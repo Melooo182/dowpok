@@ -7,8 +7,8 @@
 GameData = Inherit([[sbps\races\orks\ork_squad_nob.lua]])
 MetaData = InheritMeta([[sbps\races\orks\ork_squad_nob.lua]])
 
-GameData["squad_cap_ext"]["support_cap_usage"] = 3.00000
-GameData["squad_cap_ext"]["squad_cap_usage"] = 3.00000
+GameData["squad_cap_ext"]["support_cap_usage"] = 2.00000
+GameData["squad_cap_ext"]["squad_cap_usage"] = 2.00000
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\orks\\troops\\ork_bad_dok_command.lua"
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\orks\\troops\\ork_nob_retinue.lua"
 -- Nob 20pts + 'Eavy Armour 5pts = 25pts x5 = 125pts
