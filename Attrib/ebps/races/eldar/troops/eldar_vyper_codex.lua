@@ -104,17 +104,17 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_07"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_07"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = "Wargear_04"
 GameData["combat_ext"]["hardpoints"]["hardpoint_07"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\eldar_dummy_weapon_no_reinforce.lua"
 
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 45.00000
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 225.00000 -- Changed from 250req/50pwr
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 22.50000
+GameData["cost_ext"]["time_cost"]["cost"]["power"] = 50.00000
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 250.00000 -- Changed from 300req/60pwr
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 25.00000
 GameData["death_explosion_ext"]["death_explosions"]["death_explosion_01"]["area_effect"]["area_effect_information"]["radius"] = 5.00000
 GameData["death_explosion_ext"]["death_explosions"]["death_explosion_02"]["area_effect"]["area_effect_information"]["radius"] = 4.50000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Eldar/Troops/Codex_Vyper"
 GameData["entity_blueprint_ext"]["scale_x"] = 1.50000
 GameData["entity_blueprint_ext"]["scale_z"] = 1.50000
 GameData["health_ext"]["armour_minimum"] = 33.00000
---Open Topped -87.5HP
-GameData["health_ext"]["hitpoints"] = 262.50000
+--Open Topped but with Spirit Stones so normal HP value
+GameData["health_ext"]["hitpoints"] = 350.00000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
 GameData["health_ext"]["regeneration_rate"] = 0.50000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
