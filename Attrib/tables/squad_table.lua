@@ -31,6 +31,13 @@ GameData["squad_21"] = ""
 GameData["squad_22"] = ""
 GameData["squad_23"] = ""
 GameData["squad_24"] = ""
+GameData["squad_25"] = ""
+GameData["squad_26"] = ""
+GameData["squad_27"] = ""
+GameData["squad_28"] = ""
+GameData["squad_29"] = ""
+GameData["squad_30"] = ""
+GameData["squad_31"] = ""
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

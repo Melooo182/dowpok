@@ -48,13 +48,13 @@ GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.31250
 GameData["health_ext"]["regeneration_rate"] = 0.62500
 GameData["mob_ext"]["mob_value"] = 0.00000
 
---FNP
+--FNP Sv3+
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\health_rangedamage_received_1_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -4.95000
+GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -4.33000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"] = Reference([[modifiers\health_meleedamage_received_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = -4.95000
+GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = -4.33000
 
 GameData["possess_ext"] = Reference([[ebpextensions\possess_ext.lua]])
 GameData["possess_ext"]["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])

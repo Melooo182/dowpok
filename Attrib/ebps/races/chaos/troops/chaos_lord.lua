@@ -43,6 +43,9 @@ GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\chaos_daemon_we
 GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\chaos_daemon_weapon_attacks_mark_nurgle.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\chaos_daemon_weapon_attacks_mark_slaanesh.lua"
 GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\chaos_daemon_weapon_attacks_mark_tzeentch.lua"
+GameData["ability_ext"]["abilities"]["ability_14"] = "abilities\\chaos_helltalon_strike_incendiary_bombs.lua"
+GameData["ability_ext"]["abilities"]["ability_15"] = "abilities\\chaos_helltalon_strike_biotoxin_bombs.lua"
+GameData["ability_ext"]["abilities"]["ability_16"] = "abilities\\chaos_helltalon_strike.lua"
 
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "chaos_bolt_pistol"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\chaos_bolt_pistol_lord.lua"

@@ -29,15 +29,15 @@ GameData["health_ext"]["hitpoints"] = 400.00000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
 GameData["health_ext"]["regeneration_rate"] = 1.00000
 
---FNP
+--FNP Sv6+
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\health_rangedamage_received_1_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -7.50000
+GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -11.15000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"] = Reference([[modifiers\health_meleedamage_received_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = -7.50000
+GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = -11.15000
 
 GameData["morale_add_ext"] = Reference([[ebpextensions\morale_add_ext.lua]])
 GameData["morale_add_ext"]["inc_morale_max"] = 70.00000

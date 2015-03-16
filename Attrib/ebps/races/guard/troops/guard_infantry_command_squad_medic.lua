@@ -12,16 +12,16 @@ GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\templar_servito
 GameData["combat_ext"]["hardpoints"]["hardpoint_03"]["weapon_table"]["weapon_02"]["weapon"] = "weapon\\guard_dummy_weapon.lua"
 GameData["entity_blueprint_ext"]["animator"] = "Races/Imperial_Guard/Troops/guardsmen_medic"
 
---FNP
+--FNP Sv5+
 GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\health_rangedamage_received_1_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -7.50000
+GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -8.66000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"] = Reference([[modifiers\health_meleedamage_received_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = -7.50000
+GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = -8.66000
 
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 --GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_cap.lua]])

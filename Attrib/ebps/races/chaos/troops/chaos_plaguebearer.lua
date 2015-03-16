@@ -29,13 +29,13 @@ GameData["health_ext"]["regeneration_rate"] = 0.62500
 --~ GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.62500
 --~ GameData["health_ext"]["regeneration_rate"] = 1.25000
 
---FNP
+--FNP Sv5+
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\health_rangedamage_received_1_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -9.90000
+GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -8.66000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"] = Reference([[modifiers\health_meleedamage_received_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = -9.90000
+GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = -8.66000
 
 GameData["moving_ext"]["speed_max"] = 10.50000 --Slow and Purposeful
 GameData["spawn_ext"] = Reference([[ebpextensions\spawn_ext.lua]])

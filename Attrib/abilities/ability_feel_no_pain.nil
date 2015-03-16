@@ -3,6 +3,7 @@
 -- Created by: AttributeEditor v2.0
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
+-- EXPERIMENTAL
 
 GameData = Inherit([[abilities\ability.nil]])
 MetaData = InheritMeta([[abilities\ability.nil]])

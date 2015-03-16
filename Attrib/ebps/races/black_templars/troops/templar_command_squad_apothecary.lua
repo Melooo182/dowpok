@@ -58,16 +58,16 @@ GameData["melee_ext"]["melee_leap_speed"] = 8.00000
 GameData["melee_ext"]["melee_leap_target_pos_offset"] = 2.50000
 GameData["melee_ext"]["melee_leap_tendency"] = 1.00000
 
---FNP
+--FNP Sv3+
 GameData["modifier_apply_ext"] = Reference([[ebpextensions\modifier_apply_ext.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\health_rangedamage_received_1_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -4.95000
+GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = -4.33000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"] = Reference([[modifiers\health_meleedamage_received_modifier.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = -4.95000
+GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = -4.33000
 
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_cap.lua]])

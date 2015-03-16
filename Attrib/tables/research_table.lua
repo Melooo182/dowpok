@@ -32,6 +32,12 @@ GameData["research_22"] = ""
 GameData["research_23"] = ""
 GameData["research_24"] = ""
 GameData["research_25"] = ""
+GameData["research_26"] = ""
+GameData["research_27"] = ""
+GameData["research_28"] = ""
+GameData["research_29"] = ""
+GameData["research_30"] = ""
+GameData["research_31"] = ""
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }
