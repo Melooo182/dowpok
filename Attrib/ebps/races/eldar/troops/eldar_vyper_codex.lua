@@ -7,13 +7,21 @@
 GameData = Inherit([[ebps\races\eldar\troops\eldar_vehicle.nil]])
 MetaData = InheritMeta([[ebps\races\eldar\troops\eldar_vehicle.nil]])
 
-GameData["ability_ext"]["abilities"]["ability_01"] = ""
-GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\eldar_holofield.lua"
-GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\eldar_graviticbooster.lua"
-GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\eldar_skimmer_dmged_slow_vectored_engines.lua"
-GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\ability_vehicle_combat_speed_squadron_fast_skimmer.lua"
+--~ GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\eldar_holofield.lua"
+--~ GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\eldar_graviticbooster.lua"
+--~ GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\eldar_skimmer_dmged_slow_vectored_engines.lua"
+GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\eldar_graviticbooster_tank.lua"
+GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\eldar_skimmer_dmged_slow_vectored_engines_tank.lua"
+
+GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\eldar_skimmer_dmged_slow_tank.lua"
+--~ GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\ability_vehicle_combat_speed_squadron_fast_skimmer.lua"
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\ability_infiltration_detection_field.lua"
-GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\eldar_flat_out_speed_skimmer_open_topped.lua"
+GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\eldar_flat_out_speed_skimmer_tank.lua"
+
+GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
+GameData["addon_ext"]["addons"]["addon_01"] = "addons\\eldar_vehicle_upgrade_star_engines.lua"
+GameData["addon_ext"]["addons"]["addon_02"] = "addons\\eldar_vehicle_upgrade_vectored_engines.lua"
+GameData["addon_ext"]["addons"]["addon_03"] = "addons\\eldar_vehicle_upgrade_holo_field.lua"
 
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"
@@ -115,13 +123,14 @@ GameData["entity_blueprint_ext"]["scale_z"] = 1.50000
 GameData["health_ext"]["armour_minimum"] = 33.00000
 --Open Topped but with Spirit Stones so normal HP value
 GameData["health_ext"]["hitpoints"] = 350.00000
-GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
-GameData["health_ext"]["regeneration_rate"] = 0.50000
+--~ GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.50000
+--~ GameData["health_ext"]["regeneration_rate"] = 0.50000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_01"] = Reference([[modifiers\no_modifier.lua]])
 GameData["moving_ext"]["acceleration_time"] = 0.70000
 GameData["moving_ext"]["corner_anticipation_time"] = 1.00000
 GameData["moving_ext"]["deceleration_time"] = 1.50000
 GameData["moving_ext"]["rotation_rate"] = 200.00000
+GameData["moving_ext"]["turning_behavior_template"] = "hovercraft"
 GameData["sight_ext"]["keen_sight_radius"] = 9.00000
 --AV10
 GameData["special_attack_physics_ext"]["mass"] = 30.00000 --10x3

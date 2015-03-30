@@ -34,6 +34,8 @@ GameData["health_ext"]["hitpoints"] = 150.00000
 GameData["health_ext"]["morale_death"] = 100.00000
 GameData["health_ext"]["regeneration_decrease_in_combat"] = 0.18750
 GameData["health_ext"]["regeneration_rate"] = 0.37500
+
+-- Enhance (TT deviation, PoK enhance increases Attacks profile as well)
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_05"] = Reference([[modifiers\reload_time_weapon_modifier.lua]])
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_05"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_05"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_multiplication.lua]])
@@ -48,6 +50,7 @@ GameData["melee_ext"]["in_melee_modifiers"]["modifier_07"]["usage_type"] = Refer
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_07"]["value"] = 1.32000
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_08"]= Reference([[modifiers\ability_eldar_inspiring_aura_event.lua]])
 GameData["melee_ext"]["in_melee_modifiers"]["modifier_08"]["application_type"] = Reference([[type_modifierapplicationtype\tp_mod_apply_to_squad.lua]])
+
 GameData["morale_add_ext"]["inc_morale_max"] = 80.00000
 GameData["morale_add_ext"]["inc_morale_rate"] = 0.00000
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])

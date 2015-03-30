@@ -7,6 +7,7 @@
 GameData = Inherit([[abilities\space_marine_abilities.lua]])
 MetaData = InheritMeta([[abilities\space_marine_abilities.lua]])
 
+--Each blast counts as TL Krak Missiles
 GameData["ability_cursor_event"] = "Guard\\Abilities\\Strafe_cursor"
 GameData["ability_ordered_event_name"] = "Guard\\Abilities\\Strafe_ordered_target"
 GameData["activation"] = Reference([[type_abilityactivation\tp_ability_activation_targeted.lua]])
@@ -55,8 +56,8 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_29"]["armour_piercing_value"] = 4.99000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 7.50000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 25.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 80.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 40.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 800.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 80.00000
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "unit_impact_events/Unit_Thrown_Smoke_Spray"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_impact_events/Unit_Thrown_Smoke_Spray"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_impact_events/Unit_Thrown_Smoke_Spray"
@@ -64,7 +65,7 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "un
 GameData["child_ability_name"] = "marines_tempest_strike_missile_children_1"
 GameData["duration_time"] = 0.50000
 GameData["entity_busy_time"] = 0.00000
-GameData["initial_delay_time"] = 1.55000
+GameData["initial_delay_time"] = 2.55000
 GameData["persist_across_squad_leader_death"] = true
 GameData["random_offset"] = 7.500000
 GameData["range"] = 1500.00000

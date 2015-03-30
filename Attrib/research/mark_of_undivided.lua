@@ -35,33 +35,37 @@ GameData["modifiers"]["modifier_07"] = Reference([[modifiers\cost_requisition_mo
 GameData["modifiers"]["modifier_07"]["target_type_name"] = "chaos_marine_havoc_leader"
 GameData["modifiers"]["modifier_07"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
 GameData["modifiers"]["modifier_07"]["value"] = 10.00000
-
-GameData["modifiers"]["modifier_08"] = Reference([[modifiers\max_leaders_squad_modifier.lua]])
-GameData["modifiers"]["modifier_08"]["target_type_name"] = "chaos_squad_chosen_undivided_marines"
+GameData["modifiers"]["modifier_08"] = Reference([[modifiers\cost_requisition_modifier.lua]])
+GameData["modifiers"]["modifier_08"]["target_type_name"] = "chaos_raptor_leader"
 GameData["modifiers"]["modifier_08"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifiers"]["modifier_08"]["value"] = 1.00000
+GameData["modifiers"]["modifier_08"]["value"] = 10.00000
+
 GameData["modifiers"]["modifier_09"] = Reference([[modifiers\max_leaders_squad_modifier.lua]])
-GameData["modifiers"]["modifier_09"]["target_type_name"] = "chaos_squad_chosen_undivided_cc"
+GameData["modifiers"]["modifier_09"]["target_type_name"] = "chaos_squad_chosen_undivided_marines"
 GameData["modifiers"]["modifier_09"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
 GameData["modifiers"]["modifier_09"]["value"] = 1.00000
+GameData["modifiers"]["modifier_10"] = Reference([[modifiers\max_leaders_squad_modifier.lua]])
+GameData["modifiers"]["modifier_10"]["target_type_name"] = "chaos_squad_chosen_undivided_cc"
+GameData["modifiers"]["modifier_10"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
+GameData["modifiers"]["modifier_10"]["value"] = 1.00000
 -- Icon of Chaos Glory 10pts
 GameData["modifiers"]["modifier_10"] = Reference([[modifiers\cost_requisition_modifier.lua]])
 GameData["modifiers"]["modifier_10"]["target_type_name"] = "chaos_marine_chosen_cc"
 GameData["modifiers"]["modifier_10"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
 GameData["modifiers"]["modifier_10"]["value"] = 10.00000
-GameData["modifiers"]["modifier_11"] = Reference([[modifiers\cost_requisition_modifier.lua]])
-GameData["modifiers"]["modifier_11"]["target_type_name"] = "chaos_marine_chosen"
-GameData["modifiers"]["modifier_11"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifiers"]["modifier_11"]["value"] = 10.00000
-
-GameData["modifiers"]["modifier_12"] = Reference([[modifiers\max_troopers_squad_modifier.lua]])
-GameData["modifiers"]["modifier_12"]["target_type_name"] = "chaos_squad_chosen_undivided_marines"
+GameData["modifiers"]["modifier_12"] = Reference([[modifiers\cost_requisition_modifier.lua]])
+GameData["modifiers"]["modifier_12"]["target_type_name"] = "chaos_marine_chosen"
 GameData["modifiers"]["modifier_12"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
-GameData["modifiers"]["modifier_12"]["value"] = -1.00000
+GameData["modifiers"]["modifier_12"]["value"] = 10.00000
+
 GameData["modifiers"]["modifier_13"] = Reference([[modifiers\max_troopers_squad_modifier.lua]])
-GameData["modifiers"]["modifier_13"]["target_type_name"] = "chaos_squad_chosen_undivided_cc"
+GameData["modifiers"]["modifier_13"]["target_type_name"] = "chaos_squad_chosen_undivided_marines"
 GameData["modifiers"]["modifier_13"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
 GameData["modifiers"]["modifier_13"]["value"] = -1.00000
+GameData["modifiers"]["modifier_14"] = Reference([[modifiers\max_troopers_squad_modifier.lua]])
+GameData["modifiers"]["modifier_14"]["target_type_name"] = "chaos_squad_chosen_undivided_cc"
+GameData["modifiers"]["modifier_14"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
+GameData["modifiers"]["modifier_14"]["value"] = -1.00000
 
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\chaos\\structures\\chaos_hq.lua"

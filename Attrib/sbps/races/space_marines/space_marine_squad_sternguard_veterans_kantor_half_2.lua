@@ -7,6 +7,8 @@
 GameData = Inherit([[sbps\races\space_marines\space_marine_squad_sternguard_veterans_half_2.lua]])
 MetaData = InheritMeta([[sbps\races\space_marines\space_marine_squad_sternguard_veterans_half_2.lua]])
 
+GameData["squad_cap_ext"]["squad_cap_usage"] = 1.00000
+GameData["squad_cap_ext"]["support_cap_usage"] = 1.00000
 GameData["squad_capture_strategic_point_ext"]["able_to_capture"] = true
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["is_display_requirement"] = false
 GameData["squad_requirement_ext"]["requirements"]["required_2"] = Reference([[requirements\required_research.lua]])

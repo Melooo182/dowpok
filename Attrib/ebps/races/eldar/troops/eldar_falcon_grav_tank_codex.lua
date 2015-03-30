@@ -7,6 +7,15 @@
 GameData = Inherit([[ebps\races\eldar\troops\eldar_vehicle.nil]])
 MetaData = InheritMeta([[ebps\races\eldar\troops\eldar_vehicle.nil]])
 
+
+--~ GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\eldar_holofield_tank.lua"
+GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\eldar_graviticbooster_tank.lua"
+GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\eldar_skimmer_dmged_slow_vectored_engines_tank.lua"
+GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\ability_reinforcement_aura_squad_only.lua"
+
+GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\eldar_skimmer_dmged_slow_tank.lua"
+GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\eldar_flat_out_speed_skimmer_tank.lua"
+
 --Vehicle Upgrade Menu
 GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
 GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
@@ -20,13 +29,6 @@ GameData["addon_ext"]["addons"]["addon_06"] = "addons\\eldar_falcon_upgrade_1.lu
 GameData["addon_ext"]["addons"]["addon_07"] = "addons\\eldar_falcon_upgrade_2.lua"
 GameData["addon_ext"]["addons"]["addon_08"] = "addons\\eldar_falcon_upgrade_3.lua"
 GameData["addon_ext"]["addons"]["addon_09"] = "addons\\eldar_falcon_upgrade_4.lua"
-
-GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\eldar_holofield_tank.lua"
-GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\ability_reinforcement_aura_squad_only.lua"
-GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\eldar_graviticbooster_tank.lua"
-GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\eldar_skimmer_dmged_slow_vectored_engines_tank.lua"
-GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\eldar_skimmer_dmged_slow_tank.lua"
-GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\eldar_flat_out_speed_skimmer_tank.lua"
 
 GameData["combat_ext"]["complex_upgrades"] = true
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"

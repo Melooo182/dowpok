@@ -8,6 +8,7 @@ GameData = Inherit([[sbps\races\space_marines\space_marine_squad.nil]])
 MetaData = InheritMeta([[sbps\races\space_marines\space_marine_squad.nil]])
 
 GameData["squad_attach_receive_ext"] = Reference([[sbpextensions\squad_attach_receive_ext.lua]])
+GameData["squad_cap_ext"]["squad_cap_usage"] = 8.00000
 --GameData["squad_capture_strategic_point_ext"] = Reference([[sbpextensions\squad_capture_strategic_point_ext.lua]])
 --GameData["squad_capture_strategic_point_ext"]["able_to_capture"] = false
 GameData["squad_combat_stance_ext"] = Reference([[sbpextensions\squad_combat_stance_ext.lua]])

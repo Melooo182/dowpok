@@ -384,16 +384,16 @@ A= Num of Attacks\fs24\par
 Weapon Skills (CC accuracy)\par
 \fs24\par
 \fs20\tab Single\tab Master crafted\par
-BS1: \tab .15\tab\tab .28\fs24\par
-\fs20 BS2: \tab .33\tab\tab .55\fs24\par
-\fs20 BS3: \tab .50\tab\tab .75\fs24\par
-\fs20 BS4: \tab .66\tab\tab .88\par
-BS5: \tab .85\tab\tab .98\fs24\par
-\fs20 BS6: \tab .87\tab\tab .98\fs24\par
-\fs20 BS7:\tab .90\tab\tab .98\fs24\par
-\fs20 BS8:\tab .93\tab\tab .98\fs24\par
-\fs20 BS9:\tab .95\tab\tab .98\fs24\par
-\fs20 BS10:\tab .98\tab\tab .98\fs24\par
+WS1: \tab .15\tab\tab .28\fs24\par
+\fs20 WS2: \tab .33\tab\tab .55\fs24\par
+\fs20 WS3: \tab .50\tab\tab .75\fs24\par
+\fs20 WS4: \tab .66\tab\tab .88\par
+WS5: \tab .85\tab\tab .98\fs24\par
+\fs20 WS6: \tab .87\tab\tab .98\fs24\par
+\fs20 WS7:\tab .90\tab\tab .98\fs24\par
+\fs20 WS8:\tab .93\tab\tab .98\fs24\par
+\fs20 WS9:\tab .95\tab\tab .98\fs24\par
+\fs20 WS10:\tab .98\tab\tab .98\fs24\par
 \cf2\fs20\par
 MaxDmg = Sx20\par
 MinDmg = MaxDmg x Ifactor\par
@@ -845,10 +845,15 @@ Units gain "\b Relentless\b0 " so can fire heavy and rapid fire weapons on move 
 \fs24\par
 \par
 \b\fs20 VEHICLE MOVEMENT TYPES\par
-\ul Vehicle Standard 6-12"-\ulnone\b0  Speed:\b 28\b0 , Combat Speed\fs24\par
-\ul\b\fs20 Fast Vehicle 6-12-18"-\ulnone\b0  Speed:\b 28\b0 , Combat Speed, Flat Out\fs24\par
-\ul\b\fs20 Skimmer-\ulnone\b0  Can Jump\fs24\par
-\ul\b\fs20 Walker 6"-\ulnone\b0  Speed:\b 14\b0 , can run, can Assault\fs24\par
+\ul Vehicle Standard 6-12"-\ulnone\b0  Speed:\b 28\b0 , Rotation Rate\b :30\b0 , Combat Speed\fs24\par
+\ul\b\fs20 Fast Vehicle 6-12-18"-\ulnone\b0  Speed:\b 28\b0 , Rotation Rate\b :60\b0 , Combat Speed, Flat Out\fs24\par
+\ul\b\fs20 Skimmer-\ulnone\b0  Can Jump, Rotation Rate\b :2x\b0\fs24\par
+\ul\b\fs20 Walker 6"-\ulnone\b0  Speed:\b 14\b0 , Rotation Rate\b :100\b0 , can run, can Assault\par
+\ul Special considerations\ulnone :\par
+-Defiler Rotation Rate:180\par
+-Wartrakk Rotation Rate:120\par
+-Landspeeders/Vypers Rotation Rate:200\par
+-Baneblade Rotation Rate:15\fs24\par
 \fs20\par
 \b COMBAT SPEED\par
 \b0 Toggle Ability\par
@@ -864,8 +869,8 @@ Modifiers Duration: 5sec\b\par
 \b0 Recharge: 8sec\par
 \b Skimmers:\par
 \b0 *Speed increased to \b 56\b0  (3.2x vehicle ebps base speed)\par
-*HP reduced to \b 75%\b0  (\b 66.667%\b0  for open topped)\par
-\cf2 *Damage from ranged weapons reduced \b 50%\b0  (TT 4+ cover)\par
+\strike *HP reduced to \b 75%\b0  (\b 66.667%\b0  for open topped)\par
+\cf2 *Damage from ranged weapons reduced \b 50%\b0  (TT 4+ cover)\strike0\par
 \b Eldar Star Engines:\b0\par
 *Speed increased to \b 70\b0  \cf0 (4x vehicle ebps base speed)\cf2\par
 \cf0\fs24\par
@@ -877,7 +882,7 @@ Jumppack Jump:\b0  Jumps:2 jumptime max:3, distance:54, max charge:90, go up/dow
 \b\fs20 Normal Skimmer Jump:\b0  Jumps:2\b  \b0 jumptime max:3, distance:70, max charge:90, go up/down time:0.8, setup/breakdown time:1.6, height:4-7, combat disabled\fs24\par
 \b\fs20 Fast Skimmer Jump:\b0  Jumps:2\b  \b0 jumptime max:2, distance:70, max charge:90, go up/down time:0.1, setup/breakdown time:0.2, height:2-2, combat disabled\fs24\par
 \fs20 (land speeders have a max height of 10 and go up/down time:0.4/0.8)\par
-(Eldar/Dark Eldar Jet Bikes have Jump:2, to represent the extr 6" they can move in the assault phase)\par
+(Eldar/Dark Eldar Jet Bikes have Jump:2, to represent the extra 6" they can move in the assault phase)\par
 \fs24\par
 \fs20 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------\par
 \fs24\par
@@ -935,9 +940,9 @@ Grenades Section\par
 Fire Cost: \cf3\strike 45\strike0  \cf0 50pwr + (TT Pts x 5)req\par
 Recharge time: \cf3\strike 45\cf0\strike0  22.5sec\line\line\line\cf1 -Defensive\cf0\line\cf3\strike 40\cf0\strike0  20-400 Dmg\line 50 Morale Dmg\line AP vs infantry: no damage\fs24\par
 \fs20 Vehicles recieve 15% of AP vs AV10(rear armour), affect AV10, AV11, AV12(including wave serpent)\line Modifiers last 8sec:\par
-- reduce keen sight 25%\par
-- reduce sight 25%\fs24\par
-\fs20 - reduce melee damage 50%\fs24\par
+- reduce keen sight to 25%\par
+- reduce sight to 25%\fs24\par
+\fs20 - reduce accuracy to 25%\fs24\par
 \fs20 - speed reduction to 25%\par
 - disable abilities\par
 Fire Cost: 50pwr + (TT Pts x 5)req\fs24\par

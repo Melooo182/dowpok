@@ -7,6 +7,8 @@
 GameData = Inherit([[sbps\races\space_marines\space_marine_squad_terminator.lua]])
 MetaData = InheritMeta([[sbps\races\space_marines\space_marine_squad_terminator.lua]])
 
+GameData["squad_cap_ext"]["squad_cap_usage"] = 3.00000
+GameData["squad_cap_ext"]["support_cap_usage"] = 1.00000
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_09"] = Reference([[type_armour\tp_vehicle_3.lua]])
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_10"] = Reference([[type_armour\tp_vehicle_4.lua]])
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_11"] = Reference([[type_armour\tp_invuln_0_5.lua]])

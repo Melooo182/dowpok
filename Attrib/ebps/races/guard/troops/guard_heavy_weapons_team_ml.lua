@@ -10,7 +10,7 @@ MetaData = InheritMeta([[ebps\races\guard\troops\guard_heavy_weapons_team_ml.nil
 GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
 GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
 GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
-GameData["addon_ext"]["addons"]["addon_01"] = "addons\\guard_ai_lascannon_guardsmen.lua"
+GameData["addon_ext"]["addons"]["addon_08"] = "addons\\guard_ai_lascannon_guardsmen.lua"
 
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\guard_hwt_lascannon_upgrade.lua"
 

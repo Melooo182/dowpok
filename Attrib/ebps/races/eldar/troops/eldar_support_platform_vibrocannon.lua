@@ -16,7 +16,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["origin"]["y"] = 1.85000
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["origin"]["z"] = -0.87000
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\eldar_vibrocannon_platform.lua"
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 50.00000
+GameData["cost_ext"]["time_cost"]["cost"]["power"] = 34.00000
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 250.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 25.00000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_03"] = Reference([[modifiers\reload_time_weapon_modifier.lua]])

@@ -26,13 +26,13 @@ GameData["requirements"]["required_4"]["addon_name"] = "addons\\chaos_mark_of_tz
 GameData["requirements"]["required_5"] = Reference([[requirements\local_required_addon.lua]])
 GameData["requirements"]["required_5"]["addon_name"] = "addons\\chaos_mark_of_tzeentch_lord.lua"
 
-GameData["ui_info"]["help_text_list"]["text_01"] = "$56000441"
-GameData["ui_info"]["help_text_list"]["text_02"] = "$56000442"
-GameData["ui_info"]["help_text_list"]["text_03"] = "$56000443"
-GameData["ui_info"]["help_text_list"]["text_04"] = "$56000444"
-GameData["ui_info"]["help_text_list"]["text_05"] = "$56000445"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$56000421"
+GameData["ui_info"]["help_text_list"]["text_02"] = "$56000422"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$56000423"
+GameData["ui_info"]["help_text_list"]["text_04"] = "$56000424"
+GameData["ui_info"]["help_text_list"]["text_05"] = "$56000425"
 GameData["ui_info"]["icon_name"] = "chaos_icons/chaos_lord_crozius"
-GameData["ui_info"]["screen_name_id"] = "$56000440"
+GameData["ui_info"]["screen_name_id"] = "$56000420"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

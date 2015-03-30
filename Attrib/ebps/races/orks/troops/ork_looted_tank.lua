@@ -89,7 +89,7 @@ GameData["cost_ext"]["time_cost"]["time_seconds"] = 65.00000
 GameData["entity_blueprint_ext"]["animator"] = "Races/Orks/Troops/Leman_Russ"
 GameData["entity_blueprint_ext"]["scale_x"] = 2.00000
 GameData["entity_blueprint_ext"]["scale_z"] = 2.50000
-GameData["moving_ext"]["rotation_rate"] = 90.00000
+--~ GameData["moving_ext"]["rotation_rate"] = 90.00000
 GameData["moving_ext"]["turning_behavior_template"] = "tank"
 GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
 

@@ -7,6 +7,8 @@
 GameData = Inherit([[sbps\races\chaos\chaos_squad_chosen.lua]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_squad_chosen.lua]])
 
+GameData["squad_cap_ext"]["squad_cap_usage"] = 6.00000
+GameData["squad_cap_ext"]["support_cap_usage"] = 3.00000
 GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 190.00000
 GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 19.00000
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_plague_champion_chosen.lua"

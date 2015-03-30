@@ -18,6 +18,7 @@ GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\marines_chapter
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\marines_chapter_tactics_outflank.lua"
 GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\marines_chapter_tactics_fleetoffoot.lua"
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\ability_max_leaders.lua"
+GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\marines_tempest_strike.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\space_marine_bolter_tactical.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["muzzle"]["x"] = 0.00000
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["muzzle"]["y"] = 1.00000

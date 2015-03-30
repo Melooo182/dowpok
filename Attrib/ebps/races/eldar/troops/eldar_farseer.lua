@@ -22,6 +22,7 @@ GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\eldar_mind_war_
 GameData["ability_ext"]["abilities"]["ability_12"] = "abilities\\eldar_doom_rune_witnessing.lua"
 GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\eldar_farseer_runes_of_warding.lua"
 GameData["ability_ext"]["abilities"]["ability_14"] = "abilities\\ability_attach_disable_jump.lua"
+GameData["ability_ext"]["abilities"]["ability_15"] = "abilities\\eldar_farseer_enhance_support.lua"
 GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
 GameData["addon_ext"]["addons"]["addon_01"] = "addons\\eldar_farseer_singing_spear.lua"
 GameData["combat_ext"]["complex_upgrades"] = true

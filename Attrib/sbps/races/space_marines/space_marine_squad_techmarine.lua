@@ -8,6 +8,8 @@ GameData = Inherit([[sbps\races\space_marines\space_marine_squad.nil]])
 MetaData = InheritMeta([[sbps\races\space_marines\space_marine_squad.nil]])
 
 GameData["squad_can_attach_ext"] = Reference([[sbpextensions\squad_can_attach_ext.lua]])
+--~ GameData["squad_cap_ext"]["squad_cap_usage"] = 1.00000
+GameData["squad_cap_ext"]["support_cap_usage"] = 1.00000
 GameData["squad_combat_stance_ext"] = Reference([[sbpextensions\squad_combat_stance_ext.lua]])
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\space_marines\\troops\\techmarine.lua"
 GameData["squad_loadout_ext"]["unit_max"] = 1.00000

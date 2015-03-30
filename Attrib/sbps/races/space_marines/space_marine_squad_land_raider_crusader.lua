@@ -7,7 +7,7 @@
 GameData = Inherit([[sbps\races\space_marines\space_marine_squad.nil]])
 MetaData = InheritMeta([[sbps\races\space_marines\space_marine_squad.nil]])
 
-GameData["squad_cap_ext"]["support_cap_usage"] = 2.00000
+GameData["squad_cap_ext"]["support_cap_usage"] = 5.00000
 GameData["squad_combat_stance_ext"] = Reference([[sbpextensions\squad_combat_stance_ext.lua]])
 GameData["squad_combat_stance_ext"]["ranged_attackrange"] = 48.00000
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\space_marines\\troops\\land_raider_crusader.lua"

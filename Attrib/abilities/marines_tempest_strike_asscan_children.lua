@@ -7,6 +7,7 @@
 GameData = Inherit([[abilities\space_marine_abilities.lua]])
 MetaData = InheritMeta([[abilities\space_marine_abilities.lua]])
 
+--Each Blast counts as 1 Assault Cannon bullet spray
 GameData["activation"] = Reference([[type_abilityactivation\tp_ability_activation_targeted.lua]])
 GameData["anticipation_lead_time"] = 1.00000
 GameData["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])
@@ -40,8 +41,8 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_29"]["armour_piercing_value"] = 22.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 25.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 66.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 60.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 30.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 600.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 60.00000
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "unit_impact_events/impact_assault_cannon_flesh"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_impact_events/impact_assault_cannon_stone"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_impact_events/impact_assault_cannon_metal_s"
@@ -49,7 +50,7 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "un
 GameData["child_ability_name"] = "marines_tempest_strike_asscan_children_1"
 GameData["duration_time"] = 0.50000
 GameData["entity_busy_time"] = 0.00000
-GameData["initial_delay_time"] = 0.80000
+GameData["initial_delay_time"] = 1.80000
 GameData["persist_across_squad_leader_death"] = true
 GameData["random_offset"] = 7.500000
 GameData["range"] = 1500.00000

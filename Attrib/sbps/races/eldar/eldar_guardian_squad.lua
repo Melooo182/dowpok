@@ -29,8 +29,8 @@ GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 2
 GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 2.50000
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\eldar\\troops\\eldar_grav_platform.lua"
 GameData["squad_leader_ext"]["leader_2"]["add_while_moving"] = true
-GameData["squad_leader_ext"]["leader_2"]["cost_time"]["cost"]["requisition"] = 200.00000
-GameData["squad_leader_ext"]["leader_2"]["cost_time"]["time_seconds"] = 20.00000
+GameData["squad_leader_ext"]["leader_2"]["cost_time"]["cost"]["requisition"] = 250.00000
+GameData["squad_leader_ext"]["leader_2"]["cost_time"]["time_seconds"] = 25.00000
 GameData["squad_leader_ext"]["leader_2"]["leader"]["type"] = "ebps\\races\\eldar\\troops\\eldar_warlock.lua"
 --~ GameData["squad_leader_ext"]["leader_2"]["add_while_moving"] = true
 --~ GameData["squad_leader_ext"]["leader_2"]["cost_time"]["cost"]["requisition"] = 175.00000
@@ -85,7 +85,7 @@ GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$57001957"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$57001708"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$57001709"
 GameData["squad_ui_ext"]["ui_info"]["icon_name"] = "eldar_icons/guardian_icon"
-GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "$57002160"
+GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "$57001700"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\chaos\chaos_squad.nil]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_squad.nil]])
 
+GameData["squad_cap_ext"]["squad_cap_usage"] = 9.00000
 GameData["squad_attach_receive_ext"] = Reference([[sbpextensions\squad_attach_receive_ext.lua]])
 GameData["squad_capture_strategic_point_ext"] = Reference([[sbpextensions\squad_capture_strategic_point_ext.lua]])
 GameData["squad_capture_strategic_point_ext"]["able_to_capture"] = false
@@ -91,7 +92,7 @@ GameData["squad_leader_ext"]["leader_2"]["leader"]["type"] = "ebps\\races\\chaos
 GameData["squad_leader_ext"]["max_leaders"] = 2.00000
 GameData["squad_leader_ext"]["multi_with_reinforce"] = true
 GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\chaos\\troops\\chaos_raptor.lua"
-GameData["squad_loadout_ext"]["unit_max"] = 19.00000
+GameData["squad_loadout_ext"]["unit_max"] = 9.00000
 GameData["squad_loadout_ext"]["unit_min"] = 5.00000
 GameData["squad_melee_stance_ext"] = Reference([[sbpextensions\squad_melee_stance_ext.lua]])
 GameData["squad_melee_stance_ext"]["default_to_melee"] = true
@@ -142,7 +143,7 @@ GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$56001366"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$56001367"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$56001368"
 GameData["squad_ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$56001369"
-GameData["squad_ui_ext"]["ui_info"]["icon_name"] = "chaos_icons/raptor_icon"
+GameData["squad_ui_ext"]["ui_info"]["icon_name"] = "chaos_icons/raptor_icon_small"
 GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "$56001360"
 
 

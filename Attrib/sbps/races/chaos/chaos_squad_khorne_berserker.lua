@@ -7,6 +7,8 @@
 GameData = Inherit([[sbps\races\chaos\chaos_marked_marine_squad.lua]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_marked_marine_squad.lua]])
 
+GameData["squad_cap_ext"]["squad_cap_usage"] = 9.00000
+
 GameData["squad_attach_receive_ext"] = Reference([[sbpextensions\squad_attach_receive_ext.lua]])
 --GameData["squad_combat_stance_ext"]["default_stance"] = Reference([[type_stance\tp_stance_attack.lua]])
 --GameData["squad_combat_stance_ext"]["ignore_building_stance"] = true

@@ -7,7 +7,7 @@
 GameData = Inherit([[sbps\races\space_marines\space_marine_squad_scout.lua]])
 MetaData = InheritMeta([[sbps\races\space_marines\space_marine_squad_scout.lua]])
 
-GameData["squad_cap_ext"]["squad_cap_usage"] = 1.00000
+GameData["squad_cap_ext"]["squad_cap_usage"] = 2.00000
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\space_marines\\troops\\scout_marine_sergeant_half.lua"
 GameData["squad_leader_ext"]["leader_2"]["leader"]["type"] = ""
 GameData["squad_leader_ext"]["leader_3"]["leader"]["type"] = ""

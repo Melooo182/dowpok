@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\guard\troops\guard_vehicles_basilisk.lua]])
 MetaData = InheritMeta([[ebps\races\guard\troops\guard_vehicles_basilisk.lua]])
 
-GameData["ability_ext"]["abilities"]["ability_01"] = ""
+--~ GameData["ability_ext"]["abilities"]["ability_01"] = ""
 GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\ability_enclosed_vehicle_keensight.lua"
 
 GameData["addon_ext"]["addons"]["addon_05"] = ""

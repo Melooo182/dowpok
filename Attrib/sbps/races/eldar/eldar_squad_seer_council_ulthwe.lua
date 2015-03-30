@@ -7,8 +7,10 @@
 GameData = Inherit([[sbps\races\eldar\eldar_squad_seer_council.lua]])
 MetaData = InheritMeta([[sbps\races\eldar\eldar_squad_seer_council.lua]])
 
-GameData["squad_leader_ext"]["max_leaders"] = 9.00000
-GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\eldar\\troops\\eldar_warlock_council_enhance_2.lua"
+--~ GameData["squad_leader_ext"]["max_leaders"] = 9.00000
+--~ GameData["squad_loadout_ext"]["trooper_base"]["type"] = "ebps\\races\\eldar\\troops\\eldar_warlock_council_enhance_2.lua"
+GameData["squad_loadout_ext"]["unit_max"] = 10.00000
+GameData["squad_loadout_ext"]["unit_min"] = 5.00000
 GameData["squad_requirement_ext"]["requirements"]["required_1"]["squad_table"]["squad_01"] = "sbps\\races\\eldar\\eldar_squad_seer_council.lua"
 GameData["squad_transportable_ext"] = Reference([[sbpextensions\squad_transportable_ext.lua]])
 GameData["squad_transportable_ext"]["nr_spots"] = 2.00000

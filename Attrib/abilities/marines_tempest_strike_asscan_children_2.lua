@@ -8,7 +8,7 @@ GameData = Inherit([[abilities\marines_tempest_strike_asscan_children.lua]])
 MetaData = InheritMeta([[abilities\marines_tempest_strike_asscan_children.lua]])
 
 GameData["child_ability_name"] = "marines_tempest_strike_asscan_children_3"
-GameData["initial_delay_time"] = 1.10000
+GameData["initial_delay_time"] = 2.10000
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

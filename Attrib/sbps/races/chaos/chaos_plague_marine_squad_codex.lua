@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\chaos\chaos_plague_marine_squad.lua]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_plague_marine_squad.lua]])
 
+GameData["squad_cap_ext"]["squad_cap_usage"] = 19.00000
 GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 115.00000
 GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 11.50000
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_plague_champion_favoured.lua"
@@ -20,7 +21,7 @@ GameData["squad_requirement_ext"]["requirements"]["required_11"] = Reference([[r
 GameData["squad_requirement_ext"]["requirements"]["required_12"] = Reference([[requirements\required_none.lua]])
 GameData["squad_transportable_ext"]["nr_spots"] = 4.00000
 GameData["squad_ui_ext"]["ui_info"]["icon_name"] = "chaos_icons/favored_plague_marine"
-GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "Favoured Plague Marines"
+GameData["squad_ui_ext"]["ui_info"]["screen_name_id"] = "$56001681"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

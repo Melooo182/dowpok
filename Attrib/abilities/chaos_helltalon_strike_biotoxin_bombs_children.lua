@@ -7,6 +7,8 @@
 GameData = Inherit([[abilities\chaos_abilities.lua]])
 MetaData = InheritMeta([[abilities\chaos_abilities.lua]])
 
+GameData["ability_cursor_event"] = "Chaos\\Abilities\\Helltalon_strafe_cursor"
+GameData["ability_ordered_event_name"] = "Chaos\\Abilities\\Helltalon_strafe_ordered_target"
 GameData["activation"] = Reference([[type_abilityactivation\tp_ability_activation_targeted.lua]])
 GameData["anticipation_lead_time"] = 1.00000
 GameData["area_effect"]["area_effect_information"]["area_effect_events"]["water"] = "ground_impact/artillery_impact_water"
@@ -67,13 +69,14 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["max_lifeti
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"] = Reference([[modifiers\enable_ignore_cover_bonuses.lua]])
 GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_01"]["modifier"]["value"] = 1.00000
 GameData["child_ability_name"] = "chaos_helltalon_strike_biotoxin_bombs_children_1"
-GameData["duration_time"] = 1.00000
+GameData["duration_time"] = 8.00000
 GameData["entity_busy_time"] = 0.00000
-GameData["initial_delay_time"] = 2.50000
+GameData["initial_delay_time"] = 3.50000
 GameData["persist_across_squad_leader_death"] = true
 GameData["random_offset"] = 7.500000
 GameData["range"] = 1500.00000
 GameData["recharge_time"] = 1.00000
+GameData["refresh_time"] = 10.00000
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

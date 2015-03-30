@@ -7,6 +7,7 @@
 GameData = Inherit([[abilities\chaos_abilities.lua]])
 MetaData = InheritMeta([[abilities\chaos_abilities.lua]])
 
+--~ GameData["anticipation_lead_time"] = 0.80000
 GameData["activation"] = Reference([[type_abilityactivation\tp_ability_activation_targeted.lua]])
 GameData["area_effect"]["area_effect_information"]["radius"] = 12.00000
 GameData["area_effect"]["area_effect_information"]["area_effect_events"]["dirtsand"] = "unit_ability_fx/corruption"

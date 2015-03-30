@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\chaos\chaos_havoc_squad_marked.nil]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_havoc_squad_marked.nil]])
 
+GameData["squad_cap_ext"]["support_cap_usage"] = 9.00000
 GameData["squad_combat_stance_ext"]["default_stance"] = Reference([[type_stance\tp_stance_standground.lua]])
 GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 175.00000
 GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 17.50000

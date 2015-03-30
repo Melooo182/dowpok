@@ -32,6 +32,7 @@ GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\eldar_fleetoffo
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\ability_attach_disable_jump.lua"
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\eldar_mask_stun_autarch.lua"
+GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\eldar_nightwing_strike.lua"
 
 GameData["combat_ext"]["complex_upgrades"] = true
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["shoot_motion_variable_name"] = "Weapon_Range_Firing_Main"

@@ -4,11 +4,12 @@
 -- Note: Do NOT edit by hand!
 -- (c) 2001 Relic Entertainment Inc.
 
-GameData = Inherit([[abilities\marines_tempest_strike_missile_children.lua]])
-MetaData = InheritMeta([[abilities\marines_tempest_strike_missile_children.lua]])
+--~ GameData = Inherit([[abilities\marines_tempest_strike_missile_children_3.lua]])
+--~ MetaData = InheritMeta([[abilities\marines_tempest_strike_missile_children_3.lua]])
+GameData = Inherit([[abilities\space_marine_abilities.lua]])
+MetaData = InheritMeta([[abilities\space_marine_abilities.lua]])
 
 GameData["child_ability_name"] = "marines_tempest_strike_missile_children_8"
-GameData["initial_delay_time"] = 1.58000
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

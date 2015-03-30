@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\chaos\chaos_marked_marine_squad.lua]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_marked_marine_squad.lua]])
 
+GameData["squad_cap_ext"]["squad_cap_usage"] = 12.00000
 GameData["squad_attach_receive_ext"] = Reference([[sbpextensions\squad_attach_receive_ext.lua]])
 GameData["squad_leader_ext"]["leader_1"]["add_while_moving"] = true
 --~ GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 350.00000

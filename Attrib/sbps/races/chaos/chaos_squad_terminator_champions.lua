@@ -7,6 +7,8 @@
 GameData = Inherit([[sbps\races\chaos\chaos_squad_terminator.lua]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_squad_terminator.lua]])
 
+GameData["squad_cap_ext"]["squad_cap_usage"] = 8.00000
+GameData["squad_cap_ext"]["support_cap_usage"] = 6.00000
 GameData["squad_leader_ext"] = Reference([[sbpextensions\squad_leader_ext.lua]])
 --GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 400.00000
 --GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 40.00000

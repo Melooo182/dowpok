@@ -87,6 +87,7 @@ GameData["spawner_ext"]["squad_table"]["squad_25"] = "sbps\\races\\chaos\\chaos_
 GameData["spawner_ext"]["squad_table"]["squad_26"] = "sbps\\races\\chaos\\chaos_squad_chosen_rubric_marines.lua"
 GameData["spawner_ext"]["squad_table"]["squad_27"] = "sbps\\races\\chaos\\chaos_squad_terminator.lua"
 GameData["spawner_ext"]["squad_table"]["squad_28"] = "sbps\\races\\chaos\\chaos_squad_terminator_champions.lua"
+GameData["spawner_ext"]["squad_table"]["squad_29"] = "sbps\\races\\chaos\\chaos_squad_raptor_large.lua"
 --GameData["spawner_ext"]["squad_table"]["squad_29"] = "sbps\\races\\chaos\\chaos_squad_obliterator.lua"
 --GameData["spawner_ext"]["squad_table"]["squad_30"] = "sbps\\races\\chaos\\chaos_squad_possessed_marine.lua"
 --GameData["spawner_ext"]["squad_table"]["squad_31"] = "sbps\\races\\chaos\\chaos_squad_possessed_marine_large.lua"

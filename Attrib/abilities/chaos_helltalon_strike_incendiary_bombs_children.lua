@@ -7,6 +7,8 @@
 GameData = Inherit([[abilities\chaos_abilities.lua]])
 MetaData = InheritMeta([[abilities\chaos_abilities.lua]])
 
+GameData["ability_cursor_event"] = "Chaos\\Abilities\\Helltalon_strafe_cursor"
+GameData["ability_ordered_event_name"] = "Chaos\\Abilities\\Helltalon_strafe_ordered_target"
 GameData["activation"] = Reference([[type_abilityactivation\tp_ability_activation_targeted.lua]])
 GameData["anticipation_lead_time"] = 1.00000
 GameData["area_effect"]["area_effect_information"]["area_effect_events"]["water"] = "ground_impact/artillery_impact_water"
@@ -41,7 +43,7 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 66.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 600.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 60.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 50.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["morale_damage"] = 100.00000
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "unit_ability_fx\\chaos_pink_fire_hit"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_ability_fx\\chaos_pink_fire_hit"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_ability_fx\\chaos_pink_fire_hit"
@@ -54,12 +56,12 @@ GameData["area_effect"]["weapon_damage"]["modifiers"]["modifier_02"]["modifier"]
 GameData["child_ability_name"] = "chaos_helltalon_strike_incendiary_bombs_children_1"
 GameData["duration_time"] = 8.00000
 GameData["entity_busy_time"] = 0.00000
-GameData["initial_delay_time"] = 2.50000
+GameData["initial_delay_time"] = 3.50000
 GameData["persist_across_squad_leader_death"] = true
 GameData["random_offset"] = 7.500000
 GameData["range"] = 1500.00000
 GameData["recharge_time"] = 1.00000
-GameData["refresh_time"] = 9.00000
+GameData["refresh_time"] = 10.00000
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

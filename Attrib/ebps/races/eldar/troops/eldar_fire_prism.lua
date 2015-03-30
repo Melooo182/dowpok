@@ -7,11 +7,15 @@
 GameData = Inherit([[ebps\races\eldar\troops\eldar_vehicle.nil]])
 MetaData = InheritMeta([[ebps\races\eldar\troops\eldar_vehicle.nil]])
 
-GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\eldar_holofield_tank.lua"
+--~ GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\eldar_holofield_tank.lua"
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\eldar_graviticbooster_tank.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\eldar_skimmer_dmged_slow_vectored_engines_tank.lua"
+
 GameData["ability_ext"]["abilities"]["ability_10"] = "abilities\\eldar_skimmer_dmged_slow_tank.lua"
 GameData["ability_ext"]["abilities"]["ability_13"] = "abilities\\eldar_flat_out_speed_skimmer_tank.lua"
+
+--Vehicle Upgrade Menu
+GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
 GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
 GameData["addon_ext"]["addons"]["addon_01"] = "addons\\eldar_vehicle_upgrade_spirit_stones.lua"
 GameData["addon_ext"]["addons"]["addon_02"] = "addons\\eldar_vehicle_upgrade_star_engines.lua"
@@ -101,7 +105,6 @@ GameData["moving_ext"]["corner_anticipation_time"] = 0.80000
 GameData["moving_ext"]["deceleration_time"] = 1.50000
 GameData["moving_ext"]["rotation_rate"] = 120.00000
 GameData["moving_ext"]["turning_behavior_template"] = "hovercraft"
-GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
 GameData["special_attack_physics_ext"]["mass"] = 26.00000
 GameData["type_ext"]["type_armour"] = Reference([[type_armour\tp_vehicle_2.lua]])
 GameData["ui_ext"]["speech_directory"] = "Speech/Races/Eldar/Fire_Prism;Speech/Races/Eldar/Tanks"

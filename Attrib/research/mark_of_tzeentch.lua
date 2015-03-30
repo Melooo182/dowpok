@@ -110,6 +110,10 @@ GameData["modifiers"]["modifier_29"] = Reference([[modifiers\cost_requisition_mo
 GameData["modifiers"]["modifier_29"]["target_type_name"] = "chaos_raptor"
 GameData["modifiers"]["modifier_29"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
 GameData["modifiers"]["modifier_29"]["value"] = 40.00000
+GameData["modifiers"]["modifier_32"] = Reference([[modifiers\cost_requisition_modifier.lua]])
+GameData["modifiers"]["modifier_32"]["target_type_name"] = "chaos_raptor_leader"
+GameData["modifiers"]["modifier_32"]["usage_type"] = Reference([[type_modifierusagetype\tp_mod_usage_addition.lua]])
+GameData["modifiers"]["modifier_32"]["value"] = 40.00000
 
 GameData["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirements"]["required_1"]["structure_name"] = "ebps\\races\\chaos\\structures\\chaos_hq.lua"

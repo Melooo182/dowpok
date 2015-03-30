@@ -7,7 +7,7 @@
 GameData = Inherit([[sbps\races\chaos\chaos_plague_marine_squad.lua]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_plague_marine_squad.lua]])
 
-GameData["squad_cap_ext"]["squad_cap_usage"] = 0.00000
+GameData["squad_cap_ext"]["squad_cap_usage"] = 10.00000
 GameData["squad_capture_strategic_point_ext"]["able_to_capture"] = false
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_plague_champion_fast.lua"
 GameData["squad_leader_ext"]["leader_2"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_plague_marine_large.lua"

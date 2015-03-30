@@ -15,6 +15,7 @@ GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\marines_chapter
 GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\marines_chapter_tactics_outflank.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\marines_chapter_tactics_fleetoffoot.lua"
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\ability_max_troopers.lua"
+GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\marines_tempest_strike.lua"
 GameData["combat_ext"]["complex_upgrades"] = true
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["attack_motion_variable_name"] = "Weapon_Range_Tracking_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["hardpoint_weapon_variant_motion_name"] = "Weapon_Range_Upgrade_Main"

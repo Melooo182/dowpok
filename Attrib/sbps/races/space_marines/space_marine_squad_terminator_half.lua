@@ -7,6 +7,8 @@
 GameData = Inherit([[sbps\races\space_marines\space_marine_squad_terminator.lua]])
 MetaData = InheritMeta([[sbps\races\space_marines\space_marine_squad_terminator.lua]])
 
+GameData["squad_cap_ext"]["squad_cap_usage"] = 3.00000
+GameData["squad_cap_ext"]["support_cap_usage"] = 1.00000
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\space_marines\\troops\\sergeant_terminator_half.lua"
 --[[GameData["squad_leader_ext"]["leader_2"]["leader"]["type"] = "ebps\\races\\space_marines\\troops\\dummy_combat_squad_terminator.lua"
 GameData["squad_leader_ext"]["max_leaders"] = 2.00000

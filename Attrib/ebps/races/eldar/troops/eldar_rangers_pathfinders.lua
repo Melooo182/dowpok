@@ -9,6 +9,7 @@ MetaData = InheritMeta([[ebps\races\eldar\troops\eldar_rangers.lua]])
 
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\ability_infiltrate_eldar_pathfinder.lua"
 GameData["ability_ext"]["abilities"]["ability_03"] = "abilities\\eldar_conceal_pathfinders.lua"
+GameData["ability_ext"]["abilities"]["ability_09"] = "abilities\\eldar_nightwing_strike.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\eldar_long_rifle_pathfinder.lua"
 GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 120.00000
 GameData["cost_ext"]["time_cost"]["time_seconds"] = 12.00000

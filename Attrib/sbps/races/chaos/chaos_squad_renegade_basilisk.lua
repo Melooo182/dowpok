@@ -7,7 +7,7 @@
 GameData = Inherit([[sbps\races\chaos\chaos_squad.nil]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_squad.nil]])
 
-GameData["squad_cap_ext"]["support_cap_usage"] = 1.00000
+GameData["squad_cap_ext"]["support_cap_usage"] = 6.00000
 GameData["squad_combat_stance_ext"] = Reference([[sbpextensions\squad_combat_stance_ext.lua]])
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_01"] = Reference([[type_armour\tp_building_high.lua]])
 GameData["squad_combat_stance_ext"]["attack_priorities"]["priority_02"] = Reference([[type_armour\tp_building_hq.lua]])

@@ -7,6 +7,7 @@
 GameData = Inherit([[sbps\races\chaos\chaos_havoc_squad_marked.nil]])
 MetaData = InheritMeta([[sbps\races\chaos\chaos_havoc_squad_marked.nil]])
 
+GameData["squad_cap_ext"]["support_cap_usage"] = 10.00000
 GameData["squad_leader_ext"]["leader_1"]["cost_time"]["cost"]["requisition"] = 190.00000
 GameData["squad_leader_ext"]["leader_1"]["cost_time"]["time_seconds"] = 19.00000
 GameData["squad_leader_ext"]["leader_1"]["leader"]["type"] = "ebps\\races\\chaos\\troops\\chaos_plague_champion_havoc.lua"

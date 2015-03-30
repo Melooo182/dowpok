@@ -32,6 +32,7 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Ork_Battlecannon"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["origin"]["y"] = 2.65000
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["origin"]["z"] = 0.65000
+--~ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\ork_kannon_gunwagon_group.lua" --Merged dmg profiles in a single weapon
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\ork_kannon_gunwagon.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["muzzle"]["y"] = 2.65000
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["muzzle"]["z"] = 2.09000
@@ -72,7 +73,7 @@ GameData["entity_blueprint_ext"]["scale_x"] = 2.00000
 GameData["entity_blueprint_ext"]["scale_z"] = 3.50000
 --Open Topped -87.5HP
 GameData["health_ext"]["hitpoints"] = 262.50000
-GameData["moving_ext"]["rotation_rate"] = 75.00000
+--~ GameData["moving_ext"]["rotation_rate"] = 75.00000
 GameData["moving_ext"]["turning_behavior_template"] = "tank"
 GameData["sight_ext"]["keen_sight_radius"] = 9.00000
 GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])

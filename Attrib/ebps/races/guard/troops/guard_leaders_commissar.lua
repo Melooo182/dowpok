@@ -10,9 +10,9 @@ MetaData = InheritMeta([[ebps\races\guard\troops\guard_leaders.nil]])
 GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
 GameData["research_ext"] = Reference([[ebpextensions\research_ext.lua]])
 GameData["addon_ext"] = Reference([[ebpextensions\addon_ext.lua]])
-GameData["addon_ext"]["addons"]["addon_01"] = "addons\\guard_ai_power_fist_sergeant.lua"
-GameData["addon_ext"]["addons"]["addon_02"] = "addons\\guard_ai_plasma_pistol_officer.lua"
-GameData["addon_ext"]["addons"]["addon_03"] = "addons\\guard_ai_power_weapon_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_04"] = "addons\\guard_ai_power_fist_sergeant.lua"
+GameData["addon_ext"]["addons"]["addon_05"] = "addons\\guard_ai_plasma_pistol_officer.lua"
+GameData["addon_ext"]["addons"]["addon_06"] = "addons\\guard_ai_power_weapon_sergeant.lua"
 
 GameData["ability_ext"] = Reference([[ebpextensions\ability_ext.lua]])
 GameData["ability_ext"]["abilities"]["ability_01"] = "abilities\\guard_frag_grenades.lua"

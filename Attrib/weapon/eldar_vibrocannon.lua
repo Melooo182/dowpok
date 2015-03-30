@@ -14,6 +14,7 @@ GameData["area_effect"]["area_effect_information"]["angle_right"] = 10.00000
 GameData["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_pie.lua]])
 GameData["area_effect"]["area_effect_information"]["filter_type"] = Reference([[type_areafilter\tp_area_filter_enemy.lua]])
 GameData["area_effect"]["area_effect_information"]["radius"] = 54.00000
+GameData["area_effect"]["area_effect_information"]["start_from_caster"] = true
 GameData["area_effect"]["throw_data"]["direction_angle_random"] = 15.00000
 GameData["area_effect"]["throw_data"]["force_max"] = 30.00000
 GameData["area_effect"]["throw_data"]["force_min"] = 10.00000

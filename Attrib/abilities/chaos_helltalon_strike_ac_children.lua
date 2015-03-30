@@ -7,6 +7,8 @@
 GameData = Inherit([[abilities\chaos_abilities.lua]])
 MetaData = InheritMeta([[abilities\chaos_abilities.lua]])
 
+GameData["ability_cursor_event"] = "Chaos\\Abilities\\Helltalon_strafe_cursor"
+GameData["ability_ordered_event_name"] = "Chaos\\Abilities\\Helltalon_strafe_ordered_target"
 GameData["activation"] = Reference([[type_abilityactivation\tp_ability_activation_targeted.lua]])
 GameData["anticipation_lead_time"] = 1.00000
 GameData["area_effect"]["area_effect_information"]["area_type"] = Reference([[type_areaeffect\tp_area_effect_circle.lua]])
@@ -36,8 +38,8 @@ GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_29"]["armour_piercing_value"] = 15.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_30"]["armour_piercing_value"] = 15.00000
 GameData["area_effect"]["weapon_damage"]["armour_damage"]["armour_piercing_types"]["entry_31"]["armour_piercing_value"] = 66.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 70.00000
-GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 35.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["max_damage"] = 700.00000
+GameData["area_effect"]["weapon_damage"]["armour_damage"]["min_damage"] = 70.00000
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry01"]["event"] = "Unit_Impact_events\\Impact_Autocannon_Flesh"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry02"]["event"] = "unit_impact_events/Impact_Autocannon_All"
 GameData["area_effect"]["weapon_damage"]["hit_events"]["entry03"]["event"] = "unit_impact_events/Impact_Autocannon_All"
@@ -45,7 +47,7 @@ GameData["area_effect"]["weapon_damage"]["hit_events"]["entry04"]["event"] = "un
 GameData["child_ability_name"] = "chaos_helltalon_strike_ac_children_1"
 GameData["duration_time"] = 0.50000
 GameData["entity_busy_time"] = 0.00000
-GameData["initial_delay_time"] = 0.00000
+GameData["initial_delay_time"] = 1.00000
 GameData["persist_across_squad_leader_death"] = true
 GameData["random_offset"] = 7.500000
 GameData["range"] = 1500.00000

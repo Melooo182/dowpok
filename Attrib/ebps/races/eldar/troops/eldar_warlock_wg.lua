@@ -18,7 +18,7 @@ GameData["ui_ext"]["ui_info"]["help_text_list"]["text_06"] = "$57001886"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_07"] = "$57001887"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_08"] = "$57001888"
 GameData["ui_ext"]["ui_info"]["help_text_list"]["text_09"] = "$57001889"
---~ GameData["ui_ext"]["ui_info"]["icon_name"] = "eldar_icons/warlock2"
+GameData["ui_ext"]["ui_info"]["icon_name"] = "eldar_icons/warlock2"
 GameData["ui_ext"]["ui_info"]["screen_name_id"] = "$57001880"
 
 

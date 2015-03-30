@@ -7,7 +7,7 @@
 GameData = Inherit([[ebps\races\eldar\troops\eldar_vehicle.nil]])
 MetaData = InheritMeta([[ebps\races\eldar\troops\eldar_vehicle.nil]])
 
-GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\eldar_max_leaders_support.lua"
+--~ GameData["ability_ext"]["abilities"]["ability_04"] = "abilities\\eldar_max_leaders_support.lua"
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_enclosed_vehicle_keensight.lua"
 GameData["ability_ext"]["abilities"]["ability_10"] = ""
 GameData["ability_ext"]["abilities"]["ability_11"] = ""
@@ -20,9 +20,9 @@ GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["shoot_motion_variable_name
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["use_for_facing"] = true
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["vertical_aim_motion_variable_name"] = "Aim_Vertical_Main"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\melee_slowdown_weapon.lua"
-GameData["cost_ext"]["time_cost"]["cost"]["power"] = 20.00000
-GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 100.00000
-GameData["cost_ext"]["time_cost"]["time_seconds"] = 30.00000
+GameData["cost_ext"]["time_cost"]["cost"]["power"] = 14.00000 -- Platform weapon cost only, crew doesnt cost power
+GameData["cost_ext"]["time_cost"]["cost"]["requisition"] = 150.00000
+GameData["cost_ext"]["time_cost"]["time_seconds"] = 15.00000
 GameData["cover_ext"]["cover_blocking"]["modifiers"]["modifier_01"] = Reference([[modifiers\health_rangedamage_received_1_modifier.lua]])
 GameData["cover_ext"]["cover_blocking"]["modifiers"]["modifier_01"]["modifier_class_name"] = Reference([[type_modifier\tp_modifier_cover.lua]])
 GameData["cover_ext"]["cover_blocking"]["modifiers"]["modifier_01"]["value"] = 0.33000
@@ -100,6 +100,7 @@ GameData["modifier_apply_ext"]["modifiers"]["modifier_01"]["value"] = 2.00000
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"] = Reference([[modifiers\enable_movement.lua]])
 GameData["modifier_apply_ext"]["modifiers"]["modifier_02"]["value"] = -1.00000
 GameData["moving_ext"]["speed_max"] = 14.00000
+GameData["moving_ext"]["rotation_rate"] = 120.00000
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"] = Reference([[requirements\required_structure.lua]])
 GameData["requirement_ext"]["requirements"]["required_1"]["structure_name"] = "ebps\\races\\eldar\\structures\\eldar_soul_shrine.lua"

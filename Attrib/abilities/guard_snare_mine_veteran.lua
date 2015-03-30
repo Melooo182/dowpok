@@ -7,6 +7,7 @@
 GameData = Inherit([[abilities\ability_grenade_photon.nil]])
 MetaData = InheritMeta([[abilities\ability_grenade_photon.nil]])
 
+GameData["anticipation_lead_time"] = 0.80000
 GameData["ability_motion_name"] = "special_ability_1"
 GameData["entity_busy_time"] = 1.50000
 GameData["initial_delay_time"] = 1.00000

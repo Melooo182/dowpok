@@ -26,13 +26,13 @@ GameData["requirements"]["required_4"]["addon_name"] = "addons\\chaos_mark_of_nu
 GameData["requirements"]["required_5"] = Reference([[requirements\local_required_addon.lua]])
 GameData["requirements"]["required_5"]["addon_name"] = "addons\\chaos_mark_of_nurgle_lord.lua"
 
-GameData["ui_info"]["help_text_list"]["text_01"] = "$56000441"
-GameData["ui_info"]["help_text_list"]["text_02"] = "$56000442"
-GameData["ui_info"]["help_text_list"]["text_03"] = "$56000443"
-GameData["ui_info"]["help_text_list"]["text_04"] = "$56000444"
-GameData["ui_info"]["help_text_list"]["text_05"] = "$56000445"
+GameData["ui_info"]["help_text_list"]["text_01"] = "$56000411"
+GameData["ui_info"]["help_text_list"]["text_02"] = "$56000412"
+GameData["ui_info"]["help_text_list"]["text_03"] = "$56000413"
+GameData["ui_info"]["help_text_list"]["text_04"] = "$56000414"
+GameData["ui_info"]["help_text_list"]["text_05"] = "$56000415"
 GameData["ui_info"]["icon_name"] = "chaos_icons/chaos_lord_crozius"
-GameData["ui_info"]["screen_name_id"] = "$56000440"
+GameData["ui_info"]["screen_name_id"] = "$56000410"
 
 
 MetaData["$METADATATAG"] = {desc = [[]], type = 7, category = [[]], dispval = [[]], isLocked = false, }

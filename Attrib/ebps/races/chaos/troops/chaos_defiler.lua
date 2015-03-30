@@ -112,6 +112,7 @@ GameData["entity_blueprint_ext"]["scale_z"] = 2.50000
 GameData["health_ext"]["hitpoints"] = 525.00000
 GameData["health_ext"]["keep_persistent_body"] = false
 GameData["health_ext"]["pre_death_event_delay"] = 4.80000
+GameData["moving_ext"]["rotation_rate"] = 180.00000
 GameData["requirement_ext"] = Reference([[ebpextensions\requirement_ext.lua]])
 GameData["spawner_ext"] = Reference([[ebpextensions\spawner_ext.lua]])
 GameData["special_attack_ext"] = Reference([[ebpextensions\special_attack_ext.lua]])

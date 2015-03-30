@@ -16,6 +16,7 @@ GameData["ability_ext"]["abilities"]["ability_05"] = "abilities\\marines_chapter
 GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\marines_chapter_tactics_outflank.lua"
 GameData["ability_ext"]["abilities"]["ability_07"] = "abilities\\marines_chapter_tactics_fleetoffoot.lua"
 GameData["ability_ext"]["abilities"]["ability_08"] = "abilities\\ability_max_troopers.lua"
+GameData["ability_ext"]["abilities"]["ability_11"] = "abilities\\marines_tempest_strike.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "space_marines_bolt_pistol"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\space_marine_bolt_pistol_assault.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_02"]["name_for_this_weapon_choice"] = ""

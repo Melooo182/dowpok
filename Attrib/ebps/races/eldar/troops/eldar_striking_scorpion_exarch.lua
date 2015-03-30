@@ -8,7 +8,6 @@ GameData = Inherit([[ebps\races\eldar\troops\eldar_striking_scorpion.lua]])
 MetaData = InheritMeta([[ebps\races\eldar\troops\eldar_striking_scorpion.lua]])
 
 GameData["ability_ext"]["abilities"]["ability_02"] = "abilities\\ability_infiltrate_eldar.lua"
-GameData["ability_ext"]["abilities"]["ability_06"] = "abilities\\ability_infiltration_detection_field.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_01"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\space_marine_dummy_weapon.lua"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["name_for_this_weapon_choice"] = "Eldar_Biting_blade"
 GameData["combat_ext"]["hardpoints"]["hardpoint_02"]["weapon_table"]["weapon_01"]["weapon"] = "weapon\\eldar_chainsword_biting_blade.lua"
